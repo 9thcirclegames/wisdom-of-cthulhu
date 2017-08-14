@@ -1,0 +1,20 @@
+language: ruby
+rvm:
+- 2.1
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+git:
+  submodules: false
+before_install:
+- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+- git submodule update --init --recursive
+- bash _scripts/install.sh
+script:
+- bash _scripts/build.sh
+- bash _scripts/test.sh
+after_success:
+- bash _scripts/deploy.sh
+notifications:
+  slack:
+    secure: RJu+MqKp4mH7aXCoJEfb/YvjkT96dTTO1IyvEZDhpKHIh6ZR/43hOXognBmC5cFKJZngDyutJZwSMkelTj/FxyLn0cvTZFRmJVpKxyAwkqhP4TZuZr7cdWIF4USe+0Ze5sejJehpLB99LdJ4zT1nxpWi3aAqRUlnrqtjKY+YpLSjEQ4sCsrT8UsFctpWJoiZA36slNgTV+OqmoUJm3lLlBdIwk71esQbQvJvknt5G6Ykf8k/NnKg/FqtVxMzPET2ik5IYkPrYj8K8pS9cs211YRKNQkmeGoos8NfLnixF9qx8Vz7KLwyUoyU0E7MOdT7NvVWsw1G7mNLoBjZNKBJVoRLoE2VxwCt5arcGeexvwJfswDnF2su2D5w0H+805waogLWiwTA1BaDcLAnF3DMZxqjw6ykpAg0mqdk4dotBR5LPoOwIo/38FhvIG3X9GHyDlftyQaCio9nBB2YHF8dfXfFmXXK5V2Zjete7Mcq6BpSB3QDxeV2RUE+GyAVjU7Bo+XNMmrnToh36MdIEH5JLkSqcOs3IPHAohP9Ff30/VnhVJshYBWCwo9fvFo/cRIZdAY1pj6I2xWaYgHYfhiRbgEyRfjQ6IJzyFvAr6vGGneXgEOPHYju/Sin0o627GAxEW+X2xKDq0kFFS1PtMT3DiOucgmBITCVVGvLZKfL9Nc=
