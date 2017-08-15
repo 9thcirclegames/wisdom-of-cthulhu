@@ -1,0 +1,6 @@
+"card","background","type","title","caption","description","knowledge-points","ritual-icon","ritual-description", "picture"
+,"background.forbidden-wisdom.png","Continuos","Necronomicon","Supreme Wisdom","For a full round you can choose in which search order you play. 1 KP for each Forbidden Wisdom card in your own.",?,"icon.madness.png","Study: 1 FW + 1 EN; Trans: 3 OB Sacrifice: 1 DM + 1 EN + 1 FW",""
+,"background.forbidden-wisdom.png","Immediate","AKLO","Great Old Ones Language","Consider a requisite of any Ritual Object as fulfilled",1,"icon.blank.png","",""
+,"background.forbidden-wisdom.png","Immediate","Jade Talisman","Stalking Hound","Put this card on one opponent Dark Master. Counts as Elders' Sign until the end of the turn.",1,"icon.blank.png","",""
+,"background.alien-science.png","Immediate","Non Euclidean Angles","Alien Maths","Combination: 1 FW + 1 AS",2,"icon.blank.png","",""
+,"background.dark-master.png","Continuos","Joseph Curwen","Supreme Sorcerer","The first time you use a Immediate FW card, don't discard it. You can use it a second time, then you must definitively discard it",4,"icon.madness.png","",""
