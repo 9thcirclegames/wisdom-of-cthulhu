@@ -15,8 +15,8 @@ addons:
 git:
   submodules: false
 cache:
-    - pip
-    - bundler
+    directories:
+        - $HOME/.cache/pip
 before_install:
     - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
     - git submodule update --init --recursive
