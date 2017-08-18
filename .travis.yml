@@ -1,15 +1,27 @@
-language: ruby
-rvm:
-- 2.1
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+language: python
+python: 3.6
+sudo: false
+addons:
+    apt:
+        packages:
+            - wget
+            - inkscape
+            - libxml2-dev
+            - libxslt1-dev
+            - python-dev
+            - zlib1g-dev
+            - pkg-config
+            - python-pip
 git:
   submodules: false
+cache: pip
 before_install:
-- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-- git submodule update --init --recursive
-- bash _scripts/install.sh
+    - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+    - git submodule update --init --recursive
+install:
+    - pip install -U pip wheel
+    - pip install --requirement=$TRAVIS_BUILD_DIR/requirements.txt
+    - bash _scripts/install.sh
 script:
 - bash _scripts/build.sh
 - bash _scripts/test.sh
