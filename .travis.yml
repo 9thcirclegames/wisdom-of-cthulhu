@@ -2,45 +2,46 @@ language: python
 python: 2.7
 sudo: false
 addons:
-    apt:
-        sources:
-            - sourceline: 'ppa:inkscape.dev/stable'
-        packages:
-            - wget
-            - inkscape
-            - libxml2-dev
-            - libxslt1-dev
-            - python-dev
-            - zlib1g-dev
-            - pkg-config
-            - python-pip
+  apt:
+    sources:
+    - sourceline: ppa:inkscape.dev/stable
+    packages:
+    - wget
+    - inkscape
+    - libxml2-dev
+    - libxslt1-dev
+    - python-dev
+    - zlib1g-dev
+    - pkg-config
+    - python-pip
 git:
   submodules: false
 cache:
-    directories:
-        - $HOME/.cache/pip
+  directories:
+  - "$HOME/.cache/pip"
 before_install:
-    - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-    - git submodule update --init --recursive
+- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+- git submodule update --init --recursive
 install:
-    - pip install -U pip wheel
-    - pip install --requirement=$TRAVIS_BUILD_DIR/requirements.txt
-    - export PYTHONPATH=/usr/local/lib/python:/usr/share/inkscape/extensions/:$PYTHONPATH
-    - bash _scripts/install.sh
+- pip install -U pip wheel
+- pip install --requirement=$TRAVIS_BUILD_DIR/requirements.txt
+- export PYTHONPATH=/usr/local/lib/python:/usr/share/inkscape/extensions/:$PYTHONPATH
+- bash _scripts/install.sh
 script:
 - bash _scripts/build.sh
 - bash _scripts/test.sh
 deploy:
   provider: s3
-  access_key_id: AKIAJRMA5YKNJZ4IXPOA
+  access_key_id: AKIAIDEHTMJNYP3JJWUA
   secret_access_key:
-    secure: W/Cfrf39f31i+BYEMD40XdA6uonTYu2rcHAko36Y8T7pCq6n2ILyattiEWXlHYL1IDTxXfHkgsakBWWmPO1lw9bgofUsctILRMiSQUNPhBx4qZjfs645/vqdeBEus4at+3oT/yVHtzfol98IjfxR290E/nkniVrDIKl7f2VFLytsx4qJnlypa5dexELKs56Xm5fdMKYb6PW5CapSNK7MJrC4/zLLlclr19NgY3YOuckcN91Ga3W6CSgZ2E5ojtvyR4/VdrA6/uxGdEjMCC+9jHS/hhfUlupjo3WePBGw52W0MMM2C8Kkr1sMzpPiipBhuR7yn64Zj6eCBkon0ldF63fSW5IbfeP6HRFFglFMvranHzpPtVOTMcVAeS6kZhdGOI5i6oHx5YkFthlYpl2bmMyg1v5H87T6ohQy8yMx8+IpVQoGa5O7WdjeRYO+SqvUfgxUc7HS+IV60wdbjVGjhxzlmPBbhpeFWfhjjdrsrWNejD16HGJYj+0D6Y3P9hTn3qGTUlyTuz/rejzsw5UenHOyXC80qGxMeBOHGX300mcrpeIRKbbYv+enjX+XR0ABbhcxOpDfOH1NBxIRwioKHWuMEXiCnBnZPh37B95ucla9aagnpnXOt26tkgBYMkZB0MM3E9/d8TTJfutpvfFuUyYAmF93L3X4RvXv9aZaAHA=
+    secure: Fhm7lL3B6QTaRMu38NGsx0nDwIKxQXOgjHM5ENDhBrJCLK2X+iwpGxrpDA+rijFnQzt49ahh6hDuVvKj+li+WKpm2KwT65y7DoWx9CZE3f9s+2CxGzhbUfAiXnoVM1eaxwn5ohI1poSCk5My/epXOXX8MsZFo+YkEl3QiyPJ1qkKldqJW3ZpRoBjDQYfDr+r4UshP2YVkqlZHpfQwDrDoEabnLLsBDlD8wFZADCiRQbPYXr8Vi/LWh47q47gRlWHtzPeVJ3ZN7aEvLdYp5UOssUYTCNXBTdpvEvl7sjp/YLHEB3n4ZJs6I6GE9E+laYAny23UAk/MEhT9UwAFWzk95P2uKRIy7rbWxQ/PtPU23B+XudKS5Qy+EYNc8Tn1VpCH99McFbt0PCH4gL1jwXpTZxH+tbomizrjK/SQU8nzs+c+JyReL8apJtTmYFdzC20MX2/uD08aeg3lnNPhOy2bqdDzhbn0xquC5Rr6K2Xo7mpTsVjWFs4m0zMzXnnTwQH/BRE7bJnc4iW8B/R6yKIdkDJODJZGfNo9yv5Sip6JybvLg3Gy8SB3juIXuTpKL5T02aFNdAw4FHvnTA5O8vIjW4AxbFjMyycCAh0wsLNk78zlK00p5cD3mmfbpT+Nq6TMy1xXhiaKLbXMZYsh7UfTuN2pHr3zFmLOxk7r+JNdH0=
   bucket: static.9thcircle.it
   skip_cleanup: true
   region: eu-west-1
+  local-dir: pdf
+  upload-dir: woc-builds
   acl: public_read
   detect_encoding: true
-  upload-dir: woc-builds
   on:
     repo: 9thcirclegames/cthulhu-deck
     branch: master
