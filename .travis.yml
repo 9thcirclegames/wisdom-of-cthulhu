@@ -14,6 +14,7 @@ addons:
     - zlib1g-dev
     - pkg-config
     - python-pip
+    - poppler-utils
 git:
   submodules: false
 cache:
@@ -38,7 +39,7 @@ deploy:
   bucket: static.9thcircle.it
   skip_cleanup: true
   region: eu-west-1
-  local-dir: pdf
+  local-dir: pdf.en
   upload-dir: woc-builds
   acl: public_read
   detect_encoding: true
