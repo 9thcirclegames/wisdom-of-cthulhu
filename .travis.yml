@@ -3,6 +3,8 @@ python: 2.7
 sudo: false
 addons:
     apt:
+        sources:
+            - sourceline ppa:inkscape.dev/stable
         packages:
             - wget
             - inkscape
