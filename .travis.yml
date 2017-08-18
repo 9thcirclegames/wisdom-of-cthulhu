@@ -4,7 +4,7 @@ sudo: false
 addons:
     apt:
         sources:
-            - sourceline ppa:inkscape.dev/stable
+            - sourceline: 'ppa:inkscape.dev/stable'
         packages:
             - wget
             - inkscape
