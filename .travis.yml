@@ -23,7 +23,6 @@ before_install:
 install:
     - pip install -U pip wheel
     - pip install --requirement=$TRAVIS_BUILD_DIR/requirements.txt
-    - export PYTHONPATH /usr/local/lib/python:/usr/share/inkscape/extensions/:$PYTHONPATH
     - bash _scripts/install.sh
 script:
 - bash _scripts/build.sh
