@@ -11,5 +11,5 @@ pdftk $TRAVIS_BUILD_DIR/build/*.pdf cat output $TRAVIS_BUILD_DIR/pdf/standard.de
 rm $TRAVIS_BUILD_DIR/build/*.pdf
 
 python $TRAVIS_BUILD_DIR/countersheet.py -r 30 -n deck -d $TRAVIS_BUILD_DIR/english.cards.csv -p $TRAVIS_BUILD_DIR/build $TRAVIS_BUILD_DIR/italian.cards.svg > $TRAVIS_BUILD_DIR/build/it.standard.deck.svg
-#pdftk $TRAVIS_BUILD_DIR/build/*.pdf cat output $TRAVIS_BUILD_DIR/pdf/standard.deck.it.pdf
-#rm $TRAVIS_BUILD_DIR/build/*.pdf
+pdftk $TRAVIS_BUILD_DIR/build/*.pdf cat output $TRAVIS_BUILD_DIR/pdf/standard.deck.it.pdf
+rm $TRAVIS_BUILD_DIR/build/*.pdf
