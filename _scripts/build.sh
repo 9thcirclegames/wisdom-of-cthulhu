@@ -1,6 +1,8 @@
 #!/bin/bash
 set -x
 
+sed -i 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuuuuuAAAAEEEEIIIIOOOOUUUUUUUU/' $TRAVIS_BUILD_DIR/english.cards.csv
+
 mkdir $TRAVIS_BUILD_DIR/build
 mkdir $TRAVIS_BUILD_DIR/pdf
 

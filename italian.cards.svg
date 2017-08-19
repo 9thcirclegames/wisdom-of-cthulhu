@@ -10,34 +10,34 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 1052.3622 744.09448"
-   id="svg3387"
-   version="1.1"
+   sodipodi:docname="italian.cards.svg"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="italian.cards.svg">
+   version="1.1"
+   id="svg3387"
+   viewBox="0 0 1052.3622 744.09448"
+   height="210mm"
+   width="297mm">
   <defs
      id="defs3389" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.1467976"
-     inkscape:cx="-114.57493"
-     inkscape:cy="470.15483"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="805"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
+     showguides="false"
      inkscape:window-maximized="1"
-     showguides="false" />
+     inkscape:window-y="1"
+     inkscape:window-x="0"
+     inkscape:window-height="805"
+     inkscape:window-width="1440"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="524.58015"
+     inkscape:cx="81.767015"
+     inkscape:zoom="1.0729879"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata3392">
     <rdf:RDF>
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,7 +56,7 @@
      id="layer1"
      transform="translate(0,-308.26772)">
     <g
-       id="g5644">
+       id="g24777">
       <image
          sodipodi:absref="/Users/francesca/Documents/GitHub/cthulhu-deck/picture.placeholder.png"
          xlink:href="picture.placeholder.png"
@@ -75,7 +75,7 @@
          height="311.81104"
          width="223.22835"
          id="card"
-         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 0.50000000000000000;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 0.5;stroke-dashoffset:0;stroke-opacity:1" />
       <image
          sodipodi:absref="/Users/francesca/Documents/GitHub/cthulhu-deck/background.forbidden-wisdom.png"
          xlink:href="background.forbidden-wisdom.png"
@@ -88,7 +88,7 @@
          x="-253.90958"
          y="336.22348" />
       <flowRoot
-         inkscape:label="#description.it"
+         inkscape:label="#description.en"
          transform="translate(0,304.26772)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
          id="description.it"
@@ -102,7 +102,7 @@
              id="rect5168" /></flowRegion><flowPara
            style="font-size:10px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
            id="flowPara5170">Lorem ipsum dolor</flowPara></flowRoot>      <flowRoot
-         inkscape:label="#type.it"
+         inkscape:label="#type"
          xml:space="preserve"
          id="type.it"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
@@ -120,7 +120,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
          id="title.it"
          xml:space="preserve"
-         inkscape:label="#title.it"><flowRegion
+         inkscape:label="#title"><flowRegion
            id="flowRegion5186"><rect
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2;stroke-miterlimit:1;stroke-dasharray:none"
              y="226.35255"
@@ -157,7 +157,7 @@
          id="ritual-description.it"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
          transform="translate(0,352.11255)"
-         inkscape:label="#ritual-description.it"><flowRegion
+         inkscape:label="#ritual-description.en"><flowRegion
            id="flowRegion5836"><rect
              id="rect5838"
              width="169.67465"

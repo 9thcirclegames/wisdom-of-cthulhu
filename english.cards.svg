@@ -10,34 +10,34 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="english.cards.svg"
-   inkscape:version="0.91 r13725"
-   version="1.1"
-   id="svg3387"
-   viewBox="0 0 1052.3622 744.09448"
+   width="297mm"
    height="210mm"
-   width="297mm">
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg3387"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="english.cards.svg">
   <defs
      id="defs3389" />
   <sodipodi:namedview
-     showguides="false"
-     inkscape:window-maximized="1"
-     inkscape:window-y="1"
-     inkscape:window-x="0"
-     inkscape:window-height="805"
-     inkscape:window-width="1440"
-     showgrid="false"
-     inkscape:current-layer="svg3387"
-     inkscape:document-units="px"
-     inkscape:cy="469.37364"
-     inkscape:cx="-185.7686"
-     inkscape:zoom="0.9983453"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9983453"
+     inkscape:cx="103.21232"
+     inkscape:cy="870.03662"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg3387"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="805"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     showguides="false" />
   <metadata
      id="metadata3392">
     <rdf:RDF>
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,19 +56,18 @@
      id="layer1"
      transform="translate(0,-308.26772)">
     <g
-       id="g11877">
+       id="g7684">
       <image
          sodipodi:absref="/Users/francesca/Documents/GitHub/cthulhu-deck/picture.placeholder.png"
          xlink:href="picture.placeholder.png"
-         y="29.33536"
-         x="-234.76974"
-         id="picture"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="177.66519"
-         width="177.66519"
          inkscape:label="#image9599"
-         transform="translate(0,308.26772)" />
+         width="177.66519"
+         height="177.66519"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="picture"
+         x="-234.76974"
+         y="337.60309" />
       <rect
          inkscape:label="#card"
          y="333.50507"
@@ -76,18 +75,18 @@
          height="311.81104"
          width="223.22835"
          id="card"
-         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 0.5;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 0.50000000000000000;stroke-dashoffset:0;stroke-opacity:1" />
       <image
          sodipodi:absref="/Users/francesca/Documents/GitHub/cthulhu-deck/background.forbidden-wisdom.png"
          xlink:href="background.forbidden-wisdom.png"
-         y="336.22348"
-         x="-253.90958"
-         id="background"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="305.38068"
+         clip-path="none"
          width="218.67488"
-         clip-path="none" />
+         height="305.38068"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="background"
+         x="-253.90958"
+         y="336.22348" />
       <flowRoot
          inkscape:label="#description.en"
          transform="translate(0,304.26772)"
@@ -133,14 +132,14 @@
            id="flowPara5190">Lorem ipsum dolor</flowPara></flowRoot>      <image
          sodipodi:absref="/Users/francesca/Documents/GitHub/cthulhu-deck/icon.horror.png"
          xlink:href="icon.horror.png"
-         y="504.96939"
-         x="-71.228989"
-         id="ritual-icon"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="22.342854"
+         inkscape:label="#ritual-icon"
          width="22.342854"
-         inkscape:label="#ritual-icon" />
+         height="22.342854"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual-icon"
+         x="-71.228989"
+         y="504.96939" />
       <flowRoot
          transform="translate(61.637931,318.18151)"
          style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -191,25 +190,7 @@
          height="313"
          preserveAspectRatio="none"
          style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU
-eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH
-nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY
-CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh
-ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC
-iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ
-EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi
-JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE
-mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ
-IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm
-QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI
-mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ
-YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm
-hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY
-CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh
-ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC
-iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd
-Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg==
-"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
          id="image4774"
          x="288.0332"
          y="353.00507" />
@@ -218,25 +199,7 @@ Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg==
          height="313"
          preserveAspectRatio="none"
          style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU
-eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH
-nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY
-CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh
-ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC
-iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ
-EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi
-JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE
-mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ
-IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm
-QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI
-mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ
-YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm
-hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY
-CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh
-ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC
-iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd
-Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg==
-"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
          id="image4785"
          x="529.05231"
          y="353.00507" />
@@ -245,25 +208,7 @@ Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg==
          height="313"
          preserveAspectRatio="none"
          style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU
-eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH
-nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY
-CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh
-ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC
-iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ
-EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi
-JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE
-mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ
-IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm
-QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI
-mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ
-YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm
-hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY
-CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh
-ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC
-iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd
-Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg==
-"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
          id="image4796"
          x="770.07141"
          y="353.00507" />
