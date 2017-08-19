@@ -39,7 +39,7 @@ deploy:
   bucket: static.9thcircle.it
   skip_cleanup: true
   region: eu-west-1
-  local-dir: pdf.en
+  local-dir: pdf
   upload-dir: woc-builds
   acl: public_read
   detect_encoding: true
