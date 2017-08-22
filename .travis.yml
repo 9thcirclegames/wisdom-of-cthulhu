@@ -23,6 +23,7 @@ addons:
     - pandoc-citeproc
     - etoolbox
     - wkhtmltopdf
+    - lmodern
 git:
   submodules: false
 cache:
