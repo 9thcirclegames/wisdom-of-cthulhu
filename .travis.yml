@@ -19,6 +19,7 @@ addons:
     - texlive-latex-recommended
     - texlive-xetex
     - texlive-luatex
+    - texlive-fonts-recommended
     - pandoc-citeproc
     - etoolbox
     - wkhtmltopdf
