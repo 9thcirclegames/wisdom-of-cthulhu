@@ -5,7 +5,9 @@ Wisdom of Cthulhu is a card game in which players interpret searchers of forgott
 During the match, which is divided into six rounds, players, acquiring and discarding cards, get Knowledge Points (KPs).
 
 At the end of the game, who has more Knowledge Points is the winner.
+
 ## Game Components
+
 * 4 __Seeker markers__ in different colors, 1 per player;
 * 4 __Search Order counters__, with a number ranging from 1 to 4;
 * 4 __Great Old Ones markers__, in different colors, 1 per player;
@@ -52,7 +54,7 @@ In 2 players games, the tiles to be placed are the ones indicated with the _2_ o
 
 Place the _Knowledge Cards_ in the Research Area, randomly drawn from the relative decks in a number according to the number of players:
 
-* __2 player__s -> 6 Knowledge Cards: 3 Forbidden Wisdom, 2 Alien Science, 1 Dark Master.
+* __2 players__ -> 6 Knowledge Cards: 3 Forbidden Wisdom, 2 Alien Science, 1 Dark Master.
 * __3 players__ -> 9 Knowledge Cards: 5 Forbidden Wisdom, 3 Alien Science, 1 Dark Master.
 * __4 players__ -> 12 Knowledge Cards: 6 Forbidden Wisdom, 4 Alien Science, 2 Dark Master.
 * 

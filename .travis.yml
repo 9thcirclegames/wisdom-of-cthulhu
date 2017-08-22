@@ -15,6 +15,13 @@ addons:
     - pkg-config
     - python-pip
     - pdftk
+    - pandoc
+    - texlive-latex-recommended
+    - texlive-xetex
+    - texlive-luatex
+    - pandoc-citeproc
+    - etoolbox
+    - wkhtmltopdf
 git:
   submodules: false
 cache:
