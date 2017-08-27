@@ -11,7 +11,5 @@ description: Nighlty Builds - Print and Play
 	* [Game Rules](https://static.9thcircle.it/woc-builds/woc.rules.en.pdf)
 	* [Cards Deck](https://static.9thcircle.it/woc-builds/woc.deck.en.pdf)
 * __Italian__
-	* [Cards Deck](https://static.9thcircle.it/woc-builds/woc.deck.it.pdf)
-
-### Old Releases
+	* [Cards Deck](https://static.9thcircle.it/woc-builds/woc.deck.it.pdf) 
 
