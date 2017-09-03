@@ -5,6 +5,7 @@ addons:
   apt:
     sources:
     - sourceline: ppa:inkscape.dev/stable
+    - r-packages-precise
     packages:
     - wget
     - inkscape
@@ -15,12 +16,14 @@ addons:
     - pkg-config
     - python-pip
     - pdftk
+    - r-base-dev	
+    - r-recommended
     - pandoc
+    - pandoc-citeproc
     - texlive-latex-recommended
     - texlive-xetex
     - texlive-luatex
     - texlive-fonts-recommended
-    - pandoc-citeproc
     - etoolbox
     - wkhtmltopdf
     - lmodern
@@ -29,6 +32,7 @@ git:
 cache:
   directories:
   - "$HOME/.cache/pip"
+  - "$HOME/Rlib"
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
@@ -36,6 +40,12 @@ install:
 - pip install -U pip wheel
 - pip install --requirement=$TRAVIS_BUILD_DIR/requirements.txt
 - export PYTHONPATH=/usr/local/lib/python:/usr/share/inkscape/extensions/:$PYTHONPATH
+- mkdir -p $HOME/Rlib
+- echo 'R_LIBS=~/Rlib' > $HOME/.Renviron
+- echo 'options(repos = "http://cran.rstudio.com")' > $HOME/.Rprofile
+- echo '.travis.yml' > $HOME/.Rbuildignore
+- Rscript -e 'if(!"tidyverse" %in% rownames(installed.packages())) { install.packages("tidyverse", dependencies = TRUE) }'
+- Rscript -e 'update.packages(ask = FALSE, instlib = "~/Rlib")'
 - bash _scripts/install.sh
 script:
 - bash _scripts/build.sh
