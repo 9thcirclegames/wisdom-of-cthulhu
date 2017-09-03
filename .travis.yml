@@ -63,7 +63,7 @@ deploy:
   acl: public_read
   detect_encoding: true
   on:
-    repo: 9thcirclegames/cthulhu-deck
+    repo: 9thcirclegames/wisdom-of-cthulhu
     branch: master
 notifications:
   slack:
