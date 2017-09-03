@@ -5,6 +5,7 @@ addons:
   apt:
     sources:
     - sourceline: ppa:inkscape.dev/stable
+    - sourceline: ppa:marutter/rrutter
     packages:
     - wget
     - inkscape
@@ -15,6 +16,8 @@ addons:
     - pkg-config
     - python-pip
     - pdftk
+    - r-base
+    - r-base-dev
     - pandoc
     - pandoc-citeproc
     - texlive-latex-recommended
@@ -31,10 +34,6 @@ cache:
   - "$HOME/.cache/pip"
   - "$HOME/Rlib"
 before_install:
-- apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-- add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
-- apt-get update
-- apt-get install r-base r-base-dev
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
 install:
