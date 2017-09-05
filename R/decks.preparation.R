@@ -99,6 +99,8 @@ standard.deck.it <- standard.deck.multi %>%
   mutate(ritual.description = gsub("DM", "MO", ritual.description)) %>%
   mutate(ritual.description = gsub("OBS", "OSS", ritual.description)) %>%
   mutate(ritual.description = gsub("RIS", "RIC", ritual.description)) %>%
+  mutate(ritual.description = gsub("EDS", "SEG", ritual.description)) %>%
+  mutate(ritual.description = gsub("PLA", "ARC", ritual.description)) %>%
   mutate(ritual.description = gsub("EN", "EN", ritual.description)) %>%
   select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
 write.csv(standard.deck.it, file = "./data/woc.deck.it.csv", row.names = FALSE, na = "")
