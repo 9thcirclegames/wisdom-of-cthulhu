@@ -43,7 +43,7 @@ type.labels.it <- list(
 picture.placeholder <- "picture.placeholder.png"
 ritual.placeholder <- "icon.blank.png"
 
-standard.deck <- read.csv(file="./data/standard.deck.csv", stringsAsFactors = FALSE)
+standard.deck <- read.csv(file="./data/standard.deck.csv", stringsAsFactors = FALSE, sep="|", quote="")
 deck.families.meta <- read.csv(file="./data/deck.families.meta.csv", stringsAsFactors = FALSE)
 rituals.meta <- read.csv(file="./data/rituals.meta.csv", stringsAsFactors = FALSE)
 cards.meta <- read.csv(file="./data/cards.meta.csv", stringsAsFactors = FALSE, colClasses = c("character", "character"))
