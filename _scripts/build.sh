@@ -1,17 +1,19 @@
 #!/bin/bash
 set -x
 
-sed -i 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuuuuuAAAAEEEEIIIIOOOOUUUUUUUU/' $TRAVIS_BUILD_DIR/english.cards.csv
+sed -i 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuuuuuAAAAEEEEIIIIOOOOUUUUUUUU/' $TRAVIS_BUILD_DIR/data/standard.deck.csv
 
 mkdir $TRAVIS_BUILD_DIR/build
 mkdir $TRAVIS_BUILD_DIR/pdf
 
-python $TRAVIS_BUILD_DIR/countersheet.py -r 30 -n deck -d $TRAVIS_BUILD_DIR/english.cards.csv -p $TRAVIS_BUILD_DIR/build $TRAVIS_BUILD_DIR/english.cards.svg > $TRAVIS_BUILD_DIR/build/en.standard.deck.svg
+Rscript --no-save --no-restore --verbose $TRAVIS_BUILD_DIR/R/decks.preparation.R
+
+python $TRAVIS_BUILD_DIR/countersheet.py -r 30 -n deck -d $TRAVIS_BUILD_DIR/data/woc.deck.en.csv -p $TRAVIS_BUILD_DIR/build $TRAVIS_BUILD_DIR/woc.deck.svg > $TRAVIS_BUILD_DIR/build/woc.deck.en.svg
 pdftk $TRAVIS_BUILD_DIR/build/*.pdf cat output $TRAVIS_BUILD_DIR/pdf/woc.deck.en.pdf
 cp $TRAVIS_BUILD_DIR/pdf/woc.deck.en.pdf $TRAVIS_BUILD_DIR/pdf/woc.deck.en-$(date '+%Y%m%d').pdf
 rm $TRAVIS_BUILD_DIR/build/*.pdf
 
-python $TRAVIS_BUILD_DIR/countersheet.py -r 30 -n deck -d $TRAVIS_BUILD_DIR/english.cards.csv -p $TRAVIS_BUILD_DIR/build $TRAVIS_BUILD_DIR/italian.cards.svg > $TRAVIS_BUILD_DIR/build/it.standard.deck.svg
+python $TRAVIS_BUILD_DIR/countersheet.py -r 30 -n deck -d $TRAVIS_BUILD_DIR/data/woc.deck.it.csv -p $TRAVIS_BUILD_DIR/build $TRAVIS_BUILD_DIR/woc.deck.svg > $TRAVIS_BUILD_DIR/build/woc.deck.it.svg
 pdftk $TRAVIS_BUILD_DIR/build/*.pdf cat output $TRAVIS_BUILD_DIR/pdf/woc.deck.it.pdf
 cp $TRAVIS_BUILD_DIR/pdf/woc.deck.it.pdf $TRAVIS_BUILD_DIR/pdf/woc.deck.it-$(date '+%Y%m%d').pdf
 rm $TRAVIS_BUILD_DIR/build/*.pdf
