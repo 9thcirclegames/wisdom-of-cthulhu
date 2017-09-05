@@ -1,0 +1,1042 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-09-06 00:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: card/family
+#: woc.xml:4
+#: woc.xml:20
+#: woc.xml:36
+#: woc.xml:52
+#: woc.xml:68
+#: woc.xml:84
+#: woc.xml:100
+#: woc.xml:116
+#: woc.xml:132
+#: woc.xml:148
+#: woc.xml:164
+#: woc.xml:180
+#: woc.xml:196
+#: woc.xml:212
+#: woc.xml:228
+#: woc.xml:244
+#: woc.xml:260
+#: woc.xml:276
+#: woc.xml:292
+#: woc.xml:308
+#: woc.xml:324
+#: woc.xml:340
+#: woc.xml:356
+#: woc.xml:372
+#: woc.xml:388
+#: woc.xml:404
+#: woc.xml:420
+#: woc.xml:436
+#: woc.xml:452
+#: woc.xml:468
+#: woc.xml:484
+#: woc.xml:500
+#: woc.xml:516
+#: woc.xml:532
+#: woc.xml:548
+#: woc.xml:564
+msgid "Forbidden Wisdom"
+msgstr ""
+
+#. (itstool) path: card/type
+#: woc.xml:5
+#: woc.xml:133
+#: woc.xml:149
+#: woc.xml:245
+#: woc.xml:309
+#: woc.xml:325
+#: woc.xml:341
+#: woc.xml:421
+#: woc.xml:437
+#: woc.xml:469
+#: woc.xml:485
+#: woc.xml:501
+#: woc.xml:565
+#: woc.xml:805
+#: woc.xml:949
+msgid "Continuos"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:8
+msgid "Supreme Wisdom"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:10
+msgid "For a full round you can choose in which search order you play. 1 KP for each Forbidden Wisdom card in your own."
+msgstr ""
+
+#. (itstool) path: card/type
+#: woc.xml:21
+#: woc.xml:37
+#: woc.xml:53
+#: woc.xml:85
+#: woc.xml:101
+#: woc.xml:117
+#: woc.xml:165
+#: woc.xml:181
+#: woc.xml:213
+#: woc.xml:229
+#: woc.xml:261
+#: woc.xml:277
+#: woc.xml:293
+#: woc.xml:357
+#: woc.xml:373
+#: woc.xml:405
+#: woc.xml:453
+#: woc.xml:517
+#: woc.xml:533
+#: woc.xml:549
+#: woc.xml:581
+#: woc.xml:597
+#: woc.xml:613
+#: woc.xml:629
+#: woc.xml:645
+#: woc.xml:661
+#: woc.xml:677
+#: woc.xml:693
+#: woc.xml:725
+#: woc.xml:821
+#: woc.xml:837
+#: woc.xml:853
+#: woc.xml:869
+#: woc.xml:885
+#: woc.xml:901
+#: woc.xml:917
+msgid "Immediate"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:24
+msgid "Great Old Ones Language"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:26
+msgid "Consider a requisite of any Ritual Object as fulfilled"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:38
+msgid "Jade Talisman"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:40
+msgid "Stalking Hound"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:42
+msgid "Put this card on one opponent Dark Master. Counts as Elders' Sign until the end of the turn."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:54
+msgid "Silver Key"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:56
+msgid "Key for Other Dimensions"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:58
+msgid "Discard an Elders' Sign from an Arcane Place"
+msgstr ""
+
+#. (itstool) path: card/type
+#: woc.xml:69
+#: woc.xml:197
+#: woc.xml:389
+#: woc.xml:709
+#: woc.xml:741
+#: woc.xml:757
+#: woc.xml:773
+#: woc.xml:789
+#: woc.xml:933
+msgid "Activation"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:70
+msgid "Essential Salts"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:72
+msgid "Bring back the Ancestors"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:74
+msgid "You can bring back a Dark Master from your discards pile"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:86
+msgid "Mind Exchange"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:88
+msgid "Tear of your own body"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:90
+msgid "Replace your Searcher marker with one of your opponent's"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:102
+msgid "Stele of Dagon"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:104
+msgid "Disconcerting Revelation"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:106
+msgid "You gain 3 KP"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:118
+msgid "Dreams of Cthulhu"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:120
+msgid "Presage of Insanity"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:122
+msgid "You gain KPs equal to the number of all DM and FW cards in your own"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:134
+msgid "Alazif"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:136
+msgid "Early Knowledge"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:138
+msgid "You gain one more KP for each Immediate FW and AS you put in play"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:150
+msgid "Tiara of Dagon"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:152
+msgid "Supreme Priest"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:154
+msgid "You gain one more KP for each KP you would gain from your DMs' dark bonds"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:166
+msgid "Bite of the Devil's Fly"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:168
+msgid "Insane Trasmigration"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:170
+msgid "Turn an opponent's Continuos card of your choice. The owner cannot use it until the beginning of the next turn."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:182
+msgid "Petrifying Elixir"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:184
+msgid "Horrible Transformation"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:186
+msgid "Choose an opponent' Searcher marker. It cannot be moved until the end of turn."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:198
+msgid "Stones of Mnar"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:200
+msgid "Protective Seal"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:202
+msgid "It counts as an Elders' Sign"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:214
+msgid "Powder of Ibn Ghazi"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:216
+msgid "Abominius Revelator"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:218
+msgid "Discard one opponent Entity card"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:230
+msgid "Pnakhotic Manuscripts"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:232
+msgid "Ancient Wisdom"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:234
+msgid "You gain 2 KP and the first FW card from your discards pile"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:246
+msgid "Chants of Dhol"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:248
+msgid "Evocation Chants"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:250
+msgid "You get 2 Entities with one action"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:262
+msgid "Spell of T'Yog"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:264
+msgid "Trap the Beast"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:266
+msgid "Choose one opponents' Entity; it cannot be used until the owner spends an Obsession card to free."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:278
+msgid "Regnum Congo"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:280
+msgid "Ode to Cannibalism"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:282
+msgid "Discard one opponents' Dark Master"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:294
+msgid "Bacchanalia of Red Hook"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:296
+msgid "Unholy Ritual"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:298
+msgid "If your Searcher is on the Ritual Dashboard, you can immediately use the Power underneath for free. This cannot apply if it is the Evocation Power."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:310
+msgid "Miskatonic University"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:312
+msgid "Weird Teachings"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:314
+msgid "Combination: add one FW and one AS card to get 2 KPs. For each additional FW/AS added you get 3 KPs to a maximum of 9 KPs. Then, discard the combination but keep one card of your choice"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:326
+msgid "Music of Zann"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:328
+msgid "Call to Great Old Ones"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:330
+msgid "You earn 2 KPs each time you use the Invocation Power of a Great Old One"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:342
+msgid "The Shunned House"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:344
+msgid "Evil Place"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:346
+msgid "Combination: add one EN card to get 2 KPs. For each additional EN added you get 2 KPs to a maximum of 6 KPs. Then, do not discar the combination, you can put Entities from the Combination into play and replace them on the Combination. Unless you pick all the Entities on the card without replacing them, you don't have to discard the combination"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:358
+msgid "Fragments of Eltdown"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:360
+msgid "Incomplete Informations"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:362
+msgid "Exchange one opponent's permanent Obsession with one Research card, both randomly chosen"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:374
+msgid "Chronicles of Naths"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:376
+msgid "Visions of Creatures"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:378
+msgid "You can look the last card on the Entities deck and put on top, if you want."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:390
+msgid "Yule Rite"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:392
+msgid "Invocation to Unnamed"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:394
+msgid "You can use the Evocation Power of a Great Old One no more available in the game spending only the Activation cost of this card"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:406
+msgid "The Black Stone"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:408
+msgid "Unknown Object"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:410
+msgid "Pick a FW or AS card from one of your opponents' Research Area and put back in its own deck. Then, shuffle the deck."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:422
+msgid "Seven Cryptical Books of Hsan"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:424
+msgid "Knowledge for the Chosen Ones"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:426
+msgid "At the beginning of each turn, you gain 1 KP for each FW card left in the Research Area, before the area is cleansed."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:438
+msgid "Brown Jenkins"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:440
+msgid "Malevolent Familiar"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:442
+msgid "It counts as a DM with Arcane Place Dark Bond. You get 3 KPs each time a Power is used"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:454
+msgid "Third Aklo Ritual"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:456
+msgid "Exchange of Knowledge"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:458
+msgid "Pick up one of your opponents' FW card and exchange with one of your own. This exchange is permanent."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:470
+msgid "Great Race of Yith's Library"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:472
+msgid "Endless Knowledge"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:474
+msgid "You gain 3 KPs at the end of each turn"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:486
+msgid "Society for Psyonic Research"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:488
+msgid "Mind Probing"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:490
+msgid "Combination: add one DM card to get 2 KPs. For each additional DM added you get 2 KPs to a maximum of 6 KPs. Do not discard the Combination, you can use the DM cards normally, one per turn. The DM cards locked into the Combination cannot be forced to be discarded by opponents' actions, but they don't count to the Dark Bond."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:502
+msgid "Mr. Noyes"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:504
+msgid "Expendable Agent"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:506
+msgid "Discard this card instead of another one you would have to be discarded due to opponents' action"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:518
+msgid "Works of Borellus"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:520
+msgid "Alchemic Trasmutation"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:522
+msgid "You can choose to exchange one FW (Continuous or Activation) or AS with one of the same seed available on the Research Area."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:534
+msgid "Sign of Koth"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:536
+msgid "Seal the Path"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:538
+msgid "Place this card on the Evocation Power of a Great Old One. It counts as Elders' Sign until the end of the turn."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:550
+msgid "III Psalm from the Liber Damnatus"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:552
+msgid "Call to External Spheres"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:554
+msgid "If no Great Old One was already evocated, you can use any of the avaialbe Evocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:566
+msgid "The Serpent Cave"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:568
+msgid "A look into the Past"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:570
+msgid "For each card you buy, you can take the one of the same seed at the bottom of the discards pile, instead."
+msgstr ""
+
+#. (itstool) path: card/family
+#: woc.xml:580
+#: woc.xml:596
+#: woc.xml:612
+#: woc.xml:628
+#: woc.xml:644
+#: woc.xml:660
+#: woc.xml:676
+#: woc.xml:692
+#: woc.xml:708
+#: woc.xml:724
+#: woc.xml:740
+#: woc.xml:756
+#: woc.xml:772
+#: woc.xml:788
+#: woc.xml:804
+#: woc.xml:820
+#: woc.xml:836
+#: woc.xml:852
+#: woc.xml:868
+#: woc.xml:884
+#: woc.xml:900
+#: woc.xml:916
+#: woc.xml:932
+msgid "Alien Science"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:582
+msgid "Non Euclidean Angles"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:584
+msgid "Alien Maths"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:586
+msgid "Combination: 1 FW + 1 AS"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:598
+msgid "XXXX Cylinder"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:600
+msgid "Sidereal Transportation"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:602
+msgid "Combination: 1 AS + 1 DM"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:614
+msgid "Wax Sculptures"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:616
+msgid "Horrid Taxidermy"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:618
+msgid "Combination: 1 DM + 1 FW"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:630
+msgid "Gem of Nath"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:632
+msgid "Viewfinder to the Elsewhere"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:634
+msgid "Combination: 1 FW + 1 EN"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:646
+msgid "XXXX Machine"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:648
+msgid "Gate between Dimensions"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:650
+msgid "Combination: 1 AS + 1 EN"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:662
+msgid "Telephatic Transmitter"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:664
+msgid "Contact Alien Mind"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:666
+msgid "Combination: 1 DM + 1 EN"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:678
+msgid "Pendulum Clock"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:680
+msgid "Transdimensional Vessel"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:682
+msgid "Combination: 2 FW + 1 AS. You gain 1 KP for each FW card in your own, including the ones in this Combination."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:694
+msgid "Mines of Mi-Gos"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:696
+msgid "Alien Outpost"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:698
+msgid "Combination: 2 AS + 1 DM. You gain 2 KP for each DM card in your own, including the ones in this Combination."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:710
+msgid "Protoplasm of the Old Ones"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:712
+msgid "Life Generator"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:714
+msgid "Combination: 1 FW + 1 AS + 1 EN"
+msgstr ""
+
+#. (itstool) path: card/title
+#. (itstool) path: card/caption
+#: woc.xml:726
+#: woc.xml:728
+msgid "XXXX"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:730
+msgid "Combination: 2 DM + 1 FW. You gain 2 KP for each DM card in your own, including the ones in this Combination."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:742
+msgid "Yekeb Cube"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:744
+msgid "Alien Mind Trasmigration"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:746
+msgid "Combination: 1 AS + 1 DM + 1 EN"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:758
+msgid "Pre-human Sites"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:760
+msgid "Revealing Schema"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:762
+msgid "Combination: 1 FW + 1 AS + 1 DM"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:774
+msgid "XXXX Sphere"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:776
+msgid "Consciousness Amplification"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:778
+msgid "Combination: 2 FW + 1 AS + 1 DM. You gain 2 KP for each FW card in your own, including the ones in this Combination."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:790
+msgid "Great Race of Yith's Technology"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:792
+msgid "Unbelieavable Wonders"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:794
+msgid "Combination: 1 FW + 2 AS + 1 DM.You gain 3 KP for each AS card in your own, including the ones in this Combination."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:806
+msgid "Shining Trapezoid"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:808
+msgid "Call of Darkness"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:810
+msgid "Combination: 2 DM + 2 EN. At the beginning of each turn, you can discard a card from this Combination. If you discard a EN, you gain 3 KPs. If you discard a DM, you gain 4 KPs. You can replace the discarded cards at any time. If you discard all the cards of the Combination, discars this card too."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:822
+msgid "Beaming Gun"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:824
+msgid "Deadly Weapon"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:826
+msgid "Combination: 1 EN + 1 OBS, in this strict sequence. Pick a EN from one opponent's Research Area or from the Evocation Area and remove from the game."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:838
+msgid "Electric Executioner"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:840
+msgid "Deadly Machine at a Distance"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:842
+msgid "Combination: 1 DM + 1 OBS, in this strict sequence. Pick a DM from one opponent's Research Area or from the Evocation Area and remove from the game."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:854
+msgid "Globular Meteorite"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:856
+msgid "Carrier of Horrific Seeds"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:858
+msgid "Combination: 1 EN + 1 RIS, in this strict sequence. Pick a EN: this card cannot be locked by an Elders' Sign until the end of the turn."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:870
+msgid "Cold Air"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:872
+msgid "Unnatural Preservation"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:874
+msgid "Combination: 1 DM + 1 RIS, in this strict sequence. Pick a DM: this card cannot be locked by an Elders' Sign until the end of the turn."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:886
+msgid "Lagh Metal"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:888
+msgid "Enchantments Box"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:890
+msgid "Combination: 1 FW + 1 EN. You get a FW card from the Research Area or from the discards piles."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:902
+msgid "N'Kai Science"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:904
+msgid "Indescribable Experiments"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:906
+msgid "Combination: 2 AS + 1 EN. You get an AS card from the Research Area or from the discards piles."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:918
+msgid "Martin's Beach Remains"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:920
+msgid "Evidence of Abyssal Intelligence"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:922
+msgid "Combination: 2 DM + 1 EN. You get an DM card from the Research Area or from the discards piles."
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:934
+msgid "XXXX Virus"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:936
+msgid "Infection not of This World"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:938
+msgid "Combination: 1 FW + 1 AS + 1 DM + 1 EN. Flip an opponent's Activation or Continuos card. It cannot be used until the end of the turn."
+msgstr ""
+
+#. (itstool) path: card/family
+#: woc.xml:948
+msgid "Dark Master"
+msgstr ""
+
+#. (itstool) path: card/title
+#: woc.xml:950
+msgid "Joseph Curwen"
+msgstr ""
+
+#. (itstool) path: card/caption
+#: woc.xml:952
+msgid "Supreme Sorcerer"
+msgstr ""
+
+#. (itstool) path: card/description
+#: woc.xml:954
+msgid "The first time you use an Immediate FW card, don't discard it. You can use it a second time, then you must definitively discard it"
+msgstr ""
+

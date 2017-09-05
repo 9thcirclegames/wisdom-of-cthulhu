@@ -1,0 +1,963 @@
+<?xml version="1.0"?>
+<deck>
+<card id="NECRONOMICON" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title translatable="no">Necronomicon</title>
+  <title.it>Necronomicon</title.it>
+  <caption>Supreme Wisdom</caption>
+  <caption.it>Conoscenza Ultima</caption.it>
+  <description>For a full round you can choose in which search order you play. 1 KP for each Forbidden Wisdom card in your own.</description>
+  <description.it>Per un intero Round puoi scegliere in che Ordine di Ricerca giocare. 1 PC per ogni carta Sapienza Proibita in tuo possesso.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="Madness">
+    <study>1 FW + 1 EN</study>
+    <trasmutation>3 OBS</trasmutation>
+    <sacrifice>1 DM + 1 EN + 1 FW</sacrifice>
+  </ritual>
+</card>
+<card id="AKLO" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title translatable="no">Aklo</title>
+  <title.it>Aklo</title.it>
+  <caption>Great Old Ones Language</caption>
+  <caption.it>Lingua degli Antichi</caption.it>
+  <description>Consider a requisite of any Ritual Object as fulfilled</description>
+  <description.it>Considera risolto un requisito di un Oggetto Rituale.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="JADETALISMAN" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Jade Talisman</title>
+  <title.it>Amuleto di Giada</title.it>
+  <caption>Stalking Hound</caption>
+  <caption.it>Segugio Persecutore</caption.it>
+  <description>Put this card on one opponent Dark Master. Counts as Elders&apos; Sign until the end of the turn.</description>
+  <description.it>Poni la carta su un Maestro Oscuro avversario, conta come un Segno degli Antichi fino a fine turno.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="SILVERKEY" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Silver Key</title>
+  <title.it>Chiave d&apos;Argento</title.it>
+  <caption>Key for Other Dimensions</caption>
+  <caption.it>Chiave per le Dimensioni</caption.it>
+  <description>Discard an Elders&apos; Sign from an Arcane Place</description>
+  <description.it>Scarta un Segno degli Antichi su un Luogo Arcano.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="Nightmare">
+    <study>2 FW</study>
+    <trasmutation>2 FW Imm + 1 Place</trasmutation>
+    <sacrifice>3 FW</sacrifice>
+  </ritual>
+</card>
+<card id="ESSENTIALSALTS" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Activation</type>
+  <title>Essential Salts</title>
+  <title.it>Sali Essenziali</title.it>
+  <caption>Bring back the Ancestors</caption>
+  <caption.it>Riportare indietro gli avi</caption.it>
+  <description>You can bring back a Dark Master from your discards pile</description>
+  <description.it>Puoi riprendere un tuo Maestro Oscuro scartato.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="Dimension">
+    <study>2 DM</study>
+    <trasmutation>2 DM + 1 EN</trasmutation>
+    <sacrifice>2 EN + 1 DM</sacrifice>
+  </ritual>
+</card>
+<card id="MINDEXCHANGE" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Mind Exchange</title>
+  <title.it>Scambio della Mente</title.it>
+  <caption>Tear of your own body</caption>
+  <caption.it>Strappato dal proprio corpo</caption.it>
+  <description>Replace your Searcher marker with one of your opponent&apos;s</description>
+  <description.it>Scambia il tuo segnalino Cercatore con uno avversario</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="STELEOFDAGON" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Stele of Dagon</title>
+  <title.it>Stele di Dagon</title.it>
+  <caption>Disconcerting Revelation</caption>
+  <caption.it>Rivelazione Sconcertante</caption.it>
+  <description>You gain 3 KP</description>
+  <description.it>Ottieni 3 PC</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="Madness">
+    <study>2 EN</study>
+    <trasmutation>2 FW</trasmutation>
+    <sacrifice>1 EN + 2 FW</sacrifice>
+  </ritual>
+</card>
+<card id="DREAMSOFCTHULHU" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Dreams of Cthulhu</title>
+  <title.it>Sogni di Cthulhu</title.it>
+  <caption>Presage of Insanity</caption>
+  <caption.it>Presagio di Follia</caption.it>
+  <description>You gain KPs equal to the number of all DM and FW cards in your own</description>
+  <description.it>Ricevi PC pari alla somma delle carte Sapienza Proibita e Maestro Oscuro in tuo possesso.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="Madness">
+    <study>1 DM + 1 FW</study>
+    <trasmutation>3 FW Imm</trasmutation>
+    <sacrifice>1 DM + 2 FW</sacrifice>
+  </ritual>
+</card>
+<card id="ALAZIF" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Alazif</title>
+  <title.it>Alazif</title.it>
+  <caption>Early Knowledge</caption>
+  <caption.it>Sapienza Originaria</caption.it>
+  <description>You gain one more KP for each Immediate FW and AS you put in play</description>
+  <description.it>Ricevi 1 PC in pi� per le carte Sapienza Proibita e Scienza Aliena di tipo Imm da te giocate.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="Dimension">
+    <study>2 FW</study>
+    <trasmutation>1 SE + 2 OBS</trasmutation>
+    <sacrifice>1 EN + 2 FW</sacrifice>
+  </ritual>
+</card>
+<card id="TIARAOFDAGON" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Tiara of Dagon</title>
+  <title.it>Tiara di Dagon</title.it>
+  <caption>Supreme Priest</caption>
+  <caption.it>Alto Sacerdote</caption.it>
+  <description>You gain one more KP for each KP you would gain from your DMs&apos; dark bonds</description>
+  <description.it>Ricevi 1 PC in pi� per i PC ottenuti dal Legame Oscuro delle carte Maestro Oscuro.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="BITEOFDEVIL" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Bite of the Devil&apos;s Fly</title>
+  <title.it>Morso della Mosca Diavolo</title.it>
+  <caption>Insane Trasmigration</caption>
+  <caption.it>Folle Trasmigrazione</caption.it>
+  <description>Turn an opponent&apos;s Continuos card of your choice. The owner cannot use it until the beginning of the next turn.</description>
+  <description.it>Gira una qualsiasi carta Cont di un avversario, � inutilizzabile fino all&apos;inizio del prossimo turno.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="PETRIFYINGELIXIR" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Petrifying Elixir</title>
+  <title.it>Elisir Pietrificante</title.it>
+  <caption>Horrible Transformation</caption>
+  <caption.it>Orrenda Trasformazione</caption.it>
+  <description>Choose an opponent&apos; Searcher marker. It cannot be moved until the end of turn.</description>
+  <description.it>Scegli un segnalino Cercatore avversario, non pu� essere mosso fino a fine Round.</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="STONESOFMNAR" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Activation</type>
+  <title>Stones of Mnar</title>
+  <title.it>Pietre di Mnar</title.it>
+  <caption>Protective Seal</caption>
+  <caption.it>Sigillo Protettivo</caption.it>
+  <description>It counts as an Elders&apos; Sign</description>
+  <description.it>Conta come un segnalino Segno degli Antichi.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="POWEDEROFIBNR" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Powder of Ibn Ghazi</title>
+  <title.it>Polvere di Ibn Ghazi</title.it>
+  <caption>Abominius Revelator</caption>
+  <caption.it>Rilevatore di Abomini</caption.it>
+  <description>Discard one opponent Entity card</description>
+  <description.it>Scarta una carta Entit� avversaria.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="Horror">
+    <study>2 FW</study>
+    <trasmutation>3 FW</trasmutation>
+    <sacrifice>1 FW + 2 EN</sacrifice>
+  </ritual>
+</card>
+<card id="PNAKHOTIC" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Pnakhotic Manuscripts</title>
+  <title.it>Manoscritti Pnacotici</title.it>
+  <caption>Ancient Wisdom</caption>
+  <caption.it>Sapienza Antica</caption.it>
+  <description>You gain 2 KP and the first FW card from your discards pile</description>
+  <description.it>Ricevi 2 PC e la prima carta Sapienza Proibita dagli scarti.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="Nightmare">
+    <study>2 FW</study>
+    <trasmutation>1 FW + 1 AS</trasmutation>
+    <sacrifice>2 EN + 1 FW</sacrifice>
+  </ritual>
+</card>
+<card id="CHANTSOFDHOL" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Chants of Dhol</title>
+  <title.it>Canti di Dhol</title.it>
+  <caption>Evocation Chants</caption>
+  <caption.it>Canti di Evocazione</caption.it>
+  <description>You get 2 Entities with one action</description>
+  <description.it>Con un singolo acquisto ottieni 2 carte EN.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="Horror">
+    <study>2 FW</study>
+    <trasmutation>1 EN + 2 OBS</trasmutation>
+    <sacrifice>1 EN + 2 FW</sacrifice>
+  </ritual>
+</card>
+<card id="SPELLOFTYOG" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Spell of T&apos;Yog</title>
+  <title.it>Incantesimo di T&apos;Yog</title.it>
+  <caption>Trap the Beast</caption>
+  <caption.it>Imprigionare la Bestia</caption.it>
+  <description>Choose one opponents&apos; Entity; it cannot be used until the owner spends an Obsession card to free.</description>
+  <description.it>Scegli una carta EN avversaria, � inutilizzabile fino a quando non � spesa una Carta Ossessione.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="REGNUMCONGO" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Regnum Congo</title>
+  <title.it>Regnum Congo</title.it>
+  <caption>Ode to Cannibalism</caption>
+  <caption.it>Ode al Cannibalismo</caption.it>
+  <description>Discard one opponents&apos; Dark Master</description>
+  <description.it>Scarta una carta Maestro Oscuro avversaria.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="BACCHANALIA" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Bacchanalia of Red Hook</title>
+  <title.it>Baccanali di Red Hook</title.it>
+  <caption>Unholy Ritual</caption>
+  <caption.it>Empio Rituale</caption.it>
+  <description>If your Searcher is on the Ritual Dashboard, you can immediately use the Power underneath for free. This cannot apply if it is the Evocation Power.</description>
+  <description.it>Se il tuo segnalino Cercatore � sulla Plancia Rituale puoi immediatamente usare il potere relativo gratis, a meno che non si tratti del Potere di Evocazione.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="MISKATONIC" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Miskatonic University</title>
+  <title.it>Miskatonic University</title.it>
+  <caption>Weird Teachings</caption>
+  <caption.it>Strani Insegnamenti</caption.it>
+  <description>Combination: add one FW and one AS card to get 2 KPs. For each additional FW/AS added you get 3 KPs to a maximum of 9 KPs. Then, discard the combination but keep one card of your choice</description>
+  <description.it>Combinazione: aggiungi una carta Sapienza Proibita e Scienza Aliena e ottieni 2 PC. Per ogni Sapienza Proibita e per ogni Scienza Aliena aggiunta, fino a un massimo di tre carte per tipo, ottieni 3 PC. Poi scarta normalmente la combinazione, tenendo una delle carte Componenti.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="MUSICOFZANN" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Music of Zann</title>
+  <title.it>Musica di Zann</title.it>
+  <caption>Call to Great Old Ones</caption>
+  <caption.it>Chiamata agli Antichi</caption.it>
+  <description>You earn 2 KPs each time you use the Invocation Power of a Great Old One</description>
+  <description.it>Ottieni 2 PC ogni volta che usi un Potere di Invocazione di un Grande Antico.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="SHUNNED" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>The Shunned House</title>
+  <title.it>La Casa Evitata</title.it>
+  <caption>Evil Place</caption>
+  <caption.it>Luogo Malvagio</caption.it>
+  <description>Combination: add one EN card to get 2 KPs. For each additional EN added you get 2 KPs to a maximum of 6 KPs. Then, do not discar the combination, you can put Entities from the Combination into play and replace them on the Combination. Unless you pick all the Entities on the card without replacing them, you don&apos;t have to discard the combination</description>
+  <description.it>Combinazione: aggiungi una carta EN e ottieni 2 PC. Per ogni EN aggiunta, fino a un massimo di tre, ottieni 2 PC. Non scartare la combinazione, puoi giocare normalmente una delle carte Entita e rimpiazzarla successivamente con un&apos;altra. Se giochi tutte le carte Entita senza rimpiazzarle, scarta la carta Combinazione.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="ELTDOWN" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Fragments of Eltdown</title>
+  <title.it>Frammenti di Eltdown</title.it>
+  <caption>Incomplete Informations</caption>
+  <caption.it>Informazioni Incomplete</caption.it>
+  <description>Exchange one opponent&apos;s permanent Obsession with one Research card, both randomly chosen</description>
+  <description.it>Sostituisci a caso tra loro una Carta Ossessione Permanente e una Carta Ricerca di un avversario.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="CHRONICLESNATH" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Chronicles of Naths</title>
+  <title.it>Cronache di Nath</title.it>
+  <caption>Visions of Creatures</caption>
+  <caption.it>Visioni di Creature</caption.it>
+  <description>You can look the last card on the Entities deck and put on top, if you want.</description>
+  <description.it>Puoi guardare l&apos;ultima carta del mazzo EN e metterla in cima allo stesso, se vuoi.</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="YULERITE" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Activation</type>
+  <title>Yule Rite</title>
+  <title.it>Rito di Yule</title.it>
+  <caption>Invocation to Unnamed</caption>
+  <caption.it>Invocazione agli Innominati</caption.it>
+  <description>You can use the Evocation Power of a Great Old One no more available in the game spending only the Activation cost of this card</description>
+  <description.it>Puoi utilizzare i Poteri di Invocazione di un Grande Antico non pi� disponibile in gioco, con la spesa della sola attivazione di questa carta.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="Horror">
+    <study>1 DM + 1 FW</study>
+    <trasmutation>1 DM + 2 EN</trasmutation>
+    <sacrifice>1 DM + 1 FW + 1 EN</sacrifice>
+  </ritual>
+</card>
+<card id="BLACKSTONE" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>The Black Stone</title>
+  <title.it>La Pietra Nera</title.it>
+  <caption>Unknown Object</caption>
+  <caption.it>Oggetto Sconosciuto</caption.it>
+  <description>Pick a FW or AS card from one of your opponents&apos; Research Area and put back in its own deck. Then, shuffle the deck.</description>
+  <description.it>Prendi una carta Sapienza Proibita o Scienza Aliena da un&apos;Area di Studio avversaria, ponila nel relativo mazzo mischiandolo.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="Horror">
+    <study>2 AS</study>
+    <trasmutation>2 FW + 1 EN</trasmutation>
+    <sacrifice>2 FW + 1 EN</sacrifice>
+  </ritual>
+</card>
+<card id="SEVENHSAN" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Seven Cryptical Books of Hsan</title>
+  <title.it>Sette Libri Criptici di Hsan</title.it>
+  <caption>Knowledge for the Chosen Ones</caption>
+  <caption.it>Conoscenze per Pochi Eletti</caption.it>
+  <description>At the beginning of each turn, you gain 1 KP for each FW card left in the Research Area, before the area is cleansed.</description>
+  <description.it>A inizio turno guadagni 1 PC per ogni carta Sapienza Proibita rimasta nell&apos;Area di Ricerca, prima che vengano scartate.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="BROWNJENKINS" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Brown Jenkins</title>
+  <title.it>Brown Jenkins</title.it>
+  <caption>Malevolent Familiar</caption>
+  <caption.it>Famiglio Malevolo</caption.it>
+  <description>It counts as a DM with Arcane Place Dark Bond. You get 3 KPs each time a Power is used</description>
+  <description.it>Conta a tutti gli effetti come un Maestro Oscuro. Si considera avere un Legame Oscuro: Luogo Arcano che fa ottenere 3 PC per qualsiasi Potere utilizzato. Conta a tutti gli effetti come un Maestro Oscuro. Si considera avere un Legame Oscuro: Luogo Arcano che fa ottenere 3 PC per qualsiasi Potere utilizzato.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="AKLORITUAL" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Third Aklo Ritual</title>
+  <title.it>Terzo Rituale Aklo</title.it>
+  <caption>Exchange of Knowledge</caption>
+  <caption.it>Scambio Sapienziale</caption.it>
+  <description>Pick up one of your opponents&apos; FW card and exchange with one of your own. This exchange is permanent.</description>
+  <description.it>Scegli una carta Sapienza Proibita avversaria e scambiala definitivamente con una delle tue.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="Dimension">
+    <study>2 FW</study>
+    <trasmutation>3 FW</trasmutation>
+    <sacrifice>2 FW</sacrifice>
+  </ritual>
+</card>
+<card id="GREATRACELIBRARY" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Great Race of Yith&apos;s Library</title>
+  <title.it>Biblioteca della Grande Razza</title.it>
+  <caption>Endless Knowledge</caption>
+  <caption.it>Infinite Conoscenze</caption.it>
+  <description>You gain 3 KPs at the end of each turn</description>
+  <description.it>Ottieni 3 PC alla fine di ogni turno</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="SOCIETYPSY" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Society for Psyonic Research</title>
+  <title.it>Societ� per la Ricerca Psichica</title.it>
+  <caption>Mind Probing</caption>
+  <caption.it>Sondare le Menti</caption.it>
+  <description>Combination: add one DM card to get 2 KPs. For each additional DM added you get 2 KPs to a maximum of 6 KPs. Do not discard the Combination, you can use the DM cards normally, one per turn. The DM cards locked into the Combination cannot be forced to be discarded by opponents&apos; actions, but they don&apos;t count to the Dark Bond.</description>
+  <description.it>Combinazione: aggiungi una carta Maestro Oscuro e ottieni 2 PC. Per ogni carta Maestro Oscuro aggiunta, fino a un massimo di tre, ottieni 2 PC. Non scartare la combinazione, ogni turno puoi giocare normalmente una delle carte Maestro Oscuro. Le carte Maestro Oscuro bloccate da questa carta non possono essere scartate da azioni avversarie e non contano al fine del Legame Oscuro.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="MRNOYES" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>Mr. Noyes</title>
+  <title.it>Mr. Noyes</title.it>
+  <caption>Expendable Agent</caption>
+  <caption.it>Agente Sacrificabile</caption.it>
+  <description>Discard this card instead of another one you would have to be discarded due to opponents&apos; action</description>
+  <description.it>Scarta questa carta al posto di una qualsiasi altra carta che sei costretto a scartare da un&apos;azione avversaria.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="BORELLUS" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Works of Borellus</title>
+  <title.it>Opera di Borellus</title.it>
+  <caption>Alchemic Trasmutation</caption>
+  <caption.it>Trasmutazione Alchemica</caption.it>
+  <description>You can choose to exchange one FW (Continuous or Activation) or AS with one of the same seed available on the Research Area.</description>
+  <description.it>Puoi decidere di scambiare una carta SP (Continua o Attivazione) o una carta SA in tuo possesso con un&apos;altra dello stesso tipo presente nell&apos;Area di Ricerca.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="SIGNOFKOTH" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>Sign of Koth</title>
+  <title.it>Segno di Koth</title.it>
+  <caption>Seal the Path</caption>
+  <caption.it>Sigilla la Via</caption.it>
+  <description>Place this card on the Evocation Power of a Great Old One. It counts as Elders&apos; Sign until the end of the turn.</description>
+  <description.it>Puoi piazzare la carta sul Potere di Evocazione di un Grande Antico, conta come un Segno degli Antichi fino a fine turno.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="3RDPSLALM" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Immediate</type>
+  <title>III Psalm from the Liber Damnatus</title>
+  <title.it>III Salmo del Liver Damnatus</title.it>
+  <caption>Call to External Spheres</caption>
+  <caption.it>Richiamo alle Sfere Esterne</caption.it>
+  <description>If no Great Old One was already evocated, you can use any of the avaialbe Evocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard.</description>
+  <description.it>Se non � stato evocato nessun Grande Antico, puoi usare gratis un qualsiasi Potere di Invocazione di un Grande Antico anche se il tuo segnalino Rituale non si trova nell&apos;appropriato spazio della Plancia Rituale.</description.it>
+  <knowledge.points>X</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="SERPENTCAVE" n="1">
+  <family>Forbidden Wisdom</family>
+  <type>Continuos</type>
+  <title>The Serpent Cave</title>
+  <title.it>Caverna del Serpente</title.it>
+  <caption>A look into the Past</caption>
+  <caption.it>Uno Sguardo nel Passato</caption.it>
+  <description>For each card you buy, you can take the one of the same seed at the bottom of the discards pile, instead.</description>
+  <description.it>Per ogni tipo di carta che acquisti puoi scegliere di acquistare quella sul fondo del relativo mazzo degli scarti.</description.it>
+  <knowledge.points>1</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="NONEUCLIDEANANGLES" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Non Euclidean Angles</title>
+  <title.it>Angoli Non Euclidei</title.it>
+  <caption>Alien Maths</caption>
+  <caption.it>Matematica Aliena</caption.it>
+  <description>Combination: 1 FW + 1 AS</description>
+  <description.it>Combinazione: 1 SP + 1 SA</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="ALIENCYLINDER" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>XXXX Cylinder</title>
+  <title.it>Cilindro XXX</title.it>
+  <caption>Sidereal Transportation</caption>
+  <caption.it>Trasporto Siderale</caption.it>
+  <description>Combination: 1 AS + 1 DM</description>
+  <description.it>Combinazione: 1 SA + 1 MO</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="WAXSCULPUTERS" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Wax Sculptures</title>
+  <title.it>Sculture di Cera</title.it>
+  <caption>Horrid Taxidermy</caption>
+  <caption.it>Orrida Imbalsamazione</caption.it>
+  <description>Combination: 1 DM + 1 FW</description>
+  <description.it>Combinazione: 1 MO + 1 SP</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="GEMOFNATH" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Gem of Nath</title>
+  <title.it>Gemma di Nath</title.it>
+  <caption>Viewfinder to the Elsewhere</caption>
+  <caption.it>Visore sull&apos;Altrove</caption.it>
+  <description>Combination: 1 FW + 1 EN</description>
+  <description.it>Combinazione: 1 SP + 1 EN</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="Horror">
+    <study>1 FW + 1 AS</study>
+    <trasmutation>2 FW + 1 AS</trasmutation>
+    <sacrifice>2 FW + 1 EN</sacrifice>
+  </ritual>
+</card>
+<card id="ALIENMACHINE" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>XXXX Machine</title>
+  <title.it>Macchina XXXX</title.it>
+  <caption>Gate between Dimensions</caption>
+  <caption.it>Varco tra le Dimensioni</caption.it>
+  <description>Combination: 1 AS + 1 EN</description>
+  <description.it>Combinazione: 1 EN + 1 SA</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="TELETRANSMITTER" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Telephatic Transmitter</title>
+  <title.it>Trasmettitore Telepatico</title.it>
+  <caption>Contact Alien Mind</caption>
+  <caption.it>Contatta Mente Aliena</caption.it>
+  <description>Combination: 1 DM + 1 EN</description>
+  <description.it>Combinazione: 1 MO + 1 EN</description.it>
+  <knowledge.points>4</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="PENDULUM" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Pendulum Clock</title>
+  <title.it>Pendola</title.it>
+  <caption>Transdimensional Vessel</caption>
+  <caption.it>Vascello Transdimensionale</caption.it>
+  <description>Combination: 2 FW + 1 AS. You gain 1 KP for each FW card in your own, including the ones in this Combination.</description>
+  <description.it>Combinazione: 2 SP + 1 SA. Guadagni 1 PC per ogni carta Sapienza Proibita in tuo possesso, comprese quelle utilizzate per questa combinazione.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="Dimension">
+    <study>1 AS + 1 FW</study>
+    <trasmutation>2 RES</trasmutation>
+    <sacrifice>1 FW + 1 DM + 1 EN</sacrifice>
+  </ritual>
+</card>
+<card id="MINESMIGO" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Mines of Mi-Gos</title>
+  <title.it>Miniere dei Mi-Go</title.it>
+  <caption>Alien Outpost</caption>
+  <caption.it>Avamposto Alieno</caption.it>
+  <description>Combination: 2 AS + 1 DM. You gain 2 KP for each DM card in your own, including the ones in this Combination.</description>
+  <description.it>Combinazione: 2 SA + 1 MO. Guadagni 2 PC per ogni carta Maestro Oscuro in tuo possesso, comprese quelle utilizzate per questa combinazione.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="OLDONESPROTOPLASM" n="1">
+  <family>Alien Science</family>
+  <type>Activation</type>
+  <title>Protoplasm of the Old Ones</title>
+  <title.it>Protoplasma degli Antichi</title.it>
+  <caption>Life Generator</caption>
+  <caption.it>Generatore di Vita</caption.it>
+  <description>Combination: 1 FW + 1 AS + 1 EN</description>
+  <description.it>Combinazione: 1 SP + 1 SA + 1 EN</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="Horror">
+    <study>2 EN</study>
+    <trasmutation>1 FW + 1 AS + 1 EN</trasmutation>
+    <sacrifice>3 EN</sacrifice>
+  </ritual>
+</card>
+<card id="ALIENARTIFACT" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>XXXX</title>
+  <title.it>XXXX</title.it>
+  <caption>XXXX</caption>
+  <caption.it>XXXX</caption.it>
+  <description>Combination: 2 DM + 1 FW. You gain 2 KP for each DM card in your own, including the ones in this Combination.</description>
+  <description.it>Combinazione: 2 MO + 1 SP. Guadagni 3 PC per ogni carta Maestro Oscuro in tuo possesso, comprese quelle utilizzate per questa combinazione.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="YEKEBCUBE" n="1">
+  <family>Alien Science</family>
+  <type>Activation</type>
+  <title>Yekeb Cube</title>
+  <title.it>Cubo di Yekeb</title.it>
+  <caption>Alien Mind Trasmigration</caption>
+  <caption.it>Trasmigrazione di Mente Aliena</caption.it>
+  <description>Combination: 1 AS + 1 DM + 1 EN</description>
+  <description.it>Combinazione: 1 SA + 1 MO + 1 EN</description.it>
+  <knowledge.points>4</knowledge.points>
+  <ritual type="Nightmare">
+    <study>1 AS + 1 EN</study>
+    <trasmutation>1FW + 1 PLA</trasmutation>
+    <sacrifice>1 AS + 1 DM + 1 EN</sacrifice>
+  </ritual>
+</card>
+<card id="PREHUMANSITES" n="1">
+  <family>Alien Science</family>
+  <type>Activation</type>
+  <title>Pre-human Sites</title>
+  <title.it>Siti Preumani</title.it>
+  <caption>Revealing Schema</caption>
+  <caption.it>Schema Rilevatore</caption.it>
+  <description>Combination: 1 FW + 1 AS + 1 DM</description>
+  <description.it>Combinazione: 1 SP + 1 SC + 1 MO</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="Madness">
+    <study>1 FW + 1 EDS</study>
+    <trasmutation>3 PLA</trasmutation>
+    <sacrifice>3 FW</sacrifice>
+  </ritual>
+</card>
+<card id="ALIENSPHERE" n="1">
+  <family>Alien Science</family>
+  <type>Activation</type>
+  <title>XXXX Sphere</title>
+  <title.it>Sfera XXXX</title.it>
+  <caption>Consciousness Amplification</caption>
+  <caption.it>Amplificazione della Coscienza</caption.it>
+  <description>Combination: 2 FW + 1 AS + 1 DM. You gain 2 KP for each FW card in your own, including the ones in this Combination.</description>
+  <description.it>Combinazione: 2 SP + 1 SA + 1 MO. A ogni attivazione 2 PC per ogni carta SP in tuo possesso,comprese quelle utilizzate per questa combinazione.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="Dimension">
+    <study>2 AS</study>
+    <trasmutation>3 OBS</trasmutation>
+    <sacrifice>2 FW + 1 AS</sacrifice>
+  </ritual>
+</card>
+<card id="GREATRACETECH" n="1">
+  <family>Alien Science</family>
+  <type>Activation</type>
+  <title>Great Race of Yith&apos;s Technology</title>
+  <title.it>Tecnologia della Grande Razza</title.it>
+  <caption>Unbelieavable Wonders</caption>
+  <caption.it>Meraviglie Incredibili</caption.it>
+  <description>Combination: 1 FW + 2 AS + 1 DM.You gain 3 KP for each AS card in your own, including the ones in this Combination.</description>
+  <description.it>Combinazione: 1 SP + 2 SA + 1 MO. A ogni attivazione 3 PC per ogni carta SA in tuo possesso,comprese quelle utilizzate per questa combinazione.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="SHININGTRAPRZOID" n="1">
+  <family>Alien Science</family>
+  <type>Continuos</type>
+  <title>Shining Trapezoid</title>
+  <title.it>Trapezoide Splendente</title.it>
+  <caption>Call of Darkness</caption>
+  <caption.it>Richiamo Oscuro</caption.it>
+  <description>Combination: 2 DM + 2 EN. At the beginning of each turn, you can discard a card from this Combination. If you discard a EN, you gain 3 KPs. If you discard a DM, you gain 4 KPs. You can replace the discarded cards at any time. If you discard all the cards of the Combination, discars this card too.</description>
+  <description.it>A inizio di ogni turno puoi scartare una carta della combinazione. Se � scartata una carta Entit� ottieni 3 PC. Se � scartato un Maestro Oscuro ottieni 4 PC. Puoi sempre sostituire le carte scartate con carte dello stesso tipo. Se scarti tutte le carte senza sostituzioni, scarta anche questa carta.</description.it>
+  <knowledge.points>?</knowledge.points>
+  <ritual type="Nightmare">
+    <study>2 EN</study>
+    <trasmutation>1 DM + 2 EN</trasmutation>
+    <sacrifice>1 AS + 1 DM + 1 EN</sacrifice>
+  </ritual>
+</card>
+<card id="BEAMINGGUN" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Beaming Gun</title>
+  <title.it>Pistola Fulminatrice</title.it>
+  <caption>Deadly Weapon</caption>
+  <caption.it>Arma Mortale</caption.it>
+  <description>Combination: 1 EN + 1 OBS, in this strict sequence. Pick a EN from one opponent&apos;s Research Area or from the Evocation Area and remove from the game.</description>
+  <description.it>Combinazione: 1 EN + 1 OSS, in questa esatta sequenza. Prendi una EN dall&apos;Area di Ricerca di un avversario o dall&apos;Area di Evocazione e rimuovila dal gioco.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="ELECTRICEXECUTIONER" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Electric Executioner</title>
+  <title.it>Boia Elettrico</title.it>
+  <caption>Deadly Machine at a Distance</caption>
+  <caption.it>Macchina Assassina a Distanza</caption.it>
+  <description>Combination: 1 DM + 1 OBS, in this strict sequence. Pick a DM from one opponent&apos;s Research Area or from the Evocation Area and remove from the game.</description>
+  <description.it>Combinazione: 1 MS + 1 OSS, in questa esatta sequenza. Prendi una EN dall&apos;Area di Ricerca di un avversario o dall&apos;Area di Evocazione e rimuovila dal gioco.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="GLOBULARMETEORITE" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Globular Meteorite</title>
+  <title.it>Meterorite Globulare</title.it>
+  <caption>Carrier of Horrific Seeds</caption>
+  <caption.it>Portatore di Seme Mostruoso</caption.it>
+  <description>Combination: 1 EN + 1 RIS, in this strict sequence. Pick a EN: this card cannot be locked by an Elders&apos; Sign until the end of the turn.</description>
+  <description.it>Combinazione: 1 EN + 1 RIC, in questa esatta sequenza. Scegli una EN: non pu� essere bloccata da un Segno degli Antichi fino alla fine del turno.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="COLDAIR" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Cold Air</title>
+  <title.it>Aria Fredda</title.it>
+  <caption>Unnatural Preservation</caption>
+  <caption.it>Preservazione Innaturale</caption.it>
+  <description>Combination: 1 DM + 1 RIS, in this strict sequence. Pick a DM: this card cannot be locked by an Elders&apos; Sign until the end of the turn.</description>
+  <description.it>Combinazione: 1 EN + 1 RIC, in questa esatta sequenza. Scegli una carta MO: non pu� essere bloccata da un Segno degli Antichi fino alla fine del turno.</description.it>
+  <knowledge.points>2</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="LAGHMETAL" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Lagh Metal</title>
+  <title.it>Metallo Lagh</title.it>
+  <caption>Enchantments Box</caption>
+  <caption.it>Contenitore di Incantesimi</caption.it>
+  <description>Combination: 1 FW + 1 EN. You get a FW card from the Research Area or from the discards piles.</description>
+  <description.it>Combinazione: 1 SP + 1 EN. Ottieni una carta SP dall&apos;Area di Ricerca o da una qualunque pila di scarti.</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="NKAISCIENCE" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>N&apos;Kai Science</title>
+  <title.it>Scienza di N&apos;Kai</title.it>
+  <caption>Indescribable Experiments</caption>
+  <caption.it>Esperimenti Indicibili</caption.it>
+  <description>Combination: 2 AS + 1 EN. You get an AS card from the Research Area or from the discards piles.</description>
+  <description.it>Combinazione: 1 SA + 1 EN. Ottieni una carta SA dall&apos;Area di Ricerca o da una qualunque pila di scarti.</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="MARTINBEACHREMAINS" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>Martin&apos;s Beach Remains</title>
+  <title.it>Carcassa di Martin&apos;s Beach</title.it>
+  <caption>Evidence of Abyssal Intelligence</caption>
+  <caption.it>Prova di Intelligenza Abissale</caption.it>
+  <description>Combination: 2 DM + 1 EN. You get an DM card from the Research Area or from the discards piles.</description>
+  <description.it>Combinazione: 1 MO + 1 EN. Ottieni una carta MO dall&apos;Area di Ricerca o da una qualunque pila di scarti.</description.it>
+  <knowledge.points>3</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="ALIENVIRUS" n="1">
+  <family>Alien Science</family>
+  <type>Activation</type>
+  <title>XXXX Virus</title>
+  <title.it>Virus XXXX</title.it>
+  <caption>Infection not of This World</caption>
+  <caption.it>Infezione non di Questo Mondo</caption.it>
+  <description>Combination: 1 FW + 1 AS + 1 DM + 1 EN. Flip an opponent&apos;s Activation or Continuos card. It cannot be used until the end of the turn.</description>
+  <description.it>Combinazione: 1 SP + 1 SA + 1 MO + 1 EN. Gira una carta Attivazione o Continua avversaria, non potr� pi� essere usata per il resto del turno.</description.it>
+  <knowledge.points>4</knowledge.points>
+  <ritual type="">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+<card id="JOSEPHCURWEN" n="1">
+  <family>Dark Master</family>
+  <type>Continuos</type>
+  <title>Joseph Curwen</title>
+  <title.it>Joseph Curwen</title.it>
+  <caption>Supreme Sorcerer</caption>
+  <caption.it>Sommo Sacerdote</caption.it>
+  <description>The first time you use an Immediate FW card, don&apos;t discard it. You can use it a second time, then you must definitively discard it</description>
+  <description.it></description.it>
+  <knowledge.points>4</knowledge.points>
+  <ritual type="Madness">
+    <study></study>
+    <trasmutation></trasmutation>
+    <sacrifice></sacrifice>
+  </ritual>
+</card>
+</deck>
