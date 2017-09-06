@@ -11,25 +11,26 @@
     <label>Supreme Wisdom</label>
   </caption>
   <description>
-    <label>For a full round you can choose in which search order you play. %s for each Forbidden Wisdom card in your own.</label>
-    <arg unit="KP" value="1" />
+    <label>For a full round you can choose in which search order you play. %s for each %s in your own.</label>
+    <arg unit="KP">1</arg>
+    <arg>FW</arg>
   </description>
   <knowledge.points>?</knowledge.points>
   <ritual type="madness">
     <phase type="study" pos="1">
      <label>Study: %s + %s;</label>
-      <arg unit="FW" value="1" />
-      <arg unit="EN" value="1" />
+      <arg unit="FW">1</arg>
+      <arg unit="EN">1</arg>
     </phase>
     <phase type="trasmutation" pos="2">
      <label>Trans: %s;</label>
-     <arg unit="Obs" value="3" />
+     <arg unit="Obs">3</arg>
     </phase>
     <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s + %s</label>
-     <arg unit="FW" value="1" />
-     <arg unit="DM" value="1" />
-     <arg unit="EN" value="1" />
+     <arg unit="FW">1</arg>
+     <arg unit="DM">1</arg>
+     <arg unit="EN">1</arg>
    </phase>
 </ritual>
 </card>
@@ -59,7 +60,8 @@
     <label>Stalking Hound</label>
   </caption>
   <description>
-    <label>Put this card on one opponent Dark Master. Counts as Elders&apos; Sign until the end of the turn.</label>
+    <label>Put this card on one opponent %s. Counts as Elders&apos; Sign until the end of the turn.</label>
+    <arg>DM</arg>
   </description>
   <knowledge.points>1</knowledge.points>
 </card>
@@ -104,7 +106,8 @@
     <label>Bring back the Ancestors</label>
   </caption>
   <description>
-    <label>You can bring back a DM from your discards pile.</label>
+    <label>You can bring back a %s from your discards pile.</label>
+    <arg>DM</arg>
   </description>
   <knowledge.points>2</knowledge.points>
   <ritual type="darkness">
@@ -181,7 +184,10 @@
     <label>Presage of Insanity</label>
   </caption>
   <description>
-    <label>You gain KPs equal to the number of all DM and FW cards in your own.</label>
+    <label>You gain %s equal to the number of all %s and %s cards in your own.</label>
+    <arg>KP</arg>
+    <arg>FM</arg>
+    <arg>DM</arg>
   </description>
   <knowledge.points>?</knowledge.points>
   <ritual type="madness">
