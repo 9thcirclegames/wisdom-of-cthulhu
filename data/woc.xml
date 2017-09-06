@@ -201,7 +201,7 @@
      <arg unit="FW Imm">3</arg>
     </phase>
     <phase id="sacrifice" pos="3">
-     <label>Sacrifice: 1 DM + 2 FW</label>
+     <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="DM">1</arg>
    </phase>
@@ -609,7 +609,9 @@
      <arg unit="EN">1</arg>
     </phase>
     <phase id="sacrifice" pos="3">
-     <label>Sacrifice: 2 FW + 1 EN</label>
+     <label>Sacrifice: %s + %s</label>
+     <arg unit="FW">2</arg>
+     <arg unit="EN">1</arg>
    </phase>
 </ritual>
 </card>
@@ -938,7 +940,6 @@
     <arg unit="KP">1</arg>
     <arg>FW</arg>
   </combination>
-  </description>
   <knowledge.points>?</knowledge.points>
   <ritual type="darkness">
     <phase id="study" pos="1">
@@ -1125,7 +1126,7 @@
   <knowledge.points>?</knowledge.points>
 </card>
 
-<card id="SHININGTRAPRZOID" n="1">
+<card id="SHININGTRAPEZOID" n="1">
   <family>Alien Science</family>
   <type>Continuos</type>
   <title>
@@ -1269,7 +1270,7 @@
   </caption>
   <knowledge.points>3</knowledge.points>
   <combination>
-    <label>Combination: %s + %s. You get an %s card from the %s or from a discards pile of your choice.</label>
+    <label>Combination: %s + %s. You get a %s card from the %s or from a discards pile of your choice.</label>
     <arg unit="AS">2</arg>
     <arg unit="EN">1</arg>
     <arg>AS</arg>
@@ -1287,7 +1288,7 @@
     <label>Evidence of Abyssal Intelligence</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s. You get an %s card from the %s or from a discards pile of your choice.</label>
+    <label>Combination: %s + %s. You get a %s card from the %s or from a discards pile of your choice.</label>
     <arg unit="DM">2</arg>
     <arg unit="EN">1</arg>
     <arg>DM</arg>
@@ -1321,7 +1322,7 @@
   <family>Dark Master</family>
   <type>Continuos</type>
   <title>
-    <label>Joseph Curwen</label>
+    <label translatable="no">Joseph Curwen</label>
   </title>
   <caption>
     <label>Supreme Sorcerer</label>
