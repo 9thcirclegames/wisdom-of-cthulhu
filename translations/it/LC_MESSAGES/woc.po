@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-09-06 22:55+0200\n"
-"PO-Revision-Date: 2017-09-06 23:04+0200\n"
+"POT-Creation-Date: 2017-09-07 00:21+0200\n"
+"PO-Revision-Date: 2017-09-07 00:21+0200\n"
 "Last-Translator: Gabriele Baldassarre\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -580,7 +580,7 @@ msgstr ""
 msgid ""
 "Combination: add %s to get %s. For each additional %s added you get %s to a "
 "maximum of %s. Then, do not discard the combination, as you can put %s from "
-"the Combination into play and replace them. When you pick up the last %s "
+"the Combination into play and replace them. When you pick up the last card "
 "from the Combination, discards this card."
 msgstr ""
 
@@ -872,8 +872,11 @@ msgstr ""
 #. (itstool) id: woc.xml#ALIENCYLINDER_COMBINATION
 #. (itstool) id: woc.xml#WAXSCULPUTERS_COMBINATION
 #. (itstool) id: woc.xml#GEMOFNATH_COMBINATION
+#. (itstool) id: woc.xml#ALIENMACHINE_COMBINATION
+#. (itstool) id: woc.xml#TELETRANSMITTER_COMBINATION
 #: data/woc.xml:819 data/woc.xml:836 data/woc.xml:853 data/woc.xml:870
-msgid "Combination: %s + 1 %s."
+#: data/woc.xml:904 data/woc.xml:921
+msgid "Combination: %s + %s."
 msgstr ""
 
 #. (itstool) path: title/label
@@ -922,13 +925,6 @@ msgstr ""
 #. (itstool) id: woc.xml#ALIENMACHINE_CAPTION
 #: data/woc.xml:900
 msgid "Gate between Dimensions"
-msgstr ""
-
-#. (itstool) path: combination/label
-#. (itstool) id: woc.xml#ALIENMACHINE_COMBINATION
-#. (itstool) id: woc.xml#TELETRANSMITTER_COMBINATION
-#: data/woc.xml:904 data/woc.xml:921
-msgid "Combination: %s + %s."
 msgstr ""
 
 #. (itstool) path: title/label

@@ -15,7 +15,7 @@
     <arg unit="KP">1</arg>
     <arg>FW</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <ritual type="madness">
     <phase type="study" pos="1">
      <label>Study: %s + %s;</label>
@@ -47,7 +47,7 @@
   <description>
     <label>Consider a requisite of any Ritual Object as fulfilled.</label>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="JADETALISMAN" n="1">
@@ -63,7 +63,7 @@
     <label>Put this card on one opponent %s. Counts as Elders&apos; Sign until the end of the turn.</label>
     <arg>DM</arg>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="SILVERKEY" n="1">
@@ -78,7 +78,7 @@
   <description>
     <label>Discard an Elders&apos; Sign from an Arcane Place.</label>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <ritual type="nightmare">
     <phase id="study" pos="1">
      <label>Study: %s;</label>
@@ -109,7 +109,7 @@
     <label>You can bring back a %s from your discards pile.</label>
     <arg>DM</arg>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <ritual type="darkness">
     <phase id="study" pos="1">
      <label>Study: %s;</label>
@@ -140,7 +140,7 @@
   <description>
     <label>Replace your Seeker marker with one from your opponent.</label>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
 </card>
 
 <card id="STELEOFDAGON" n="1">
@@ -156,7 +156,7 @@
     <label>You gain %s.</label>
     <arg unit="KP">3</arg>
   </description>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
   <ritual type="madness">
     <phase id="study" pos="1">
      <label>Study: %s;</label>
@@ -189,7 +189,7 @@
     <arg>FM</arg>
     <arg>DM</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <ritual type="madness">
     <phase id="study" pos="1">
      <label>Study: %s + %s;</label>
@@ -223,7 +223,7 @@
     <arg>FW Imm</arg>
     <arg>AS</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <ritual type="darkness">
     <phase id="study" pos="1">
      <label>Study: %s</label>
@@ -257,7 +257,7 @@
     <arg>KP</arg>
     <arg>DM</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
 </card>
 
 <card id="BITEOFDEVIL" n="1">
@@ -273,7 +273,7 @@
     <label>Turn an opponent&apos;s %s card of your choice. The owner cannot use it until the beginning of the next turn.</label>
     <arg>Cont</arg>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="PETRIFYINGELIXIR" n="1">
@@ -289,7 +289,7 @@
     <label>Choose an opponent&apos; %s. It cannot be moved until the end of turn.</label>
     <arg>SM</arg>
   </description>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
 </card>
 
 <card id="STONESOFMNAR" n="1">
@@ -304,7 +304,7 @@
   <description>
     <label>It counts as an Elders&apos; Sign.</label>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="POWEDEROFIBNR" n="1">
@@ -319,7 +319,7 @@
   <description>
     <label>Discard one opponent Entity card</label>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <ritual type="horror">
     <phase id="study" pos="1">
      <label>Study: %s</label>
@@ -351,7 +351,7 @@
     <arg unit="KP">2</arg>
     <arg>FW</arg>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <ritual type="nightmare">
     <phase id="study" pos="1">
      <label>Study: %s;</label>
@@ -383,7 +383,7 @@
     <label>You get %s with just one action.</label>
     <arg unit="EN">2</arg>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
   <ritual type="horror">
     <phase id="study" pos="1">
      <label>Study: %s;</label>
@@ -416,7 +416,7 @@
     <arg>EN</arg>
     <arg>Obs</arg>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
 </card>
 
 <card id="REGNUMCONGO" n="1">
@@ -432,7 +432,7 @@
     <label>Discard one opponents&apos; %s.</label>
     <arg>DM</arg>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="BACCHANALIA" n="1">
@@ -450,7 +450,7 @@
     <arg>Power</arg>
     <arg>Evocation Power</arg>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="MISKATONIC" n="1">
@@ -462,7 +462,7 @@
   <caption>
     <label>Weird Teachings</label>
   </caption>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <combination>
     <label>Combination: add %s and one %s to get %s. For each additional %s or %s added you get %s to a maximum of %s. Then, discard the combination but keep one card of your choice.</label>
     <arg unit="FW">1</arg>
@@ -491,7 +491,7 @@
     <arg unit="KP">2</arg>
     <arg>Invocation Power</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
 </card>
 
 <card id="SHUNNED" n="1">
@@ -503,12 +503,12 @@
   <caption>
     <label>Evil Place</label>
   </caption>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <combination>
-    <label>Combination: add %s to get %s. For each additional %s added you get %s to a maximum of %s. Then, do not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last %s from the Combination, discards this card.</label>
+    <label>Combination: add %s to get %s. For each additional %s added you get %s to a maximum of %s. Then, do not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discards this card.</label>
     <arg unit="FW">1</arg>
     <arg unit="KP">2</arg>
-    <arg>EN</arg>
+    <arg>EN</arg>n="1"
     <arg unit="KP">2</arg>
     <arg unit="KP">6</arg>
     <arg>EN</arg>
@@ -530,7 +530,7 @@
     <arg>Obs</arg>
     <arg>Ris</arg>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
 </card>
 
 <card id="CHRONICLESNATH" n="1">
@@ -545,7 +545,7 @@
   <description>
     <label>You can look the last card on the Entities deck and put on top, if you want.</label>
   </description>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
 </card>
 
 <card id="YULERITE" n="1">
@@ -561,7 +561,7 @@
     <label>You can use the %s of a Great Old One which is no more available in the game by spending the activation cost of this card instead.</label>
     <arg>Evovation Power</arg>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
   <ritual type="horror">
     <phase id="study" pos="1">
      <label>Study: %s + %s;</label>
@@ -597,7 +597,7 @@
     <arg>AS</arg>
     <arg>Research Area</arg>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <ritual type="horror">
     <phase id="study" pos="1">
      <label>Study: %s;</label>
@@ -631,7 +631,7 @@
     <arg>FW</arg>
     <arg>Research Area</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
 </card>
 
 <card id="BROWNJENKINS" n="1">
@@ -650,7 +650,7 @@
     <arg unit="KP">3</arg>
     <arg>Power</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
 </card>
 
 <card id="AKLORITUAL" n="1">
@@ -666,7 +666,7 @@
     <label>Pick up one of your opponents&apos; FW and exchange with one of your own. This exchange is permanent.</label>
     <arg>FW</arg>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <ritual type="darkness">
     <phase id="study" pos="1">
      <label>Study: %s;</label>
@@ -696,7 +696,7 @@
     <label>You gain %s at the end of each turn.</label>
     <arg unit="KP">3</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
 </card>
 
 <card id="SOCIETYPSY" n="1">
@@ -710,7 +710,7 @@
   </caption>
   <description>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <combination>
     <label>Combination: %s. For each additional %s added you get %s to a maximum of %s. Do not discard the Combination, you can use the %s cards normally, one per turn. The %s cards locked into the Combination cannot be forced to be discarded by opponents&apos; actions, but they don&apos;t contribute to the dark bond.</label>
     <arg unit="DM">1</arg>
@@ -734,7 +734,7 @@
   <description>
     <label>Discard this card instead of another one you would forced to discard due to any opponents&apos; action</label>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="BORELLUS" n="1">
@@ -754,7 +754,7 @@
     <arg>AS</arg>
     <arg>Research Area</arg>
   </description>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
 </card>
 
 <card id="SIGNOFKOTH" n="1">
@@ -770,7 +770,7 @@
     <label>Place this card on the %s of a Great Old One. It counts as Elders&apos; Sign until the end of the turn.</label>
     <arg>Evocation Power</arg>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="3RDPSLALM" n="1">
@@ -787,7 +787,7 @@
     <arg>Evocation Powers</arg>
     <arg>Ritual Dashboard</arg>
   </description>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
 </card>
 
 <card id="SERPENTCAVE" n="1">
@@ -802,7 +802,7 @@
   <description>
     <label>For each card you buy, you can take the first one of the same seed at the bottom of your discards pile, instead.</label>
   </description>
-  <knowledge.points>1</knowledge.points>
+  <kp>1</kp>
 </card>
 
 <card id="NONEUCLIDEANANGLES" n="1">
@@ -814,9 +814,9 @@
   <caption>
     <label>Alien Maths</label>
   </caption>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <combination>
-    <label>Combination: %s + 1 %s.</label>
+    <label>Combination: %s + %s.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
   </combination>
@@ -831,9 +831,9 @@
   <caption>
     <label>Sidereal Transportation</label>
   </caption>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
   <combination>
-    <label>Combination: %s + 1 %s.</label>
+    <label>Combination: %s + %s.</label>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
   </combination>
@@ -848,9 +848,9 @@
   <caption>
     <label>Horrid Taxidermy</label>
   </caption>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
   <combination>
-    <label>Combination: %s + 1 %s.</label>
+    <label>Combination: %s + %s.</label>
     <arg unit="FW">1</arg>
     <arg unit="DM">1</arg>
   </combination>
@@ -865,9 +865,9 @@
   <caption>
     <label>Viewfinder to the Elsewhere</label>
   </caption>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
   <combination>
-    <label>Combination: %s + 1 %s.</label>
+    <label>Combination: %s + %s.</label>
     <arg unit="FW">1</arg>
     <arg unit="EN">1</arg>
   </combination>
@@ -899,7 +899,7 @@
   <caption>
     <label>Gate between Dimensions</label>
   </caption>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
   <combination>
     <label>Combination: %s + %s.</label>
     <arg unit="AS">1</arg>
@@ -916,7 +916,7 @@
   <caption>
     <label>Contact Alien Mind</label>
   </caption>
-  <knowledge.points>4</knowledge.points>
+  <kp>4</kp>
   <combination>
     <label>Combination: %s + %s.</label>
     <arg unit="DM">1</arg>
@@ -940,7 +940,7 @@
     <arg unit="KP">1</arg>
     <arg>FW</arg>
   </combination>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <ritual type="darkness">
     <phase id="study" pos="1">
      <label>Study: %s + %s;</label>
@@ -969,7 +969,7 @@
   <caption>
     <label>Alien Outpost</label>
   </caption>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <combination>
     <label>Combination: %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
     <arg unit="AS">2</arg>
@@ -988,7 +988,7 @@
   <caption>
     <label>Life Generator</label>
   </caption>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <combination>
     <label>Combination: %s + %s + %s.</label>
     <arg unit="FW">1</arg>
@@ -1022,7 +1022,7 @@
   <caption>
     <label>XXXX</label>
   </caption>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <combination>
     <label>Combination: %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
     <arg unit="FW">1</arg>
@@ -1041,7 +1041,7 @@
   <caption>
     <label>Alien Mind Trasmigration</label>
   </caption>
-  <knowledge.points>4</knowledge.points>
+  <kp>4</kp>
   <combination>
     <label>Combination: %s + %s + %s.</label>
     <arg unit="FW">1</arg>
@@ -1077,7 +1077,7 @@
   <caption>
     <label>Revealing Schema</label>
   </caption>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
   <combination>
     <label>Combination: %s + %s + %s.</label>
     <arg unit="FW">1</arg>
@@ -1095,7 +1095,7 @@
   <caption>
     <label>Consciousness Amplification</label>
   </caption>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <combination>
     <label>Combination: %s + %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
     <arg unit="FW">2</arg>
@@ -1123,7 +1123,7 @@
     <arg unit="KP">3</arg>
     <arg>AS</arg>
   </combination>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
 </card>
 
 <card id="SHININGTRAPEZOID" n="1">
@@ -1135,7 +1135,7 @@
   <caption>
     <label>Call of Darkness</label>
   </caption>
-  <knowledge.points>?</knowledge.points>
+  <kp>?</kp>
   <combination>
     <label>Combination: %s + %s. At the beginning of each turn, you can discard a card from the Combination. If you discard a %s, you gain %s. If you discard a %s, you gain %s. You can replace the cards at any time. If you remove all the cards from the Combination, discars this card too.</label>
     <arg unit="DM">2</arg>
@@ -1173,7 +1173,7 @@
   <caption>
     <label>Deadly Weapon</label>
   </caption>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <combination>
     <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s %s or %s and put into the owner's discard pile.</label>
     <arg unit="EN">1</arg>
@@ -1193,7 +1193,7 @@
   <caption>
     <label>Deadly Machine at a Distance</label>
   </caption>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <combination>
     <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s %s or %s and put into the owner's discard pile.</label>
     <arg unit="DM">1</arg>
@@ -1213,7 +1213,7 @@
   <caption>
     <label>Carrier of Horrific Seeds</label>
   </caption>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <combination>
     <label>Combination: %s + %s, in this strict sequence. Pick a %s: this card cannot be locked by an Elders&apos; Sign until the end of the turn.</label>
     <arg unit="EN">1</arg>
@@ -1231,7 +1231,7 @@
   <caption>
     <label>Unnatural Preservation</label>
   </caption>
-  <knowledge.points>2</knowledge.points>
+  <kp>2</kp>
   <combination>
     <label>Combination: %s + %s, in this strict sequence. Pick a %s: this card cannot be locked by an Elders&apos; Sign until the end of the turn.</label>
     <arg unit="DM">1</arg>
@@ -1249,7 +1249,7 @@
   <caption>
     <label>Enchantments Box</label>
   </caption>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
   <combination>
     <label>Combination: %s + %s. You get a %s card from the %s or from a discards pile of your choice.</label>
     <arg unit="FW">1</arg>
@@ -1268,7 +1268,7 @@
   <caption>
     <label>Unbelievable Experiments</label>
   </caption>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
   <combination>
     <label>Combination: %s + %s. You get a %s card from the %s or from a discards pile of your choice.</label>
     <arg unit="AS">2</arg>
@@ -1294,7 +1294,7 @@
     <arg>DM</arg>
     <arg>Research Area</arg>
   </combination>
-  <knowledge.points>3</knowledge.points>
+  <kp>3</kp>
 </card>
 
 <card id="ALIENVIRUS" n="1">
@@ -1315,7 +1315,7 @@
     <arg>Activation</arg>
     <arg>Continuos</arg>
   </combination>
-  <knowledge.points>4</knowledge.points>
+  <kp>4</kp>
 </card>
 
 <card id="JOSEPHCURWEN" n="1">
@@ -1331,7 +1331,7 @@
     <label>The first time you use a %s card, don&apos;t discard it. You can use it a second time, then you must definitively discard it.</label>
     <arg>FW Imm</arg>
   </description>
-  <knowledge.points>4</knowledge.points>
+  <kp>4</kp>
 </card>
 
 </deck>
