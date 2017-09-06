@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-09-06 22:47+0200\n"
+"POT-Creation-Date: 2017-09-06 22:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -395,13 +395,13 @@ msgstr ""
 #. (itstool) path: caption/label
 #. (itstool) id: woc.xml#MINDEXCHANGE_CAPTION
 #: ./data/woc.xml:138
-msgid "Tear of your own body"
+msgid "Out from your body"
 msgstr ""
 
 #. (itstool) path: description/label
 #. (itstool) id: woc.xml#MINDEXCHANGE_DESCRIPTION
 #: ./data/woc.xml:141
-msgid "Replace your Searcher marker with one from your opponent."
+msgid "Replace your Seeker marker with one from your opponent."
 msgstr ""
 
 #. (itstool) path: title/label

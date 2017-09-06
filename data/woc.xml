@@ -135,10 +135,10 @@
     <label>Mind Exchange</label>
   </title>
   <caption>
-    <label>Tear of your own body</label>
+    <label>Out from your body</label>
   </caption>
   <description>
-    <label>Replace your Searcher marker with one from your opponent.</label>
+    <label>Replace your Seeker marker with one from your opponent.</label>
   </description>
   <knowledge.points>2</knowledge.points>
 </card>

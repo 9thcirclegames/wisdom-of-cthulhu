@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-09-06 22:47+0200\n"
-"PO-Revision-Date: 2017-09-06 22:49+0200\n"
+"POT-Creation-Date: 2017-09-06 22:55+0200\n"
+"PO-Revision-Date: 2017-09-06 22:56+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.3\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: it\n"
 
 #. (itstool) path: caption/label
 #. (itstool) id: woc.xml#NECRONOMICON_CAPTION
@@ -263,25 +263,25 @@ msgstr ""
 #. (itstool) id: woc.xml#MINDEXCHANGE_TITLE
 #: data/woc.xml:135
 msgid "Mind Exchange"
-msgstr ""
+msgstr "Scambio della Mente"
 
 #. (itstool) path: caption/label
 #. (itstool) id: woc.xml#MINDEXCHANGE_CAPTION
 #: data/woc.xml:138
-msgid "Tear of your own body"
+msgid "Out from your body"
 msgstr ""
 
 #. (itstool) path: description/label
 #. (itstool) id: woc.xml#MINDEXCHANGE_DESCRIPTION
 #: data/woc.xml:141
-msgid "Replace your Searcher marker with one from your opponent."
+msgid "Replace your Seeker marker with one from your opponent."
 msgstr ""
 
 #. (itstool) path: title/label
 #. (itstool) id: woc.xml#STELEOFDAGON_TITLE
 #: data/woc.xml:150
 msgid "Stele of Dagon"
-msgstr ""
+msgstr "Stele di Dagon"
 
 #. (itstool) path: caption/label
 #. (itstool) id: woc.xml#STELEOFDAGON_CAPTION
