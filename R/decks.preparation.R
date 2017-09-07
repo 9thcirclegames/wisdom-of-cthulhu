@@ -16,6 +16,8 @@ if(!interactive()){
 if (!require("pacman")) install.packages("pacman"); library(pacman)
 invisible(p_load("dplyr", "xml2"))
 
+os <- Sys.info()["sysname"]
+
 woc.decks <- read_xml("./data/woc.xml")
 
 deck.families.meta <- read.csv(file="./data/deck.families.meta.csv", stringsAsFactors = FALSE)
@@ -33,13 +35,19 @@ source("./R/deck.parsing.R")
 
 bindtextdomain("woc","./translations")
 
-Sys.setlocale("LC_ALL", "English")
-Sys.setlocale("LC_ALL", "en_US.UTF-8")
+if(os %in% c("Linux", "Darwin", "Solaris")) {
+  Sys.setlocale("LC_ALL", "en_US.UTF-8")
+  } else {
+  Sys.setlocale("LC_ALL", "English")
+  }
 Sys.setenv(LANG = "en_US.UTF-8")
 players.deck.en <- deck.parsing(woc.decks, domain = "woc")
 
-Sys.setlocale("LC_ALL", "Italian")
-Sys.setlocale(LANG = "it_IT.UTF-8")
+if(os %in% c("Linux", "Darwin", "Solaris")) {
+  Sys.setlocale("LC_ALL", "it_IT.UTF-8")
+} else {
+  Sys.setlocale("LC_ALL", "Italian")
+}
 Sys.setenv(LANG = "it_IT.UTF-8")
 players.deck.it <- deck.parsing(woc.decks, domain = "woc")
 
