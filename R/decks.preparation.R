@@ -53,7 +53,7 @@ players.deck.it <- deck.parsing(woc.decks, domain = "woc")
 
 ####################
 # Deck Flattening
-##
+###
 
 standard.deck.en <- players.deck.en %>% 
   left_join(deck.families.meta) %>%
