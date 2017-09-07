@@ -33,10 +33,6 @@ source("./R/deck.parsing.R")
 
 bindtextdomain("woc","./translations")
 
-gettext("Jade Talisman",domain="woc")
-
-current.locale <- Sys.getlocale()
-
 Sys.setlocale("LC_ALL", "English")
 Sys.setlocale("LC_ALL", "en_US.UTF-8")
 Sys.setenv(LANG = "en_US.UTF-8")
