@@ -1,6 +1,6 @@
 # Wisdom of Cthulhu Card Game
 ## Game Overview
-Wisdom of Cthulhu is a card game in which players take the role of searchers of forgotten and forbidden knowledge that will lead them slowly into a spiral of insane obsession. Scientists, magicians and scholars who will try to contend for alien objects, banned books, the help of obscure scholars, and the evocation of powerful creatures to get the ultimate end to the truth about Cthulhu's myths.
+Wisdom of Cthulhu is a card game in which players take the role of seekers of forgotten and forbidden knowledge that will lead them slowly into a spiral of insane obsession. Scientists, magicians and scholars who will try to contend for alien objects, banned books, the help of obscure scholars, and the evocation of powerful creatures to get the ultimate end to the truth about Cthulhu's myths.
 
 During the match, which is divided into six rounds, players, acquiring and discarding cards, get Knowledge Points (KPs).
 
@@ -12,7 +12,7 @@ At the end of the game, the player with the most Knowledge Points is the winner.
 * 4 __Search Order counters__, with a number ranging from 1 to 4;
 * 4 __Great Old Ones markers__, in different colors, 1 per player;
 * 4 __Ritual Counters__ in different colors, 1 per player;
-* 24 __Path to Knowledge cards__, 6 per player with a color border matching his Seeker marker;
+* 24 __Research cards__, 6 per player with a color border matching his Seeker marker;
 * 72 __Knowledge Cards__ so divided:
 	* 36 __Forbidden Wisdom cards__, brown in back and front;
 	* 24 __Alien Science cards__, green in back and front;
@@ -24,7 +24,7 @@ At the end of the game, the player with the most Knowledge Points is the winner.
 * __XXX Knowledge Points markers__ of various values.
 
 ## Game Setup
-Players take a _Seeker_ marker , a set of 6 _Paths to Knowledge_, a _Great Old One_ marker, and a _Ritual_ marker, all of the same color. These elements are placed in front of the player clearly visible to the opponents. This is the personal area, where the purchased cards will be located and the KPs collected. It is also called __Learning Area__ (LA).
+Players take a _Seeker_ marker , a set of 6 _Research_ cards, a _Great Old One_ marker, and a _Ritual_ marker, all of the same color. These elements are placed in front of the player clearly visible to the opponents. This is the personal area, where the purchased cards will be located and the KPs collected. It is also called __Learning Area__ (LA).
 
 Separate the Knowledge Cards by colors and shuffle them to form three drawing decks. Do the same with the Entity cards and form a separate deck.
 
@@ -58,7 +58,7 @@ Place the _Knowledge Cards_ in the Research Area, randomly drawn from the relati
 * __3 players__ -> 9 Knowledge Cards: 5 Forbidden Wisdom, 3 Alien Science, 1 Dark Master.
 * __4 players__ -> 12 Knowledge Cards: 6 Forbidden Wisdom, 4 Alien Science, 2 Dark Master.
 * 
-At the end of each turn, the Research Area is cleaned: the Knowledge Cards left on the table are discarded and the whiole area is cleansed. At the start of each turn, new Knowledge Cards are drawn and placed in the quantities indicated shortly before.
+At the end of each turn, the Research Area is cleaned: the Knowledge Cards left on the table are discarded and the whole area is cleansed. At the start of each turn, new Knowledge Cards are drawn and placed in the quantities indicated shortly before.
 
 Place the _Search Order_ counters by selecting the number of them according to the number of players:
 
@@ -67,8 +67,8 @@ Place the _Search Order_ counters by selecting the number of them according to t
 * __4 players__ -> 1, 2, 3, 4.
 
 ## Cards
-### Paths to Knowlege 
-Double-faced cards. The front is a _Path to Knowledge_ (P2K); The back represents an _Obsession_ (OB). Six for each player. On the _Path_ side, there is a combination of two seeds, with symbols pairing to Knowledge Cards and according to this schema:
+### Research 
+Double-faced cards. The front is a _Research_ (P2K); The back represents an _Obsession_ (OB). Six for each player. On the _Research_ side, there is a combination of two seeds, with symbols pairing to Knowledge Cards and according to this schema:
 
 __Legend:__ Forbidden Wisdom (FW); Alien Science (AS); Dark Master (DM)
 
@@ -76,15 +76,15 @@ __Legend:__ Forbidden Wisdom (FW); Alien Science (AS); Dark Master (DM)
 * __SL/DM; AS/AS__
 * __DM/DM__
 
-By spending a _Path_ card, you can buy one, and only one, Knowledge Card of the same seed of one of those printed on the card being spent. For "buying" the Knowledge card this way,  the Seeker marker must be on an Arcane Place that has the same seed of the Knowledge Card you intend to buy. 
+By spending a _Re_ card, you can buy one, and only one, Knowledge Card of the same seed of one of those printed on the card being spent. For "buying" the Knowledge card this way,  the Seeker marker must be on an Arcane Place that has the same seed of the Knowledge Card you intend to buy. 
 
-Once spent, the _Path_ is discarded in a discard pile which is located outside the Player's Research Area. Be careful to not confuse those cards with the _Obsessios_ already in plat game (see below). Note that only one Knowledge card can be purchased with a Path, even if the latter has two seeds printed on it.
+Once spent, the _Research_ is discarded in a discard pile which is located outside the Player's Research Area. Be careful to not confuse those cards with the _Obsessions_ already in plat game (see below). Note that only one Knowledge card can be purchased with a Research, even if the latter has two seeds printed on it.
 
-During the _Search Order Phase_ (see below), each player chooses a number of Paths  to place in his Research Area flipped on the Obsession side. The player chooses how many cards he wants to turn, even none. These cards are _Temporary Obsessions_ and are placed to the right of the player in his Research Area. Each time a player performs a __Research__ action, if required, discard a Obsession Card. Each Obession card give the possibility to the owner to perform one, and only one, _Research_ action.
+During the _Search Order Phase_ (see below), each player chooses a number of Researches  to place in his Research Area flipped on the Obsession side. The player chooses how many cards he wants to turn, even none. These cards are _Temporary Obsessions_ and are placed to the right of the player in his Research Area. Each time a player performs a __Research__ action, if required, discard a Obsession Card. Each Obsession card give the possibility to the owner to perform one, and only one, _Research_ action.
 
-During the _Obsession Phase_ of each turn (see), players will take over all the _Paths_ and _Temporary Obsessios_ that are eventually available. Among these cards, one d is selected to be placed on the Obsession side for the rest of the game, thus becoming a __Permanent Obsession__. This card can be used as a normal Obsession Card, but will no longer be withdraw in the hands of the player for the rest of the game, thus cannot be flipped back on the _Path_ side anymore. Therefore, the Permanent Obsessions are placed to the left of the player in his Research Area to avoid being mixed with Temporary Obsessions.
+During the _Obsession Phase_ of each turn (see), players will take over all the _Researches_ and _Temporary Obsessions_ that are eventually available. Among these cards, one is selected to be placed on the Obsession side for the rest of the game, thus becoming a __Permanent Obsession__. This card can be used as a normal Obsession Card, but will no longer be withdraw in the hands of the player for the rest of the game, thus cannot be flipped back on the _Research_ side anymore. Therefore, the Permanent Obsessions are placed to the left of the player in his Research Area to avoid being mixed with Temporary Obsessions.
 
-This way, during the game, the player will have less Study Cards for purchasing Knowledge Cards, but they will have more Obsessions Cards to be used for Research Actions, simulating the slowing descent to the insanity of this un holy wisdom.
+This way, during the game, the player will have less Study Cards for purchasing Knowledge Cards, but they will have more Obsessions Cards to be used for Research Actions, simulating the slowing descent to the insanity of this unholy wisdom.
 
 ### Knowledge Cards
 In general, these cards include a seed and the number of Knowledge Points they give to their owner. Knowledge Cards are subdivided into __Forbidden Wisdom__ (FW), __Alien Science__ (AS) and __Dark Master__ (DM), They are characterized by one or more of the following __Powers__:
@@ -98,9 +98,9 @@ In general, these cards include a seed and the number of Knowledge Points they g
 
 As said before, Knowledge cards can be of one of these three seeds:
 
-* __Forbidden Wisdom__ (FW): these are the most common cards in the Learning Area and represent tomes, artifacts, and spells. Each card has its own seed for purchasing (spending a Research Card of the same seed), the number of Knowledge Points that gives to its owner, one or more Powers and any requirements it may have for acting as Ritual Object.
-* __Alien Science__ (AS): these cards represent nonhuman technologies and notions. Each card has its own seed for purchasing (spending a Research Card of the same seed), the combination to complete, the number of Knowledge Points that gives to its owner,  one or more Powers and any requirements it may have for acting as Ritual Object.
-* __Dark Master__ (DM): these cards represent scholars, magicians and scientists having a respectable knowledge of Cthulhu's myths. Each card has its own seed for purchasing (spending a Research Card of the same seed), a Dark Bond, the number of Knowledge Points that gives to its owner,  one or more Powers and any requirements it may have for acting as Ritual Object. Remember that the Dark Masters follow the rules of the Dark Bond as stated above: whenever a Power of an Element with the same Dark Bond of a Dark Master is used, the owner gets the Knowledge Points for the Dark Master card itself. 
+* __Forbidden Wisdom__ (FW): these are the most common cards in the Learning Area and represent tomes, artifacts, and spells. Each card has its own seed for purchasing (spending a Research Card of the same seed), the number of Knowledge Points it rewards its owner, one or more Powers and any requirements it may have for acting as Ritual Object.
+* __Alien Science__ (AS): these cards represent nonhuman technologies and notions. Each card has its own seed for purchasing (spending a Research Card of the same seed), the combination to complete, the number of Knowledge Points it rewards its owner,  one or more Powers and any requirements it may have for acting as Ritual Object.
+* __Dark Master__ (DM): these cards represent scholars, magicians and scientists having a respectable knowledge of Cthulhu's myths. Each card has its own seed for purchasing (spending a Research Card of the same seed), a Dark Bond, the number of Knowledge Points it rewards its owner,  one or more Powers and any requirements it may have for acting as Ritual Object. Remember that the Dark Masters follow the rules of the Dark Bond as stated above: whenever a Power of an Element with the same Dark Bond of a Dark Master is used, the owner gets the Knowledge Points for the Dark Master card itself. 
 
 For the Dark Masters, the following _Dark Bonds_ apply:
 
@@ -122,13 +122,13 @@ Arcane Places are divided into three types:
 
 Each card contains the icon of the type it belongs to, the seeds of the Knowledge Cards and Entities that allows the player to get, one or more Powers as described above, and the Dark Bond with one of the Great Old Ones in game.
 
-A _Research_ action allows you to explore an Arcane Place with different effects. In order to be able to explore a place, you have to move your Seeker on the Place you want to explore.
+A _Research_ action allows you to explore an Arcane Place with different effects. In order to be able to explore a place, you have to move your Seeker marker onto the Place you want to explore.
 
-Bringing the Seeker on a site is free and that marker stays on the card until the player decides to move it elsewhere, or he or she explore the site or an external factor (some Powers on Knowledge Cards) forces it to move away from from the card. The marker is positioned during the Search phase and can be moved to place in place, compatible with the Search Actions available to the player. Once exploring the site, thus taking advantage of the benefits of the Place, the Finder marker returns to its owner. An Arcane Place can be occupied by only one marker at a time so, until it is released, no other marker can be placed on the card. Instead, placing an Elders Sign (see) on an occupied Place will force the owner of the Searcher marker to withdraw it.
+Bringing the Seeker on a site is free and that marker stays on the card until the player decides to move it elsewhere, or he or she explore the site or an external factor (some Powers on Knowledge Cards) forces it to move away from the card. The marker is positioned during the Search phase and can be moved to place in place, compatible with the Research Actions available to the player. Once exploring the site, thus taking advantage of the benefits of the Place, the Seeker marker returns to its owner. An Arcane Place can be occupied by only one marker at a time so, until it is released, no other marker can be placed on the card. Instead, placing an Elder Sign (see) on an occupied Place will force the owner of the Seeker marker to withdraw it.
 
-A player can always place his marker on a place where his Elders Sign is present (see below).
+A player can always place his marker on a place where his Elder Sign is present (see below).
 
 An Arcane Place must be considered as "explored" when one of the following applies:
 
-* __Purchase of Knowledge cards.__ The seeds on the Place cards indicate which Knowledge Cards they allow the players to acquire at cost of their Path cards. Once you move the Searcher marker to a place with a Search action, you can immediately spend a Search Card of the same seed to acquire a Knowledge Card of that seed. This mechanism also applies to the Entity cards acquired with the Obsession cards. After purchase, the Seeker marker returns to its owner.
-* __Use the Arcane Power of the Place__, by spending the required Obsession. As above, the Seeker token returns to its owner. In this case, also, remember to take the amount of Knowledge Points indicated by the Dark Master cards in your possession with the Dark Bond symbol equal to the of the place itself.
+* __Purchase of Knowledge cards.__ The seeds on the Place cards indicate which Knowledge Cards they allow the players to acquire at cost of their Path cards. Once you move the Seeker marker to a place with a Research action, you can immediately spend a Research Card of the same seed to acquire a Knowledge Card of that seed. This mechanism also applies to the Entity cards acquired with the Obsession cards. After purchase, the Seeker marker returns to its owner.
+* __Use the Arcane Power of the Place__, by spending the required Obsession. As above, the Seeker token returns to its owner. In this case, also, remember to take the amount of Knowledge Points indicated by the Dark Master cards in your possession with the Dark Bond symbol equal to the one on the place itself.
