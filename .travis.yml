@@ -27,6 +27,8 @@ addons:
     - etoolbox
     - wkhtmltopdf
     - lmodern
+    - language-pack-it
+    - language-pack-fr
 git:
   submodules: false
 cache:

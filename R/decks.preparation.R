@@ -14,101 +14,61 @@ if(!interactive()){
 # Requirements & Setup
 ##
 if (!require("pacman")) install.packages("pacman"); library(pacman)
-invisible(p_load("dplyr"))
+invisible(p_load("dplyr", "xml2"))
 
-ritual.labels.en <- list(
-  "STUDY" = "Study",
-  "TRASMUTATION" = "Trans",
-  "SACRIFICE" = "Sacrifice"
-)
+os <- Sys.info()["sysname"]
 
-ritual.labels.it <- list(
-  "STUDY" = "Studio",
-  "TRASMUTATION" = "Trans",
-  "SACRIFICE" = "Sacrifice"
-)
+woc.decks <- read_xml("./data/woc.xml")
 
-type.labels.en <- list(
-  "C" = "Continuos",
-  "I" = "Immediate",
-  "A" = "Activation"
-)
-
-type.labels.it <- list(
-  "C" = "Continuo",
-  "I" = "Immediato",
-  "A" = "Attivazione"
-)
+deck.families.meta <- read.csv(file="./data/deck.families.meta.csv", stringsAsFactors = FALSE)
+rituals.meta <- read.csv(file="./data/rituals.meta.csv", stringsAsFactors = FALSE)
+cards.meta <- read.csv(file="./data/cards.meta.csv", stringsAsFactors = FALSE, colClasses = c("character", "character"))
 
 picture.placeholder <- "picture.placeholder.png"
 ritual.placeholder <- "icon.blank.png"
 
-standard.deck <- read.csv(file="./data/standard.deck.csv", stringsAsFactors = FALSE, sep="|", quote="")
-deck.families.meta <- read.csv(file="./data/deck.families.meta.csv", stringsAsFactors = FALSE)
-rituals.meta <- read.csv(file="./data/rituals.meta.csv", stringsAsFactors = FALSE)
-cards.meta <- read.csv(file="./data/cards.meta.csv", stringsAsFactors = FALSE, colClasses = c("character", "character"))
+source("./R/deck.parsing.R")
 
 ####################
 # Data Preparation
 ##
 
-standard.deck.multi <- standard.deck %>% 
+bindtextdomain("woc","./translations")
+
+if(os %in% c("Linux", "Darwin", "Solaris")) {
+  Sys.setlocale("LC_ALL", "en_US.UTF-8")
+  } else {
+  Sys.setlocale("LC_ALL", "English")
+  }
+Sys.setenv(LANG = "en_US.UTF-8")
+players.deck.en <- deck.parsing(woc.decks, domain = "woc")
+
+if(os %in% c("Linux", "Darwin", "Solaris")) {
+  Sys.setlocale("LC_ALL", "it_IT.UTF-8")
+} else {
+  Sys.setlocale("LC_ALL", "Italian")
+}
+Sys.setenv(LANG = "it_IT.UTF-8")
+players.deck.it <- deck.parsing(woc.decks, domain = "woc")
+
+####################
+# Deck Flattening
+###
+
+standard.deck.en <- players.deck.en %>% 
   left_join(deck.families.meta) %>%
   left_join(cards.meta) %>%
   left_join(rituals.meta) %>%
   mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
-  mutate(ritual.icon = ifelse(is.na(ritual.icon), ritual.placeholder, ritual.icon))
-
-standard.deck.en <- standard.deck.multi %>%
-    mutate(type = unlist(type.labels.en[type])) %>%
-    mutate(ritual.description = ifelse(nchar(ritual)>0, paste(ritual.labels.en[["STUDY"]], ": ",
-                                      ritual.study, "; ",
-                                      ritual.labels.en[["TRASMUTATION"]], ": ",
-                                      ritual.trasmutation, "; ",
-                                      ritual.labels.en[["SACRIFICE"]], ": ",
-                                      ritual.sacrifice, sep=""),
-                                      "")) %>%
-    mutate(title = title.en) %>%
-    mutate(description = description.en) %>%
-    mutate(caption = caption.en) %>%
-    select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
+  mutate(ritual.icon = ifelse(is.na(ritual.icon), ritual.placeholder, ritual.icon)) %>%
+  select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
 write.csv(standard.deck.en, file = "./data/woc.deck.en.csv", row.names = FALSE, na = "")
 
-message(paste("\n\t############################\n",
-              "\t# DECK: Standard Deck (EN)",
-              "\n\t#",
-              "\n\t# DIMENSION: ", NROW(standard.deck.en), " cards",
-              "\n\t# FAMILIES: ", paste(unique(standard.deck.en$family), collapse=", "),
-              "\n\t# STATUS: READY",
-              "\n\t###########\n", sep=""))
-
-standard.deck.it <- standard.deck.multi %>%
-  mutate(type = unlist(type.labels.it[type])) %>%
-  mutate(ritual.description = ifelse(nchar(ritual)>0, paste(ritual.labels.it[["STUDY"]], ": ",
-                                                            ritual.study, "; ",
-                                                            ritual.labels.it[["TRASMUTATION"]], ": ",
-                                                            ritual.trasmutation, "; ",
-                                                            ritual.labels.it[["SACRIFICE"]], ": ",
-                                                            ritual.sacrifice, sep=""),
-                                     "")) %>%
-  mutate(title = title.it) %>%
-  mutate(description = description.it) %>%
-  mutate(caption = caption.it) %>%
-  mutate(ritual.description = gsub("FW", "SP", ritual.description)) %>%
-  mutate(ritual.description = gsub("AS", "SA", ritual.description)) %>%
-  mutate(ritual.description = gsub("DM", "MO", ritual.description)) %>%
-  mutate(ritual.description = gsub("OBS", "OSS", ritual.description)) %>%
-  mutate(ritual.description = gsub("RIS", "RIC", ritual.description)) %>%
-  mutate(ritual.description = gsub("EDS", "SEG", ritual.description)) %>%
-  mutate(ritual.description = gsub("PLA", "ARC", ritual.description)) %>%
-  mutate(ritual.description = gsub("EN", "EN", ritual.description)) %>%
+standard.deck.it <- players.deck.it %>% 
+  left_join(deck.families.meta) %>%
+  left_join(cards.meta) %>%
+  left_join(rituals.meta) %>%
+  mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
+  mutate(ritual.icon = ifelse(is.na(ritual.icon), ritual.placeholder, ritual.icon)) %>%
   select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
 write.csv(standard.deck.it, file = "./data/woc.deck.it.csv", row.names = FALSE, na = "")
-
-message(paste("\n\t############################\n",
-              "\t# DECK: Standard Deck (IT)",
-              "\n\t#",
-              "\n\t# DIMENSION: ", NROW(standard.deck.it), " cards",
-              "\n\t# FAMILIES: ", paste(unique(standard.deck.it$family), collapse=", "),
-              "\n\t# STATUS: READY",
-              "\n\t###########\n", sep=""))
