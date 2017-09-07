@@ -17,7 +17,7 @@ deck.parsing <- function(deck, domain = NULL){
                 t <- xml_find_first(x, ".//title")
                 title <- do.call(gettextf, c(list(xml_text(xml_find_first(t, ".//label"))), lapply(xml_find_all(t, ".//arg"), function(arg){
                   if(xml_has_attr(arg, "unit")) return(sprintf("%s %s", xml_text(arg), gettext(xml_attr(arg, "unit"), domain = domain)))
-                  return(xml_text(arg))
+                  return(gettext(xml_text(arg), domain = domain))
                 }), domain = domain))
               }
               
@@ -27,7 +27,7 @@ deck.parsing <- function(deck, domain = NULL){
                 t <- xml_find_first(x, ".//caption")
                 caption <- do.call(gettextf, c(list(xml_text(xml_find_first(t, ".//label"))), lapply(xml_find_all(t, ".//arg"), function(arg){
                   if(xml_has_attr(arg, "unit")) return(sprintf("%s %s", xml_text(arg), gettext(xml_attr(arg, "unit"), domain = domain)))
-                  return(xml_text(arg))
+                  return(gettext(xml_text(arg), domain = domain))
                 }), domain = domain))
               }
               
@@ -37,7 +37,7 @@ deck.parsing <- function(deck, domain = NULL){
                 t <- xml_find_first(x, ".//combination")
                 combination <- do.call(gettextf, c(list(xml_text(xml_find_first(t, ".//label"))), lapply(xml_find_all(t, ".//arg"), function(arg){
                   if(xml_has_attr(arg, "unit")) return(sprintf("%s %s", xml_text(arg), gettext(xml_attr(arg, "unit"), domain = domain)))
-                  return(xml_text(arg))
+                  return(gettext(xml_text(arg), domain = domain))
                 }), domain = domain))
               }
               
@@ -47,7 +47,7 @@ deck.parsing <- function(deck, domain = NULL){
                 t <- xml_find_first(x, ".//description")
                 description <- do.call(gettextf, c(list(xml_text(xml_find_first(t, ".//label"))), lapply(xml_find_all(t, ".//arg"), function(arg){
                   if(xml_has_attr(arg, "unit")) return(sprintf("%s %s", xml_text(arg), gettext(xml_attr(arg, "unit"), domain = domain)))
-                  return(xml_text(arg))
+                  return(gettext(xml_text(arg), domain = domain))
                 }), domain = domain))
               }
               
@@ -81,7 +81,7 @@ deck.parsing <- function(deck, domain = NULL){
                 t <- xml_find_first(x, ".//ritual")
                 ritual <- do.call(paste, lapply(xml_find_all(t, ".//phase"), function(phase){do.call(gettextf, c(list(xml_text(xml_find_first(phase, ".//label"))), lapply(xml_find_all(t, ".//arg"), function(arg){
                   if(xml_has_attr(arg, "unit")) return(sprintf("%s %s", xml_text(arg), gettext(xml_attr(arg, "unit"), domain = domain)))
-                  return(xml_text(arg))
+                  return(gettext(xml_text(arg), domain = domain))
                 }), domain = domain))}))
               }
               
