@@ -8,7 +8,7 @@ At the end of the game, the player with the most Knowledge Points is the winner.
 
 ## Game Components
 
-* 4 __Seeker markers__ in different colors, 1 per player;
+* 4 __Seeker markers__(SM) in different colors, 1 per player;
 * 4 __Search Order counters__, with a number ranging from 1 to 4;
 * 4 __Great Old Ones markers__, in different colors, 1 per player;
 * 4 __Ritual Counters__ in different colors, 1 per player;
@@ -17,7 +17,7 @@ At the end of the game, the player with the most Knowledge Points is the winner.
 	* 36 __Forbidden Wisdom cards__, brown in back and front;
 	* 24 __Alien Science cards__, green in back and front;
 	* 12 __Dark Master cards__, blue in back and front;
-	* 24 __Entity cards__, red in back and front;
+	* 24 __Entity cards__(EN), red in back and front;
 * 12 __Arcane Place tiles__: 4 Cities, 4 Ruins, 4 Elsewhere;
 * 4 __Great Old One__ cards;
 * 1 __Ritual Dashboard__;

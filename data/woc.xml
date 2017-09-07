@@ -138,7 +138,7 @@
     <label>Tear of your own body</label>
   </caption>
   <description>
-    <label>Replace your Searcher marker with one of your opponent's.</label>
+    <label>Replace your Searcher marker with one of your opponents&apos;.</label>
   </description>
   <knowledge.points>2</knowledge.points>
 </card>
@@ -184,9 +184,9 @@
     <label>Presage of Insanity</label>
   </caption>
   <description>
-    <label>You gain %s equal to the number of all %s and %s cards in your own.</label>
+    <label>You gain %s equal to the number of all %s and %s cards in your own Learning Area.</label>
     <arg>KP</arg>
-    <arg>FM</arg>
+    <arg>FW</arg>
     <arg>DM</arg>
   </description>
   <knowledge.points>?</knowledge.points>
@@ -196,7 +196,7 @@
      <arg unit="FW">1</arg>
      <arg unit="DM">1</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="FW Imm">3</arg>
     </phase>
@@ -210,7 +210,7 @@
 
 <card id="ALAZIF" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label translatable="no">Alazif</label>
   </title>
@@ -229,7 +229,7 @@
      <label>Study: %s</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="Res">1</arg>
      <arg unit="Obs">2</arg>
@@ -244,7 +244,7 @@
 
 <card id="TIARAOFDAGON" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Tiara of Dagon</label>
   </title>
@@ -267,7 +267,7 @@
     <label>Bite of the Devil&apos;s Fly</label>
   </title>
   <caption>
-    <label>Insane Trasmigration</label>
+    <label>Insane Transmigration</label>
   </caption>
   <description>
     <label>Turn an opponent&apos;s %s card of your choice. The owner cannot use it until the beginning of the next turn.</label>
@@ -286,7 +286,7 @@
     <label>Horrible Transformation</label>
   </caption>
   <description>
-    <label>Choose an opponent&apos; %s. It cannot be moved until the end of turn.</label>
+    <label>Choose an opponent&apos;s %s. It cannot be moved until the end of turn.</label>
     <arg>SM</arg>
   </description>
   <knowledge.points>3</knowledge.points>
@@ -302,7 +302,7 @@
     <label>Protective Seal</label>
   </caption>
   <description>
-    <label>It counts as an Elders&apos; Sign.</label>
+    <label>It counts as an Elder Sign.</label>
   </description>
   <knowledge.points>1</knowledge.points>
 </card>
@@ -314,10 +314,10 @@
     <label>Powder of Ibn Ghazi</label>
   </title>
   <caption>
-    <label>Abominius Revelator</label>
+    <label>Abominations Revelator</label>
   </caption>
   <description>
-    <label>Discard one opponent Entity card</label>
+    <label>Discard an opponent&apos;s Entity card</label>
   </description>
   <knowledge.points>2</knowledge.points>
   <ritual type="horror">
@@ -325,7 +325,7 @@
      <label>Study: %s</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="FW">3</arg>
     </phase>
@@ -337,17 +337,17 @@
   </ritual>
 </card>
 
-<card id="PNAKHOTIC" n="1">
+<card id="PNAKOTIC" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Pnakhotic Manuscripts</label>
+    <label>Pnakotic Manuscripts</label>
   </title>
   <caption>
     <label>Ancient Wisdom</label>
   </caption>
   <description>
-    <label>You gain %s and the first %s card from your discards pile.</label>
+    <label>You gain %s and the first %s card from your discard pile.</label>
     <arg unit="KP">2</arg>
     <arg>FW</arg>
   </description>
@@ -357,7 +357,7 @@
      <label>Study: %s;</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="AS">1</arg>
@@ -372,7 +372,7 @@
 
 <card id="CHANTSOFDHOL" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Chants of Dhol</label>
   </title>
@@ -389,7 +389,7 @@
      <label>Study: %s;</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="EN">1</arg>
      <arg unit="Obs">2</arg>
@@ -455,7 +455,7 @@
 
 <card id="MISKATONIC" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label translatable="no">Miskatonic University</label>
   </title>
@@ -479,7 +479,7 @@
 
 <card id="MUSICOFZANN" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Music of Zann</label>
   </title>
@@ -496,7 +496,7 @@
 
 <card id="SHUNNED" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>The Shunned House</label>
   </title>
@@ -505,7 +505,7 @@
   </caption>
   <knowledge.points>?</knowledge.points>
   <combination>
-    <label>Combination: add %s to get %s. For each additional %s added you get %s to a maximum of %s. Then, do not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last %s from the Combination, discards this card.</label>
+    <label>Combination: add %s to get %s. For each additional %s added you get %s to a maximum of %s. Then, do not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last %s from the Combination, discard this card.</label>
     <arg unit="FW">1</arg>
     <arg unit="KP">2</arg>
     <arg>EN</arg>
@@ -523,10 +523,10 @@
     <label>Fragments of Eltdown</label>
   </title>
   <caption>
-    <label>Incomplete Informations</label>
+    <label>Incomplete Information</label>
   </caption>
   <description>
-    <label>Exchange one opponent&apos;s permanent %s with one %s, both randomly chosen.</label>
+    <label>Exchange one opponents&apos; permanent %s with one %s, both randomly chosen.</label>
     <arg>Obs</arg>
     <arg>Ris</arg>
   </description>
@@ -543,7 +543,7 @@
     <label>Visions of Creatures</label>
   </caption>
   <description>
-    <label>You can look the last card on the Entities deck and put on top, if you want.</label>
+    <label>You can look at the last card on the Entities deck and put it on top, if you want.</label>
   </description>
   <knowledge.points>3</knowledge.points>
 </card>
@@ -568,7 +568,7 @@
      <arg unit="FW">1</arg>
      <arg unit="DM">1</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="DM">1</arg>
      <arg unit="EN">1</arg>
@@ -603,7 +603,7 @@
      <label>Study: %s;</label>
      <arg unit="AS">2</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">2</arg>
      <arg unit="EN">1</arg>
@@ -616,7 +616,7 @@
 
 <card id="SEVENHSAN" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Seven Cryptical Books of Hsan</label>
   </title>
@@ -634,7 +634,7 @@
 
 <card id="BROWNJENKINS" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label translatable="no">Brown Jenkins</label>
   </title>
@@ -661,7 +661,7 @@
     <label>Exchange of Knowledge</label>
   </caption>
   <description>
-    <label>Pick up one of your opponents&apos; FW and exchange with one of your own. This exchange is permanent.</label>
+    <label>Pick up one of your opponents&apos; %s and exchange with one of your own. This exchange is permanent.</label>
     <arg>FW</arg>
   </description>
   <knowledge.points>2</knowledge.points>
@@ -670,7 +670,7 @@
      <label>Study: %s;</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="FW">3</arg>
     </phase>
@@ -683,7 +683,7 @@
 
 <card id="GREATRACELIBRARY" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Great Race of Yith&apos;s Library</label>
   </title>
@@ -699,7 +699,7 @@
 
 <card id="SOCIETYPSY" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Society for Psyonic Research</label>
   </title>
@@ -722,7 +722,7 @@
 
 <card id="MRNOYES" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Mr. Noyes</label>
   </title>
@@ -730,7 +730,7 @@
     <label>Expendable Agent</label>
   </caption>
   <description>
-    <label>Discard this card instead of another one you would forced to discard due to any opponents&apos; action</label>
+    <label>Discard this card instead of another one you would be forced to discard due to any opponents&apos; action</label>
   </description>
   <knowledge.points>1</knowledge.points>
 </card>
@@ -742,12 +742,12 @@
     <label>Works of Borellus</label>
   </title>
   <caption>
-    <label>Alchemic Trasmutation</label>
+    <label>Alchemic Transmutation</label>
   </caption>
   <description>
     <label>You can choose to exchange one %s (%s or %s) or %s with one of the same seed available on the %s.</label>
     <arg>FW</arg>
-    <arg>Continuos</arg>
+    <arg>Continuous</arg>
     <arg>Activation</arg>
     <arg>AS</arg>
     <arg>Research Area</arg>
@@ -765,7 +765,7 @@
     <label>Seal the Path</label>
   </caption>
   <description>
-    <label>Place this card on the %s of a Great Old One. It counts as Elders&apos; Sign until the end of the turn.</label>
+    <label>Place this card on the %s of a Great Old One. It counts as an Elder Sign until the end of the turn.</label>
     <arg>Evocation Power</arg>
   </description>
   <knowledge.points>1</knowledge.points>
@@ -790,7 +790,7 @@
 
 <card id="SERPENTCAVE" n="1">
   <family>Forbidden Wisdom</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>The Serpent Cave</label>
   </title>
@@ -798,7 +798,7 @@
     <label>A look into the Past</label>
   </caption>
   <description>
-    <label>For each card you buy, you can take the first one of the same seed at the bottom of your discards pile, instead.</label>
+    <label>For each card you buy, you can take the first one of the same seed at the bottom of your discard pile, instead.</label>
   </description>
   <knowledge.points>1</knowledge.points>
 </card>
@@ -875,7 +875,7 @@
      <arg unit="FW">1</arg>
      <arg unit="AS">1</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">2</arg>
      <arg unit="AS">1</arg>
@@ -895,7 +895,7 @@
     <label>XXXX Machine</label>
   </title>
   <caption>
-    <label>Gate between Dimensions</label>
+    <label>A Gate between Dimensions</label>
   </caption>
   <knowledge.points>3</knowledge.points>
   <combination>
@@ -946,7 +946,7 @@
      <arg unit="FW">1</arg>
      <arg unit="AS">1</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="Res">2</arg>
     </phase>
@@ -999,7 +999,7 @@
      <label>Study: %s;</label>
      <arg unit="EN">2</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="AS">1</arg>
@@ -1038,7 +1038,7 @@
     <label>Yekeb Cube</label>
   </title>
   <caption>
-    <label>Alien Mind Trasmigration</label>
+    <label>Alien Mind Transmigration</label>
   </caption>
   <knowledge.points>4</knowledge.points>
   <combination>
@@ -1053,7 +1053,7 @@
      <arg unit="AS">1</arg>
      <arg unit="EN">1</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="Pla">1</arg>
@@ -1112,10 +1112,10 @@
     <label>Great Race of Yith&apos;s Technology</label>
   </title>
   <caption>
-    <label>Unbelieavable Wonders</label>
+    <label>Unbelievable Wonders</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">2</arg>
     <arg unit="DM">1</arg>
@@ -1125,9 +1125,9 @@
   <knowledge.points>?</knowledge.points>
 </card>
 
-<card id="SHININGTRAPRZOID" n="1">
+<card id="SHININGTRAPEZOID" n="1">
   <family>Alien Science</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Shining Trapezoid</label>
   </title>
@@ -1136,7 +1136,7 @@
   </caption>
   <knowledge.points>?</knowledge.points>
   <combination>
-    <label>Combination: %s + %s. At the beginning of each turn, you can discard a card from the Combination. If you discard a %s, you gain %s. If you discard a %s, you gain %s. You can replace the cards at any time. If you remove all the cards from the Combination, discars this card too.</label>
+    <label>Combination: %s + %s. At the beginning of each turn, you can discard a card from the Combination. If you discard %s, you gain %s. If you discard %s, you gain %s. You can replace the cards at any time. If you remove all the cards from the Combination, discard this card too.</label>
     <arg unit="DM">2</arg>
     <arg unit="EN">2</arg>
     <arg>EN</arg>
@@ -1149,7 +1149,7 @@
      <label>Study: %s;</label>
      <arg unit="EN">2</arg>
     </phase>
-    <phase id="trasmutation" pos="2">
+    <phase id="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="DM">1</arg>
      <arg unit="EN">2</arg>
@@ -1174,7 +1174,7 @@
   </caption>
   <knowledge.points>2</knowledge.points>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s %s or %s and put into the owner's discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s %s or %s and put into the owner&apos;s discard pile.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
     <arg>EN</arg>
@@ -1194,7 +1194,7 @@
   </caption>
   <knowledge.points>2</knowledge.points>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s %s or %s and put into the owner's discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s %s or %s and put it into the owner&apos;s discard pile.</label>
     <arg unit="DM">1</arg>
     <arg unit="Obs">1</arg>
     <arg>DM</arg>
@@ -1214,7 +1214,7 @@
   </caption>
   <knowledge.points>2</knowledge.points>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s: this card cannot be locked by an Elders&apos; Sign until the end of the turn.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick a %s: this card cannot be locked by an Elder Sign until the end of the turn.</label>
     <arg unit="EN">1</arg>
     <arg unit="Ris">1</arg>
     <arg>EN</arg>
@@ -1232,7 +1232,7 @@
   </caption>
   <knowledge.points>2</knowledge.points>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s: this card cannot be locked by an Elders&apos; Sign until the end of the turn.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick a %s: this card cannot be locked by an Elder Sign until the end of the turn.</label>
     <arg unit="DM">1</arg>
     <arg unit="Ris">1</arg>
     <arg>DM</arg>
@@ -1269,7 +1269,7 @@
   </caption>
   <knowledge.points>3</knowledge.points>
   <combination>
-    <label>Combination: %s + %s. You get an %s card from the %s or from a discards pile of your choice.</label>
+    <label>Combination: %s + %s. You get an %s card from the %s or from a discard pile of your choice.</label>
     <arg unit="AS">2</arg>
     <arg unit="EN">1</arg>
     <arg>AS</arg>
@@ -1287,7 +1287,7 @@
     <label>Evidence of Abyssal Intelligence</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s. You get an %s card from the %s or from a discards pile of your choice.</label>
+    <label>Combination: %s + %s. You get an %s card from the %s or from a discard pile of your choice.</label>
     <arg unit="DM">2</arg>
     <arg unit="EN">1</arg>
     <arg>DM</arg>
@@ -1303,7 +1303,7 @@
     <label>XXXX Virus</label>
   </title>
   <caption>
-    <label>Infection not of This World</label>
+    <label>An Infection not of This World</label>
   </caption>
   <combination>
     <label>Combination: %s + %s + %s + %s. Flip an opponent&apos;s %s or %s. It cannot be used until the end of the turn.</label>
@@ -1312,14 +1312,14 @@
     <arg unit="DM">1</arg>
     <arg unit="EN">1</arg>
     <arg>Activation</arg>
-    <arg>Continuos</arg>
+    <arg>Continuous</arg>
   </combination>
   <knowledge.points>4</knowledge.points>
 </card>
 
 <card id="JOSEPHCURWEN" n="1">
   <family>Dark Master</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Joseph Curwen</label>
   </title>
