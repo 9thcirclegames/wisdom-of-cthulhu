@@ -2,3 +2,4 @@ test.csv
 .Rproj.user
 woc.deck.*.csv
 *.~csv
+.Rhistory
