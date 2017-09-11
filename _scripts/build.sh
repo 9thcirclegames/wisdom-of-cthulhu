@@ -19,5 +19,5 @@ cp $TRAVIS_BUILD_DIR/pdf/woc.deck.it.pdf $TRAVIS_BUILD_DIR/pdf/woc.deck.it-$(dat
 rm $TRAVIS_BUILD_DIR/build/*.pdf
 
 # Build rules PDF
-pandoc --variable urlcolor=cyan $TRAVIS_BUILD_DIR/woc.rules.en.md --variable mainfont="Liberation Serif" --variable sansfont="Liberation Sans" -o $TRAVIS_BUILD_DIR/pdf/woc.rules.en.pdf
+pandoc --variable urlcolor=cyan $TRAVIS_BUILD_DIR/woc.rules.en.md --variable mainfont="Liberation Serif" --variable sansfont="Liberation Sans" -o $TRAVIS_BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
 cp $TRAVIS_BUILD_DIR/pdf/woc.rules.en.pdf $TRAVIS_BUILD_DIR/pdf/woc.rules.en-$(date '+%Y%m%d').pdf

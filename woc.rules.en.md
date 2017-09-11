@@ -162,7 +162,7 @@ I passi da seguire per l'Invocazione e l'Evocazione dei Grandi Antichi, utilizza
 	* Studio: avere qualcosa a inizio turno;
 	* Trasformazione: acquisire qualcosa durante il turno;
 	* Sacrificio: scartare qualcosa a fine turno successivo.
-* Per indicare che un requisito è stato soddisfatto la carta va ruotata ogni volta di 90° verso destra (NB: quando una carta viene ruotata tre volte, sodisfacendone tutti i requisiti, il giocatore ottiene subito i Punti Conoscenza delle carte con lo stesso Legame Oscuro dell'Oggetto Rituale in questione);
+* Per indicare che un requisito è stato soddisfatto la carta va ruotata ogni volta di 90 gradi verso destra (NB: quando una carta viene ruotata tre volte, sodisfacendone tutti i requisiti, il giocatore ottiene subito i Punti Conoscenza delle carte con lo stesso Legame Oscuro dell'Oggetto Rituale in questione);
 * Al completamento di un requisito, corrisponde un avanzamento del proprio segnalino Rituale sulla Plancia Rituale;
 * Poteri che completano requisiti gratis o fanno progredire direttamente sulla Plancia Rituale, negli effetti riducono di uno i requisiti di una carta a scelta:  l'Oggetto Rituale può essere ruotato di 90°;
 * Se un carta Oggetto Rituale viene fatta scartare, gli avanzamenti sulla Plancia Rituale non vengono persi;
