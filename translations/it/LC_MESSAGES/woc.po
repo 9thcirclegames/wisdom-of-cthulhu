@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-09-14 00:38+0200\n"
-"PO-Revision-Date: 2017-09-14 00:43+0200\n"
+"PO-Revision-Date: 2017-09-14 00:44+0200\n"
 "Last-Translator: Gabriele Baldassarre\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -871,7 +871,7 @@ msgstr "Angoli Non Euclidei"
 #. (itstool) id: woc.xml#NONEUCLIDEANANGLES_CAPTION
 #: data/woc.xml:815
 msgid "Alien Maths"
-msgstr ""
+msgstr "Matematica Aliena"
 
 #. (itstool) path: combination/label
 #. (itstool) id: woc.xml#NONEUCLIDEANANGLES_COMBINATION
