@@ -1331,6 +1331,80 @@
     <label>The first time you use a %s card, don&apos;t discard it. You can use it a second time, then you must definitively discard it.</label>
     <arg>FW Imm</arg>
   </description>
+  <darkbond type="madness" />
+  <kp>4</kp>
+</card>
+
+<card id="KEZIAMASON" n="1">
+  <family>Dark Master</family>
+  <type>Continuous</type>
+  <title>
+    <label translatable="no">Kezia Mason</label>
+  </title>
+  <caption>
+    <label>Dimensional Persecutor</label>
+  </caption>
+  <description>
+    <label>When you buy a %s, you can take it from the %s, one opponent's %s, from the discard pile (the uppermost card) or drawing from the relative deck.</label>
+    <arg>FW</arg>
+    <arg>Research Area</arg>
+    <arg>Learning Area</arg>
+  </description>
+  <darkbond type="dimension" />
+  <kp>4</kp>
+</card>
+
+<card id="HENRYARMITAGE" n="1">
+  <family>Dark Master</family>
+  <type>Continuous</type>
+  <title>
+    <label translatable="no">Henry Armitage</label>
+  </title>
+  <caption>
+    <label>The Librarian</label>
+  </caption>
+  <description>
+    <label>When you get %s from a %s, you also get the %s of the first %s on the discard pile. Put the latter at bottom of that deck, then.</label>
+    <arg>KP</arg>
+    <arg>FW</arg>
+    <arg>KP</arg>
+    <arg>FW</arg>
+  </description>
+  <darkbond type="horror" />
+  <ritual type="horror">
+    <phase id="study" pos="1">
+     <label>Study: %s;</label>
+     <arg unit="FW">2</arg>
+    </phase>
+    <phase id="transmutation" pos="2">
+     <label>Trans: %s;</label>
+     <arg unit="Ris">3</arg>
+     <arg unit="EN">2</arg>
+    </phase>
+    <phase id="sacrifice" pos="3">
+     <label>Sacrifice: %s + %s</label>
+     <arg unit="FW">2</arg>
+     <arg unit="AS">1</arg>
+   </phase>
+  </ritual>
+  <kp>5</kp>
+</card>
+
+<card id="ALONZITYPER" n="1">
+  <family>Dark Master</family>
+  <type>Continuous</type>
+  <title>
+    <label translatable="no">Alonzo Typer</label>
+  </title>
+  <caption>
+    <label>Detective of the Occult</label>
+  </caption>
+  <description>
+    <label>You get %s every time you buy a %s.</label>
+    <arg unit="KP">1</arg>
+    <arg>FW</arg>
+  </description>
+  <darkbond type="nightmare" />
   <kp>4</kp>
 </card>
 

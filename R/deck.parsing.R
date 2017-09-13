@@ -75,6 +75,12 @@ deck.parsing <- function(deck, domain = NULL){
                 ritual.type <- xml_attr(xml_find_first(x, ".//ritual"), "type")
               }
               
+              ### DARK BOND
+              darkbond.type <- ""
+              if(class((xml_find_first(x, ".//darkbond"))) != "xml_missing"){
+                darkbond.type <- xml_attr(xml_find_first(x, ".//darkbond"), "type")
+              }
+              
               ### RITUAL
               ritual <- ""
               if(class((xml_find_first(x, ".//ritual"))) != "xml_missing"){
@@ -85,7 +91,7 @@ deck.parsing <- function(deck, domain = NULL){
                 }), domain = domain))}))
               }
               
-              return(data.frame(card, card.id, type, family, title, caption, "description"=trimws(paste(combination, description, collapse=" ")), ritual.description = ritual, ritual.type, knowledge.points, stringsAsFactors = FALSE))
+              return(data.frame(card, card.id, type, family, title, caption, "description"=trimws(paste(combination, description, collapse=" ")), ritual.description = ritual, ritual.type, darkbond.type, knowledge.points, stringsAsFactors = FALSE))
               
             })
           
