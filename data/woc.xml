@@ -1377,7 +1377,7 @@
      <arg unit="FW">2</arg>
     </phase>
     <phase id="transmutation" pos="2">
-     <label>Trans: %s;</label>
+     <label>Trans: %s + %s;</label>
      <arg unit="Ris">3</arg>
      <arg unit="EN">2</arg>
     </phase>
@@ -1406,6 +1406,179 @@
   </description>
   <darkbond type="nightmare" />
   <kp>4</kp>
+</card>
+
+<card id="HERBERTWEST" n="1">
+  <family>Dark Master</family>
+  <type>Continuous</type>
+  <title>
+    <label translatable="no">Herbert West</label>
+  </title>
+  <caption>
+    <label>Resuscitator</label>
+  </caption>
+  <description>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <arg>DM</arg>
+    <arg unit="KP">1</arg>
+  </description>
+  <darkbond type="horror" />
+  <kp>5</kp>
+</card>
+
+<card id="CRAWFORDTILLINGHAST" n="1">
+  <family>Dark Master</family>
+  <type>Continuous</type>
+  <title>
+    <label translatable="no">Crawford Tillinghast</label>
+  </title>
+  <caption>
+    <label>Physicist of Beyond</label>
+  </caption>
+  <description>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <arg>AS</arg>
+    <arg unit="KP">1</arg>
+  </description>
+  <darkbond type="nightmare" />
+  <kp>5</kp>
+</card>
+
+<card id="ALFREDCLARENDON" n="1">
+  <family>Dark Master</family>
+  <type>Continuous</type>
+  <title>
+    <label translatable="no">Alfred Clarendon</label>
+  </title>
+  <caption>
+    <label>Biologyst of the Occult</label>
+  </caption>
+  <description>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <arg>FW</arg>
+    <arg unit="KP">1</arg>
+  </description>
+  <darkbond type="madness" />
+  <kp>5</kp>
+</card>
+
+<card id="WILBURWHATELEY" n="1">
+  <family>Dark Master</family>
+  <type>Continuous</type>
+  <title>
+    <label translatable="no">Whilbur Whateley</label>
+  </title>
+  <caption>
+    <label>Servant of the Great Old Ones</label>
+  </caption>
+  <description>
+    <label>Discard a %s and a lock %s to activate the %s one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
+    <arg unit="EN">1</arg>
+    <arg unit="Obs">1</arg>
+    <arg>Evocation Power</arg>
+  </description>
+  <darkbond type="dimension" />
+  <ritual type="dimension">
+    <phase id="study" pos="1">
+     <label>Study: %s;</label>
+     <arg unit="EN">2</arg>
+    </phase>
+    <phase id="transmutation" pos="2">
+     <label>Trans: %s;</label>
+     <arg unit="FW Imm">3</arg>
+    </phase>
+    <phase id="sacrifice" pos="3">
+     <label>Sacrifice: %s</label>
+     <arg unit="EN">3</arg>
+   </phase>
+  </ritual>
+  <kp>5</kp>
+</card>
+
+<card id="RICHARDUPICKMAN" n="1">
+  <family>Dark Master</family>
+  <type>Activation</type>
+  <title>
+    <label translatable="no">Richard U. Pickman</label>
+  </title>
+  <caption>
+    <label>Abominious Painter</label>
+  </caption>
+  <description>
+    <label>Choose %s from the %s, use the Power as it is of your own, then discard it.</label>
+    <arg unit="EN">1</arg>
+    <arg>Evocation Area</arg>
+  </description>
+  <darkbond type="nightmare" />
+  <kp>5</kp>
+</card>
+
+<card id="GEORGEROGERS" n="1">
+  <family>Dark Master</family>
+  <type>Continuous</type>
+  <title>
+    <label translatable="no">George Rogers</label>
+  </title>
+  <caption>
+    <label>Monsters Catcher</label>
+  </caption>
+  <description>
+    <label>For you, each Arcane Place could be activated to buy %s.</label>
+    <arg>EN</arg>
+  </description>
+  <darkbond type="horror" />
+  <kp>5</kp>
+</card>
+
+<card id="RANDOLPHCARTER" n="1">
+  <family>Dark Master</family>
+  <type>Activation</type>
+  <title>
+    <label translatable="no">Randolph Carter</label>
+  </title>
+  <caption>
+    <label>The Dreamer</label>
+  </caption>
+  <description>
+    <label>You can use for free the Power of an Arcane Place even if your Seeker marker is somewhere else.</label>
+  </description>
+  <darkbond type="dimension" />
+  <kp>4</kp>
+</card>
+
+<card id="ASENATH WHITE" n="1">
+  <family>Dark Master</family>
+  <type>Activation</type>
+  <title>
+    <label translatable="no">Asenath White</label>
+  </title>
+  <caption>
+    <label>Possessor of Bodies</label>
+  </caption>
+  <description>
+    <label>Choose %s from the Research Area or from one opponent's Learning Area. You can use his Power as he is under your control. You can't choose the same %s in the next turn.</label>
+    <arg unit="DM">1</arg>
+    <arg>DM</arg>
+  </description>
+  <darkbond type="madness" />
+  <ritual type="madness">
+    <phase id="study" pos="1">
+     <label>Study: %s;</label>
+     <arg unit="DM">2</arg>
+    </phase>
+    <phase id="transmutation" pos="2">
+     <label>Trans: %s + %s + %s;</label>
+     <arg unit="FW">1</arg>
+     <arg unit="DM">1</arg>
+     <arg unit="Place">1</arg>
+    </phase>
+    <phase id="sacrifice" pos="3">
+     <label>Sacrifice: %s + %s</label>
+     <arg unit="FW">2</arg>
+     <arg unit="DM">1</arg>
+   </phase>
+  </ritual>
+  <kp>5</kp>
 </card>
 
 </deck>
