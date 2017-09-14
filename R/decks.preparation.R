@@ -65,7 +65,7 @@ standard.deck.en <- players.deck.en %>%
   left_join(rituals.meta) %>%
   left_join(darkbonds.meta) %>%
   mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
-  mutate(ritual.icon = ifelse(is.na(ritual.icon), ifelse(is.na(darkbond.type), ritual.placeholder, darkbond.icon), ritual.icon)) %>%
+  mutate(ritual.icon = ifelse(is.na(ritual.icon), ifelse(is.na(darkbond.icon), ritual.placeholder, darkbond.icon), ritual.icon)) %>%
   select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
 write.csv(standard.deck.en, file = "./data/woc.deck.en.csv", row.names = FALSE, na = "")
 
@@ -75,6 +75,6 @@ standard.deck.it <- players.deck.it %>%
   left_join(rituals.meta) %>%
   left_join(darkbonds.meta) %>%
   mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
-  mutate(ritual.icon = ifelse(is.na(ritual.icon), ifelse(is.na(darkbond.type), ritual.placeholder, darkbond.icon), ritual.icon)) %>%
+  mutate(ritual.icon = ifelse(is.na(ritual.icon), ifelse(is.na(darkbond.icon), ritual.placeholder, darkbond.icon), ritual.icon)) %>%
   select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
 write.csv(standard.deck.it, file = "./data/woc.deck.it.csv", row.names = FALSE, na = "")
