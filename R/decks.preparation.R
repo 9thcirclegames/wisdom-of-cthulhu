@@ -34,7 +34,7 @@ source("./R/deck.parsing.R")
 # Data Preparation
 ##
 
-bindtextdomain("woc","./translations")
+bindtextdomain(domain = "woc", dirname = "translations")
 
 if(os %in% c("Linux", "Darwin", "Solaris")) {
   Sys.setlocale("LC_ALL", "en_US.UTF-8")
@@ -69,7 +69,7 @@ standard.deck.en <- players.deck.en %>%
   select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
 write.csv(standard.deck.en, file = "./data/woc.deck.en.csv", row.names = FALSE, na = "")
 
-message("English Deck Head:")
+message("English Deck Head:\n")
 print(standard.deck.en[1:5,c(2,3,5,8)])
 
 standard.deck.it <- players.deck.it %>% 
@@ -82,5 +82,5 @@ standard.deck.it <- players.deck.it %>%
   select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
 write.csv(standard.deck.it, file = "./data/woc.deck.it.csv", row.names = FALSE, na = "")
 
-message("Italian Deck HeD:")
+message("Italian Deck Head:\n")
 print(standard.deck.it[1:5,c(2,3,5,8)])
