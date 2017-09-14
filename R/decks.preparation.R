@@ -1,8 +1,8 @@
 #!/usr/bin/env Rscript
 execution.start.time <- Sys.time()
 td <- NULL
-if(nchar(Sys.getenv("$TRAVIS_BUILD_DIR"))>0){
-  setwd(Sys.getenv("$TRAVIS_BUILD_DIR"))
+if(nchar(Sys.getenv("TRAVIS_BUILD_DIR"))>0){
+  setwd(Sys.getenv("TRAVIS_BUILD_DIR"))
   td <- bindtextdomain(domain = "woc", dirname = file.path(Sys.getenv("$TRAVIS_BUILD_DIR"), "translations"))
 } else {
   td <- bindtextdomain(domain = "woc", dirname = file.path(".", "translations"))
