@@ -1581,4 +1581,20 @@
   <kp>5</kp>
 </card>
 
+<card id="DEEPONE" n="3">
+  <family>Entity</family>
+  <type>Immediate</type>
+  <title>
+    <label>Deep One</label>
+  </title>
+  <caption>
+    <label>Blasphemous Defiler</label>
+  </caption>
+  <description>
+    <label>Discard one opponent's Elders' Sign</label>
+  </description>
+  <darkbond type="madness" />
+  <kp></kp>
+</card>
+
 </deck>
