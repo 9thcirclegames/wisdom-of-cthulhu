@@ -1,14 +1,13 @@
 #!/usr/bin/env Rscript
 execution.start.time <- Sys.time()
-if(!interactive()){
-  initial.options <- commandArgs(trailingOnly = FALSE)
-  file.arg.name <- "--file="
-  script.name <- sub(file.arg.name, "", initial.options[grep(file.arg.name, initial.options)])
-  script.basename <- file.path(dirname(script.name), "..")
-  setwd(script.basename)
-  
-  message(paste("The working dir has been set to", script.basename))
+td <- NULL
+if(nchar(Sys.getenv("$TRAVIS_BUILD_DIR"))>0){
+  setwd(Sys.getenv("$TRAVIS_BUILD_DIR"))
+  td <- bindtextdomain(domain = "woc", dirname = file.path(Sys.getenv("$TRAVIS_BUILD_DIR"), "translations"))
+} else {
+  td <- bindtextdomain(domain = "woc", dirname = file.path(".", "translations"))
 }
+message(paste("The text domain was set to", td))
 
 #######################
 # Requirements & Setup
@@ -33,8 +32,6 @@ source("./R/deck.parsing.R")
 ####################
 # Data Preparation
 ##
-
-bindtextdomain(domain = "woc", dirname = "translations")
 
 if(os %in% c("Linux", "Darwin", "Solaris")) {
   Sys.setlocale("LC_ALL", "en_US.UTF-8")
