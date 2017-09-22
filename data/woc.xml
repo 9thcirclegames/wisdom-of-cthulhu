@@ -1591,9 +1591,161 @@
     <label>Blasphemous Defiler</label>
   </caption>
   <description>
-    <label>Discard one opponent's Elders' Sign</label>
+    <label>Discard one opponent's Elders' Sign.</label>
   </description>
   <darkbond type="madness" />
+  <kp></kp>
+</card>
+
+<card id="GHOUL" n="3">
+  <family>Entity</family>
+  <type>Activation</type>
+  <title>
+    <label trandlatable="no">Ghoul</label>
+  </title>
+  <caption>
+    <label>Corpses Devourer</label>
+  </caption>
+  <description>
+    <label>For one turn, you can use a %s of your choice from the discard pile. You cannot use the same %s during the next turn.</label>
+    <arg>DM</arg>
+    <arg>DM</arg>
+  </description>
+  <darkbond type="horror" />
+  <kp></kp>
+</card>
+
+<card id="GHAST" n="2">
+  <family>Entity</family>
+  <type>Immediate</type>
+  <title>
+    <label translatable="no">Ghast</label>
+  </title>
+  <caption>
+    <label>Bestial Servant</label>
+  </caption>
+  <description>
+    <label>Pick a %s from one opponent's Learning Area.</label>
+    <arg>FW</arg>
+  </description>
+  <darkbond type="horror" />
+  <kp></kp>
+</card>
+
+<card id="ELDERTHING" n="2">
+  <family>Entity</family>
+  <type>Activation</type>
+  <title>
+    <label>Elder Thing</label>
+  </title>
+  <caption>
+    <label>Custodian of Lost Secrets</label>
+  </caption>
+  <description>
+    <label>You can pick back a %s or %s from your discard pile.</label>
+    <arg>EN</arg>
+    <arg>AS</arg>
+  </description>
+  <darkbond type="horror" />
+  <kp></kp>
+</card>
+
+<card id="NIGHTGAUNT" n="2">
+  <family>Entity</family>
+  <type>Activation</type>
+  <title>
+    <label>Night Gaunt</label>
+  </title>
+  <caption>
+    <label>Through Dreams</label>
+  </caption>
+  <description>
+    <label>You can use the Power of a %s from one opponent's Learning Area.</label>
+    <arg>FW</arg>
+  </description>
+  <darkbond type="nightmare" />
+  <kp></kp>
+</card>
+
+<card id="MIGO" n="2">
+  <family>Entity</family>
+  <type>Activation</type>
+  <title>
+    <label translatable="no">Mi-Go</label>
+  </title>
+  <caption>
+    <label>Lords of Alien Knownledge</label>
+  </caption>
+  <description>
+    <label>You can use this card as any other %s card. This card is discarded when the Combination is completed.</label>
+    <arg>AS Combination</arg>
+  </description>
+  <darkbond type="dimension" />
+  <kp></kp>
+</card>
+
+<card id="GREATRACEYITH" n="2">
+  <family>Entity</family>
+  <type>Immediate</type>
+  <title>
+    <label>Great Race of Yith</label>
+  </title>
+  <caption>
+    <label>Mind Swappers</label>
+  </caption>
+  <description>
+    <label>Pick %s from the opponent who has more.</label>
+    <arg unit="KP">4</arg>
+  </description>
+  <darkbond type="dimension" />
+  <kp></kp>
+</card>
+
+<card id="SHOGGOTH" n="1">
+  <family>Entity</family>
+  <type>Activation</type>
+  <title>
+    <label translatable="no">Shoggoth</label>
+  </title>
+  <caption>
+    <label>Unstoppable Destroyer</label>
+  </caption>
+  <description>
+    <label>Take one card of your choice from either the Research Area or one opponent's Learning Area. Put this card in the discard pile.</label>
+  </description>
+  <darkbond type="horror" />
+  <kp></kp>
+</card>
+
+<card id="LENGSPYDER" n="1">
+  <family>Entity</family>
+  <type>Immediate</type>
+  <title>
+    <label>Leng Spyder</label>
+  </title>
+  <caption>
+    <label>Repugnant Hunter</label>
+  </caption>
+  <description>
+    <label>Choose one opponent's Seeker Marker and replace with your one. Discard the first.</label>
+  </description>
+  <darkbond type="dimension" />
+  <kp></kp>
+</card>
+
+<card id="FLYINGOCTOPUS" n="1">
+  <family>Entity</family>
+  <type>Activation</type>
+  <title>
+    <label>Flying Octopus</label>
+  </title>
+  <caption>
+    <label>Terrible Prosecutor</label>
+  </caption>
+  <description>
+    <label>Take one card of your choice from either the Evocation Area or one opponent's Learning Area. Put this card in the discard pile.</label>
+  </description>
+  <darkbond type="nightmare" />
   <kp></kp>
 </card>
 
