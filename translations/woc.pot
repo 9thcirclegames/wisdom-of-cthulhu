@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-09-22 23:42+0200\n"
+"POT-Creation-Date: 2017-09-24 00:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,7 @@ msgstr ""
 #: ./data/woc.xml:1423
 #: ./data/woc.xml:1441
 #: ./data/woc.xml:1459
+#: ./data/woc.xml:1698
 msgid "KP"
 msgstr ""
 
@@ -303,7 +304,7 @@ msgstr ""
 
 #. (itstool) path: phase/label
 #. (itstool) id: woc.xml#SILVERKEY_PHASE
-#. (itstool) id: woc.xml#ESSENTIALSALTS_PHASE
+#. (itstool) id: woc.xml#ESSENTIALSALTES_PHASE
 #. (itstool) id: woc.xml#STELEOFDAGON_PHASE
 #. (itstool) id: woc.xml#PNAKOTIC_PHASE
 #. (itstool) id: woc.xml#CHANTSOFDHOL_PHASE
@@ -313,7 +314,7 @@ msgstr ""
 #. (itstool) id: woc.xml#SHININGTRAPEZOID_PHASE
 #. (itstool) id: woc.xml#HENRYARMITAGE_PHASE
 #. (itstool) id: woc.xml#WILBURWHATELEY_PHASE
-#. (itstool) id: woc.xml#ASENATH WHITE_PHASE
+#. (itstool) id: woc.xml#ASENATHWAITE_PHASE
 #: ./data/woc.xml:84
 #: ./data/woc.xml:115
 #: ./data/woc.xml:162
@@ -331,7 +332,7 @@ msgstr ""
 
 #. (itstool) path: phase/label
 #. (itstool) id: woc.xml#SILVERKEY_PHASE
-#. (itstool) id: woc.xml#ESSENTIALSALTS_PHASE
+#. (itstool) id: woc.xml#ESSENTIALSALTES_PHASE
 #. (itstool) id: woc.xml#ALAZIF_PHASE
 #. (itstool) id: woc.xml#PNAKOTIC_PHASE
 #. (itstool) id: woc.xml#CHANTSOFDHOL_PHASE
@@ -381,25 +382,25 @@ msgid "Sacrifice: %s"
 msgstr ""
 
 #. (itstool) path: title/label
-#. (itstool) id: woc.xml#ESSENTIALSALTS_TITLE
+#. (itstool) id: woc.xml#ESSENTIALSALTES_TITLE
 #: ./data/woc.xml:103
-msgid "Essential Salts"
+msgid "Essential Saltes"
 msgstr ""
 
 #. (itstool) path: caption/label
-#. (itstool) id: woc.xml#ESSENTIALSALTS_CAPTION
+#. (itstool) id: woc.xml#ESSENTIALSALTES_CAPTION
 #: ./data/woc.xml:106
 msgid "Bring back your Ancestors"
 msgstr ""
 
 #. (itstool) path: description/label
-#. (itstool) id: woc.xml#ESSENTIALSALTS_DESCRIPTION
+#. (itstool) id: woc.xml#ESSENTIALSALTES_DESCRIPTION
 #: ./data/woc.xml:109
 msgid "You can bring back a %s from your discard pile."
 msgstr ""
 
 #. (itstool) path: phase/label
-#. (itstool) id: woc.xml#ESSENTIALSALTS_PHASE
+#. (itstool) id: woc.xml#ESSENTIALSALTES_PHASE
 #. (itstool) id: woc.xml#STELEOFDAGON_PHASE
 #. (itstool) id: woc.xml#DREAMSOFCTHULHU_PHASE
 #. (itstool) id: woc.xml#ALAZIF_PHASE
@@ -409,7 +410,7 @@ msgstr ""
 #. (itstool) id: woc.xml#BLACKSTONE_PHASE
 #. (itstool) id: woc.xml#GEMOFNATH_PHASE
 #. (itstool) id: woc.xml#HENRYARMITAGE_PHASE
-#. (itstool) id: woc.xml#ASENATH WHITE_PHASE
+#. (itstool) id: woc.xml#ASENATHWAITE_PHASE
 #: ./data/woc.xml:124
 #: ./data/woc.xml:170
 #: ./data/woc.xml:204
@@ -983,19 +984,19 @@ msgid "If no Great Old One was already evocated, you can use any of the avaialab
 msgstr ""
 
 #. (itstool) path: title/label
-#. (itstool) id: woc.xml#SERPENTCAVE_TITLE
+#. (itstool) id: woc.xml#SNAKEDEN_TITLE
 #: ./data/woc.xml:797
-msgid "The Serpent Cave"
+msgid "The Snake Den"
 msgstr ""
 
 #. (itstool) path: caption/label
-#. (itstool) id: woc.xml#SERPENTCAVE_CAPTION
+#. (itstool) id: woc.xml#SNAKEDEN_CAPTION
 #: ./data/woc.xml:800
 msgid "A look into the Past"
 msgstr ""
 
 #. (itstool) path: description/label
-#. (itstool) id: woc.xml#SERPENTCAVE_DESCRIPTION
+#. (itstool) id: woc.xml#SNAKEDEN_DESCRIPTION
 #: ./data/woc.xml:803
 msgid "For each card you buy, you can take the first one of the same seed at the bottom of your discard pile, instead."
 msgstr ""
@@ -1146,7 +1147,7 @@ msgstr ""
 
 #. (itstool) path: phase/label
 #. (itstool) id: woc.xml#OLDONESPROTOPLASM_PHASE
-#. (itstool) id: woc.xml#ASENATH WHITE_PHASE
+#. (itstool) id: woc.xml#ASENATHWAITE_PHASE
 #: ./data/woc.xml:1004
 #: ./data/woc.xml:1570
 msgid "Trans: %s + %s + %s;"
@@ -1513,13 +1514,13 @@ msgid "You can use for free the Power of an Arcane Place even if your Seeker mar
 msgstr ""
 
 #. (itstool) path: caption/label
-#. (itstool) id: woc.xml#ASENATH WHITE_CAPTION
+#. (itstool) id: woc.xml#ASENATHWAITE_CAPTION
 #: ./data/woc.xml:1556
 msgid "Possessor of Bodies"
 msgstr ""
 
 #. (itstool) path: description/label
-#. (itstool) id: woc.xml#ASENATH WHITE_DESCRIPTION
+#. (itstool) id: woc.xml#ASENATHWAITE_DESCRIPTION
 #: ./data/woc.xml:1559
 msgid "Choose %s from the Research Area or from one opponent's Learning Area. You can use his Power as he is under your control. You can't choose the same %s in the next turn."
 msgstr ""
@@ -1539,6 +1540,150 @@ msgstr ""
 #. (itstool) path: description/label
 #. (itstool) id: woc.xml#DEEPONE_DESCRIPTION
 #: ./data/woc.xml:1594
-msgid "Discard one opponent's Elders' Sign"
+msgid "Discard one opponent's Elders' Sign."
+msgstr ""
+
+#. (itstool) path: title/label
+#. (itstool) id: woc.xml#GHOUL_TITLE
+#: ./data/woc.xml:1604
+msgid "Ghoul"
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#GHOUL_CAPTION
+#: ./data/woc.xml:1607
+msgid "Corpses Devourer"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#GHOUL_DESCRIPTION
+#: ./data/woc.xml:1610
+msgid "For one turn, you can use a %s of your choice from the discard pile. You cannot use the same %s during the next turn."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#GHAST_CAPTION
+#: ./data/woc.xml:1625
+msgid "Bestial Servant"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#GHAST_DESCRIPTION
+#: ./data/woc.xml:1628
+msgid "Pick a %s from one opponent's Learning Area."
+msgstr ""
+
+#. (itstool) path: title/label
+#. (itstool) id: woc.xml#ELDERTHING_TITLE
+#: ./data/woc.xml:1639
+msgid "Elder Thing"
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#ELDERTHING_CAPTION
+#: ./data/woc.xml:1642
+msgid "Custodian of Lost Secrets"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#ELDERTHING_DESCRIPTION
+#: ./data/woc.xml:1645
+msgid "You can pick back a %s or %s from your discard pile."
+msgstr ""
+
+#. (itstool) path: title/label
+#. (itstool) id: woc.xml#NIGHTGAUNT_TITLE
+#: ./data/woc.xml:1657
+msgid "Night Gaunt"
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#NIGHTGAUNT_CAPTION
+#: ./data/woc.xml:1660
+msgid "Through Dreams"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#NIGHTGAUNT_DESCRIPTION
+#: ./data/woc.xml:1663
+msgid "You can use the Power of a %s from one opponent's Learning Area."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#MIGO_CAPTION
+#: ./data/woc.xml:1677
+msgid "Lords of Alien Knownledge"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#MIGO_DESCRIPTION
+#: ./data/woc.xml:1680
+msgid "You can use this card as any other %s card. This card is discarded when the Combination is completed."
+msgstr ""
+
+#. (itstool) path: title/label
+#. (itstool) id: woc.xml#GREATRACEYITH_TITLE
+#: ./data/woc.xml:1691
+msgid "Great Race of Yith"
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#GREATRACEYITH_CAPTION
+#: ./data/woc.xml:1694
+msgid "Mind Swappers"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#GREATRACEYITH_DESCRIPTION
+#: ./data/woc.xml:1697
+msgid "Pick %s from the opponent who has more."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#SHOGGOTH_CAPTION
+#: ./data/woc.xml:1711
+msgid "Unstoppable Destroyer"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#SHOGGOTH_DESCRIPTION
+#: ./data/woc.xml:1714
+msgid "Take one card of your choice from either the Research Area or one opponent's Learning Area. Put this card in the discard pile."
+msgstr ""
+
+#. (itstool) path: title/label
+#. (itstool) id: woc.xml#LENGSPYDER_TITLE
+#: ./data/woc.xml:1724
+msgid "Leng Spyder"
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#LENGSPYDER_CAPTION
+#: ./data/woc.xml:1727
+msgid "Repugnant Hunter"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#LENGSPYDER_DESCRIPTION
+#: ./data/woc.xml:1730
+msgid "Choose one opponent's Seeker Marker and replace with your one. Discard the first."
+msgstr ""
+
+#. (itstool) path: title/label
+#. (itstool) id: woc.xml#FLYINGOCTOPUS_TITLE
+#: ./data/woc.xml:1740
+msgid "Flying Octopus"
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.xml#FLYINGOCTOPUS_CAPTION
+#: ./data/woc.xml:1743
+msgid "Terrible Prosecutor"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.xml#FLYINGOCTOPUS_DESCRIPTION
+#: ./data/woc.xml:1746
+msgid "Take one card of your choice from either the Evocation Area or one opponent's Learning Area. Put this card in the discard pile."
 msgstr ""
 
