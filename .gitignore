@@ -36,7 +36,9 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-countersheet.py
 *.pdf
-/build/
-/pdf/
+build
+pdf
+.Rproj.user
+
+countersheet.py
