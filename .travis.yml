@@ -31,7 +31,6 @@ addons:
     - language-pack-fr
     - ghostscript
     - libgs-dev
-    - gs-esp
 git:
   submodules: false
 cache:
