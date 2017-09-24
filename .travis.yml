@@ -29,6 +29,9 @@ addons:
     - lmodern
     - language-pack-it
     - language-pack-fr
+    - ghostscript
+    - libgs-dev
+    - gs-esp
 git:
   submodules: false
 cache:
@@ -41,7 +44,6 @@ before_install:
 install:
 - pip install -U pip wheel
 - pip install --requirement=$TRAVIS_BUILD_DIR/requirements.txt
-- export PYTHONPATH=/usr/local/lib/python:/usr/share/inkscape/extensions/:$PYTHONPATH
 - mkdir -p $HOME/Rlib
 - echo 'R_LIBS=~/Rlib' > $HOME/.Renviron
 - echo 'options(repos = "http://cran.rstudio.com")' > $HOME/.Rprofile

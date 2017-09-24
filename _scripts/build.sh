@@ -1,20 +1,52 @@
-#!/bin/bash
-set -x
+#!/usr/bin/env bash
 
-sed -i 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuuuuuAAAAEEEEIIIIOOOOUUUUUUUU/' $TRAVIS_BUILD_DIR/data/standard.deck.csv
+# Build Dir
+if [ -n "${TRAVIS+x}" ]; then
+  echo "** Executing in Travis CI environment";
+  export BUILD_DIR=$TRAVIS_BUILD_DIR
+ else
+   if [ -n "${WOC_BUILD_DIR+x}" ]; then
+     echo "** Executing in local environment; build dir set to $WOC_BUILD_DIR";
+     export BUILD_DIR=$WOC_BUILD_DIR
+   else
+     echo "** Executing in local environment; build dir set  to current directory"
+     export BUILD_DIR=`pwd`
+     exit 1
+   fi
+fi
 
-mkdir $TRAVIS_BUILD_DIR/build
-mkdir $TRAVIS_BUILD_DIR/pdf
+# Inkscape Modules Location
+if [ "$(uname)" == "Darwin" ]; then
+  export PYTHONPATH=/usr/local/lib/python:/Applications/Inkscape.app/Contents/Resources/share/inkscape/extensions:$PYTHONPATH
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  export PYTHONPATH=/usr/local/lib/python:/usr/share/inkscape/extensions/:$PYTHONPATH
+fi
 
-Rscript --no-save --no-restore --verbose $TRAVIS_BUILD_DIR/R/decks.preparation.R
+mkdir $BUILD_DIR/build
+mkdir $BUILD_DIR/pdf
 
-python $TRAVIS_BUILD_DIR/countersheet.py -r 30 -n deck -d $TRAVIS_BUILD_DIR/data/woc.deck.en.csv -p $TRAVIS_BUILD_DIR/build $TRAVIS_BUILD_DIR/woc.deck.svg > $TRAVIS_BUILD_DIR/build/woc.deck.en.svg
-pdftk $TRAVIS_BUILD_DIR/build/*.pdf cat output $TRAVIS_BUILD_DIR/pdf/woc.deck.en.pdf
-rm $TRAVIS_BUILD_DIR/build/*.pdf
+cp $BUILD_DIR/*.png $BUILD_DIR/build/
 
-python $TRAVIS_BUILD_DIR/countersheet.py -r 30 -n deck -d $TRAVIS_BUILD_DIR/data/woc.deck.it.csv -p $TRAVIS_BUILD_DIR/build $TRAVIS_BUILD_DIR/woc.deck.svg > $TRAVIS_BUILD_DIR/build/woc.deck.it.svg
-pdftk $TRAVIS_BUILD_DIR/build/*.pdf cat output $TRAVIS_BUILD_DIR/pdf/woc.deck.it.pdf
-rm $TRAVIS_BUILD_DIR/build/*.pdf
+Rscript --no-save --no-restore --verbose $BUILD_DIR/R/decks.preparation.R
+
+### English
+python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/data/woc.deck.en.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.en.svg
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.deck.en.pdf $BUILD_DIR/build/*.pdf
+rm $BUILD_DIR/build/*.pdf
+
+### Italian
+
+# Workaround due to countersheetsextension not supporting UTF-8
+#if [ "$(uname)" == "Darwin" ]; then
+#  sed -i '' 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuuuuuAAAAEEEEIIIIOOOOUUUUUUUU/' $BUILD_DIR/data/woc.deck.it.csv
+#elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+#  sed -i 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuuuuuAAAAEEEEIIIIOOOOUUUUUUUU/' $BUILD_DIR/data/woc.deck.it.csv
+#fi
+python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/data/woc.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.it.svg
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.deck.it.pdf $BUILD_DIR/build/*.pdf
+rm $BUILD_DIR/build/*.pdf
+
+rm $BUILD_DIR/build/*.*
 
 # Build rules PDF
-pandoc --variable urlcolor=cyan $TRAVIS_BUILD_DIR/woc.rules.en.md --variable mainfont="Liberation Serif" --variable sansfont="Liberation Sans" -o $TRAVIS_BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
+pandoc --variable urlcolor=cyan $BUILD_DIR/woc.rules.en.md --variable mainfont="Liberation Serif" --variable sansfont="Liberation Sans" -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
