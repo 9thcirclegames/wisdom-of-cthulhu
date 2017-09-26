@@ -1,19 +1,24 @@
 #!/usr/bin/env Rscript
 execution.start.time <- Sys.time()
 td <- NULL
-if(nchar(Sys.getenv("TRAVIS_BUILD_DIR"))>0){
-  setwd(Sys.getenv("TRAVIS_BUILD_DIR"))
-  td <- bindtextdomain(domain = "woc", dirname = file.path(Sys.getenv("TRAVIS_BUILD_DIR"), "translations"))
+if(nchar(Sys.getenv("BUILD_DIR"))>0){
+  setwd(Sys.getenv("BUILD_DIR"))
+  td <- bindtextdomain(domain = "woc", dirname = file.path(Sys.getenv("BUILD_DIR"), "translations"))
 } else {
   td <- bindtextdomain(domain = "woc", dirname = file.path(".", "translations"))
 }
 message(paste("The text domain was set to", td))
 
+lang <- Sys.getenv("WOC_DECK_LOCALE")
+if(nchar(lang)==0) lang <- "en"
+
+message(paste("Rendering locale:", lang))
+
 #######################
 # Requirements & Setup
 ##
-if (!require("pacman")) install.packages("pacman"); library(pacman)
-invisible(p_load("dplyr", "xml2"))
+if (!require("pacman")) install.packages("pacman"); invisible(library(pacman))
+invisible(p_load("dplyr", "xml2", "tidyr"))
 
 os <- Sys.info()["sysname"]
 
@@ -26,58 +31,74 @@ cards.meta <- read.csv(file="./data/cards.meta.csv", stringsAsFactors = FALSE, c
 
 picture.placeholder <- "picture.placeholder.png"
 ritual.placeholder <- "icon.blank.png"
+darkbond.placeholder <- "icon.blank.png"
 
 source("./R/deck.parsing.R")
+
+# TODO Add better internationalization support
+switch(lang,
+       en={
+         language="English"
+         charset="en_US.UTF-8"
+       },
+       it={
+         language="Italian"
+         charset="it_IT.UTF-8"
+       }
+)
 
 ####################
 # Data Preparation
 ##
 
-if(os %in% c("Linux", "Darwin", "Solaris")) {
-  Sys.setlocale("LC_ALL", "en_US.UTF-8")
+message(paste("Setting locale to", if(os %in% c("Linux", "Darwin", "Solaris")) {
+  Sys.setlocale("LC_ALL", charset)
   } else {
-  Sys.setlocale("LC_ALL", "English")
-  }
-Sys.setenv(LANG = "en_US.UTF-8")
-players.deck.en <- deck.parsing(woc.decks, domain = "woc")
+  Sys.setlocale("LC_ALL", language)
+  }))
+Sys.setenv(LANG = charset)
 
-if(os %in% c("Linux", "Darwin", "Solaris")) {
-  Sys.setlocale("LC_ALL", "it_IT.UTF-8")
-} else {
-  Sys.setlocale("LC_ALL", "Italian")
-}
-Sys.setenv(LANG = "it_IT.UTF-8")
-players.deck.it <- deck.parsing(woc.decks, domain = "woc")
+players.deck <- deck.parsing(woc.decks, domain = "woc")
 
 ####################
 # Deck Flattening
 ###
 
-# NOTE:
-# In this card layout we put darkbond and ritual type at the same position
+affected.columns.idx <- which(grepl("ritual\\.(study|transmutation|sacrifice).*", colnames(players.deck), perl = TRUE))
+affected.columns.names <- colnames(players.deck)[affected.columns.idx]
 
-standard.deck.en <- players.deck.en %>% 
-  left_join(deck.families.meta) %>%
-  left_join(cards.meta) %>%
-  left_join(rituals.meta) %>%
-  left_join(darkbonds.meta) %>%
+ritual.sub <- as.data.frame(do.call(cbind, lapply(affected.columns.idx, function(i, deck){
+  d <- gsub("FW Imm", "icon.forbidden-wisdom-immediate.png", deck[,i])
+  d <- gsub("FW", "icon.forbidden-wisdom.png", d)
+  d <- gsub("DM", "icon.dark-master.png", d)
+  d <- gsub("EN", "icon.entity.png", d)
+  d <- gsub("AS", "icon.alien-science.png", d)
+  d <- gsub("Place", "icon.arcane-place.png", d)
+  d <- gsub("NULL", "icon.blank.png", d)
+  d <- gsub("Res", "icon.research.png", d)
+  d <- gsub("Obs", "icon.obsession.png", d)
+  return(d)
+}, deck = players.deck)), stringsAsFactors = FALSE)
+colnames(ritual.sub) <- affected.columns.names
+
+standard.deck <- players.deck %>% 
+  left_join(deck.families.meta, by = "family") %>%
+  left_join(cards.meta, by = "card.id") %>%
+  left_join(rituals.meta, by = "ritual.type") %>%
+  left_join(darkbonds.meta, by = "darkbond.type") %>%
+  mutate(family.icon = gsub("background.", "icon.", background)) %>%
   mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
-  mutate(ritual.icon = ifelse(is.na(ritual.icon), ifelse(is.na(darkbond.icon), ritual.placeholder, darkbond.icon), ritual.icon)) %>%
-  select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
-write.csv(standard.deck.en, file = "./data/woc.deck.en.csv", row.names = FALSE, na = "")
+  mutate(ritual.icon = ifelse(is.na(ritual.icon), ritual.placeholder, ritual.icon)) %>%
+  mutate(darkbond.icon = ifelse(is.na(darkbond.icon), darkbond.placeholder, darkbond.icon)) %>%
+  mutate("ritual.study.trans.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
+  mutate("ritual.trans.sacrifice.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
+  select(card, card.id, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>% 
+  cbind(ritual.sub)
 
-message("English Deck Head:\n")
-print(standard.deck.en[1:5,c(2,3,5,8)])
+deck.file <- paste("./build/woc.deck", lang, "csv", sep=".")
 
-standard.deck.it <- players.deck.it %>% 
-  left_join(deck.families.meta) %>%
-  left_join(cards.meta) %>%
-  left_join(rituals.meta) %>%
-  left_join(darkbonds.meta) %>%
-  mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
-  mutate(ritual.icon = ifelse(is.na(ritual.icon), ifelse(is.na(darkbond.icon), ritual.placeholder, darkbond.icon), ritual.icon)) %>%
-  select(card, card.id, family, background, title, description, type, caption, knowledge.points, ritual.icon, picture, ritual.description )
-write.csv(standard.deck.it, file = "./data/woc.deck.it.csv", row.names = FALSE, na = "")
+write.csv(standard.deck, file = deck.file, row.names = FALSE, na = "")
 
-message("Italian Deck Head:\n")
-print(standard.deck.it[1:5,c(2,3,5,8)])
+message(paste("First 5 cards in ", deck.file, ":\n", sep = ""))
+
+print(standard.deck[1:5,c(2,3,5,7)])

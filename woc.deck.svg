@@ -26,18 +26,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9983453"
-     inkscape:cx="108.72143"
-     inkscape:cy="582.56093"
+     inkscape:zoom="2.0149341"
+     inkscape:cx="-261.65101"
+     inkscape:cy="565.38091"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1108"
+     inkscape:window-height="1106"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
-     showguides="false" />
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5206" />
+  </sodipodi:namedview>
   <metadata
      id="metadata3392">
     <rdf:RDF>
@@ -56,18 +61,18 @@
      id="layer1"
      transform="translate(0,-308.26772)">
     <g
-       id="g4720">
+       id="g5430">
       <image
          sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/picture.placeholder.png"
          xlink:href="picture.placeholder.png"
-         inkscape:label="#image9599"
-         width="177.66519"
-         height="177.66519"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeQuality"
-         id="picture"
+         y="353.56702"
          x="-234.76974"
-         y="353.56702" />
+         id="picture"
+         style="image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="177.66519"
+         width="177.66519"
+         inkscape:label="#image9599" />
       <rect
          inkscape:label="#card"
          y="333.50507"
@@ -79,17 +84,17 @@
       <image
          sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/background.forbidden-wisdom.png"
          xlink:href="background.forbidden-wisdom.png"
-         clip-path="none"
-         width="218.67488"
-         height="305.38068"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeQuality"
-         id="background"
+         y="336.22348"
          x="-253.90958"
-         y="336.22348" />
+         id="background"
+         style="image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="305.38068"
+         width="218.67488"
+         clip-path="none" />
       <flowRoot
          inkscape:label="#description"
-         transform="translate(0,304.26772)"
+         transform="translate(-1.875,316.88575)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
          id="description"
          xml:space="preserve"><flowRegion
@@ -102,46 +107,33 @@
              id="rect5168" /></flowRegion><flowPara
            style="font-size:10px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
            id="flowPara5170">Lorem ipsum dolor</flowPara></flowRoot>      <flowRoot
-         inkscape:label="#type"
-         xml:space="preserve"
-         id="type"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
-         transform="translate(-6.9466624,282.38557)"><flowRegion
-           id="flowRegion5178"><rect
-             id="rect5180"
-             width="175.80646"
-             height="15.322597"
-             x="-228.2258"
-             y="226.35255"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2;stroke-miterlimit:1;stroke-dasharray:none" /></flowRegion><flowPara
-           id="flowPara5182"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1">Lorem ipsum dolor</flowPara></flowRoot>      <flowRoot
-         transform="translate(-7.9363883,126.84836)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+         transform="translate(-7.9363883,128.72336)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0121875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
          id="title"
          xml:space="preserve"
          inkscape:label="#title"><flowRegion
+           style="stroke-width:0.0121875;stroke-miterlimit:1;stroke-dasharray:none"
            id="flowRegion5186"><rect
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2;stroke-miterlimit:1;stroke-dasharray:none"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.0121875;stroke-miterlimit:1;stroke-dasharray:none"
              y="226.35255"
              x="-228.2258"
              height="15.322597"
              width="175.80646"
              id="rect5188" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.875px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.875px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#dedede;fill-opacity:1;stroke:#000000;stroke-width:0.0121875;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
            id="flowPara5190">Lorem ipsum dolor</flowPara></flowRoot>      <image
          sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
          xlink:href="icon.horror.png"
-         inkscape:label="#ritual.icon"
-         width="22.342854"
-         height="22.342854"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeQuality"
+         y="603.83826"
+         x="-239.73456"
          id="ritual.icon"
-         x="-71.228989"
-         y="504.96939" />
+         style="image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="22.342854"
+         width="22.342854"
+         inkscape:label="#ritual.icon" />
       <flowRoot
-         transform="translate(61.637931,318.18151)"
+         transform="translate(150.49171,219.04998)"
          style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          id="knowledge.points"
          xml:space="preserve"><flowRegion
@@ -154,10 +146,10 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
            id="flowPara5832">?</flowPara></flowRoot>      <flowRoot
          xml:space="preserve"
-         id="ritual.description"
+         id="type"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
-         transform="translate(0,352.11255)"
-         inkscape:label="#ritual.description"><flowRegion
+         transform="translate(-3.8310547,281.90392)"
+         inkscape:label="#type"><flowRegion
            id="flowRegion5836"><rect
              id="rect5838"
              width="169.67465"
@@ -166,7 +158,231 @@
              y="228.07669"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2;stroke-miterlimit:1;stroke-dasharray:none" /></flowRegion><flowPara
            id="flowPara5840"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1">Lorem ipsum dolor</flowPara></flowRoot>    </g>
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';text-align:start;text-anchor:start;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1">Activation</flowPara></flowRoot>      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.sacrifice.3"
+         x="-92.074913"
+         y="609.30609" />
+      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.study.3"
+         x="-189.89178"
+         y="609.30609" />
+      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.transmutation.1"
+         x="-166.9245"
+         y="609.30609" />
+      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.transmutation.2"
+         x="-154.52292"
+         y="609.30609" />
+      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.transmutation.3"
+         x="-142.12134"
+         y="609.30609" />
+      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.sacrifice.1"
+         x="-116.87807"
+         y="609.30609" />
+      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.sacrifice.2"
+         x="-104.47649"
+         y="609.30609" />
+      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.study.2"
+         x="-202.39171"
+         y="609.30609" />
+      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.study.1"
+         x="-214.68994"
+         y="609.30609" />
+      <image
+         width="13.368196"
+         height="13.368196"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAABS2lUWHRYTUw6Y29tLmFkb2JlLnht
+cAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQi
+Pz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1Q
+IENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPgog
+PHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50
+YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+Cjwv
+eDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+IEmuOgAAEq5JREFUaIG9mnmQZMdd5z+Z76hX
+d1dXd8/0TM+hOTUajc6VddgWEpJsryS0CxgTtgzeCC4fsBtssKyJ8NrYHAEbAcQStnd9gB2WIALh
+8MrG2BYCJCNZskbHSBr1zEhzdk/3TN91dFW9Kw/+eNU93WMZJEuQURlZ71XFy+8nf3n88pdP8AaS
+tRaAkyeOj7mef5vv+1fkcrld1potURSNqDStGWPyUsrQ9bxGEARzQsjJOI5PJknyYpomj+3atfvU
+j1q/ECIrf9QHHD1ypBrkg3uL+cItC4vz14W9aHulWiGXyyEAKQTG9muwIAUYa7FAHMe0W22CfHCm
+PjT0dBRGj4Zh+NeX7ts3/+8CcfjFF+rlcvlXwzB8V7OxdENtcJB8LofjOXiOgzEWrRVKKay1GGuR
+QiCEwHVdXNdHCEuqNTrVhFFEs9mkUq0+WSgUv9PpdL68//IDk/9mEC8fO/LLaRze22g0bx6s1yjk
+8whAqQSlMuFaa5I0RSmF0QZrLUIIpCNxXRff83Acpw+UQRkgiiIaS01K5dJ384XSV3fvufTTbyrE
+U08+vrkQ5D45efbsvRtGhoJisYg1mjRNSZKYOI6Rcy5bnt9DvlHE63q4sYtrBY6UmJzB5g26otG1
+lLgWcnLTMdKKIpfL4fs5PM9DOi7dXo+5uYVo06bR+5W2n77mP1z/whuG+P7j/3hTFIafjOP49vpg
+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
+"
+         id="family.icon"
+         x="-66.722748"
+         y="355.44202" />
+      <flowRoot
+         inkscape:label="#caption"
+         transform="translate(-1.875,303.54019)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+         id="caption"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5166-4"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2;stroke-miterlimit:1;stroke-dasharray:none"
+             y="226.35255"
+             x="-228.2258"
+             height="70.967743"
+             width="170.96774"
+             id="rect5168-7" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="flowPara5170-0">Lorem ipsum dolor</flowPara></flowRoot>      <image
+         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         xlink:href="icon.horror.png"
+         inkscape:label="#darkbond.icon"
+         width="22.342855"
+         height="22.342855"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="darkbond.icon"
+         x="-70.726723"
+         y="603.83826" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"

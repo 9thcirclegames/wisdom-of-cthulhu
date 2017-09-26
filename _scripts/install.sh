@@ -9,9 +9,8 @@ if [ -n "${TRAVIS+x}" ]; then
      echo "** Executing in local environment; build dir set to $WOC_BUILD_DIR";
      export BUILD_DIR=$WOC_BUILD_DIR
    else
-     echo "** Executing in local environment; build dir set  to current directory"
+     echo "** Executing in local environment; build dir set to `pwd`"
      export BUILD_DIR=`pwd`
-     exit 1
    fi
 fi
 

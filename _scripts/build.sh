@@ -9,9 +9,8 @@ if [ -n "${TRAVIS+x}" ]; then
      echo "** Executing in local environment; build dir set to $WOC_BUILD_DIR";
      export BUILD_DIR=$WOC_BUILD_DIR
    else
-     echo "** Executing in local environment; build dir set  to current directory"
+     echo "** Executing in local environment; build dir set to `pwd`"
      export BUILD_DIR=`pwd`
-     exit 1
    fi
 fi
 
@@ -27,24 +26,22 @@ mkdir $BUILD_DIR/pdf
 
 cp $BUILD_DIR/*.png $BUILD_DIR/build/
 
-Rscript --no-save --no-restore --verbose $BUILD_DIR/R/decks.preparation.R
-
 ### English
-python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/data/woc.deck.en.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.en.svg
+export WOC_DECK_LOCALE=en
+Rscript --no-save --no-restore $BUILD_DIR/R/decks.preparation.R
+
+python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.deck.en.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.en.svg
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.deck.en.pdf $BUILD_DIR/build/*.pdf
 rm $BUILD_DIR/build/*.pdf
 
 ### Italian
+export WOC_DECK_LOCALE=it
+Rscript --no-save --no-restore $BUILD_DIR/R/decks.preparation.R
 
-# Workaround due to countersheetsextension not supporting UTF-8
-#if [ "$(uname)" == "Darwin" ]; then
-#  sed -i '' 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuuuuuAAAAEEEEIIIIOOOOUUUUUUUU/' $BUILD_DIR/data/woc.deck.it.csv
-#elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-#  sed -i 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuuuuuAAAAEEEEIIIIOOOOUUUUUUUU/' $BUILD_DIR/data/woc.deck.it.csv
-#fi
-python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/data/woc.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.it.svg
+python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.it.svg
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.deck.it.pdf $BUILD_DIR/build/*.pdf
 rm $BUILD_DIR/build/*.pdf
+
 
 rm $BUILD_DIR/build/*.*
 

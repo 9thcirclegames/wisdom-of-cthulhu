@@ -80,16 +80,16 @@
   </description>
   <kp>2</kp>
   <ritual type="nightmare">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW Imm">2</arg>
      <arg unit="Place">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s</label>
      <arg unit="FW">3</arg>
    </phase>
@@ -110,17 +110,17 @@
     <arg>DM</arg>
   </description>
   <kp>2</kp>
-  <ritual type="darkness">
-    <phase id="study" pos="1">
+  <ritual type="dimension">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="DM">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="DM">2</arg>
      <arg unit="EN">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="DM">1</arg>
      <arg unit="EN">2</arg>
@@ -158,15 +158,15 @@
   </description>
   <kp>3</kp>
   <ritual type="madness">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="EN">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="EN">1</arg>
@@ -191,16 +191,16 @@
   </description>
   <kp>?</kp>
   <ritual type="madness">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="DM">1</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="FW Imm">3</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="DM">1</arg>
@@ -224,17 +224,17 @@
     <arg>AS</arg>
   </description>
   <kp>?</kp>
-  <ritual type="darkness">
-    <phase id="study" pos="1">
+  <ritual type="dimension">
+    <phase type="study" pos="1">
      <label>Study: %s</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="Res">1</arg>
      <arg unit="Obs">2</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="EN">1</arg>
@@ -321,15 +321,15 @@
   </description>
   <kp>2</kp>
   <ritual type="horror">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="FW">3</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">1</arg>
      <arg unit="EN">2</arg>
@@ -353,16 +353,16 @@
   </description>
   <kp>2</kp>
   <ritual type="nightmare">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="AS">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">1</arg>
      <arg unit="EN">2</arg>
@@ -385,16 +385,16 @@
   </description>
   <kp>1</kp>
   <ritual type="horror">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="EN">1</arg>
      <arg unit="Obs">2</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="EN">1</arg>
@@ -563,17 +563,17 @@
   </description>
   <kp>1</kp>
   <ritual type="horror">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="DM">1</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="DM">1</arg>
      <arg unit="EN">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s + %s</label>
      <arg unit="FW">1</arg>
      <arg unit="DM">1</arg>
@@ -599,16 +599,16 @@
   </description>
   <kp>2</kp>
   <ritual type="horror">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="AS">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">2</arg>
      <arg unit="EN">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="EN">1</arg>
@@ -667,16 +667,16 @@
     <arg>FW</arg>
   </description>
   <kp>2</kp>
-  <ritual type="darkness">
-    <phase id="study" pos="1">
+  <ritual type="dimension">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="FW">3</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s</label>
      <arg unit="FW">2</arg>
    </phase>
@@ -872,17 +872,17 @@
     <arg unit="EN">1</arg>
   </combination>
   <ritual type="horror">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="AS">1</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">2</arg>
      <arg unit="AS">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="EN">1</arg>
@@ -941,17 +941,17 @@
     <arg>FW</arg>
   </combination>
   <kp>?</kp>
-  <ritual type="darkness">
-    <phase id="study" pos="1">
+  <ritual type="dimension">
+    <phase type="study" pos="1">
      <label>Study: %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="AS">1</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="Res">2</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s + %s</label>
      <arg unit="FW">1</arg>
      <arg unit="DM">1</arg>
@@ -996,17 +996,17 @@
     <arg unit="EN">1</arg>
   </combination>
   <ritual type="horror">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="EN">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="AS">1</arg>
      <arg unit="EN">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s</label>
      <arg unit="EN">3</arg>
    </phase>
@@ -1049,17 +1049,17 @@
     <arg unit="DM">1</arg>
   </combination>
   <ritual type="nightmare">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s + %s;</label>
      <arg unit="AS">1</arg>
      <arg unit="EN">1</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">1</arg>
-     <arg unit="Pla">1</arg>
+     <arg unit="Place">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s + %s</label>
      <arg unit="AS">1</arg>
      <arg unit="DM">1</arg>
@@ -1146,16 +1146,16 @@
     <arg unit="KP">4</arg>
   </combination>
   <ritual type="nightmare">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="EN">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="DM">1</arg>
      <arg unit="EN">2</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s + %s</label>
      <arg unit="AS">1</arg>
      <arg unit="DM">1</arg>
@@ -1372,16 +1372,17 @@
   </description>
   <darkbond type="horror" />
   <ritual type="horror">
-    <phase id="study" pos="1">
-     <label>Study: %s;</label>
+    <phase type="study" pos="1">
+     <label>Study: %s + %s;</label>
+     <arg unit="Res">1</arg>
      <arg unit="FW">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
-     <arg unit="Ris">3</arg>
-     <arg unit="EN">2</arg>
+     <arg unit="Res">2</arg>
+     <arg unit="EN">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="AS">1</arg>
@@ -1479,15 +1480,15 @@
   </description>
   <darkbond type="dimension" />
   <ritual type="dimension">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="EN">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s;</label>
      <arg unit="FW Imm">3</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s</label>
      <arg unit="EN">3</arg>
    </phase>
@@ -1562,17 +1563,17 @@
   </description>
   <darkbond type="madness" />
   <ritual type="madness">
-    <phase id="study" pos="1">
+    <phase type="study" pos="1">
      <label>Study: %s;</label>
      <arg unit="DM">2</arg>
     </phase>
-    <phase id="transmutation" pos="2">
+    <phase type="transmutation" pos="2">
      <label>Trans: %s + %s + %s;</label>
      <arg unit="FW">1</arg>
      <arg unit="DM">1</arg>
      <arg unit="Place">1</arg>
     </phase>
-    <phase id="sacrifice" pos="3">
+    <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
      <arg unit="FW">2</arg>
      <arg unit="DM">1</arg>
