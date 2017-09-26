@@ -40,5 +40,3 @@ vignettes/*.pdf
 build
 pdf
 .Rproj.user
-
-countersheet.py
