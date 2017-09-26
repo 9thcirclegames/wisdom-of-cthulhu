@@ -35,7 +35,7 @@ gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.deck.e
 rm $BUILD_DIR/build/*.pdf
 
 ### Italian
-sudo locale-gen "it_IT.UTF-8"
+locale-gen "it_IT.UTF-8"
 
 export WOC_DECK_LOCALE=it
 Rscript --no-save --no-restore $BUILD_DIR/R/decks.preparation.R
