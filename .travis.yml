@@ -8,6 +8,7 @@ addons:
     - sourceline: ppa:inkscape.dev/stable
     - sourceline: ppa:marutter/rrutter
     packages:
+    - haskell-platform
     - wget
     - inkscape
     - libxml2-dev
@@ -16,18 +17,8 @@ addons:
     - zlib1g-dev
     - pkg-config
     - python-pip
-    - pdftk
     - r-base
     - r-base-dev
-#    - pandoc
-#    - pandoc-citeproc
-#    - texlive-latex-recommended
-#    - texlive-xetex
-#    - texlive-luatex
-#    - texlive-fonts-recommended
-#    - etoolbox
-#    - wkhtmltopdf
-#    - lmodern
     - language-pack-it
     - language-pack-fr
     - ghostscript
@@ -38,22 +29,18 @@ cache:
   directories:
   - "$HOME/.cache/pip"
   - "$HOME/Rlib"
-  - "/tmp/texlive"
+  - "$HOME/texlive"
   - "$HOME/.texlive"
+  - "~/.local/bin"
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
-install:
 - pip install -U pip wheel
 - pip install --requirement=$TRAVIS_BUILD_DIR/requirements.txt
-- mkdir -p $HOME/Rlib
-- echo 'R_LIBS=~/Rlib' > $HOME/.Renviron
-- echo 'options(repos = "http://cran.rstudio.com")' > $HOME/.Rprofile
-- echo '.travis.yml' > $HOME/.Rbuildignore
-- Rscript -e 'if(!"tidyverse" %in% rownames(installed.packages())) { install.packages("tidyverse", dependencies = TRUE) }'
-- Rscript -e 'if(!"pacman" %in% rownames(installed.packages())) { install.packages("pacman", dependencies = TRUE) }'
-- Rscript -e 'update.packages(ask = FALSE, instlib = "~/Rlib")'
-- bash _scripts/install.sh
+install:
+- bash _scripts/install.R.sh
+- bash _scripts/install.texlive.sh
+- bash _scripts/install.pandoc.sh
 script:
 - bash _scripts/build.sh
 - bash _scripts/test.sh
