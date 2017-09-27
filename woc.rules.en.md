@@ -1,80 +1,77 @@
-# Wisdom of Cthulhu Card Game
+# Wisdom of Cthulhu
 ## Game Overview
 Wisdom of Cthulhu is a card game in which players take the role of seekers of forgotten and forbidden knowledge that will lead them slowly into a spiral of insane obsession. Scientists, magicians and scholars who will try to contend for alien objects, banned books, the help of obscure scholars, and the evocation of powerful creatures to get the ultimate end to the truth about Cthulhu's Mythos.
 
-During the match, which is divided into six rounds, players, acquiring and discarding cards, get Knowledge Points (KPs).
+During the match, which is divided into six rounds, players, acquiring and discarding cards, get Knowledge Points.
 
 At the end of the game, the player with the most Knowledge Points is the winner.
 
 ## Game Components
 
-* 4 __Seeker__ markers (SM) in different colors, 1 per player;
-* 4 __Search Order__ counters (SO), with a number ranging from 1 to 4;
-* 4 __Elder Sign__ markers, in different colors, 1 per player;
-* 4 __Ritual__ tokens (RT) in different colors, 1 per player;
-* 24 __Research cards__ (Res), 6 per player with a color border matching his Seeker marker;
-* 72 __Knowledge__ Cards so divided:
-	* 36 __Forbidden Wisdom__ cards (FW), brown in back and front;
-	* 24 __Alien Science__ cards (AS), green in back and front;
-	* 12 __Dark Master__ cards (DM), blue in back and front;
-	* 24 __Entity__ cards (EN), red in back and front;
-* 12 __Arcane Place__ tiles: 4 Cities, 4 Ruins, 4 Elsewhere;
+* 4 __Seeker Markers__ in different colors, 1 per player;
+* 4 __Search Order Counters__, with a number ranging from 1 to 4;
+* 4 __Elder Sign Markers__, in different colors, 1 per player;
+* 4 __Ritual Tokens__ in different colors, 1 per player;
+* 24 __Research Cards__, 6 per player with a color border matching her Seeker marker;
+* 72 __Knowledge Cards__ so divided: 36 _Forbidden Wisdom_, 24 _Alien Science_, 12 _Dark Master_;
+* 24 __Entity__ cards;
+* 12 __Arcane Place__ tiles: 4 _Cities_, 4 _Ruins_, 4 _Elsewhere_;
 * 4 __Great Old One__ cards;
 * 1 __Ritual Dashboard__;
 * __XXX Knowledge Points__ counters of various values.
 
 ## Game Setup
-Players take a _Seeker_ token , a set of 6 _Research_ cards, a _Great Old One_ marker, and a _Ritual_ token, all of the same color. These elements are placed in front of the player clearly visible to the opponents. This is the personal area, where the purchased cards will be located and the KPs collected. It is also called __Learning Area__ (LA).
+Players take a _Seeker_ marker, a set of 6 _Research_ cards, a _Great Old One_ marker, and a _Ritual_ token, all of the same color. These elements are placed in front of the player clearly visible to the opponents. This is the personal area, where the purchased cards will be located and the KPs collected. It is also called __Learning Area__.
 
-Separate the Knowledge Cards by colors and shuffle them to form three drawing decks. Do the same with the Entity cards and form a separate deck.
+Separate the Knowledge Cards by colors and shuffle them to form three drawing decks. Do the same with the _Entity_ cards and form a separate deck.
 
-Designate an area where all the players can easily access and put a _Great Old One_ and the _Ritual dashboard_. This area is called __Evocation Area__ and is where the Entity cards come into play.
+Designate an area where all the players can easily access for the Great Old Ones and the Entities.
 
-The number of Great Old One cards and Entity cards in play at the beginning of the game is equal to the number of players:
+The number of Great Old One cards and Entity cards in play at the beginning of the game depends on to the number of players:
 
-* __2 Players__ -> 2 Great Old Ones and 2 Entities.
-* __3 Players__ -> 3 Great Old Ones and 3 Entities.
-* __4 Players__ -> 4 Great Old Ones and 4 Entities.
+* __2 Players__: 2 _Great Old One_ cards and 2 _Entity_ cards.
+* __3 Players__: 3 _Great Old One_ cards and 3 _Entity_ cards.
+* __4 Players__: 4 _Great Old One_ cards and 4 _Entity_ cards.
 
+The Great Old Ones can be chosen at random by players or according to the type of game they want to play. They are placed on the top of the Evocation Area, accessible to all players. They won't be moved from that position during the game.
 
-The Great Old Ones can be chosen at random by players or according to the type of game they want to play. The Great Old Ones are placed on the top of the Evocation Area, accessible to all players. They won't be moved from that position during the game.
+Entities are drawn from their deck and positioned to form a row immediately below the Great Old Ones. Each time one of these cards is put into play or discarded, at the end of the round, it is replaced by drawing a new Entity from the top of the deck.
 
-Entities are drawn from the deck and positioned to form a row immediately below the Great Old Ones tiles. Each time one of these cards is put into play or discarded, at the end of the round, it is replaced by drawing a new Entity from the top of the deck.
+The area so delimited is the  __Evocation Area__ and is where the Entity cards come into play.
 
 Immediately below the Entity cards is placed the _Ritual Dashboard_. At the first position of the dashboard, the _Ritual Counters_ of each player are finally placed.
 
-Place the _Arcane Places_ to form a perimeter at the center of the table. This perimeter delimits the placement and purchase area of Knowledge Cards and thus it is called __Research Area__ (RA). The number of Arcane Places depends of the number of players:
+Place the _Arcane Places_ to form a perimeter at the center of the table. This perimeter delimits the placement and purchase area of Knowledge Cards and thus it is called __Research Area__. The number of Arcane Places to place depends on the number of players:
 
-* __2 players__ -> 6 Arcane Places.
-* __3 players__ -> 9 Arcane Places.
-* __4 players__ -> 12 Arcane Places.
+* __2 players__: 6 Arcane Places.
+* __3 players__: 9 Arcane Places.
+* __4 players__: 12 Arcane Places.
 
+In 2 players games, use the Arcane Places with the _2+_ on the back. In 3 players games, you must add the ones with the _3+_ on the back (for a total of 9). In 4 players you must add the remaining tiles, which have the number _4+_ on the back (for a total of 12 Arcane Places).
 
-In 2 players games, the tiles to be placed are the ones indicated with the _2_ on the back. In 3 players games, you must add the ones with the _3_ on the back (for a total of 9). In 4 players you must add the remaining tiles, which has the number _4_ on the back (for a total of 12).
+Place the initial set of _Knowledge Cards_ in the Research Area, drawing drawn from their decks accordingly to the number of players:
 
-Place the _Knowledge Cards_ in the Research Area, randomly drawn from the relative decks in a number according to the number of players:
+* __2 players__: 3 ![FW](/icon.forbidden-wisdom.png){height="16" width="16"}, 2 ![AS](/icon.alien-science.png){height="16" width="16"}, 1 ![DM](/icon.dark-master.png){height="16" width="16"};
+* __3 players__: 5 ![FW](/icon.forbidden-wisdom.png){height="16" width="16"}, 2 ![AS](/icon.alien-science.png){height="16" width="16"}, 1 ![DM](/icon.dark-master.png){height="16" width="16"};.
+* __4 players__: 6 ![FW](/icon.forbidden-wisdom.png){height="16" width="16"}, 4 ![AS](/icon.alien-science.png){height="16" width="16"}, 2 ![DM](/icon.dark-master.png){height="16" width="16"};
 
-* __2 players__ -> 6 Knowledge Cards: 3 Forbidden Wisdom, 2 Alien Science, 1 Dark Master.
-* __3 players__ -> 9 Knowledge Cards: 5 Forbidden Wisdom, 3 Alien Science, 1 Dark Master.
-* __4 players__ -> 12 Knowledge Cards: 6 Forbidden Wisdom, 4 Alien Science, 2 Dark Master.
-*
 At the end of each turn, the Research Area is cleaned: the Knowledge Cards left on the table are discarded and the whole area is cleansed. At the start of each turn, new Knowledge Cards are drawn and placed in the quantities indicated shortly before.
 
 Place the _Search Order_ counters by selecting the number of them according to the number of players:
 
-* __2 players__ -> 1, 2;
-* __3 players__ -> 1, 2, 3;
-* __4 players__ -> 1, 2, 3, 4.
+* __2 players__: 1, 2;
+* __3 players__: 1, 2, 3;
+* __4 players__: 1, 2, 3, 4.
 
 ## Cards
-### Research
-Double-faced cards. The front is a _Research_ (P2K); The back represents an _Obsession_ (OB). Six for each player. On the _Research_ side, there is a combination of two seeds, with symbols pairing to Knowledge Cards and according to this schema:
+### ![Res](/icon.research.png){height="32" width="32"} ![Obs](/icon.obsession.png){height="32" width="32"} Research Cards
+Double-faced cards, six for each player. The front is a _Research_ (![Res](/icon.research.png){height="16" width="16"}), while the back is an _Obsession_ (![Res](/icon.obsession.png){height="16" width="16"}).
 
-__Legend:__ Forbidden Wisdom (FW); Alien Science (AS); Dark Master (DM)
+On the ![Res](/icon.research.png){height="16" width="16"} side, there is a combination of two seeds, with symbols pairing to Knowledge Cards and with these couples:
 
-* __FW/FW; FW/AS; FW/DM__
-* __AS/DM; AS/AS__
-* __DM/DM__
+* ![FW](/icon.forbidden-wisdom.png){height="16" width="16"}/![FW](/icon.forbidden-wisdom.png){height="16" width="16"}, ![FW](/icon.forbidden-wisdom.png){height="16" width="16"}/![AS](/icon.alien-science.png){height="16" width="16"}, ![FW](/icon.forbidden-wisdom.png){height="16" width="16"}/![DM](/icon.dark-master.png){height="16" width="16"}
+* ![AS](/icon.alien-science.png){height="16" width="16"}/![AS](/icon.alien-science.png){height="16" width="16"}, ![AS](/icon.alien-science.png){height="16" width="16"}/![DM](/icon.dark-master.png){height="16" width="16"}
+* ![DM](/icon.dark-master.png){height="16" width="16"}/![DM](/icon.dark-master.png){height="16" width="16"}
 
 By spending a _Research_ card, you can buy one, and only one, Knowledge Card of the same seed of one of those printed on the card being spent. For "buying" the Knowledge card this way,  the Seeker marker must be on an Arcane Place that has the same seed of the Knowledge Card you intend to buy.
 
@@ -87,7 +84,7 @@ During the _Obsession Phase_ of each turn (see), players will take over all the 
 This way, during the game, the player will have less Study Cards for purchasing Knowledge Cards, but they will have more Obsessions Cards to be used for Research Actions, simulating the slowing descent to the insanity of this unholy wisdom.
 
 ### Knowledge Cards
-In general, these cards include a seed and the number of Knowledge Points they give to their owner. Knowledge Cards are subdivided into __Forbidden Wisdom__ (FW), __Alien Science__ (AS) and __Dark Master__ (DM), They are characterized by one or more of the following __Powers__:
+In general, these cards include a seed and the number of Knowledge Points they give to their owner. Knowledge Cards are subdivided into __Forbidden Wisdom__ (![FW](/icon.forbidden-wisdom.png){height="16" width="16"}), __Alien Science__ (![AS](/icon.alien-science.png){height="16" width="16"}) and __Dark Master__ (![DM](/icon.dark-master.png){height="16" width="16"}), They are characterized by one or more of the following __Powers__:
 
 * __Continuous__ (Cont): the card is placed in the Player's Research Area and it always has effect. Each time the Power of the card has effect, the owner gains a given number of Knowledge Points, as stated on the card itself.
 * __Activation__ (Act): the card is placed in the Player's Learning Area. When activated, at the expense of one Obsession, the Power has effect and the card is turned face down: it is no longer available for the rest of the turn. Each activation gives to the owner the given number of Knowledge Points stated on the card itself.
@@ -110,10 +107,10 @@ For the Dark Masters, the following _Dark Bonds_ apply:
 * Fulfilling the requirements on Ritual cards (see above) which are not Dark Masters themselves.
 
 
-### Entity Cards
+### ![En](/icon.entity.png){height="32" width="32"} Entity Cards
 Entities are not Knowledge Cards and therefore do not give Knowledge Points to their owners. These cards are purchased by spending Obsessions, rather than Paths, when your Seeker is on an Arcane Place of the same seed printed on the Entity you want to invoke. Entities have the same types of Powers described above. Each card has the seed for the purchase, a Dark Bond and one or more Powers.
 
-### Arcane Places
+### ![Obs](/icon.arcane-place.png){height="32" width="32"} Arcane Places
 Arcane Places are divided into three types:
 
 * __City__
@@ -157,10 +154,13 @@ The steps to follow for the Summoning and the Evocation of the Great Old Ones, u
 * Ritual Object Cards are put into play in their Learning Area regardless of their type of Power, as described above (see);
 * They may have any number at stake, with a Dark Bond of different Great Old Ones;
 * Ritual requirements do not count as actions so, to satisfy them, you do not need to spend Research Cards or Obsession Cards. They are conditions to be checked during the turn. If a condition is met, the requirement is considered complete and you can check the next one. Ritual requirements are always in the number of three:
-	1. __Study:__ Have something at the beginning of the turn;
-	2. __Transmutation:__ Acquire something during the turn;
-	3. __Sacrifice:__ discard something at the end of next turn.
+
+1.  __Study:__ Have something at the beginning of the turn;
+2.  __Transmutation:__ Acquire something during the turn;
+3. __Sacrifice:__ discard something at the end of next turn.
+
 To indicate that a requirement has been met, the card has to be rotated 90° to the right each time (N.B.: when a card has been rotated three times, meeting all the requirements, player immediately acquires the Cards Knowledge Points with the same Dark Bond of the Ritual Object in question);
+
 * Each completed requirement corresponds to an advance of their own Ritual Marker on the Ritual Dashboard;
 * Powers completing free requirements, or making progress on the Ritual Dashboard directly, reduce requirements of a chosen card by one in effect: Ritual Object can be rotated 90°;
 * If a Ritual Object Card is discarded, the advancements on the Ritual Dashboard are not lost;
@@ -225,6 +225,7 @@ The Search phase ends when everyone has completed their usable Search and Obsess
 
 ## End of Resarch
 According to this sequence at the end of each turn, the following steps will be taken:
+
 1. According to the Search Order (see), any card effects with the term "end of turn" apply.
 2. Requirements of Ritual Object Cards are monitored (resulting in the advance of the Ritual Marker on the Ritual Dashboard). When a Ritual Object meets its last ritual requirement, remember to take Dark Masters’ Knowledge Points from the same Dark Bond. Then, proceed to the Summon of a Great Old Ones card (see) if conditions allow it.
 3. Unused Temporary Obsession Cards and discarded Search Cards are taken in hand (remember not to resume Permanent Obsession Cards).
