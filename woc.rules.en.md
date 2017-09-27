@@ -8,7 +8,6 @@ geometry: margin=2cm
 abstract:
   Wisdom of Cthulhu is a card game in which players take the role of seekers of forgotten and forbidden knowledge that will lead them slowly into a spiral of insane obsession. Scientists, magicians and scholars who will try to contend for alien objects, banned books, the help of obscure scholars, and the evocation of powerful creatures to get the ultimate end to the truth about Cthulhu's Mythos.
 output: pdf_document
-lang: en
 papersize: letter
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"
