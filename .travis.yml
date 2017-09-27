@@ -21,10 +21,10 @@ addons:
     - r-base-dev
     - pandoc
     - pandoc-citeproc
-    - texlive-latex-recommended
-    - texlive-xetex
-    - texlive-luatex
-    - texlive-fonts-recommended
+#    - texlive-latex-recommended
+#    - texlive-xetex
+#    - texlive-luatex
+#    - texlive-fonts-recommended
     - etoolbox
     - wkhtmltopdf
     - lmodern
@@ -38,6 +38,8 @@ cache:
   directories:
   - "$HOME/.cache/pip"
   - "$HOME/Rlib"
+  - "/tmp/texlive"
+  - "$HOME/.texlive"
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive

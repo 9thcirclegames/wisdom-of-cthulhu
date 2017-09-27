@@ -12,12 +12,12 @@ papersize: letter
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"
 header-includes:
-    - \usepackage[utf8]{inputenc}
-    - \usepackage{fixltx2e}
-    - \usepackage{epigraph}
-    - \usepackage{fancyhdr}
-    - \pagestyle{fancy}
-    - \fancyhead[CO,CE]{Wisdom of Cthulhu - Game Rules}
+#    - \usepackage[utf8]{inputenc}
+#    - \usepackage{fixltx2e}
+#    - \usepackage{epigraph}
+#    - \usepackage{fancyhdr}
+#    - \pagestyle{fancy}
+#    - \fancyhead[CO,CE]{Wisdom of Cthulhu - Game Rules}
 ---
 
 ## Game Components
