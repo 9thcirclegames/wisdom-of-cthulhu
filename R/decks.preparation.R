@@ -53,6 +53,10 @@ switch(lang,
 
 message(paste("Setting locale to", if(os %in% c("Linux", "Darwin", "Solaris")) {
   Sys.setlocale("LC_ALL", charset)
+  Sys.setlocale("LC_MESSAGES", charset)
+  Sys.setlocale("LC_PAPER", charset)
+  Sys.setlocale("LC_MEASUREMENT", charset)
+  Sys.getlocale()
   } else {
   Sys.setlocale("LC_ALL", language)
   }))
@@ -81,7 +85,7 @@ ritual.sub <- as.data.frame(do.call(cbind, lapply(affected.columns.idx, function
 }, deck = players.deck)), stringsAsFactors = FALSE)
 colnames(ritual.sub) <- affected.columns.names
 
-standard.deck <- players.deck %>% 
+standard.deck <- players.deck %>%
   left_join(deck.families.meta, by = "family") %>%
   left_join(cards.meta, by = "card.id") %>%
   left_join(rituals.meta, by = "ritual.type") %>%
@@ -92,7 +96,7 @@ standard.deck <- players.deck %>%
   mutate(darkbond.icon = ifelse(is.na(darkbond.icon), darkbond.placeholder, darkbond.icon)) %>%
   mutate("ritual.study.trans.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
   mutate("ritual.trans.sacrifice.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
-  select(card, card.id, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>% 
+  select(card, card.id, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>%
   cbind(ritual.sub)
 
 deck.file <- paste("./build/woc.deck", lang, "csv", sep=".")
