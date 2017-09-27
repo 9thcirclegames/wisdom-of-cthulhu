@@ -15,7 +15,7 @@ if [ -n "${TRAVIS+x}" ]; then
 fi
 
 # See if there is a cached version of TL available
-export PATH=$HOME/texlive/bin/x86_64-linux:$PATH
+export PATH=~/texlive/bin/x86_64-linux:$PATH
 if ! command -v texlua > /dev/null; then
   # Obtain TeX Live
   wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz -P $BUILD_DIR/
