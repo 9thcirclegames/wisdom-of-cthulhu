@@ -49,4 +49,4 @@ rm $BUILD_DIR/build/*.pdf
 rm $BUILD_DIR/build/*.*
 
 # Build rules PDF
-pandoc --variable urlcolor=cyan $BUILD_DIR/woc.rules.en.md --variable mainfont="Liberation Serif" --variable sansfont="Liberation Sans" -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
+pandoc $BUILD_DIR/woc.rules.en.md -o $BUILD_DIR/pdf/woc.rules.en.pdf

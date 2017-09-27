@@ -1,10 +1,25 @@
-# Wisdom of Cthulhu
-## Game Overview
-Wisdom of Cthulhu is a card game in which players take the role of seekers of forgotten and forbidden knowledge that will lead them slowly into a spiral of insane obsession. Scientists, magicians and scholars who will try to contend for alien objects, banned books, the help of obscure scholars, and the evocation of powerful creatures to get the ultimate end to the truth about Cthulhu's Mythos.
-
-During the match, which is divided into six rounds, players, acquiring and discarding cards, get Knowledge Points.
-
-At the end of the game, the player with the most Knowledge Points is the winner.
+---
+title: "Wisdom of Cthulhu - Game Rules"
+author:
+  - Gabriele Baldassarre
+  - Massimo Basso
+affiliation: 9th Circle Games
+geometry: margin=2cm
+abstract:
+  Wisdom of Cthulhu is a card game in which players take the role of seekers of forgotten and forbidden knowledge that will lead them slowly into a spiral of insane obsession. Scientists, magicians and scholars who will try to contend for alien objects, banned books, the help of obscure scholars, and the evocation of powerful creatures to get the ultimate end to the truth about Cthulhu's Mythos.
+output: pdf_document
+lang: en
+papersize: letter
+mainfont: "Liberation Serif"
+sansfont: "Liberation Sans"
+header-includes:
+    - \usepackage[utf8]{inputenc}
+    - \usepackage{fixltx2e}
+    - \usepackage{epigraph}
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \fancyhead[CO,CE]{Wisdom of Cthulhu - Game Rules}
+---
 
 ## Game Components
 
@@ -223,7 +238,7 @@ Keep in mind, during the turn, to advance Ritual Marker on the Ritual Dashboard 
 During the Research phase players must perform one of the actions listed above, so they are not allowed to skip their own turn.
 The Search phase ends when everyone has completed their usable Search and Obsession Cards.
 
-## End of Resarch
+## End of game
 According to this sequence at the end of each turn, the following steps will be taken:
 
 1. According to the Search Order (see), any card effects with the term "end of turn" apply.
