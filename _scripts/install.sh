@@ -35,6 +35,8 @@ if ! command -v texlua > /dev/null; then
   cd ..
 fi
 
+tlmgr init-usertree
+
 # Needed for any use of texlua even if not testing LuaTeX
 tlmgr install luatex
 

@@ -19,15 +19,15 @@ addons:
     - pdftk
     - r-base
     - r-base-dev
-    - pandoc
-    - pandoc-citeproc
+#    - pandoc
+#    - pandoc-citeproc
 #    - texlive-latex-recommended
 #    - texlive-xetex
 #    - texlive-luatex
 #    - texlive-fonts-recommended
-    - etoolbox
-    - wkhtmltopdf
-    - lmodern
+#    - etoolbox
+#    - wkhtmltopdf
+#    - lmodern
     - language-pack-it
     - language-pack-fr
     - ghostscript
