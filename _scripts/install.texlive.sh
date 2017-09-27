@@ -15,25 +15,38 @@ if [ -n "${TRAVIS+x}" ]; then
 fi
 
 # See if there is a cached version of TL available
-export PATH=~/texlive/bin/x86_64-linux:$PATH
+export PATH=/tmp/texlive/bin/x86_64-linux:$PATH
 if ! command -v texlua > /dev/null; then
   # Obtain TeX Live
   wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz -P $BUILD_DIR/
   tar -xzf $BUILD_DIR/install-tl-unx.tar.gz
   $BUILD_DIR/install-tl-20*/install-tl --profile=$BUILD_DIR/texlive.profile
+
+  cd ..
 fi
 
 tlmgr init-usertree
 
-# Required to build plain and LaTeX formats:
-tlmgr install luatex cm etex knuth-lib latex-bin tex tex-ini-files unicode-data xetex
+# Needed for any use of texlua even if not testing LuaTeX
+tlmgr install luatex
 
-# Additional requirements for (u)pLaTeX
-tlmgr install babel ptex uptex ptex-base uptex-base ptex-fonts uptex-fonts platex uplatex
+# The test framework itself
+tlmgr install l3build
+
+# Required to build plain and LaTeX formats:
+# TeX90 plain for unpacking, pdfLaTeX, LuaLaTeX and XeTeX for tests
+tlmgr install cm etex knuth-lib latex-bin tex tex-ini-files unicode-data \
+  xetex
+
+# Additional requirements for (u)pLaTeX, done with no dependencies to
+# avoid large font payloads
+tlmgr install babel ptex uptex ptex-base uptex-base ptex-fonts \
+  uptex-fonts platex uplatex
 
 # Assuming a 'basic' font set up, metafont is required to avoid
 # warnings with some packages and errors with others
 tlmgr install metafont mfware
+
 
 # Set up graphics: nowadays split over a few places and requiring
 # HO's bundle
@@ -42,8 +55,13 @@ tlmgr install graphics graphics-cfg graphics-def oberdiek
 # Other contrib packages: done as a block to avoid multiple calls to tlmgr
 # Dependencies other than the core l3build set up, metafont, fontspec and the
 # 'graphics stack' (itself needed by fontspec) are listed below
+tlmgr install --no-depends \
+  chemformula \
+  ctex        \
+  mhchem      \
+  siunitx     \
+  unicode-math
 tlmgr install --no-depends cjk
-
 tlmgr install   \
   adobemapping  \
   amsfonts      \
@@ -73,11 +91,7 @@ tlmgr install   \
   xkeyval       \
   xunicode      \
   zhmetrics     \
-  zhnumber      \
-  inputenc      \
-  fixltx2e      \
-  epigraph      \
-  fancyhdr
+  zhnumber
 
 # Keep no backups (not required, simply makes cache bigger)
 tlmgr option -- autobackup 0

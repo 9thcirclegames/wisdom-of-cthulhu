@@ -29,7 +29,7 @@ cache:
   directories:
   - "$HOME/.cache/pip"
   - "$HOME/Rlib"
-  - "$HOME/texlive"
+  - "/tmp/texlive"
   - "$HOME/.texlive"
   - "~/.local/bin"
 before_install:
