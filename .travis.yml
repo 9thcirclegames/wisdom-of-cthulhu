@@ -1,7 +1,7 @@
 language: python
 python: 2.7
-sudo: required
-dist: precise
+dist: trusty
+sudo: false
 addons:
   apt:
     sources:
@@ -35,7 +35,6 @@ addons:
 git:
   submodules: false
 cache:
-  apt: true
   directories:
   - "$HOME/.cache/pip"
   - "$HOME/Rlib"
