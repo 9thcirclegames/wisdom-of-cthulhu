@@ -18,7 +18,7 @@ fi
 export PATH=$HOME/.local/bin:$PATH
 if ! command -v pandoc > /dev/null; then
 # Install stack
-  wget https://hackage.haskell.org/package/pandoc-1.17.0.3/pandoc-1.19.2.4.tar.gz -P $BUILD_DIR/
+  wget https://hackage.haskell.org/package/pandoc-1.19.2.4/pandoc-1.19.2.4.tar.gz -P $BUILD_DIR/
   tar $BUILD_DIR/xvzf pandoc-1.19.2.4.tar.gz
   cd $BUILD_DIR/pandoc-1.19.2.4
   wget -qO- https://get.haskellstack.org/ | sh

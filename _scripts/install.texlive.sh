@@ -91,7 +91,12 @@ tlmgr install   \
   xkeyval       \
   xunicode      \
   zhmetrics     \
-  zhnumber
+  zhnumber      \
+  inputenc      \
+  fixltx2e      \
+  epigraph      \
+  fancyhdr
+
 
 # Keep no backups (not required, simply makes cache bigger)
 tlmgr option -- autobackup 0
