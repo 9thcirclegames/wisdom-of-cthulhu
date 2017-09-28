@@ -34,10 +34,10 @@ cache:
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
-- bash _scripts/install.countersheet.sh
-- bash _scripts/install.R.sh
 - bash _scripts/install.texlive.sh
-- bash _scripts/install.pandoc.sh
+install:
+- bash _scripts/install.R.sh
+- bash _scripts/install.countersheet.sh
 script:
 - bash _scripts/build.sh
 - bash _scripts/test.sh

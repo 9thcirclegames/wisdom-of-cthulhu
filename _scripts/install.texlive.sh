@@ -16,73 +16,30 @@ fi
 
 tlmgr init-usertree
 
-# Needed for any use of texlua even if not testing LuaTeX
-tlmgr install luatex
-
-# The test framework itself
-tlmgr install l3build
-
-# Required to build plain and LaTeX formats:
-# TeX90 plain for unpacking, pdfLaTeX, LuaLaTeX and XeTeX for tests
-tlmgr install cm etex knuth-lib latex-bin tex tex-ini-files unicode-data \
-  xetex
-
-# Additional requirements for (u)pLaTeX, done with no dependencies to
-# avoid large font payloads
-tlmgr install babel ptex uptex ptex-base uptex-base ptex-fonts \
-  uptex-fonts platex uplatex
-
-# Assuming a 'basic' font set up, metafont is required to avoid
-# warnings with some packages and errors with others
-tlmgr install metafont mfware
-
-
-# Set up graphics: nowadays split over a few places and requiring
-# HO's bundle
-tlmgr install graphics graphics-cfg graphics-def oberdiek
+tlmgr install luatex ptex uptex ptex-base uptex-base ptex-fonts uptex-fonts platex uplatex
 
 # Other contrib packages: done as a block to avoid multiple calls to tlmgr
-# Dependencies other than the core l3build set up, metafont, fontspec and the
-# 'graphics stack' (itself needed by fontspec) are listed below
-tlmgr install --no-depends \
-  chemformula \
-  ctex        \
-  mhchem      \
-  siunitx     \
-  unicode-math
-tlmgr install --no-depends cjk
 tlmgr install   \
+  chemformula   \
+  ctex          \
+  unicode-math  \
   adobemapping  \
-  amsfonts      \
-  amsmath       \
-  chemgreek     \
+  cjk           \
   cjkpunct      \
   ctablestack   \
-  ec            \
-  environ       \
   etoolbox      \
   fandol        \
   filehook      \
-  ifxetex       \
   lm-math       \
   lualatex-math \
   luatexbase    \
   luatexja      \
-  ms            \
-  pgf           \
-  tools         \
-  trimspaces    \
   ucharcat      \
-  ulem          \
   units         \
-  xcolor        \
   xecjk         \
-  xkeyval       \
-  xunicode      \
   zhmetrics     \
   zhnumber      \
   epigraph      \
-  fancyhdr
 
 # Keep no backups (not required, simply makes cache bigger)
 tlmgr option -- autobackup 0
