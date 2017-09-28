@@ -64,15 +64,17 @@ rm $BUILD_DIR/build/*.*
  		-filter Lanczos                   \
  		-write mpr:copy-of-huge-original  \
  		+delete                           \
-  		mpr:copy-of-huge-original -resize '32x32>'  -write ${filename}-32px.${extension} +delete \
-      mpr:copy-of-huge-original -resize '24x24>'  -write ${filename}-32px.${extension} +delete \
-  		mpr:copy-of-huge-original -resize '16x16>'  -write ${filename}-16px.${extension} +delete
+      mpr:copy-of-huge-original -resize '32x32>'  -write ${filename}-32px.${extension} \
+      mpr:copy-of-huge-original -resize '24x24>'  -write ${filename}-32px.${extension} \
+  		mpr:copy-of-huge-original -resize '16x16>'  -write ${filename}-16px.${extension} \
+      mpr:copy-of-huge-original -resize '12x12>'  -write ${filename}-12px.${extension}
 	done
 
 cp $BUILD_DIR/woc.rules.en.md $BUILD_DIR/woc.rules.en.resized.md
 
+sed -i 's/\.png){height="12" width="12"}/-12px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
 sed -i 's/\.png){height="16" width="16"}/-16px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
-sed -i 's/\.png){height="24" width="16"}/-24px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
-sed -i 's/\.png){height="32" width="16"}/-32ps\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
+sed -i 's/\.png){height="24" width="24"}/-24px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
+sed -i 's/\.png){height="32" width="42"}/-32ps\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
 
 pandoc $BUILD_DIR/woc.rules.en.resized.md -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
