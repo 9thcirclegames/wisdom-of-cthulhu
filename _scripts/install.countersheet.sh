@@ -24,5 +24,4 @@ fi
 #tar xzf /tmp/countersheetsextension/2.0.tar.gz -C $BUILD_DIR/ --strip-components 1 countersheetsextension-2.0/countersheet.py
 #rm /tmp/countersheetsextension/*.*
 
-
 pip install --user --requirement=$BUILD_DIR/requirements.txt

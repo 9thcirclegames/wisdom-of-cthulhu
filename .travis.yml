@@ -8,6 +8,7 @@ addons:
     sources:
     - sourceline: ppa:inkscape.dev/stable
     packages:
+    - imagemagick
     - inkscape
     - libxml2-dev
     - libxslt1-dev

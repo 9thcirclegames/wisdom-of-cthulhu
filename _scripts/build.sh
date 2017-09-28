@@ -51,4 +51,28 @@ rm $BUILD_DIR/build/*.pdf
 rm $BUILD_DIR/build/*.*
 
 # Build rules PDF
-pandoc $BUILD_DIR/woc.rules.en.md -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
+# Due to pandoc not resizing images for some reason and I'm not motivated in debugging it, I'm going to resize images by myself
+	shopt -s nullglob
+	for i in icon.*.jpg icon.*.JPG icon.*.png icon.*.PNG; do
+		filename=$(basename "$i")
+		extension="${filename##*.}"
+		filename="${filename%.*}"
+
+		convert                           \
+  		$i                              \
+ 		-quality 90                       \
+ 		-filter Lanczos                   \
+ 		-write mpr:copy-of-huge-original  \
+ 		+delete                           \
+  		mpr:copy-of-huge-original -resize '32x32>'  -write ${filename}-32px.${extension} +delete \
+      mpr:copy-of-huge-original -resize '24x24>'  -write ${filename}-32px.${extension} +delete \
+  		mpr:copy-of-huge-original -resize '16x16>'  -write ${filename}-16px.${extension} +delete
+	done
+
+cp $BUILD_DIR/woc.rules.en.md $BUILD_DIR/woc.rules.en.resized.md
+
+sed -i 's/\.png){height="16" width="16"}/-16px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
+sed -i 's/\.png){height="24" width="16"}/-24px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
+sed -i 's/\.png){height="32" width="16"}/-32ps\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
+
+pandoc $BUILD_DIR/woc.rules.en.resized.md -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex

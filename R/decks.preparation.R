@@ -54,8 +54,6 @@ switch(lang,
 message(paste("Setting locale to", if(os %in% c("Linux", "Darwin", "Solaris")) {
   Sys.setlocale("LC_ALL", charset)
   Sys.setlocale("LC_MESSAGES", charset)
-  Sys.setlocale("LC_PAPER", charset)
-  Sys.setlocale("LC_MEASUREMENT", charset)
   Sys.getlocale()
   } else {
   Sys.setlocale("LC_ALL", language)
