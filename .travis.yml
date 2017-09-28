@@ -38,7 +38,7 @@ before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
 install:
-- bash _scripts/countersheet.R.sh
+- bash _scripts/countersheet.sh
 - bash _scripts/install.R.sh
 - bash _scripts/install.texlive.sh
 - bash _scripts/install.pandoc.sh

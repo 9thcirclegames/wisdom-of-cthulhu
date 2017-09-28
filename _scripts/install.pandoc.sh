@@ -18,7 +18,7 @@ fi
 export PATH=~/.local/bin:/opt/ghc/7.10.2/bin:~/.cabal/bin:$PATH
 if ! command -v pandoc > /dev/null; then
   # Install stack
-  travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
+  curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
   stack config set system-ghc --global true
 
   # Install pandoc
