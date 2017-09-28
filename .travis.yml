@@ -13,6 +13,8 @@ addons:
     - libxml2-dev
     - libxslt1-dev
     - python-dev
+    - python-pip
+    - python-wheel
     - zlib1g-dev
     - pkg-config
     - python-pip
@@ -35,8 +37,6 @@ cache:
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
-- pip install -U pip wheel
-- pip install --requirement=$TRAVIS_BUILD_DIR/requirements.txt
 install:
 - bash _scripts/install.R.sh
 - bash _scripts/install.texlive.sh
