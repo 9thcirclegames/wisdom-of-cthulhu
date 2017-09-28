@@ -1,12 +1,15 @@
-language: haskell
-ghc: 8.2.1
+language: r
+r: 3.4.1
+pandoc: 1.19.2.4
+r_packages:
+- tidyverse
+- pacman
 dist: trusty
 sudo: false
 addons:
   apt:
     sources:
     - sourceline: ppa:inkscape.dev/stable
-    - sourceline: ppa:marutter/rrutter
     packages:
     - wget
     - inkscape
@@ -17,8 +20,6 @@ addons:
     - python-wheel
     - zlib1g-dev
     - pkg-config
-    - r-base
-    - r-base-dev
     - language-pack-it
     - language-pack-fr
     - ghostscript
@@ -26,17 +27,13 @@ addons:
 git:
   submodules: false
 cache:
+  packages: true
   directories:
   - "$HOME/.cache/pip"
-  - "$HOME/Rlib"
-  - "/tmp/texlive"
   - "$HOME/.texlive"
-  - "~/.local/bin"
-  - "~/.cabal/bin"
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive
-install:
 - bash _scripts/install.countersheet.sh
 - bash _scripts/install.R.sh
 - bash _scripts/install.texlive.sh

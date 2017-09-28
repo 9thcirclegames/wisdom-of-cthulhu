@@ -14,17 +14,6 @@ if [ -n "${TRAVIS+x}" ]; then
    fi
 fi
 
-# See if there is a cached version of TL available
-export PATH=/tmp/texlive/bin/x86_64-linux:$PATH
-if ! command -v texlua > /dev/null; then
-  # Obtain TeX Live
-  wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz -P $BUILD_DIR/
-  tar -xzf $BUILD_DIR/install-tl-unx.tar.gz
-  $BUILD_DIR/install-tl-20*/install-tl --profile=$BUILD_DIR/texlive.profile
-
-  cd ..
-fi
-
 tlmgr init-usertree
 
 # Needed for any use of texlua even if not testing LuaTeX
@@ -92,11 +81,8 @@ tlmgr install   \
   xunicode      \
   zhmetrics     \
   zhnumber      \
-  inputenc      \
-  fixltx2e      \
   epigraph      \
   fancyhdr
-
 
 # Keep no backups (not required, simply makes cache bigger)
 tlmgr option -- autobackup 0

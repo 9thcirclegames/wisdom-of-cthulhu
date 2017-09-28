@@ -26,5 +26,3 @@ fi
 
 
 pip install --user --requirement=$BUILD_DIR/requirements.txt
-
-export PATH=~/.local/lib/python2.7/site-packages:$PATH
