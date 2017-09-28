@@ -27,5 +27,5 @@ if ! command -v pandoc > /dev/null; then
   cd $BUILD_DIR/pandoc-1.19.2.4
   stack setup
   stack install --test
-  cd ..
+  cd $BUILD_DIR
 fi

@@ -14,6 +14,15 @@ if [ -n "${TRAVIS+x}" ]; then
    fi
 fi
 
+export PATH=~/.local/bin:/opt/ghc/7.10.2/bin:~/.cabal/bin:/tmp/texlive/bin/x86_64-linux:$PATH
+
+# Inkscape Modules Location
+if [ "$(uname)" == "Darwin" ]; then
+  export PYTHONPATH=/usr/local/lib/python:~/.local/lib/python2.7/site-packages:/Applications/Inkscape.app/Contents/Resources/share/inkscape/extensions:$PYTHONPATH
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  export PYTHONPATH=/usr/local/lib/python:~/.local/lib/python2.7/site-packages:/usr/share/inkscape/extensions/:$PYTHONPATH
+fi
+
 mkdir $BUILD_DIR/build
 mkdir $BUILD_DIR/pdf
 

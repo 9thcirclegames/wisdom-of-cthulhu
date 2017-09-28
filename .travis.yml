@@ -17,7 +17,6 @@ addons:
     - python-wheel
     - zlib1g-dev
     - pkg-config
-    - python-pip
     - r-base
     - r-base-dev
     - language-pack-it
