@@ -51,4 +51,4 @@ rm $BUILD_DIR/build/*.pdf
 rm $BUILD_DIR/build/*.*
 
 # Build rules PDF
-pandoc $BUILD_DIR/woc.rules.en.md -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
+pandoc $BUILD_DIR/woc.rules.en.md -o $BUILD_DIR/pdf/woc.rules.en.pdf
