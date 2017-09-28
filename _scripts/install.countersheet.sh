@@ -28,3 +28,10 @@ fi
 pip install --user --requirement=$BUILD_DIR/requirements.txt
 
 export PATH=~/.local/lib/python2.7/site-packages:$PATH
+
+# Inkscape Modules Location
+if [ "$(uname)" == "Darwin" ]; then
+  export PYTHONPATH=/usr/local/lib/python:~/.local/lib/python2.7/site-packages:/Applications/Inkscape.app/Contents/Resources/share/inkscape/extensions:$PYTHONPATH
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  export PYTHONPATH=/usr/local/lib/python:~/.local/lib/python2.7/site-packages:/usr/share/inkscape/extensions/:$PYTHONPATH
+fi

@@ -14,13 +14,6 @@ if [ -n "${TRAVIS+x}" ]; then
    fi
 fi
 
-# Inkscape Modules Location
-if [ "$(uname)" == "Darwin" ]; then
-  export PYTHONPATH=/usr/local/lib/python:/Applications/Inkscape.app/Contents/Resources/share/inkscape/extensions:$PYTHONPATH
-elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-  export PYTHONPATH=/usr/local/lib/python:/usr/share/inkscape/extensions/:$PYTHONPATH
-fi
-
 mkdir $BUILD_DIR/build
 mkdir $BUILD_DIR/pdf
 
