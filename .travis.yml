@@ -1,5 +1,5 @@
-language: python
-python: 2.7
+language: haskell
+ghc: 7.4
 dist: trusty
 sudo: false
 addons:
@@ -8,7 +8,6 @@ addons:
     - sourceline: ppa:inkscape.dev/stable
     - sourceline: ppa:marutter/rrutter
     packages:
-    - haskell-platform
     - wget
     - inkscape
     - libxml2-dev
@@ -32,6 +31,7 @@ cache:
   - "/tmp/texlive"
   - "$HOME/.texlive"
   - "~/.local/bin"
+  - "~/.cabal/bin"
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git submodule update --init --recursive

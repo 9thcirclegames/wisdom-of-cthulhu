@@ -15,13 +15,17 @@ if [ -n "${TRAVIS+x}" ]; then
 fi
 
 # See if there is a cached version of pandoc already available
-export PATH=$HOME/.local/bin:$PATH
+export PATH=~/.local/bin:/opt/ghc/7.10.2/bin:~/.cabal/bin:$PATH
 if ! command -v pandoc > /dev/null; then
-# Install stack
+  # Install stack
+  travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
+  stack config set system-ghc --global true
+
+  # Install pandoc
   wget https://hackage.haskell.org/package/pandoc-1.19.2.4/pandoc-1.19.2.4.tar.gz -P $BUILD_DIR/
   tar xvzf $BUILD_DIR/pandoc-1.19.2.4.tar.gz
   cd $BUILD_DIR/pandoc-1.19.2.4
-  wget -qO- https://get.haskellstack.org/ | sh
   stack setup
   stack install --test
+  cd ..
 fi
