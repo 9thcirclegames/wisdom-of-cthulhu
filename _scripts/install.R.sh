@@ -18,7 +18,7 @@ mkdir -p $HOME/Rlib
 echo 'R_LIBS=~/Rlib' > $HOME/.Renviron
 echo 'options(repos = "http://cran.rstudio.com")' > $HOME/.Rprofile
 echo '.travis.yml' > $HOME/.Rbuildignore
-Rscript -e 'if(!"tidyverse" %in% rownames(installed.packages())) { install.packages("tidyverse", dependencies = TRUE) }'
-Rscript -e 'if(!"pacman" %in% rownames(installed.packages())) { install.packages("pacman", dependencies = TRUE) }'
-Rscript -e 'if(!"plyr" %in% rownames(installed.packages())) { install.packages("plyr", dependencies = TRUE) }'
+Rscript -e 'if(!"tidyverse" %in% rownames(installed.packages())) { install.packages("tidyverse", dependencies = TRUE, lib = "~/Rlib") }'
+Rscript -e 'if(!"pacman" %in% rownames(installed.packages())) { install.packages("pacman", dependencies = TRUE, lib = "~/Rlib") }'
+Rscript -e 'if(!"plyr" %in% rownames(installed.packages())) { install.packages("plyr", dependencies = TRUE, lib = "~/Rlib") }'
 Rscript -e 'update.packages(ask = FALSE, instlib = "~/Rlib")'
