@@ -1,12 +1,14 @@
 language: r
 r: 3.4.1
 pandoc: 1.19.2.4
+
 dist: trusty
 sudo: false
 addons:
   apt:
     sources:
     - sourceline: ppa:inkscape.dev/stable
+    - sourceline: ppa:jonathonf/texlive
     packages:
     - inkscape
     - libxml2-dev
@@ -19,6 +21,7 @@ addons:
     - language-pack-fr
     - ghostscript
     - libgs-dev
+    - textlive-full
 git:
   submodules: false
 cache:
