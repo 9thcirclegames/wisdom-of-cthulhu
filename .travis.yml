@@ -1,9 +1,6 @@
 language: r
 r: 3.4.1
 pandoc: 1.19.2.4
-r_packages:
-- tidyverse
-- pacman
 dist: trusty
 sudo: false
 addons:
@@ -11,7 +8,6 @@ addons:
     sources:
     - sourceline: ppa:inkscape.dev/stable
     packages:
-    - wget
     - inkscape
     - libxml2-dev
     - libxslt1-dev
@@ -19,7 +15,6 @@ addons:
     - python-pip
     - python-wheel
     - zlib1g-dev
-    - pkg-config
     - language-pack-it
     - language-pack-fr
     - ghostscript
@@ -29,7 +24,9 @@ git:
 cache:
   packages: true
   directories:
+  - "$HOME/Rlib"
   - "$HOME/.cache/pip"
+  - "$HOME/texlive"
   - "$HOME/.texlive"
 before_install:
 - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules

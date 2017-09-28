@@ -16,7 +16,7 @@ fi
 
 tlmgr init-usertree
 
-tlmgr install luatex ptex uptex ptex-base uptex-base ptex-fonts uptex-fonts platex uplatex
+tlmgr install ptex uptex ptex-base uptex-base ptex-fonts uptex-fonts platex uplatex
 
 # Other contrib packages: done as a block to avoid multiple calls to tlmgr
 tlmgr install   \
@@ -27,7 +27,6 @@ tlmgr install   \
   cjk           \
   cjkpunct      \
   ctablestack   \
-  etoolbox      \
   fandol        \
   filehook      \
   lm-math       \
