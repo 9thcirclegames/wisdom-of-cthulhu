@@ -58,7 +58,8 @@ rm $BUILD_DIR/build/*.*
 		convert $i                              \
  		-filter Lanczos                         \
     -colorspace sRGB                        \
-    -units PixelsPerInch image -density 120 \
+    -units PixelsPerInch                    \
+    -density 120                            \
  		-write mpr:main                         \
  		+delete                                 \
     mpr:main -resize '32x32>'  -write ${filename}-32px.${extension} +delete \
