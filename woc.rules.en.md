@@ -12,12 +12,11 @@ papersize: letter
 mainfont: "Liberation Serif"
 sansfont: "Liberation Sans"
 header-includes:
-#    - \usepackage[utf8]{inputenc}
-#    - \usepackage{fixltx2e}
-#    - \usepackage{epigraph}
-#    - \usepackage{fancyhdr}
-#    - \pagestyle{fancy}
-#    - \fancyhead[CO,CE]{Wisdom of Cthulhu - Game Rules}
+    - \usepackage{fixltx2e}
+    - \usepackage{epigraph}
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \fancyhead[CO,CE]{Wisdom of Cthulhu - Game Rules}
 ---
 
 ## Game Components
@@ -65,9 +64,9 @@ In 2 players games, use the Arcane Places with the _2+_ on the back. In 3 player
 
 Place the initial set of _Knowledge Cards_ in the Research Area, drawing drawn from their decks accordingly to the number of players:
 
-* __2 players__: 3 ![FW](icon.forbidden-wisdom.png){height="12" width="12"}, 2 ![AS](icon.alien-science.png){height="12" width="12"}, 1 ![DM](icon.dark-master.png){height="12" width="12"};
-* __3 players__: 5 ![FW](icon.forbidden-wisdom.png){height="12" width="12"}, 2 ![AS](icon.alien-science.png){height="12" width="12"}, 1 ![DM](icon.dark-master.png){height="12" width="12"};.
-* __4 players__: 6 ![FW](icon.forbidden-wisdom.png){height="12" width="12"}, 4 ![AS](icon.alien-science.png){height="12" width="12"}, 2 ![DM](icon.dark-master.png){height="12" width="12"};
+* __2 players__: 3 ![FW](icon.forbidden-wisdom.png){height="16" width="16"}, 2 ![AS](icon.alien-science.png){height="16" width="16"}, 1 ![DM](icon.dark-master.png){height="16" width="16"};
+* __3 players__: 5 ![FW](icon.forbidden-wisdom.png){height="16" width="16"}, 2 ![AS](icon.alien-science.png){height="16" width="16"}, 1 ![DM](icon.dark-master.png){height="16" width="16"};.
+* __4 players__: 6 ![FW](icon.forbidden-wisdom.png){height="16" width="16"}, 4 ![AS](icon.alien-science.png){height="16" width="16"}, 2 ![DM](icon.dark-master.png){height="16" width="16"};
 
 At the end of each turn, the Research Area is cleaned: the Knowledge Cards left on the table are discarded and the whole area is cleansed. At the start of each turn, new Knowledge Cards are drawn and placed in the quantities indicated shortly before.
 
@@ -79,13 +78,13 @@ Place the _Search Order_ counters by selecting the number of them according to t
 
 ## Cards
 ### ![Res](icon.research.png){height="32" width="32"} ![Obs](icon.obsession.png){height="32" width="32"} Research Cards
-Double-faced cards, six for each player. The front is a _Research_ (![Res](icon.research.png){height="12" width="12"}), while the back is an _Obsession_ (![Res](icon.obsession.png){height="12" width="12"}).
+Double-faced cards, six for each player. The front is a _Research_ (![Res](icon.research.png){height="16" width="16"}), while the back is an _Obsession_ (![Res](icon.obsession.png){height="16" width="16"}).
 
-On the ![Res](icon.research.png){height="12" width="12"} side, there is a combination of two seeds, with symbols pairing to Knowledge Cards and with these couples:
+On the ![Res](icon.research.png){height="16" width="16"} side, there is a combination of two seeds, with symbols pairing to Knowledge Cards and with these couples:
 
-* ![FW](icon.forbidden-wisdom.png){height="12" width="12"}/![FW](icon.forbidden-wisdom.png){height="12" width="12"}, ![FW](icon.forbidden-wisdom.png){height="12" width="12"}/![AS](icon.alien-science.png){height="12" width="12"}, ![FW](icon.forbidden-wisdom.png){height="12" width="12"}/![DM](icon.dark-master.png){height="12" width="12"}
-* ![AS](icon.alien-science.png){height="12" width="12"}/![AS](icon.alien-science.png){height="12" width="12"}, ![AS](icon.alien-science.png){height="12" width="12"}/![DM](icon.dark-master.png){height="12" width="12"}
-* ![DM](icon.dark-master.png){height="12" width="12"}/![DM](icon.dark-master.png){height="12" width="12"}
+* ![FW](icon.forbidden-wisdom.png){height="16" width="16"}/![FW](icon.forbidden-wisdom.png){height="16" width="16"}, ![FW](icon.forbidden-wisdom.png){height="16" width="16"}/![AS](icon.alien-science.png){height="16" width="16"}, ![FW](icon.forbidden-wisdom.png){height="16" width="16"}/![DM](icon.dark-master.png){height="16" width="16"}
+* ![AS](icon.alien-science.png){height="16" width="16"}/![AS](icon.alien-science.png){height="16" width="16"}, ![AS](icon.alien-science.png){height="16" width="16"}/![DM](icon.dark-master.png){height="16" width="16"}
+* ![DM](icon.dark-master.png){height="16" width="16"}/![DM](icon.dark-master.png){height="16" width="16"}
 
 By spending a _Research_ card, you can buy one, and only one, Knowledge Card of the same seed of one of those printed on the card being spent. For "buying" the Knowledge card this way,  the Seeker marker must be on an Arcane Place that has the same seed of the Knowledge Card you intend to buy.
 
@@ -98,7 +97,7 @@ During the _Obsession Phase_ of each turn (see), players will take over all the 
 This way, during the game, the player will have less Study Cards for purchasing Knowledge Cards, but they will have more Obsessions Cards to be used for Research Actions, simulating the slowing descent to the insanity of this unholy wisdom.
 
 ### Knowledge Cards
-In general, these cards include a seed and the number of Knowledge Points they give to their owner. Knowledge Cards are subdivided into __Forbidden Wisdom__ (![FW](icon.forbidden-wisdom.png){height="12" width="12"}), __Alien Science__ (![AS](icon.alien-science.png){height="12" width="12"}) and __Dark Master__ (![DM](icon.dark-master.png){height="12" width="12"}), They are characterized by one or more of the following __Powers__:
+In general, these cards include a seed and the number of Knowledge Points they give to their owner. Knowledge Cards are subdivided into __Forbidden Wisdom__ (![FW](icon.forbidden-wisdom.png){height="16" width="16"}), __Alien Science__ (![AS](icon.alien-science.png){height="16" width="16"}) and __Dark Master__ (![DM](icon.dark-master.png){height="16" width="16"}), They are characterized by one or more of the following __Powers__:
 
 * __Continuous__ (Cont): the card is placed in the Player's Research Area and it always has effect. Each time the Power of the card has effect, the owner gains a given number of Knowledge Points, as stated on the card itself.
 * __Activation__ (Act): the card is placed in the Player's Learning Area. When activated, at the expense of one Obsession, the Power has effect and the card is turned face down: it is no longer available for the rest of the turn. Each activation gives to the owner the given number of Knowledge Points stated on the card itself.

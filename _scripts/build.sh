@@ -54,20 +54,17 @@ rm $BUILD_DIR/build/*.*
 # Due to pandoc not resizing images for some reason and I'm not motivated in debugging it, I'm going to resize images by myself
 	shopt -s nullglob
 	for i in icon.*.jpg icon.*.JPG icon.*.png icon.*.PNG; do
-		filename=$(basename "$i")
-		extension="${filename##*.}"
-		filename="${filename%.*}"
 
-		convert                           \
-  		$i                              \
- 		-quality 90                       \
- 		-filter Lanczos                   \
- 		-write mpr:copy-of-huge-original  \
- 		+delete                           \
-      mpr:copy-of-huge-original -resize '32x32>'  -write ${filename}-32px.${extension} \
-      mpr:copy-of-huge-original -resize '24x24>'  -write ${filename}-32px.${extension} \
-  		mpr:copy-of-huge-original -resize '16x16>'  -write ${filename}-16px.${extension} \
-      mpr:copy-of-huge-original -resize '12x12>'  -write ${filename}-12px.${extension}
+		convert $i                              \
+ 		-filter Lanczos                         \
+    -colorspace sRGB                        \
+    -units PixelsPerInch image -density 120 \
+ 		-write mpr:main                         \
+ 		+delete                                 \
+    mpr:main -resize '32x32>'  -write ${filename}-32px.${extension} +delete \
+    mpr:main -resize '24x24>'  -write ${filename}-32px.${extension} +delete \
+  	mpr:main -resize '16x16>'  -write ${filename}-16px.${extension} +delete \
+    mpr:main -resize '12x12>'         ${filename}-12px.${extension}
 	done
 
 cp $BUILD_DIR/woc.rules.en.md $BUILD_DIR/woc.rules.en.resized.md
