@@ -52,27 +52,35 @@ rm $BUILD_DIR/build/*.*
 
 # Build rules PDF
 # Due to pandoc not resizing images for some reason and I'm not motivated in debugging it, I'm going to resize images by myself
-	shopt -s nullglob
-	for i in icon.*.jpg icon.*.JPG icon.*.png icon.*.PNG; do
+echo "Image processing for markdown renderings..."
 
-		convert $i                              \
- 		-filter Lanczos                         \
-    -colorspace sRGB                        \
-    -units PixelsPerInch                    \
-    -density 120                            \
- 		-write mpr:main                         \
- 		+delete                                 \
-    mpr:main -resize '32x32>'  -write ${filename}-32px.${extension} +delete \
-    mpr:main -resize '24x24>'  -write ${filename}-32px.${extension} +delete \
-  	mpr:main -resize '16x16>'  -write ${filename}-16px.${extension} +delete \
-    mpr:main -resize '12x12>'         ${filename}-12px.${extension}
-	done
+shopt -s nullglob
+for i in icon.*.jpg icon.*.JPG icon.*.png icon.*.PNG; do
+
+      identify -verbose $i
+
+      filename=$(basename "$i")
+      extension="${filename##*.}"
+      filename="${filename%.*}"
+
+      convert $i                                \
+        -filter Lanczos                         \
+        -colorspace sRGB                        \
+        -units PixelsPerInch                    \
+        -density 120                            \
+        -write mpr:main                         \
+        +delete                                 \
+        mpr:main -resize '32x32>'  -write ${filename}-32px.${extension} +delete \
+        mpr:main -resize '24x24>'  -write ${filename}-24px.${extension} +delete \
+        mpr:main -resize '16x16>'  -write ${filename}-16px.${extension} +delete \
+        mpr:main -resize '12x12>'         ${filename}-12px.${extension}
+done
 
 cp $BUILD_DIR/woc.rules.en.md $BUILD_DIR/woc.rules.en.resized.md
 
 sed -i 's/\.png){height="12" width="12"}/-12px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
 sed -i 's/\.png){height="16" width="16"}/-16px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
 sed -i 's/\.png){height="24" width="24"}/-24px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
-sed -i 's/\.png){height="32" width="42"}/-32ps\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
+sed -i 's/\.png){height="32" width="32"}/-32px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
 
 pandoc $BUILD_DIR/woc.rules.en.resized.md -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
