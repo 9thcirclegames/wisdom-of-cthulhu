@@ -1750,4 +1750,38 @@
   <kp></kp>
 </card>
 
+<card id="CHILDRENOFCTHULHU" n="1">
+  <family>Entity</family>
+  <type>Immediate</type>
+  <title>
+    <label>Childrens of Cthulhu</label>
+  </title>
+  <caption>
+    <label>Soldiers of the Great Old One</label>
+  </caption>
+  <description>
+    <label>Pick one opponent's Ritual Object or one Invocation Power from a Great Old One in game. It counts as Elder Sign until the end of the turn.</label>
+  </description>
+  <darkbond type="madness" />
+  <kp></kp>
+</card>
+
+<card id="GNOPHKE" n="1">
+  <family>Entity</family>
+  <type>Immediate</type>
+  <title>
+    <label translatable="no">Gnoph-ke</label>
+  </title>
+  <caption>
+    <label>Freezing breath</label>
+  </caption>
+  <description>
+    <label>Choose %s from one of your opponents. It cannot be used until the owner discard one %s.</label>
+    <arg unit="FW">1</arg>
+    <arg unit="Obs">1</arg>
+  </description>
+  <darkbond type="madness" />
+  <kp></kp>
+</card>
+
 </deck>

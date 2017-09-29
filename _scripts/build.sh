@@ -57,7 +57,7 @@ echo "Image processing for markdown renderings..."
 shopt -s nullglob
 for i in icon.*.jpg icon.*.JPG icon.*.png icon.*.PNG; do
 
-      identify -verbose $i
+      identify $i
 
       filename=$(basename "$i")
       extension="${filename##*.}"
