@@ -1766,11 +1766,11 @@
   <kp></kp>
 </card>
 
-<card id="GNOPHKE" n="1">
+<card id="GNOPHKEH" n="1">
   <family>Entity</family>
   <type>Immediate</type>
   <title>
-    <label translatable="no">Gnoph-ke</label>
+    <label translatable="no">Gnoph-keh</label>
   </title>
   <caption>
     <label>Freezing breath</label>
@@ -1781,6 +1781,74 @@
     <arg unit="Obs">1</arg>
   </description>
   <darkbond type="madness" />
+  <kp></kp>
+</card>
+
+<card id="YEKEBWORM" n="1">
+  <family>Entity</family>
+  <type>Continuos</type>
+  <title>
+    <label>Yekeb Worm</label>
+  </title>
+  <caption>
+    <label>Tepehatic Voyage</label>
+  </caption>
+  <description>
+    <label>You get the same number of %s of the first %s combination from your opponents completed in the current turn.</label>
+    <arg>KP</arg>
+    <arg>AS</arg>
+  </description>
+  <darkbond type="nightmare" />
+  <kp></kp>
+</card>
+
+<card id="SHANTAK" n="1">
+  <family>Entity</family>
+  <type>Continuos</type>
+  <title>
+    <label translatable="no">Shantak</label>
+  </title>
+  <caption>
+    <label>Sidereal mount</label>
+  </caption>
+  <description>
+    <label>You can move your Seeker marker in any Arcane Places, even if it's occupied by another player Seeker or blocked by an Elder Sign.</label>
+  </description>
+  <darkbond type="dimension" />
+  <kp></kp>
+</card>
+
+<card id="DHOLE" n="1">
+  <family>Entity</family>
+  <type>Activation</type>
+  <title>
+    <label translatable="no">Dhole</label>
+  </title>
+  <caption>
+    <label>Irremovable horror</label>
+  </caption>
+  <description>
+    <label>Place this card into the Evocation Area: nobody, including you, can buy %s until the end of current turn.</label>
+    <arg>EN</arg>
+  </description>
+  <darkbond type="dimension" />
+  <kp></kp>
+</card>
+
+<card id="COLOROUTOFSPACE" n="1">
+  <family>Entity</family>
+  <type>Immediate</type>
+  <title>
+    <label translatable="no">The Color Out of Space</label>
+  </title>
+  <caption>
+    <label>Corrupted place</label>
+  </caption>
+  <description>
+    <label>Put this card above  an Arcane Place of your choice. It counts as Elder Sign until the end of the turn.</label>
+    <arg>EN</arg>
+  </description>
+  <darkbond type="nightmare" />
   <kp></kp>
 </card>
 
