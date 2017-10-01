@@ -33,6 +33,13 @@
      <arg unit="EN">1</arg>
    </phase>
 </ritual>
+<references>
+  <primary isbn="0-87054-039-4">The Hound</primary>
+  <primary isbn="0-87054-038-6">The Case of Charles Dexter Ward</primary>
+  <primary isbn="0-87054-039-4">The Festival</primary>
+  <primary isbn="0-87054-039-4">The Nameless City</primary>
+  <primary isbn="0-87054-037-8">The Dunwich Horror</primary>
+</references>
 </card>
 
 <card id="AKLO" n="1">
@@ -48,13 +55,16 @@
     <label>Consider a requisite of any Ritual Object as fulfilled.</label>
   </description>
   <kp>1</kp>
+  <references>
+    <primary>The White People</primary>
+  </references>
 </card>
 
-<card id="JADETALISMAN" n="1">
+<card id="HOUNDAMULET" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Jade Talisman</label>
+    <label>Hound Amulet</label>
   </title>
   <caption>
     <label>Stalking Hound</label>
@@ -64,6 +74,9 @@
     <arg>DM</arg>
   </description>
   <kp>1</kp>
+  <references>
+    <primary isbn="0-87054-039-4">The Hound</primary>
+  </references>
 </card>
 
 <card id="SILVERKEY" n="1">
@@ -94,6 +107,9 @@
      <arg unit="FW">3</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Silver Key</primary>
+  </references>
 </card>
 
 <card id="ESSENTIALSALTES" n="1">
@@ -126,6 +142,9 @@
      <arg unit="EN">2</arg>
    </phase>
   </ritual>
+  <references>
+    <primary isbn="0-87054-038-6">The Case of Charles Dexter Ward</primary>
+  </references>
 </card>
 
 <card id="MINDEXCHANGE" n="1">
@@ -141,6 +160,9 @@
     <label>Replace your Seeker marker with one of your opponents&apos;.</label>
   </description>
   <kp>2</kp>
+  <references>
+    <primary isbn="0-440-50875-4">The Thing on the Doorstep</primary>
+  </references>
 </card>
 
 <card id="STELEOFDAGON" n="1">
@@ -172,6 +194,9 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>Dagon</primary>
+  </references>
 </card>
 
 <card id="DREAMSOFCTHULHU" n="1">
@@ -208,11 +233,11 @@
   </ritual>
 </card>
 
-<card id="ALAZIF" n="1">
+<card id="KITABALAZIF" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
-    <label translatable="no">Alazif</label>
+    <label translatable="no">Kitab Al-Azif</label>
   </title>
   <caption>
     <label>Early Knowledge</label>
@@ -240,13 +265,17 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+    <primary isbn="0-87054-039-4">The Hound</primary>
+    <primary isbn="0-87054-039-4">The Nameless City</primary>
+  </references>
 </card>
 
-<card id="TIARAOFDAGON" n="1">
+<card id="DEEPONETIARA" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
-    <label>Tiara of Dagon</label>
+    <label>Deep One Tiara</label>
   </title>
   <caption>
     <label>Supreme Priest</label>
@@ -258,9 +287,12 @@
     <arg>DM</arg>
   </description>
   <kp>?</kp>
+  <references>
+    <primary>The Shadow over Innsmouth</primary>
+  </references>
 </card>
 
-<card id="BITEOFDEVIL" n="1">
+<card id="BITEOFDEVILSFLY" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -274,6 +306,9 @@
     <arg>Cont</arg>
   </description>
   <kp>1</kp>
+  <references>
+    <primary>Winged Death</primary>
+  </references>
 </card>
 
 <card id="PETRIFYINGELIXIR" n="1">
@@ -307,7 +342,7 @@
   <kp>1</kp>
 </card>
 
-<card id="POWEDEROFIBNR" n="1">
+<card id="POWEDEROFIBNGHAZI" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -1839,7 +1874,7 @@
   <family>Entity</family>
   <type>Immediate</type>
   <title>
-    <label translatable="no">The Color Out of Space</label>
+    <label>The Color Out of Space</label>
   </title>
   <caption>
     <label>Corrupted place</label>
