@@ -302,8 +302,7 @@
     <label>Insane Transmigration</label>
   </caption>
   <description>
-    <label>Turn an opponent&apos;s %s card of your choice. The owner cannot use it until the beginning of the next turn.</label>
-    <arg>Cont</arg>
+    <label>Turn an opponent&apos;s Continuos card of your choice. The owner cannot use it until the beginning of the next turn.</label>
   </description>
   <kp>1</kp>
   <references>
@@ -311,20 +310,21 @@
   </references>
 </card>
 
-<card id="PETRIFYINGELIXIR" n="1">
+<card id="PETRIFYINGPOTION" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Petrifying Elixir</label>
+    <label>Petrifying Potion</label>
   </title>
   <caption>
     <label>Horrible Transformation</label>
   </caption>
   <description>
-    <label>Choose an opponent&apos;s %s. It cannot be moved until the end of turn.</label>
-    <arg>SM</arg>
+    <label>Choose an opponent&apos;s Seeker Marker. It cannot be moved until the end of turn.</label>
   </description>
   <kp>3</kp>
+  <references>
+    <primary>The Man of Stone</primary>
 </card>
 
 <card id="STARSTONESOFMNAR" n="1">
@@ -390,7 +390,7 @@
   <description>
     <label>You gain %s and the first %s card from your discard pile.</label>
     <arg unit="KP">2</arg>
-    <arg>FW</arg>
+    <arg unit="FW">1</arg>
   </description>
   <kp>2</kp>
   <ritual type="nightmare">
@@ -454,7 +454,7 @@
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Spell of T'Yog</label>
+    <label>Spell of T'yog</label>
   </title>
   <caption>
     <label>Trap the Beast</label>
@@ -467,6 +467,7 @@
   <kp>2</kp>
   <references>
     <primary>Out of the Aeons</primary>
+    <secondary>The Thing in the Pit</secondary>
   </references>
 </card>
 
@@ -794,11 +795,11 @@
   </references>
 </card>
 
-<card id="SOCIETYPSY" n="1">
+<card id="PSIONICSOCIERY" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
-    <label>Society for Psyonic Research</label>
+    <label>Psionic Society</label>
   </title>
   <caption>
     <label>Mind Probing</label>
@@ -872,7 +873,7 @@
   </references>
 </card>
 
-<card id="3RDPSALMOFLIBERDAMNATUS" n="1">
+<card id="THIRDPSALMOFLIBERDAMNATUS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -922,11 +923,11 @@
   </combination>
 </card>
 
-<card id="ALIENCYLINDER" n="1">
+<card id="MIGOBRAINTCONTAINER" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
-    <label>XXXX Cylinder</label>
+    <label>Mi-Go Brain Container</label>
   </title>
   <caption>
     <label>Sidereal Transportation</label>
@@ -1226,11 +1227,11 @@
   <kp>?</kp>
 </card>
 
-<card id="SHININGTRAPEZOID" n="1">
+<card id="SHININGTRAPEZOHEDRON" n="1">
   <family>Alien Science</family>
   <type>Continuous</type>
   <title>
-    <label>Shining Trapezoid</label>
+    <label>Shining Trapezohedron</label>
   </title>
   <caption>
     <label>Call of Darkness</label>
@@ -1262,6 +1263,10 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Hounter of the Dark</primary>
+    <secondary>The Shadow from the Steeple</secondary>
+  </references>
 </card>
 
 <card id="BEAMINGGUN" n="1">
