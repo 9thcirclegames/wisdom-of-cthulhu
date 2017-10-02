@@ -607,11 +607,11 @@
   </references>
 </card>
 
-<card id="CHRONICLESOFNATH" n="1">
+<card id="CHRONICLEOFNATH" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Chronicles of Naths</label>
+    <label>Chronicle of Naths</label>
   </title>
   <caption>
     <label>Visions of Creatures</label>
@@ -620,13 +620,16 @@
     <label>You can look at the last card on the Entities deck and put it on the top, if you want.</label>
   </description>
   <kp>3</kp>
+  <references>
+    <primary>The Tree on the Hill</primary>
+  </references>
 </card>
 
 <card id="YULERITE" n="1">
   <family>Forbidden Wisdom</family>
   <type>Activation</type>
   <title>
-    <label>Yule Rite</label>
+    <label>Yule-rite</label>
   </title>
   <caption>
     <label>Invocation to Unnamed</label>
@@ -653,6 +656,9 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Festival</primary>
+  </references>
 </card>
 
 <card id="BLACKSTONE" n="1">
@@ -687,6 +693,9 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Black Stone</primary>
+  </references>
 </card>
 
 <card id="SEVENHSAN" n="1">
@@ -728,9 +737,12 @@
     <arg>Power</arg>
   </description>
   <kp>?</kp>
+  <references>
+    <primary>The Dreams in the Witch House</primary>
+  </references>
 </card>
 
-<card id="AKLORITUAL" n="1">
+<card id="THIRDAKLORITUAL" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -740,8 +752,8 @@
     <label>Exchange of Knowledge</label>
   </caption>
   <description>
-    <label>Pick up one of your opponents&apos; %s and exchange with one of your own. This exchange is permanent.</label>
-    <arg>FW</arg>
+    <label>Pick up %s fron one of your opponents and exchange with one of your own. This exchange is permanent.</label>
+    <arg unit="FW">1</arg>
   </description>
   <kp>2</kp>
   <ritual type="dimension">
@@ -758,13 +770,16 @@
      <arg unit="FW">2</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Diary of Alonzo Typer</primary>
+  </references>
 </card>
 
-<card id="GREATRACELIBRARY" n="1">
+<card id="LIBRARYOFPNAKOTUS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
-    <label>Great Race of Yith&apos;s Library</label>
+    <label>The Great Library of Pnakotus</label>
   </title>
   <caption>
     <label>Endless Knowledge</label>
@@ -774,6 +789,9 @@
     <arg unit="KP">3</arg>
   </description>
   <kp>?</kp>
+  <references>
+    <primary>The Shadow out of Time</primary>
+  </references>
 </card>
 
 <card id="SOCIETYPSY" n="1">
@@ -789,13 +807,12 @@
   </description>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s. For each additional %s added you get %s to a maximum of %s. Do not discard the Combination, you can use the %s cards normally, one per turn. The %s cards locked into the Combination cannot be forced to be discarded by opponents&apos; actions, but they don&apos;t contribute to the dark bond.</label>
+    <label>Combination: %s. Adding %s you will get %s to a maximum of %s. Do not discard the Combination, you can use the %s card per turn, if you want. The cards locked into the Combination cannot be forced to be discarded by opponents&apos; actions, but they don&apos;t contribute to the dark bond.</label>
     <arg unit="DM">1</arg>
-    <arg>DM</arg>
+    <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
     <arg unit="KP">6</arg>
-    <arg>DM</arg>
-    <arg>DM</arg>
+    <arg unit="DM">1</arg>
   </combination>
 </card>
 
@@ -812,6 +829,9 @@
     <label>Discard this card instead of another one you would be forced to discard due to any opponents&apos; action</label>
   </description>
   <kp>1</kp>
+  <references>
+    <primary>The Whispered in Darkness</primary>
+  </references>
 </card>
 
 <card id="BORELLUS" n="1">
@@ -824,14 +844,14 @@
     <label>Alchemic Transmutation</label>
   </caption>
   <description>
-    <label>You can choose to exchange one %s (%s or %s) or %s with one of the same seed available on the %s.</label>
-    <arg>FW</arg>
-    <arg>Continuous</arg>
-    <arg>Activation</arg>
-    <arg>AS</arg>
-    <arg>Research Area</arg>
+    <label>You can choose to exchange %s (Continuos or Activation) or %s with one of the same seed available on the Research Area.</label>
+    <arg unit="FW">1</arg>
+    <arg unit="AS">1</arg>
   </description>
   <kp>2</kp>
+  <references>
+    <primary>The Case of Charles Dexter Ward</primary>
+  </references>
 </card>
 
 <card id="SIGNOFKOTH" n="1">
@@ -844,27 +864,30 @@
     <label>Seal the Path</label>
   </caption>
   <description>
-    <label>Place this card on the %s of a Great Old One. It counts as an Elder Sign until the end of the turn.</label>
-    <arg>Evocation Power</arg>
+    <label>Place this card on the Evocation Powe of a Great Old One. It counts as an Elder Sign until the end of the turn.</label>
   </description>
   <kp>1</kp>
+  <references>
+    <primary>The Dream-Quest of Unknown Kadath</primary>
+  </references>
 </card>
 
-<card id="3RDPSLALM" n="1">
+<card id="3RDPSALMOFLIBERDAMNATUS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>III Psalm from the Liber Damnatus</label>
+    <label>III Psalm of Liber Damnatus</label>
   </title>
   <caption>
     <label>Call to External Spheres</label>
   </caption>
   <description>
-    <label>If no Great Old One was already evocated, you can use any of the avaialabe %s, even if your Ritual marker is not on the proper tile of the %s.</label>
-    <arg>Evocation Powers</arg>
-    <arg>Ritual Dashboard</arg>
+    <label>If no Great Old One was already evocated, you can use any of the avaialabe Evocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard.</label>
   </description>
   <kp>?</kp>
+  <references>
+    <primary>The Case of Charles Dexter Ward</primary>
+  </references>
 </card>
 
 <card id="SNAKEDEN" n="1">
@@ -1101,11 +1124,11 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for %s card in your own, including the ones in this Combination.</label>
     <arg unit="FW">1</arg>
     <arg unit="DM">2</arg>
     <arg unit="KP">2</arg>
-    <arg>DM</arg>
+    <arg unit="DM">1</arg>
   </combination>
 </card>
 
@@ -1174,12 +1197,12 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s + %s. You gain %s for %s card in your own, including the ones in this Combination.</label>
     <arg unit="FW">2</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
-    <arg>FW</arg>
+    <arg unit="FW">1</arg>
   </combination>
 </card>
 
@@ -1217,9 +1240,9 @@
     <label>Combination: %s + %s. At the beginning of each turn, you can discard a card from the Combination. If you discard %s, you gain %s. If you discard %s, you gain %s. You can replace the cards at any time. If you remove all the cards from the Combination, discard this card too.</label>
     <arg unit="DM">2</arg>
     <arg unit="EN">2</arg>
-    <arg>EN</arg>
+    <arg unit="EN">1</arg>
     <arg unit="KP">3</arg>
-    <arg>DM</arg>
+    <arg unit="DM">1</arg>
     <arg unit="KP">4</arg>
   </combination>
   <ritual type="nightmare">
@@ -1272,12 +1295,10 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s %s or %s and put it into the owner&apos;s discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick %s from one opponent&apos;s Research or Evocation Area and put it into the owner&apos;s discard pile.</label>
     <arg unit="DM">1</arg>
     <arg unit="Obs">1</arg>
-    <arg>DM</arg>
-    <arg>Research Area</arg>
-    <arg>Evocation Area</arg>
+    <arg unit="DM">1</arg>
   </combination>
 </card>
 
@@ -1292,10 +1313,10 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s: this card cannot be locked by an Elder Sign until the end of the turn.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick  %s: this card cannot be locked by an Elder Sign until the end of the turn.</label>
     <arg unit="EN">1</arg>
     <arg unit="Ris">1</arg>
-    <arg>EN</arg>
+    <arg unit="EN">1</arg>
   </combination>
 </card>
 
@@ -1310,10 +1331,10 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s: this card cannot be locked by an Elder Sign until the end of the turn.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick %s: this card cannot be locked by an Elder Sign until the end of the turn.</label>
     <arg unit="DM">1</arg>
     <arg unit="Ris">1</arg>
-    <arg>DM</arg>
+    <arg unit="DM">1</arg>
   </combination>
 </card>
 
@@ -1328,10 +1349,10 @@
   </caption>
   <kp>3</kp>
   <combination>
-    <label>Combination: %s + %s. You get a %s card from the %s or from a discards pile of your choice.</label>
+    <label>Combination: %s + %s. You get %s card from the Research Area or from a discards pile of your choice.</label>
     <arg unit="FW">1</arg>
     <arg unit="EN">1</arg>
-    <arg>FW</arg>
+    <arg unit="FW">1</arg>
     <arg>Research Area</arg>
   </combination>
 </card>
@@ -1347,11 +1368,10 @@
   </caption>
   <kp>3</kp>
   <combination>
-    <label>Combination: %s + %s. You get an %s card from the %s or from a discard pile of your choice.</label>
+    <label>Combination: %s + %s. You get an %s card from the Research Area or from a discard pile of your choice.</label>
     <arg unit="AS">2</arg>
     <arg unit="EN">1</arg>
-    <arg>AS</arg>
-    <arg>Research Area</arg>
+    <arg unit="AS">1</arg>
   </combination>
 </card>
 
@@ -1365,11 +1385,10 @@
     <label>Evidence of Abyssal Intelligence</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s. You get an %s card from the %s or from a discard pile of your choice.</label>
+    <label>Combination: %s + %s. You get an %s card from the Research Area or from a discard pile of your choice.</label>
     <arg unit="DM">2</arg>
     <arg unit="EN">1</arg>
-    <arg>DM</arg>
-    <arg>Research Area</arg>
+    <arg unit="DM">1</arg>
   </combination>
   <kp>3</kp>
 </card>
@@ -1384,13 +1403,11 @@
     <label>An Infection not of This World</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s + %s + %s. Flip an opponent&apos;s %s or %s. It cannot be used until the end of the turn.</label>
+    <label>Combination: %s + %s + %s + %s. Flip an opponent&apos;s Activation or Continuos. It cannot be used until the end of the turn.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
     <arg unit="EN">1</arg>
-    <arg>Activation</arg>
-    <arg>Continuous</arg>
   </combination>
   <kp>4</kp>
 </card>
@@ -1405,8 +1422,8 @@
     <label>Supreme Sorcerer</label>
   </caption>
   <description>
-    <label>The first time you use a %s card, don&apos;t discard it. You can use it a second time, then you must definitively discard it.</label>
-    <arg>FW Imm</arg>
+    <label>The first time you use %s (Immediate), don&apos;t discard it. You can use it a second time, then you must definitively discard it.</label>
+    <arg unit="FW">1</arg>
   </description>
   <darkbond type="madness" />
   <kp>4</kp>
@@ -1422,10 +1439,8 @@
     <label>Dimensional Persecutor</label>
   </caption>
   <description>
-    <label>When you buy a %s, you can take it from the %s, one opponent's %s, from the discard pile (the uppermost card) or drawing from the relative deck.</label>
-    <arg>FW</arg>
-    <arg>Research Area</arg>
-    <arg>Learning Area</arg>
+    <label>When you buy %s, you can take it from the Research Area, the Learning Area from one of your opponents, from the discard pile (the uppermost card) or drawing it from one of the decks.</label>
+    <arg unit="FW">1</arg>
   </description>
   <darkbond type="dimension" />
   <kp>4</kp>
