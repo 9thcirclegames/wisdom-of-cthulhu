@@ -327,11 +327,11 @@
   <kp>3</kp>
 </card>
 
-<card id="STONESOFMNAR" n="1">
+<card id="STARSTONESOFMNAR" n="1">
   <family>Forbidden Wisdom</family>
   <type>Activation</type>
   <title>
-    <label>Stones of Mnar</label>
+    <label>Star Stones of Mnar</label>
   </title>
   <caption>
     <label>Protective Seal</label>
@@ -340,13 +340,16 @@
     <label>It counts as an Elder Sign.</label>
   </description>
   <kp>1</kp>
+  <references>
+    <primary>The Lurker at the Threshold</primary>
+  </references>
 </card>
 
-<card id="POWEDEROFIBNGHAZI" n="1">
+<card id="DUSTOFIBNGHAZI" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Powder of Ibn Ghazi</label>
+    <label>Dust of Ibn Ghazi</label>
   </title>
   <caption>
     <label>Abominations Revelator</label>
@@ -370,9 +373,12 @@
      <arg unit="EN">2</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Dunwich Horror</primary>
+  </references>
 </card>
 
-<card id="PNAKOTIC" n="1">
+<card id="PNAKOTICMANUSCRIPTS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -403,13 +409,17 @@
      <arg unit="EN">2</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Other Gods</primary>
+    <primary>The Dream-Quest of Unknown Kadath</primary>
+  </references>
 </card>
 
-<card id="CHANTSOFDHOL" n="1">
+<card id="DHOLCHANTS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
-    <label>Chants of Dhol</label>
+    <label>Dhol Chants</label>
   </title>
   <caption>
     <label>Evocation Chants</label>
@@ -435,23 +445,29 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Horror in the Museum</primary>
+  </references>
 </card>
 
 <card id="SPELLOFTYOG" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Spell of T&apos;Yog</label>
+    <label>Spell of T'Yog</label>
   </title>
   <caption>
     <label>Trap the Beast</label>
   </caption>
   <description>
-    <label>Choose one opponents&apos; %s and turn it down. It cannot be used until the owner spends an %s to release it.</label>
-    <arg>EN</arg>
-    <arg>Obs</arg>
+    <label>Choose %s from one of your opponents and turn it down. It cannot be used until the owner spends %s to release it.</label>
+    <arg unit="EN">1</arg>
+    <arg unit="Obs">1</arg>
   </description>
   <kp>2</kp>
+  <references>
+    <primary>Out of the Aeons</primary>
+  </references>
 </card>
 
 <card id="REGNUMCONGO" n="1">
@@ -464,13 +480,16 @@
     <label>Ode to Cannibalism</label>
   </caption>
   <description>
-    <label>Discard one opponents&apos; %s.</label>
-    <arg>DM</arg>
+    <label>Discard %s from one of your opponents.</label>
+    <arg unit="DM">1</arg>
   </description>
   <kp>1</kp>
+  <references>
+    <primary>The Picture in the House</primary>
+  </references>
 </card>
 
-<card id="BACCHANALIA" n="1">
+<card id="BACCHANALIAOFREDHOOK" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -486,9 +505,12 @@
     <arg>Evocation Power</arg>
   </description>
   <kp>1</kp>
+  <references>
+    <primary>The Horror at Red Hook</primary>
+  </references>
 </card>
 
-<card id="MISKATONIC" n="1">
+<card id="MISKATONICUNIVERSITY" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
@@ -510,13 +532,21 @@
     <arg>DM</arg>
     <arg>Research Area</arg>
   </combination>
+  <references>
+    <primary>Herbert West, Reanimator</primary>
+    <primary>The Dunwich Horror</primary>
+    <primary>The Shadow Out of Time</primary>
+    <primary>At The Mountains of Madness</primary>
+    <primary>The Whisperer in the Darkness</primary>
+    <primary>The Dream in the Witch House</primary>
+  </references>
 </card>
 
-<card id="MUSICOFZANN" n="1">
+<card id="MUSICOFERICHZANN" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
-    <label>Music of Zann</label>
+    <label>Music of Erich Zann</label>
   </title>
   <caption>
     <label>Call to Great Old Ones</label>
@@ -527,9 +557,12 @@
     <arg>Invocation Power</arg>
   </description>
   <kp>?</kp>
+  <references>
+    <primary>The Music of Erich Zann</primary>
+  </references>
 </card>
 
-<card id="SHUNNED" n="1">
+<card id="SHUNNEDHOUSE" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
@@ -540,35 +573,41 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: add %s to get %s. For each additional %s added you get %s to a maximum of %s. Then, do not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discard this card.</label>
+    <label>Combination: add %s to get %s. Adding %s you will get %s to a maximum of %s. Then, do not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discard this card.</label>
     <arg unit="FW">1</arg>
     <arg unit="KP">2</arg>
-    <arg>EN</arg>n="1"
+    <arg unit="EN">1</arg>
     <arg unit="KP">2</arg>
     <arg unit="KP">6</arg>
     <arg>EN</arg>
   </combination>
-
+  <references>
+    <primary>The Shunned House</primary>
+  </references>
 </card>
 
-<card id="ELTDOWN" n="1">
+<card id="ELTDOWNSHARDS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Fragments of Eltdown</label>
+    <label>Eltdown Shards</label>
   </title>
   <caption>
     <label>Incomplete Information</label>
   </caption>
   <description>
-    <label>Exchange one opponents&apos; permanent %s with one %s, both randomly chosen.</label>
-    <arg>Obs</arg>
-    <arg>Ris</arg>
+    <label>Exchange %s (permanent) with %s, both randomly chosen.</label>
+    <arg unit="Obs">1</arg>
+    <arg unit="Res">1</arg>
   </description>
   <kp>2</kp>
+  <references>
+    <primary>The Shadow Out of Time</primary>
+    <primary>The Challenge from Beyond</primary>
+  </references>
 </card>
 
-<card id="CHRONICLESNATH" n="1">
+<card id="CHRONICLESOFNATH" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -578,7 +617,7 @@
     <label>Visions of Creatures</label>
   </caption>
   <description>
-    <label>You can look at the last card on the Entities deck and put it on top, if you want.</label>
+    <label>You can look at the last card on the Entities deck and put it on the top, if you want.</label>
   </description>
   <kp>3</kp>
 </card>
@@ -593,8 +632,7 @@
     <label>Invocation to Unnamed</label>
   </caption>
   <description>
-    <label>You can use the %s of a Great Old One which is no more available in the game by spending the activation cost of this card instead.</label>
-    <arg>Evovation Power</arg>
+    <label>You can use the Evocation Power of a Great Old One which is no more available in the game by spending the activation cost of this card instead.</label>
   </description>
   <kp>1</kp>
   <ritual type="horror">
@@ -667,6 +705,10 @@
     <arg>Research Area</arg>
   </description>
   <kp>?</kp>
+  <references>
+    <primary>The Other Gods</primary>
+    <primary>The Dream-Quest of Unknown Kadath</primary>
+  </references>
 </card>
 
 <card id="BROWNJENKINS" n="1">
@@ -1769,11 +1811,11 @@
   <kp></kp>
 </card>
 
-<card id="FLYINGOCTOPUS" n="1">
+<card id="FLYINGPOLYPS" n="1">
   <family>Entity</family>
   <type>Activation</type>
   <title>
-    <label>Flying Octopus</label>
+    <label>Flying Polyps</label>
   </title>
   <caption>
     <label>Terrible Prosecutor</label>
@@ -1819,11 +1861,11 @@
   <kp></kp>
 </card>
 
-<card id="YEKEBWORM" n="1">
+<card id="YEKUBWORM" n="1">
   <family>Entity</family>
   <type>Continuos</type>
   <title>
-    <label>Yekeb Worm</label>
+    <label>Yekub Worm</label>
   </title>
   <caption>
     <label>Tepehatic Voyage</label>
@@ -1844,7 +1886,7 @@
     <label translatable="no">Shantak</label>
   </title>
   <caption>
-    <label>Sidereal mount</label>
+    <label>Sidereal Mount</label>
   </caption>
   <description>
     <label>You can move your Seeker marker in any Arcane Places, even if it's occupied by another player Seeker or blocked by an Elder Sign.</label>
@@ -1860,7 +1902,7 @@
     <label translatable="no">Dhole</label>
   </title>
   <caption>
-    <label>Irremovable horror</label>
+    <label>Irremovable Horror</label>
   </caption>
   <description>
     <label>Place this card into the Evocation Area: nobody, including you, can buy %s until the end of current turn.</label>
@@ -1868,6 +1910,9 @@
   </description>
   <darkbond type="dimension" />
   <kp></kp>
+  <references>
+    <primary>The Challenge from Beyond</primary>
+  </references>
 </card>
 
 <card id="COLOROUTOFSPACE" n="1">
