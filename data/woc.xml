@@ -752,7 +752,7 @@
     <label>Exchange of Knowledge</label>
   </caption>
   <description>
-    <label>Pick up %s fron one of your opponents and exchange with one of your own. This exchange is permanent.</label>
+    <label>Pick up %s from one of your opponents and exchange with one of your own. This exchange is permanent.</label>
     <arg unit="FW">1</arg>
   </description>
   <kp>2</kp>
@@ -844,7 +844,7 @@
     <label>Alchemic Transmutation</label>
   </caption>
   <description>
-    <label>You can choose to exchange %s (Continuos or Activation) or %s with one of the same seed available on the Research Area.</label>
+    <label>You can choose to exchange %s (Continuous or Activation) or %s with one of the same seed available on the Research Area.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
   </description>
@@ -864,7 +864,7 @@
     <label>Seal the Path</label>
   </caption>
   <description>
-    <label>Place this card on the Evocation Powe of a Great Old One. It counts as an Elder Sign until the end of the turn.</label>
+    <label>Place this card on the Evocation Power of a Great Old One. It counts as an Elder Sign until the end of the turn.</label>
   </description>
   <kp>1</kp>
   <references>
@@ -882,7 +882,7 @@
     <label>Call to External Spheres</label>
   </caption>
   <description>
-    <label>If no Great Old One was already evocated, you can use any of the avaialabe Evocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard.</label>
+    <label>If no Great Old One was already evocated, you can use any of the available Evocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard.</label>
   </description>
   <kp>?</kp>
   <references>
@@ -1295,7 +1295,7 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick %s from one opponent&apos;s Research or Evocation Area and put it into the owner&apos;s discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick %s from one opponent&apos;s Research or Evocation Area and put it into its owner&apos;s discard pile.</label>
     <arg unit="DM">1</arg>
     <arg unit="Obs">1</arg>
     <arg unit="DM">1</arg>
@@ -1403,7 +1403,7 @@
     <label>An Infection not of This World</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s + %s + %s. Flip an opponent&apos;s Activation or Continuos. It cannot be used until the end of the turn.</label>
+    <label>Combination: %s + %s + %s + %s. Flip an opponent&apos;s Activation or Continuous. It cannot be used until the end of the turn.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
