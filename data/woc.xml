@@ -325,6 +325,7 @@
   <kp>3</kp>
   <references>
     <primary>The Man of Stone</primary>
+  </references>
 </card>
 
 <card id="STARSTONESOFMNAR" n="1">
@@ -538,8 +539,8 @@
     <primary>The Dunwich Horror</primary>
     <primary>The Shadow Out of Time</primary>
     <primary>At The Mountains of Madness</primary>
-    <primary>The Whisperer in the Darkness</primary>
-    <primary>The Dream in the Witch House</primary>
+    <secondary>The Whisperer in the Darkness</secondary>
+    <secondary>The Dream in the Witch House</secondary>
   </references>
 </card>
 
@@ -553,9 +554,8 @@
     <label>Call to Great Old Ones</label>
   </caption>
   <description>
-    <label>You earn %s each time you use the %s of a Great Old One.</label>
+    <label>You earn %s each time you use the Invocation Powers of a Great Old One.</label>
     <arg unit="KP">2</arg>
-    <arg>Invocation Power</arg>
   </description>
   <kp>?</kp>
   <references>
@@ -574,7 +574,7 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: add %s to get %s. Adding %s you will get %s to a maximum of %s. Then, do not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discard this card.</label>
+    <label>Combination: add %s to get %s. Adding %s you will get %s to a maximum of %s. Then, you don't have to discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discard this card.</label>
     <arg unit="FW">1</arg>
     <arg unit="KP">2</arg>
     <arg unit="EN">1</arg>
@@ -618,7 +618,7 @@
     <label>Visions of Creatures</label>
   </caption>
   <description>
-    <label>You can look at the last card on the Entities deck and put it on the top, if you want.</label>
+    <label>You can look the last card on the Entities deck and put it on the top, if you want.</label>
   </description>
   <kp>3</kp>
   <references>
