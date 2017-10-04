@@ -1439,7 +1439,7 @@
     <label>Dimensional Persecutor</label>
   </caption>
   <description>
-    <label>When you buy %s, you can take it from the Research Area, the Learning Area from one of your opponents, from the discard pile (the uppermost card) or drawing it from one of the decks.</label>
+    <label>When you buy %s, you can take it from the Research Area, the Learning Area of one of your opponents, from the discard pile (the uppermost card) or drawing it from one of the decks.</label>
     <arg unit="FW">1</arg>
   </description>
   <darkbond type="dimension" />
@@ -1456,7 +1456,7 @@
     <label>The Librarian</label>
   </caption>
   <description>
-    <label>When you get %s from a %s, you also get the %s of the first %s on the discard pile. Put the latter at bottom of that deck, then.</label>
+    <label>When you get %s from a %s, you also get the %s of the first %s on the discard pile. Then, put the latter at the bottom of that deck.</label>
     <arg>KP</arg>
     <arg>FW</arg>
     <arg>KP</arg>
@@ -1511,7 +1511,7 @@
     <label>Resuscitator</label>
   </caption>
   <description>
-    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard pile when the Combination is completed.</label>
     <arg>DM</arg>
     <arg unit="KP">1</arg>
   </description>
@@ -1529,7 +1529,7 @@
     <label>Physicist of Beyond</label>
   </caption>
   <description>
-    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard pile when the Combination is completed.</label>
     <arg>AS</arg>
     <arg unit="KP">1</arg>
   </description>
@@ -1547,7 +1547,7 @@
     <label>Biologyst of the Occult</label>
   </caption>
   <description>
-    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard pile when the Combination is completed.</label>
     <arg>FW</arg>
     <arg unit="KP">1</arg>
   </description>
@@ -1565,7 +1565,7 @@
     <label>Servant of the Great Old Ones</label>
   </caption>
   <description>
-    <label>Discard a %s and a lock %s to activate the %s one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
+    <label>Discard %s and a locked %s to activate the %s one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
     <arg>Evocation Power</arg>
@@ -1633,7 +1633,7 @@
     <label>The Dreamer</label>
   </caption>
   <description>
-    <label>You can use for free the Power of an Arcane Place even if your Seeker marker is somewhere else.</label>
+    <label>You can use the Power of an Arcane Place for free even if your Seeker marker is somewhere else.</label>
   </description>
   <darkbond type="dimension" />
   <kp>4</kp>
@@ -1684,7 +1684,7 @@
     <label>Blasphemous Defiler</label>
   </caption>
   <description>
-    <label>Discard one opponent's Elders' Sign.</label>
+    <label>Discard one opponent's Elder Sign.</label>
   </description>
   <darkbond type="madness" />
   <kp></kp>
@@ -1694,7 +1694,7 @@
   <family>Entity</family>
   <type>Activation</type>
   <title>
-    <label trandlatable="no">Ghoul</label>
+    <label translatable="no">Ghoul</label>
   </title>
   <caption>
     <label>Corpses Devourer</label>
@@ -1735,7 +1735,7 @@
     <label>Custodian of Lost Secrets</label>
   </caption>
   <description>
-    <label>You can pick back a %s or %s from your discard pile.</label>
+    <label>You can pick back an %s or an %s from your discard pile.</label>
     <arg>EN</arg>
     <arg>AS</arg>
   </description>
@@ -1767,7 +1767,7 @@
     <label translatable="no">Mi-Go</label>
   </title>
   <caption>
-    <label>Lords of Alien Knownledge</label>
+    <label>Lords of Alien Knowledge</label>
   </caption>
   <description>
     <label>You can use this card as any other %s card. This card is discarded when the Combination is completed.</label>
@@ -1787,7 +1787,7 @@
     <label>Mind Swappers</label>
   </caption>
   <description>
-    <label>Pick %s from the opponent who has more.</label>
+    <label>Pick %s from the opponent who has the most.</label>
     <arg unit="KP">4</arg>
   </description>
   <darkbond type="dimension" />
@@ -1820,7 +1820,7 @@
     <label>Repugnant Hunter</label>
   </caption>
   <description>
-    <label>Choose one opponent's Seeker Marker and replace with your one. Discard the first.</label>
+    <label>Discard one opponent's Seeker Marker and replace it with your own.</label>
   </description>
   <darkbond type="dimension" />
   <kp></kp>
@@ -1852,7 +1852,7 @@
     <label>Soldiers of the Great Old One</label>
   </caption>
   <description>
-    <label>Pick one opponent's Ritual Object or one Invocation Power from a Great Old One in game. It counts as Elder Sign until the end of the turn.</label>
+    <label>Pick one opponent's Ritual Object or one Invocation Power from a Great Old One in game. It counts as an Elder Sign until the end of the turn.</label>
   </description>
   <darkbond type="madness" />
   <kp></kp>
@@ -1868,7 +1868,7 @@
     <label>Freezing breath</label>
   </caption>
   <description>
-    <label>Choose %s from one of your opponents. It cannot be used until the owner discard one %s.</label>
+    <label>Choose %s from one of your opponents. It cannot be used until the owner discards %s.</label>
     <arg unit="FW">1</arg>
     <arg unit="Obs">1</arg>
   </description>
@@ -1878,7 +1878,7 @@
 
 <card id="YEKUBWORM" n="1">
   <family>Entity</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Yekub Worm</label>
   </title>
@@ -1886,7 +1886,7 @@
     <label>Tepehatic Voyage</label>
   </caption>
   <description>
-    <label>You get the same number of %s of the first %s combination from your opponents completed in the current turn.</label>
+    <label>You get the same number of %s as the first %s combination completed by your opponents in the current turn.</label>
     <arg>KP</arg>
     <arg>AS</arg>
   </description>
@@ -1896,7 +1896,7 @@
 
 <card id="SHANTAK" n="1">
   <family>Entity</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label translatable="no">Shantak</label>
   </title>
@@ -1904,7 +1904,7 @@
     <label>Sidereal Mount</label>
   </caption>
   <description>
-    <label>You can move your Seeker marker in any Arcane Places, even if it's occupied by another player Seeker or blocked by an Elder Sign.</label>
+    <label>You can move your Seeker marker to any Arcane Places, even if it's occupied by another player Seeker or blocked by an Elder Sign.</label>
   </description>
   <darkbond type="dimension" />
   <kp></kp>
@@ -1920,7 +1920,7 @@
     <label>Irremovable Horror</label>
   </caption>
   <description>
-    <label>Place this card into the Evocation Area: nobody, including you, can buy %s until the end of current turn.</label>
+    <label>Place this card into the Evocation Area: nobody, including you, can buy %s until the end of the current turn.</label>
     <arg>EN</arg>
   </description>
   <darkbond type="dimension" />
@@ -1940,7 +1940,7 @@
     <label>Corrupted place</label>
   </caption>
   <description>
-    <label>Put this card above  an Arcane Place of your choice. It counts as Elder Sign until the end of the turn.</label>
+    <label>Put this card above an Arcane Place of your choice. It counts as an Elder Sign until the end of the turn.</label>
     <arg>EN</arg>
   </description>
   <darkbond type="nightmare" />
