@@ -70,7 +70,7 @@
     <label>Stalking Hound</label>
   </caption>
   <description>
-    <label>Put this card on one opponent %s. Counts as Elders&apos; Sign until the end of the turn.</label>
+    <label>Put this card on one opponent's %s.It counts as an Elder Sign until the end of the turn.</label>
     <arg>DM</arg>
   </description>
   <kp>1</kp>
@@ -89,7 +89,7 @@
     <label>Key for Other Dimensions</label>
   </caption>
   <description>
-    <label>Discard an Elders&apos; Sign from an Arcane Place.</label>
+    <label>Discard an Elder Sign from an Arcane Place.</label>
   </description>
   <kp>2</kp>
   <ritual type="nightmare">
@@ -157,7 +157,7 @@
     <label>Out from your body</label>
   </caption>
   <description>
-    <label>Replace your Seeker marker with one of your opponents&apos;.</label>
+    <label>Replace your Seeker marker with one of your opponents'.</label>
   </description>
   <kp>2</kp>
   <references>
@@ -296,13 +296,13 @@
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Bite of the Devil&apos;s Fly</label>
+    <label>Bite of the Devil's Fly</label>
   </title>
   <caption>
     <label>Insane Transmigration</label>
   </caption>
   <description>
-    <label>Turn an opponent&apos;s %s card of your choice. The owner cannot use it until the beginning of the next turn.</label>
+    <label>Turn an opponent's %s card of your choice. The owner cannot use it until the beginning of the next turn.</label>
     <arg>Cont</arg>
   </description>
   <kp>1</kp>
@@ -321,10 +321,13 @@
     <label>Horrible Transformation</label>
   </caption>
   <description>
-    <label>Choose an opponent&apos;s %s. It cannot be moved until the end of turn.</label>
+    <label>Choose an opponent's %s. It cannot be moved until the end of turn.</label>
     <arg>SM</arg>
   </description>
   <kp>3</kp>
+  <references>
+    <primary>The Man of Stone</primary>
+  </references>
 </card>
 
 <card id="STARSTONESOFMNAR" n="1">
@@ -355,7 +358,7 @@
     <label>Abominations Revelator</label>
   </caption>
   <description>
-    <label>Discard an opponent&apos;s Entity card</label>
+    <label>Discard an opponent's Entity card</label>
   </description>
   <kp>2</kp>
   <ritual type="horror">
@@ -454,7 +457,7 @@
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Spell of T'Yog</label>
+    <label>Spell of T'yog</label>
   </title>
   <caption>
     <label>Trap the Beast</label>
@@ -467,6 +470,7 @@
   <kp>2</kp>
   <references>
     <primary>Out of the Aeons</primary>
+    <secondary>The Thing in the Pit</secondary>
   </references>
 </card>
 
@@ -535,8 +539,8 @@
     <primary>The Dunwich Horror</primary>
     <primary>The Shadow Out of Time</primary>
     <primary>At The Mountains of Madness</primary>
-    <primary>The Whisperer in the Darkness</primary>
-    <primary>The Dream in the Witch House</primary>
+    <secondary>The Whisperer in the Darkness</secondary>
+    <secondary>The Dream in the Witch House</secondary>
   </references>
 </card>
 
@@ -550,9 +554,8 @@
     <label>Call to Great Old Ones</label>
   </caption>
   <description>
-    <label>You earn %s each time you use the %s of a Great Old One.</label>
+    <label>You earn %s each time you use the Invocation Powers of a Great Old One.</label>
     <arg unit="KP">2</arg>
-    <arg>Invocation Power</arg>
   </description>
   <kp>?</kp>
   <references>
@@ -571,13 +574,13 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: add %s to get %s. Adding %s you will get %s to a maximum of %s. Then, do not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discard this card.</label>
+    <label>Combination: add %s to get %s. Adding %s you will get %s to a maximum of %s. Then, you may not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discard this card.</label>
     <arg unit="FW">1</arg>
     <arg unit="KP">2</arg>
     <arg unit="EN">1</arg>
     <arg unit="KP">2</arg>
     <arg unit="KP">6</arg>
-    <arg>EN</arg>
+    <arg unit="EN">1</arg>
   </combination>
   <references>
     <primary>The Shunned House</primary>
@@ -605,7 +608,7 @@
   </references>
 </card>
 
-<card id="CHRONICLEOFNATH" n="1">
+<card id="CHRONICLEOFNATHS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -669,7 +672,7 @@
     <label>Unknown Object</label>
   </caption>
   <description>
-    <label>Pick a %s or %s from one of your opponents&apos; Learning Area and put back in its own deck. Then, shuffle the deck.</label>
+    <label>Pick a %s or %s from one of your opponents' Learning Area and put back in its own deck. Then, shuffle the deck.</label>
     <arg>FW</arg>
     <arg>AS</arg>
   </description>
@@ -695,7 +698,7 @@
   </references>
 </card>
 
-<card id="SEVENHSAN" n="1">
+<card id="SEVENCRPYTICALBOOKSOFHSAN" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
@@ -771,7 +774,7 @@
   </references>
 </card>
 
-<card id="LIBRARYOFPNAKOTUS" n="1">
+<card id="GREATLIBRARYOFPNAKOTUS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
@@ -790,11 +793,11 @@
   </references>
 </card>
 
-<card id="SOCIETYPSY" n="1">
+<card id="PSIONICSOCIERY" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
-    <label>Society for Psyonic Research</label>
+    <label>Psionic Society</label>
   </title>
   <caption>
     <label>Mind Probing</label>
@@ -803,7 +806,7 @@
   </description>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s. Adding %s you will get %s to a maximum of %s. Do not discard the Combination, you can use the %s card per turn, if you want. The cards locked into the Combination cannot be forced to be discarded by opponents&apos; actions, but they don&apos;t contribute to the dark bond.</label>
+    <label>Combination: %s. Adding %s you will get %s to a maximum of %s. Do not discard the Combination, you can use the %s card per turn, if you want. The cards locked into the Combination cannot be forced to be discarded by opponents' actions, but they don't contribute to the dark bond.</label>
     <arg unit="DM">1</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
@@ -822,7 +825,7 @@
     <label>Expendable Agent</label>
   </caption>
   <description>
-    <label>Discard this card instead of another one you would be forced to discard due to any opponents&apos; action</label>
+    <label>Discard this card instead of another one you would be forced to discard due to any opponents' action</label>
   </description>
   <kp>1</kp>
   <references>
@@ -830,7 +833,7 @@
   </references>
 </card>
 
-<card id="BORELLUS" n="1">
+<card id="WORKSOFBORELLUS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -868,7 +871,7 @@
   </references>
 </card>
 
-<card id="3RDPSALMOFLIBERDAMNATUS" n="1">
+<card id="THIRDPSALMOFLIBERDAMNATUS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
@@ -908,7 +911,7 @@
     <label>Non Euclidean Angles</label>
   </title>
   <caption>
-    <label>Alien Maths</label>
+    <label>Disconcerting Geometries</label>
   </caption>
   <kp>2</kp>
   <combination>
@@ -918,11 +921,11 @@
   </combination>
 </card>
 
-<card id="ALIENCYLINDER" n="1">
+<card id="MIGOBRAINTCONTAINER" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
-    <label>XXXX Cylinder</label>
+    <label>Mi-Go Brain Container</label>
   </title>
   <caption>
     <label>Sidereal Transportation</label>
@@ -1206,7 +1209,7 @@
   <family>Alien Science</family>
   <type>Activation</type>
   <title>
-    <label>Great Race of Yith&apos;s Technology</label>
+    <label>Great Race of Yith's Technology</label>
   </title>
   <caption>
     <label>Unbelievable Wonders</label>
@@ -1222,11 +1225,11 @@
   <kp>?</kp>
 </card>
 
-<card id="SHININGTRAPEZOID" n="1">
+<card id="SHININGTRAPEZOHEDRON" n="1">
   <family>Alien Science</family>
   <type>Continuous</type>
   <title>
-    <label>Shining Trapezoid</label>
+    <label>Shining Trapezohedron</label>
   </title>
   <caption>
     <label>Call of Darkness</label>
@@ -1258,6 +1261,10 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+	    <primary>The Hounter of the Dark</primary>
+	    <secondary>The Shadow from the Steeple</secondary>
+	</references>
 </card>
 
 <card id="BEAMINGGUN" n="1">
@@ -1271,7 +1278,7 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s Evocation Area or Learning Area and put into the owner&apos;s discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent's Evocation Area or Learning Area and put into the owner's discard pile.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
     <arg>EN</arg>
@@ -1289,7 +1296,7 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick %s from one opponent&apos;s Research or Evocation Area and put it into its owner&apos;s discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick %s from one opponent's Research or Evocation Area and put it into its owner's discard pile.</label>
     <arg unit="DM">1</arg>
     <arg unit="Obs">1</arg>
     <arg unit="DM">1</arg>
@@ -1354,7 +1361,7 @@
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
-    <label>N&apos;Kai Science</label>
+    <label>N'Kai Science</label>
   </title>
   <caption>
     <label>Unbelievable Experiments</label>
@@ -1372,7 +1379,7 @@
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
-    <label>Martin&apos;s Beach Remains</label>
+    <label>Martin's Beach Remains</label>
   </title>
   <caption>
     <label>Evidence of Abyssal Intelligence</label>
@@ -1396,7 +1403,7 @@
     <label>An Infection not of This World</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s + %s + %s. Flip an opponent&apos;s Activation or Continuous. It cannot be used until the end of the turn.</label>
+    <label>Combination: %s + %s + %s + %s. Flip an opponent's Activation or Continuous. It cannot be used until the end of the turn.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
@@ -1415,7 +1422,7 @@
     <label>Supreme Sorcerer</label>
   </caption>
   <description>
-    <label>The first time you use %s (Immediate), don&apos;t discard it. You can use it a second time, then you must definitively discard it.</label>
+    <label>The first time you use %s (Immediate), don't discard it. You can use it a second time, then you must definitively discard it.</label>
     <arg unit="FW">1</arg>
   </description>
   <darkbond type="madness" />

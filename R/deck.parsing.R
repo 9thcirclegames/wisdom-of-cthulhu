@@ -11,6 +11,8 @@ deck.parsing <- function(deck, domain = NULL){
               card.id <- ""
               if(xml_has_attr(x, "id")) card.id <- xml_attr(x, "id")
               
+              message(paste("Adding card:", card.id))
+              
               ### TITLE
               title <- ""
               if(class((xml_find_first(x, ".//title"))) != "xml_missing"){
