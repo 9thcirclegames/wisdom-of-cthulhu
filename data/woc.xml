@@ -11,7 +11,7 @@
     <label>Supreme Wisdom</label>
   </caption>
   <description>
-    <label>For a full round you can choose in which search order you play. %s for each %s in your own.</label>
+    <label>For a full round you can choose in which search order you play. %s for each %s in your Learning Area.</label>
     <arg unit="KP">1</arg>
     <arg>FW</arg>
   </description>
@@ -70,7 +70,7 @@
     <label>Stalking Hound</label>
   </caption>
   <description>
-    <label>Put this card on one opponent %s. Counts as Elders' Sign until the end of the turn.</label>
+    <label>Put this card on one opponent's %s.It counts as an Elder Sign until the end of the turn.</label>
     <arg>DM</arg>
   </description>
   <kp>1</kp>
@@ -89,7 +89,7 @@
     <label>Key for Other Dimensions</label>
   </caption>
   <description>
-    <label>Discard an Elders' Sign from an Arcane Place.</label>
+    <label>Discard an Elder Sign from an Arcane Place.</label>
   </description>
   <kp>2</kp>
   <ritual type="nightmare">
@@ -209,7 +209,7 @@
     <label>Presage of Insanity</label>
   </caption>
   <description>
-    <label>You gain %s equal to the number of all %s and %s cards in your own Learning Area.</label>
+    <label>You gain %s equal to the number of all %s and %s cards in your Learning Area.</label>
     <arg>KP</arg>
     <arg>FW</arg>
     <arg>DM</arg>
@@ -302,7 +302,8 @@
     <label>Insane Transmigration</label>
   </caption>
   <description>
-    <label>Turn an opponent's Continuos card of your choice. The owner cannot use it until the beginning of the next turn.</label>
+    <label>Turn an opponent's %s card of your choice. The owner cannot use it until the beginning of the next turn.</label>
+    <arg>Cont</arg>
   </description>
   <kp>1</kp>
   <references>
@@ -310,17 +311,18 @@
   </references>
 </card>
 
-<card id="PETRIFYINGPOTION" n="1">
+<card id="PETRIFYINGELIXIR" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Petrifying Potion</label>
+    <label>Petrifying Elixir</label>
   </title>
   <caption>
     <label>Horrible Transformation</label>
   </caption>
   <description>
-    <label>Choose an opponent's Seeker Marker. It cannot be moved until the end of turn.</label>
+    <label>Choose an opponent's %s. It cannot be moved until the end of turn.</label>
+    <arg>SM</arg>
   </description>
   <kp>3</kp>
   <references>
@@ -391,7 +393,7 @@
   <description>
     <label>You gain %s and the first %s card from your discard pile.</label>
     <arg unit="KP">2</arg>
-    <arg unit="FW">1</arg>
+    <arg>FW</arg>
   </description>
   <kp>2</kp>
   <ritual type="nightmare">
@@ -531,8 +533,6 @@
     <arg>AS</arg>
     <arg unit="KP">3</arg>
     <arg unit="KP">9</arg>
-    <arg>DM</arg>
-    <arg>Research Area</arg>
   </combination>
   <references>
     <primary>Herbert West, Reanimator</primary>
@@ -574,7 +574,7 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: add %s to get %s. Adding %s you will get %s to a maximum of %s. Then, you don't have to discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discard this card.</label>
+    <label>Combination: add %s to get %s. Adding %s you will get %s to a maximum of %s. Then, you may not discard the combination, as you can put %s from the Combination into play and replace them. When you pick up the last card from the Combination, discard this card.</label>
     <arg unit="FW">1</arg>
     <arg unit="KP">2</arg>
     <arg unit="EN">1</arg>
@@ -618,7 +618,7 @@
     <label>Visions of Creatures</label>
   </caption>
   <description>
-    <label>You can look the last card on the Entities deck and put it on the top, if you want.</label>
+    <label>You can look at the last card on the Entities deck and put it on the top, if you want.</label>
   </description>
   <kp>3</kp>
   <references>
@@ -672,10 +672,9 @@
     <label>Unknown Object</label>
   </caption>
   <description>
-    <label>Pick a %s or %s from one of your opponents' %s and put back in its own deck. Then, shuffle the deck.</label>
+    <label>Pick a %s or %s from one of your opponents' Learning Area and put back in its own deck. Then, shuffle the deck.</label>
     <arg>FW</arg>
     <arg>AS</arg>
-    <arg>Research Area</arg>
   </description>
   <kp>2</kp>
   <ritual type="horror">
@@ -709,10 +708,9 @@
     <label>Knowledge for the Chosen Ones</label>
   </caption>
   <description>
-    <label>At the beginning of each turn, you gain %s for each %s card left in the %s, before the area is cleansed.</label>
+    <label>At the beginning of each turn, you gain %s for each %s card left in the Research Area, before the area is cleansed.</label>
     <arg unit="KP">1</arg>
     <arg>FW</arg>
-    <arg>Research Area</arg>
   </description>
   <kp>?</kp>
   <references>
@@ -753,7 +751,7 @@
     <label>Exchange of Knowledge</label>
   </caption>
   <description>
-    <label>Pick up %s fron one of your opponents and exchange with one of your own. This exchange is permanent.</label>
+    <label>Pick up %s from one of your opponents and exchange with one of your own. This exchange is permanent.</label>
     <arg unit="FW">1</arg>
   </description>
   <kp>2</kp>
@@ -845,7 +843,7 @@
     <label>Alchemic Transmutation</label>
   </caption>
   <description>
-    <label>You can choose to exchange %s (Continuos or Activation) or %s with one of the same seed available on the Research Area.</label>
+    <label>You can choose to exchange %s (Continuous or Activation) or %s with one of the same seed available on the Research Area.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
   </description>
@@ -865,7 +863,7 @@
     <label>Seal the Path</label>
   </caption>
   <description>
-    <label>Place this card on the Evocation Powe of a Great Old One. It counts as an Elder Sign until the end of the turn.</label>
+    <label>Place this card on the Evocation Power of a Great Old One. It counts as an Elder Sign until the end of the turn.</label>
   </description>
   <kp>1</kp>
   <references>
@@ -883,7 +881,7 @@
     <label>Call to External Spheres</label>
   </caption>
   <description>
-    <label>If no Great Old One was already evocated, you can use any of the avaialabe Evocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard.</label>
+    <label>If no Great Old One was already evocated, you can use any of the available Evocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard.</label>
   </description>
   <kp>?</kp>
   <references>
@@ -1035,7 +1033,7 @@
     <label>Transdimensional Vessel</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">2</arg>
     <arg unit="AS">1</arg>
     <arg unit="KP">1</arg>
@@ -1072,7 +1070,7 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="AS">2</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
@@ -1125,11 +1123,11 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s. You gain %s for %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">1</arg>
     <arg unit="DM">2</arg>
     <arg unit="KP">2</arg>
-    <arg unit="DM">1</arg>
+    <arg>DM</arg>
   </combination>
 </card>
 
@@ -1198,12 +1196,12 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s + %s. You gain %s for %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">2</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
-    <arg unit="FW">1</arg>
+    <arg>FW</arg>
   </combination>
 </card>
 
@@ -1264,9 +1262,9 @@
    </phase>
   </ritual>
   <references>
-    <primary>The Hounter of the Dark</primary>
-    <secondary>The Shadow from the Steeple</secondary>
-  </references>
+	    <primary>The Hounter of the Dark</primary>
+	    <secondary>The Shadow from the Steeple</secondary>
+	</references>
 </card>
 
 <card id="BEAMINGGUN" n="1">
@@ -1280,12 +1278,10 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent's %s or %s and put into the owner's discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent's Evocation Area or Learning Area and put into the owner's discard pile.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
     <arg>EN</arg>
-    <arg>Research Area</arg>
-    <arg>Evocation Area</arg>
   </combination>
 </card>
 
@@ -1300,7 +1296,7 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick %s from one opponent's Research or Evocation Area and put it into the owner's discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick %s from one opponent's Research or Evocation Area and put it into its owner's discard pile.</label>
     <arg unit="DM">1</arg>
     <arg unit="Obs">1</arg>
     <arg unit="DM">1</arg>
@@ -1358,7 +1354,6 @@
     <arg unit="FW">1</arg>
     <arg unit="EN">1</arg>
     <arg unit="FW">1</arg>
-    <arg>Research Area</arg>
   </combination>
 </card>
 
@@ -1408,7 +1403,7 @@
     <label>An Infection not of This World</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s + %s + %s. Flip an opponent's Activation or Continuos. It cannot be used until the end of the turn.</label>
+    <label>Combination: %s + %s + %s + %s. Flip an opponent's Activation or Continuous. It cannot be used until the end of the turn.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
@@ -1444,7 +1439,7 @@
     <label>Dimensional Persecutor</label>
   </caption>
   <description>
-    <label>When you buy %s, you can take it from the Research Area, the Learning Area from one of your opponents, from the discard pile (the uppermost card) or drawing it from one of the decks.</label>
+    <label>When you buy %s, you can take it from the Research Area, the Learning Area of one of your opponents, from the discard pile (the uppermost card) or drawing it from one of the decks.</label>
     <arg unit="FW">1</arg>
   </description>
   <darkbond type="dimension" />
@@ -1461,7 +1456,7 @@
     <label>The Librarian</label>
   </caption>
   <description>
-    <label>When you get %s from a %s, you also get the %s of the first %s on the discard pile. Put the latter at bottom of that deck, then.</label>
+    <label>When you get %s from a %s, you also get the %s of the first %s on the discard pile. Then, put the latter at the bottom of that deck.</label>
     <arg>KP</arg>
     <arg>FW</arg>
     <arg>KP</arg>
@@ -1516,7 +1511,7 @@
     <label>Resuscitator</label>
   </caption>
   <description>
-    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard pile when the Combination is completed.</label>
     <arg>DM</arg>
     <arg unit="KP">1</arg>
   </description>
@@ -1534,7 +1529,7 @@
     <label>Physicist of Beyond</label>
   </caption>
   <description>
-    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard pile when the Combination is completed.</label>
     <arg>AS</arg>
     <arg unit="KP">1</arg>
   </description>
@@ -1552,7 +1547,7 @@
     <label>Biologyst of the Occult</label>
   </caption>
   <description>
-    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard piles when the Combination is completed.</label>
+    <label>For a given Combination, it counts as an additional %s. If this card is used in a Combination, you get %s more. Do not put this card on the discard pile when the Combination is completed.</label>
     <arg>FW</arg>
     <arg unit="KP">1</arg>
   </description>
@@ -1570,7 +1565,7 @@
     <label>Servant of the Great Old Ones</label>
   </caption>
   <description>
-    <label>Discard a %s and a lock %s to activate the %s one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
+    <label>Discard %s and %s to activate the %s one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
     <arg>Evocation Power</arg>
@@ -1603,9 +1598,8 @@
     <label>Abominious Painter</label>
   </caption>
   <description>
-    <label>Choose %s from the %s, use the Power as it is of your own, then discard it.</label>
+    <label>Choose %s from the Evocation Area, use the Power as it is of your own, then discard it.</label>
     <arg unit="EN">1</arg>
-    <arg>Evocation Area</arg>
   </description>
   <darkbond type="nightmare" />
   <kp>5</kp>
@@ -1638,7 +1632,7 @@
     <label>The Dreamer</label>
   </caption>
   <description>
-    <label>You can use for free the Power of an Arcane Place even if your Seeker marker is somewhere else.</label>
+    <label>You can use the Power of an Arcane Place for free even if your Seeker marker is somewhere else.</label>
   </description>
   <darkbond type="dimension" />
   <kp>4</kp>
@@ -1689,7 +1683,7 @@
     <label>Blasphemous Defiler</label>
   </caption>
   <description>
-    <label>Discard one opponent's Elders' Sign.</label>
+    <label>Discard one opponent's Elder Sign.</label>
   </description>
   <darkbond type="madness" />
   <kp></kp>
@@ -1699,7 +1693,7 @@
   <family>Entity</family>
   <type>Activation</type>
   <title>
-    <label trandlatable="no">Ghoul</label>
+    <label translatable="no">Ghoul</label>
   </title>
   <caption>
     <label>Corpses Devourer</label>
@@ -1740,7 +1734,7 @@
     <label>Custodian of Lost Secrets</label>
   </caption>
   <description>
-    <label>You can pick back a %s or %s from your discard pile.</label>
+    <label>You can pick back an %s or an %s from your discard pile.</label>
     <arg>EN</arg>
     <arg>AS</arg>
   </description>
@@ -1772,7 +1766,7 @@
     <label translatable="no">Mi-Go</label>
   </title>
   <caption>
-    <label>Lords of Alien Knownledge</label>
+    <label>Lords of Alien Knowledge</label>
   </caption>
   <description>
     <label>You can use this card as any other %s card. This card is discarded when the Combination is completed.</label>
@@ -1792,7 +1786,7 @@
     <label>Mind Swappers</label>
   </caption>
   <description>
-    <label>Pick %s from the opponent who has more.</label>
+    <label>Pick %s from the opponent who has the most.</label>
     <arg unit="KP">4</arg>
   </description>
   <darkbond type="dimension" />
@@ -1825,7 +1819,7 @@
     <label>Repugnant Hunter</label>
   </caption>
   <description>
-    <label>Choose one opponent's Seeker Marker and replace with your one. Discard the first.</label>
+    <label>Discard one opponent's Seeker Marker and replace it with your own.</label>
   </description>
   <darkbond type="dimension" />
   <kp></kp>
@@ -1857,7 +1851,7 @@
     <label>Soldiers of the Great Old One</label>
   </caption>
   <description>
-    <label>Pick one opponent's Ritual Object or one Invocation Power from a Great Old One in game. It counts as Elder Sign until the end of the turn.</label>
+    <label>Pick one opponent's Ritual Object or one Invocation Power from a Great Old One in game. It counts as an Elder Sign until the end of the turn.</label>
   </description>
   <darkbond type="madness" />
   <kp></kp>
@@ -1873,7 +1867,7 @@
     <label>Freezing breath</label>
   </caption>
   <description>
-    <label>Choose %s from one of your opponents. It cannot be used until the owner discard one %s.</label>
+    <label>Choose %s from one of your opponents. It cannot be used until the owner discards %s.</label>
     <arg unit="FW">1</arg>
     <arg unit="Obs">1</arg>
   </description>
@@ -1883,7 +1877,7 @@
 
 <card id="YEKUBWORM" n="1">
   <family>Entity</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label>Yekub Worm</label>
   </title>
@@ -1891,7 +1885,7 @@
     <label>Tepehatic Voyage</label>
   </caption>
   <description>
-    <label>You get the same number of %s of the first %s combination from your opponents completed in the current turn.</label>
+    <label>You get the same number of %s as the first %s combination completed by your opponents in the current turn.</label>
     <arg>KP</arg>
     <arg>AS</arg>
   </description>
@@ -1901,7 +1895,7 @@
 
 <card id="SHANTAK" n="1">
   <family>Entity</family>
-  <type>Continuos</type>
+  <type>Continuous</type>
   <title>
     <label translatable="no">Shantak</label>
   </title>
@@ -1909,7 +1903,7 @@
     <label>Sidereal Mount</label>
   </caption>
   <description>
-    <label>You can move your Seeker marker in any Arcane Places, even if it's occupied by another player Seeker or blocked by an Elder Sign.</label>
+    <label>You can move your Seeker marker to any Arcane Places, even if it's occupied by another player Seeker or blocked by an Elder Sign.</label>
   </description>
   <darkbond type="dimension" />
   <kp></kp>
@@ -1925,7 +1919,7 @@
     <label>Irremovable Horror</label>
   </caption>
   <description>
-    <label>Place this card into the Evocation Area: nobody, including you, can buy %s until the end of current turn.</label>
+    <label>Place this card into the Evocation Area: nobody, including you, can buy %s until the end of the current turn.</label>
     <arg>EN</arg>
   </description>
   <darkbond type="dimension" />
@@ -1945,7 +1939,7 @@
     <label>Corrupted place</label>
   </caption>
   <description>
-    <label>Put this card above  an Arcane Place of your choice. It counts as Elder Sign until the end of the turn.</label>
+    <label>Put this card above an Arcane Place of your choice. It counts as an Elder Sign until the end of the turn.</label>
     <arg>EN</arg>
   </description>
   <darkbond type="nightmare" />
