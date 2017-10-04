@@ -11,7 +11,7 @@
     <label>Supreme Wisdom</label>
   </caption>
   <description>
-    <label>For a full round you can choose in which search order you play. %s for each %s in your own.</label>
+    <label>For a full round you can choose in which search order you play. %s for each %s in your Learning Area.</label>
     <arg unit="KP">1</arg>
     <arg>FW</arg>
   </description>
@@ -209,7 +209,7 @@
     <label>Presage of Insanity</label>
   </caption>
   <description>
-    <label>You gain %s equal to the number of all %s and %s cards in your own Learning Area.</label>
+    <label>You gain %s equal to the number of all %s and %s cards in your Learning Area.</label>
     <arg>KP</arg>
     <arg>FW</arg>
     <arg>DM</arg>
@@ -529,8 +529,6 @@
     <arg>AS</arg>
     <arg unit="KP">3</arg>
     <arg unit="KP">9</arg>
-    <arg>DM</arg>
-    <arg>Research Area</arg>
   </combination>
   <references>
     <primary>Herbert West, Reanimator</primary>
@@ -671,10 +669,9 @@
     <label>Unknown Object</label>
   </caption>
   <description>
-    <label>Pick a %s or %s from one of your opponents&apos; %s and put back in its own deck. Then, shuffle the deck.</label>
+    <label>Pick a %s or %s from one of your opponents&apos; Learning Area and put back in its own deck. Then, shuffle the deck.</label>
     <arg>FW</arg>
     <arg>AS</arg>
-    <arg>Research Area</arg>
   </description>
   <kp>2</kp>
   <ritual type="horror">
@@ -708,10 +705,9 @@
     <label>Knowledge for the Chosen Ones</label>
   </caption>
   <description>
-    <label>At the beginning of each turn, you gain %s for each %s card left in the %s, before the area is cleansed.</label>
+    <label>At the beginning of each turn, you gain %s for each %s card left in the Research Area, before the area is cleansed.</label>
     <arg unit="KP">1</arg>
     <arg>FW</arg>
-    <arg>Research Area</arg>
   </description>
   <kp>?</kp>
   <references>
@@ -1034,7 +1030,7 @@
     <label>Transdimensional Vessel</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">2</arg>
     <arg unit="AS">1</arg>
     <arg unit="KP">1</arg>
@@ -1071,7 +1067,7 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s. You gain %s for each %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="AS">2</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
@@ -1124,11 +1120,11 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s. You gain %s for %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">1</arg>
     <arg unit="DM">2</arg>
     <arg unit="KP">2</arg>
-    <arg unit="DM">1</arg>
+    <arg>DM</arg>
   </combination>
 </card>
 
@@ -1197,12 +1193,12 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s + %s. You gain %s for %s card in your own, including the ones in this Combination.</label>
+    <label>Combination: %s + %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">2</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
-    <arg unit="FW">1</arg>
+    <arg>FW</arg>
   </combination>
 </card>
 
@@ -1275,12 +1271,10 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s %s or %s and put into the owner&apos;s discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent&apos;s Evocation Area or Learning Area and put into the owner&apos;s discard pile.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
     <arg>EN</arg>
-    <arg>Research Area</arg>
-    <arg>Evocation Area</arg>
   </combination>
 </card>
 
@@ -1353,7 +1347,6 @@
     <arg unit="FW">1</arg>
     <arg unit="EN">1</arg>
     <arg unit="FW">1</arg>
-    <arg>Research Area</arg>
   </combination>
 </card>
 
@@ -1565,7 +1558,7 @@
     <label>Servant of the Great Old Ones</label>
   </caption>
   <description>
-    <label>Discard %s and a locked %s to activate the %s one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
+    <label>Discard %s and %s to activate the %s one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
     <arg>Evocation Power</arg>
@@ -1598,9 +1591,8 @@
     <label>Abominious Painter</label>
   </caption>
   <description>
-    <label>Choose %s from the %s, use the Power as it is of your own, then discard it.</label>
+    <label>Choose %s from the Evocation Area, use the Power as it is of your own, then discard it.</label>
     <arg unit="EN">1</arg>
-    <arg>Evocation Area</arg>
   </description>
   <darkbond type="nightmare" />
   <kp>5</kp>
