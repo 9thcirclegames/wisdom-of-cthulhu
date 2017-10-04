@@ -109,6 +109,7 @@
   </ritual>
   <references>
     <primary>The Silver Key</primary>
+    <secondary>Through the Gates of the Silver Key</secondary>
   </references>
 </card>
 
@@ -793,7 +794,7 @@
   </references>
 </card>
 
-<card id="PSIONICSOCIERY" n="1">
+<card id="PSIONICSOCIETY" n="1">
   <family>Forbidden Wisdom</family>
   <type>Continuous</type>
   <title>
@@ -853,11 +854,11 @@
   </references>
 </card>
 
-<card id="SIGNOFKOTH" n="1">
+<card id="GREATSIGNOFKOTH" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>Sign of Koth</label>
+    <label>Great Sign of Koth</label>
   </title>
   <caption>
     <label>Seal the Path</label>
@@ -868,14 +869,15 @@
   <kp>1</kp>
   <references>
     <primary>The Dream-Quest of Unknown Kadath</primary>
+    <secondary>The Lord of Pain</secondary>
   </references>
 </card>
 
-<card id="THIRDPSALMOFLIBERDAMNATUS" n="1">
+<card id="PSALMTHREEINTHELIBERDAMNATUS" n="1">
   <family>Forbidden Wisdom</family>
   <type>Immediate</type>
   <title>
-    <label>III Psalm of Liber Damnatus</label>
+    <label>Psalm III in the Liber Damnatus</label>
   </title>
   <caption>
     <label>Call to External Spheres</label>
@@ -902,6 +904,9 @@
     <label>For each card you buy, you can take the first one of the same seed at the bottom of your discard pile, instead.</label>
   </description>
   <kp>1</kp>
+  <references>
+    <primary>Through the Gates of the Silver Key</primary>
+  </references>
 </card>
 
 <card id="NONEUCLIDEANANGLES" n="1">
@@ -919,13 +924,16 @@
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
   </combination>
+  <references>
+    <primary>The Hounds of Tyndalos</primary>
+  </references>
 </card>
 
-<card id="MIGOBRAINTCONTAINER" n="1">
+<card id="MIGOBRAINCYLINDER" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
-    <label>Mi-Go Brain Container</label>
+    <label>Mi-Go Brain Cylinder</label>
   </title>
   <caption>
     <label>Sidereal Transportation</label>
@@ -936,9 +944,15 @@
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
   </combination>
+  <references>
+    <primary>The Whisperer in the Darkness</primary>
+    <primary>At The Mountains of Madness</primary>
+    <secondary>Through the Gates of the Silver Key</secondary>
+    <secondary>Outer Gateways</secondary>
+  </references>
 </card>
 
-<card id="WAXSCULPUTERS" n="1">
+<card id="WAXSCULPTURES" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
@@ -955,11 +969,11 @@
   </combination>
 </card>
 
-<card id="GEMOFNATH" n="1">
+<card id="GREATGEMOFNATH" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
-    <label>Gem of Nath</label>
+    <label>Great Gem of Nath</label>
   </title>
   <caption>
     <label>Viewfinder to the Elsewhere</label>
@@ -987,10 +1001,13 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>Chronicle of Nath</primary>
+  </references>
 </card>
 
 <card id="ALIENMACHINE" n="1">
-  <family>Alien Science</family>
+  <family>Alien Machine</family>
   <type>Immediate</type>
   <title>
     <label>XXXX Machine</label>
@@ -1006,11 +1023,11 @@
   </combination>
 </card>
 
-<card id="TELETRANSMITTER" n="1">
+<card id="TELEPATHICTRANSMITTER" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
-    <label>Telephatic Transmitter</label>
+    <label>Telepathic Transmitter</label>
   </title>
   <caption>
     <label>Contact Alien Mind</label>
@@ -1023,7 +1040,7 @@
   </combination>
 </card>
 
-<card id="PENDULUM" n="1">
+<card id="PENDULUMCLOCK" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
@@ -1057,6 +1074,9 @@
      <arg unit="EN">1</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>The Terrible Old One</primary>
+  </references>
 </card>
 
 <card id="MINESMIGO" n="1">
@@ -1070,11 +1090,11 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for  %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="AS">2</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
-    <arg>DM</arg>
+    <arg unit="DM">1</arg>
   </combination>
 </card>
 
@@ -1110,6 +1130,10 @@
      <arg unit="EN">3</arg>
    </phase>
   </ritual>
+  <references>
+    <primary>At the Mountains of Madness</primary>
+    <secondary>Fungi from Yuggoth</secondary>
+  </references>
 </card>
 
 <card id="ALIENARTIFACT" n="1">
@@ -1882,7 +1906,7 @@
     <label>Yekub Worm</label>
   </title>
   <caption>
-    <label>Tepehatic Voyage</label>
+    <label>Telephatic Voyage</label>
   </caption>
   <description>
     <label>You get the same number of %s as the first %s combination completed by your opponents in the current turn.</label>
