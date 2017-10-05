@@ -25,7 +25,8 @@ header-includes:
 * 4 __Search Order Counters__, with a number ranging from 1 to 4;
 * 4 __Elder Sign Markers__, in different colors, 1 per player;
 * 4 __Ritual Tokens__ in different colors, 1 per player;
-* 24 __Research Cards__, 6 per player with a color border matching her Seeker marker;
+* 24 __Research Cards__, 6 per player and with a color border matching her Seeker marker;
+* 24 __Permanent Obsession Tokens__, 6 per player and with a color border matching her Seeker marker;
 * 72 __Knowledge Cards__ so divided: 36 _Forbidden Wisdom_, 24 _Alien Science_, 12 _Dark Master_;
 * 24 __Entity__ cards;
 * 12 __Arcane Place__ tiles: 4 _Cities_, 4 _Ruins_, 4 _Elsewhere_;
@@ -34,7 +35,7 @@ header-includes:
 * __XXX Knowledge Points__ counters of various values.
 
 ## Game Setup
-Players take a _Seeker_ marker, a set of 6 _Research_ cards, a _Great Old One_ marker, and a _Ritual_ token, all of the same color. These elements are placed in front of the player clearly visible to the opponents. This is the personal area, where the purchased cards will be located and the KPs collected. It is also called __Learning Area__.
+Players take a _Seeker_ marker, a set of 6 _Research_ cards, a _Great Old One_ marker, a set of 6 __Permanent Obsession__ tokens and a _Ritual_ token, all of the same color. These elements are placed in front of the player clearly visible to the opponents. This is the personal area, where the purchased cards will be located and the KPs collected. It is also called __Learning Area__.
 
 Separate the Knowledge Cards by colors and shuffle them to form three drawing decks. Do the same with the _Entity_ cards and form a separate deck.
 
@@ -76,8 +77,7 @@ Place the _Search Order_ counters by selecting the number of them according to t
 * __3 players__: 1, 2, 3;
 * __4 players__: 1, 2, 3, 4.
 
-## Cards
-### ![Res](icon.research.png){height="32" width="32"} ![Obs](icon.obsession.png){height="32" width="32"} Research Cards
+## Research/Obsession Cards
 Double-faced cards, six for each player. The front is a _Research_ (![Res](icon.research.png){height="16" width="16"}), while the back is an _Obsession_ (![Res](icon.obsession.png){height="16" width="16"}).
 
 On the ![Res](icon.research.png){height="16" width="16"} side, there is a combination of two seeds, with symbols pairing to Knowledge Cards and with these couples:
@@ -86,44 +86,35 @@ On the ![Res](icon.research.png){height="16" width="16"} side, there is a combin
 * ![AS](icon.alien-science.png){height="16" width="16"}/![AS](icon.alien-science.png){height="16" width="16"}, ![AS](icon.alien-science.png){height="16" width="16"}/![DM](icon.dark-master.png){height="16" width="16"}
 * ![DM](icon.dark-master.png){height="16" width="16"}/![DM](icon.dark-master.png){height="16" width="16"}
 
-By spending a _Research_ card, you can buy one, and only one, Knowledge Card of the same seed of one of those printed on the card being spent. For "buying" the Knowledge card this way,  the Seeker marker must be on an Arcane Place that has the same seed of the Knowledge Card you intend to buy.
+By spending a _Research_ card, you can buy one, and only one, Knowledge Card of the same seed of one of those printed on the card being spent. To buy the Knowledge card this way, the Seeker marker must be on an Arcane Place that has the same seed of the Knowledge Card you intend to buy.
 
-Once spent, the _Research_ is discarded in a discard pile which is located outside the Player's Research Area. Be careful to not confuse those cards with the _Obsessions_ already in plat game (see below). Note that only one Knowledge card can be purchased with a Research, even if the latter has two seeds printed on it.
+Once spent, the _Research_ cannot be used again this turn: turn it 90° clockwise. Note that only one Knowledge card can be purchased with a Research, even if it has two seeds printed on it.
 
-During the _Search Order Phase_ (see below), each player chooses a number of Researches  to place in his Research Area flipped on the Obsession side. The player chooses how many cards he wants to turn, even none. These cards are _Temporary Obsessions_ and are placed to the right of the player in his Research Area. Each time a player performs a __Research__ action, if required, discard a Obsession Card. Each Obsession card give the possibility to the owner to perform one, and only one, _Research_ action.
+During the _Search Order Phase_ (see below), each player chooses a number of Research card to place in his Learning Area flipped on the Obsession side. The player chooses how many cards he wants to turn, even none. These cards are _Temporary Obsessions_. Each time a player performs a __Research__ action, if required, discard a Obsession Card. Each Obsession card give the possibility to the owner to perform one, and only one, _Research_ action.
 
-During the _Obsession Phase_ of each turn (see), players will take over all the _Researches_ and _Temporary Obsessions_ that are eventually available. Among these cards, one is selected to be placed on the Obsession side for the rest of the game, thus becoming a __Permanent Obsession__. This card can be used as a normal Obsession Card, but will no longer be withdraw in the hands of the player for the rest of the game, thus cannot be flipped back on the _Research_ side anymore. Therefore, the Permanent Obsessions are placed to the left of the player in his Research Area to avoid being mixed with Temporary Obsessions.
+During the _Obsession Phase_ of each turn (see), players will take over all the _Research_ and _Temporary Obsession_ cards that are  available. Among these cards, one is selected to be placed on the Obsession side for the rest of the game, thus becoming a __Permanent Obsession__. This card can be used as a normal Obsession Card during the turn, but will no longer be withdraw in the hands of the player at the end of the turn, thus cannot be spent as a _Research_ card anymore. Therefore, put a Permanent Obsession marker on the card to not confuse it with Temporary Obsessions.
 
 This way, during the game, the player will have less Study Cards for purchasing Knowledge Cards, but they will have more Obsessions Cards to be used for Research Actions, simulating the slowing descent to the insanity of this unholy wisdom.
 
-### Knowledge Cards
-In general, these cards include a seed and the number of Knowledge Points they give to their owner. Knowledge Cards are subdivided into __Forbidden Wisdom__ (![FW](icon.forbidden-wisdom.png){height="16" width="16"}), __Alien Science__ (![AS](icon.alien-science.png){height="16" width="16"}) and __Dark Master__ (![DM](icon.dark-master.png){height="16" width="16"}), They are characterized by one or more of the following __Powers__:
+## Knowledge Cards
+In general, these cards include a seed and the number of Knowledge Points they give to their owner. Knowledge Cards are subdivided into:
 
-* __Continuous__ (Cont): the card is placed in the Player's Research Area and it always has effect. Each time the Power of the card has effect, the owner gains a given number of Knowledge Points, as stated on the card itself.
-* __Activation__ (Act): the card is placed in the Player's Learning Area. When activated, at the expense of one Obsession, the Power has effect and the card is turned face down: it is no longer available for the rest of the turn. Each activation gives to the owner the given number of Knowledge Points stated on the card itself.
-* __Immediate__ (Imm): at the time of purchase, the effect of the Power is immediately applied and the card is discarded. As soon as the owner applies the effects of the Power and discards the card, he gains the number of Knowledge Points printed on the card.
-* __Combination__ (Comb): these cards are placed in the Player's Research Area. They describe a list of other cards to be purchased in order to gain the Knowledge Points associated with it and make other cumulative Powers available. The cards purchased to complete the combination, called __Components__, are placed face-up below the main _Combination_ card and are not considered in play. When the combination is complete, the Power printed on the Combination is activated and follows the rules described. If it is Immediate, the Combination card will be discarded with all the associated Components. If it is an Activation card, it can be normally turned on activating its Power. If it is a Continuous card, the Power always has effect after all the Components were gathered. In the last two cases, the Component cards continue to be unusable.
-* __Dark Bond__: some cards have this caption and the seed of a Great Old One to whom they are associated. These symbols are in turn displayed on various game elements (Arcane Place tiles, Great Old Ones cards, Ritual Object cards, Entity cards). Each time the Power of one of these elements is used by the player, the cards in his possession and the Dark Bond carrying the same seed will make the owner get the number of Knowledge Points indicated by the cards themselves. Cards with the Dark Bond can also bring a Power according to the aforementioned types already described.
-* __Ritual Object__: some Knowledge Cards can act as _Ritual Object_ cards. These cards are fundamental for using the powers of Invocation of the Great Old Ones and for evoking them (see below). Ritual Objects are normal Knowledge Cards with one or more of the powers already described. The only difference that, when they are purchased, they are always placed in the Player's Learning Area. If it is a Continuous Card, Power always has effect and at the same time it counts as a Ritual Object. If it is an Immediate card, when you decide to use its Power, it should be discarded as usual and so it cannot be used as a Ritual Object anymore. If it is an Activation card and its power is activated, it is no longer considered a Ritual Object for the remainder of the turn. If it is a Combination card, after completing the combination, it should normally be treated as described. Each Ritual Object has a Dark Bond link associated to the Great Old One which the card is able to evoke. To advance the Ritual token on the Ritual Dashboard, the requirements printed on the card itself must be fulfilled (see below).
+* __Forbidden Wisdom__ (FW): these are the most common cards in the Learning Area and represent tomes, artifacts, and spells.
+* __Alien Science__ (AS): these cards represent non-human technologies and notions.
+* __Dark Master__ (DM): these cards represent scholars, magicians and scientists having a respectable knowledge of Cthulhu's Mythos.
 
-As said before, Knowledge cards can be of one of these three seeds:
+They are characterized by one or more of the following __Powers__:
 
-* __Forbidden Wisdom__ (FW): these are the most common cards in the Learning Area and represent tomes, artifacts, and spells. Each card has its own seed for purchasing (spending a Research Card of the same seed), the number of Knowledge Points rewarded to its owner, one or more Powers and any requirements it may have for acting as Ritual Object.
-* __Alien Science__ (AS): these cards represent nonhuman technologies and notions. Each card has its own seed for purchasing (spending a Research Card of the same seed), the combination to complete, the number of Knowledge Points it rewards its owner,  one or more Powers and any requirements it may have for acting as Ritual Object.
-* __Dark Master__ (DM): these cards represent scholars, magicians and scientists having a respectable knowledge of Cthulhu's Mythos. Each card has its own seed for purchasing (spending a Research Card of the same seed), a Dark Bond, the number of Knowledge Points it rewards to its owner, one or more Powers and any requirements it may have for acting as Ritual Object. Remember that the Dark Masters follow the rules of the Dark Bond as stated above: whenever a Power of an Element with the same Dark Bond of a Dark Master is used, the owner gets the Knowledge Points for the Dark Master card itself.
+* __Continuous__ (Cont): the card is placed in the player's Learning Area and the power is always active. Each time the Power of the card has effect, the owner gains a given number of Knowledge Points, as stated on the card itself.
+* __Activation__ (Act): the card is placed in the player's Learning Area. When activated, at the expense of one Obsession, the Power has effect and the card is turned face down: it is no longer available for the rest of the turn. Each activation gives to the owner the given number of Knowledge Points stated on the card itself.
+* __Immediate__ (Imm): at the time of purchase, the effect of the Power is immediately applied and the card is put on the discards pile. Then, she gains the number of Knowledge Points printed on the card.
+* __Combination__ (Comb): these cards are placed in the Player's Learning Area. They describe a list of other cards to be purchased in order to gain the Knowledge Points associated with it and make other cumulative Powers available. The cards purchased to complete the combination are placed face-up below the main _Combination_ card and are not considered in play. When the combination is completed, the Power printed on the Combination is activated. If it is Immediate, the Combination card will be discarded with all the associated Components. If it is an Activation card, it can be normally turned on activating its Power. If it is a Continuous card, the Power always has effect after all the Components were gathered. In the last two cases, the components cards continue to be unusable for other purposes.
 
-For the Dark Masters, the following _Dark Bonds_ apply:
+## Entity Cards
+Entities are not Knowledge Cards and therefore do not give Knowledge Points to their owners. These cards are purchased by spending Obsessions, and _not_ Researches, when your Seeker is on an Arcane Place of the same seed printed on the Entity you want to invoke. Entities have the same types of Powers described above.
 
-* Powers of Arcane Places, which can be activated using Obsession cards;
-* Summoning Powers on Great Old Ones cards;
-* Powers on Entity cards;
-* Fulfilling the requirements on Ritual cards (see above) which are not Dark Masters themselves.
+## Arcane Places
 
-
-### ![En](icon.entity.png){height="32" width="32"} Entity Cards
-Entities are not Knowledge Cards and therefore do not give Knowledge Points to their owners. These cards are purchased by spending Obsessions, rather than Paths, when your Seeker is on an Arcane Place of the same seed printed on the Entity you want to invoke. Entities have the same types of Powers described above. Each card has the seed for the purchase, a Dark Bond and one or more Powers.
-
-### ![Obs](icon.arcane-place.png){height="32" width="32"} Arcane Places
 Arcane Places are divided into three types:
 
 * __City__
@@ -147,9 +138,23 @@ During the game, for the Obsession Phase procedure, the Searchers will be able t
 Until the end of the turn, however, they will not be able to acquire any other Knowledge Cards of any kind, and the Arcane Place cards may only be used to acquire Entity cards and to activate Powers of the places.
 Buying free resources from places is possible if and only if players no longer have Search Cards to use. When at least one Search Card is available, buying Knowledge Cards is not possible as described above. With this action the site is considered explored, therefore the Finder marker returns to its owner.
 
-## Elder Sign markers
-The Great Old Ones marker is used to block and make a game element unusable. During the Search phase, spending an Obsession Card, you can place your Great Old Ones marker as a Search Action. The Great Old Ones marker can be placed on the following elements:
-* A __Knowledge Card__ in the Search Area or the opponent’s Learning Area.
+## Dark Bond
+
+Some cards have the capability to tie the player with a Great Old One to whom they are associated. The kind of bond depends by the seed printed on the card. The same seed can be seen  on various game elements (Arcane Place tiles, Great Old Ones cards, Ritual Object cards, Entity cards). Each time the Power of one of these elements is used by the player, the dark bond is activated and the owner get a given number of Knowledge Points. Cards with the Dark Bond can also bring a Power according to the aforementioned types already described.
+
+For the Dark Masters, the following _Dark Bonds_ apply:
+
+* Powers of Arcane Places, which can be activated using Obsession cards;
+* Summoning Powers on Great Old Ones cards;
+* Powers on Entity cards;
+* Fulfilling the requirements on Ritual cards (see above) which are not Dark Masters themselves.
+
+## Elder Sign
+
+The Elder Sign markers are used to block and make a game element unusable. During the Search phase, spending an Obsession Card, you can place your Elder Sign marker on the following elements:
+
+* A __Knowledge Card__ in the Search Area or one opponent’s Learning Area.
+
 Blocked cards in the Search Area cannot be purchased, except from the owner of the marker. Blocked Cards in Learning Areas cannot be played. In addition, if the blocked card is a ritual object, it will not be possible to complete its ritual requirements.
 * An __Entity Card__ in the Evocation Area or in the opponent’s Learning Area.
 Blocked cards in the Evocation Area cannot be purchased, except from the owner of the marker. Blocked Cards in Learning Areas cannot be played.
@@ -157,22 +162,33 @@ Blocked cards in the Evocation Area cannot be purchased, except from the owner o
 Blocked cards cannot be occupied by a Searcher Marker, except that of the owner of the Great Old Ones marker. It is possible to place a Great Old Ones marker on a card occupied by an opponent’s Searcher Marker, in this case the latter is discarded and returns to the owner's hand.
 * One of the __Invocation Powers__ of any Great Old Ones Cards. Power is inaccessible for its use, except from the owner of the marker. The Great Old Ones marker can only be placed on a Invocation Power, never on a Power of Evocation. When a particular Great Old Ones comes into play with the Evocation (see), you will not be able to place a Great Old Ones marker on any Power of your card. The Great Old Ones marker remains in play until the end of the turn and then returns to its owner. It is possible, however, to remove an opponent’s Great Old Ones Marker with a Search Action by spending an Obsession Card. The Marker is discarded for the entire turn (without returning to its owner) and the released item cannot be used and / or purchased with the same action, it can with a subsequent action.
 
-## Great Old Ones Cards and Ritual Dashboard
+## Great Old Ones cards and Ritual Dashboard
 During the game, using the Ritual Object cards, there is a chance for players to advance on the Ritual Dashboard and evoke one of the Great Old Ones.
 Each Great Old Ones Card has a Dark Bond symbol. These symbols are also shown on the Ritual Object cards indicating what Great Old One they can evoke completing their ritual requirements.
 
-In the game the number of Great Old Ones Cards depends on the number of players, who will take advantage of their Invocation Powers. The first player who can complete the entire path on the Ritual Dashboard will be able to _evoke_ a specific Great Old One, discarding other Grat Old Ones cards in play.
+In the game the number of Great Old Ones Cards depends on the number of players, who will take advantage of their Invocation Powers. The first player who can complete the entire path on the Ritual Dashboard will be able to _evoke_ a specific Great Old One. Only one Great Old One could be evoked during the game. So, when it's happen, discarding the other Great Old Ones cards in play.
 
-The steps to follow for the Summoning and the Evocation of the Great Old Ones, using the Ritual Objects, are as follows:
-* Ritual Object Cards are put into play in their Learning Area regardless of their type of Power, as described above (see);
+### ritual Objects
+Ritual Objects are normal Knowledge Cards, but when they are bought from the Research Area, they are always put on the Learning Area, as its Power is not activated by default.
+
+* If the Ritual Object is a Continuous Card, Power always has effect and at the same time it counts as a Ritual Object.
+* If it's an Immediate card, when you decide to use the Power, the card is put on the discards pile, thus it cannot be used as a Ritual Object anymore.
+* If it's an Activation card and the Power is activated, it is no longer considered a Ritual Object for the rest of the turn.
+* If it is a Combination card, after completing the combination, it should normally be treated as described. Each Ritual Object is tied to the Great Old One which the card is able to evoke. To advance the Ritual token on the Ritual Dashboard, the requirements printed on the card itself must be fulfilled (see below).
+
+The steps to follow for the Summoning and the Evocation of the Great Old Ones, using the Ritual Objects, are the follows:
+
+* Ritual Object Cards are put into play in the Learning Area regardless of their type of Power, as described above;
 * They may have any number at stake, with a Dark Bond of different Great Old Ones;
-* Ritual requirements do not count as actions so, to satisfy them, you do not need to spend Research Cards or Obsession Cards. They are conditions to be checked during the turn. If a condition is met, the requirement is considered complete and you can check the next one. Ritual requirements are always in the number of three:
+* Ritual requirements do not count as actions so, to satisfy them, you do not need to spend Research Cards or Obsession Cards. They are conditions to be checked during the turn. If a condition is met, the requirement is considered complete and you can check for the next one.
 
-1.  __Study:__ Have something at the beginning of the turn;
-2.  __Transmutation:__ Acquire something during the turn;
-3. __Sacrifice:__ discard something at the end of next turn.
+A Ritual has always 3 phases:
 
-To indicate that a requirement has been met, the card has to be rotated 90° to the right each time (N.B.: when a card has been rotated three times, meeting all the requirements, player immediately acquires the Cards Knowledge Points with the same Dark Bond of the Ritual Object in question);
+1.  __Study:__ to have something at the beginning of the turn;
+2.  __Transmutation:__ to acquire something during the turn;
+3. __Sacrifice:__ to discard something at the end of next turn.
+
+To indicate that a requirement has been met, the card is rotated 90° to the right each time (N.B.: when a card has been rotated three times, meeting all the requirements, player immediately acquires the Knowledge Points with the same Dark Bond of the Ritual Object in question);
 
 * Each completed requirement corresponds to an advance of their own Ritual Marker on the Ritual Dashboard;
 * Powers completing free requirements, or making progress on the Ritual Dashboard directly, reduce requirements of a chosen card by one in effect: Ritual Object can be rotated 90°;
@@ -185,6 +201,7 @@ The third box is related to the _Evocation_ of a Great Old One. As soon as the R
 * From now on, players holding Ritual Object cards of the same Dark Bond of the Great Old One can use its Powers as described above. In addition to this, since the Great Old One has come into play, the __Great Old Ones Influence__ Power also becomes available.
 
 ## Game Turns
+
 The Game Turn is divided into four phases that, once done in their entirety, determine its end and the transition to the next turn. During the Research Order Phase (see), when all players have completed a Research Action, a round is completed. It's good to point out the difference between turn and round as the game effects specifically refer to them.
 During the course of the game, Powers of cards and any other element take precedence over general rules.
 Knowledge Cards and Entity Cards, when discarded, are faced up in their discarded decks, so that the first card of the deck is visible to everyone. When a counter is discarded it returns to its owner, unless otherwise specified.
