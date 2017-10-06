@@ -42,17 +42,17 @@ rm $BUILD_DIR/build/*.pdf
 
 export WOC_DECK_LOCALE=it
 Rscript --no-save --no-restore $BUILD_DIR/R/decks.preparation.R
-
 python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.it.svg
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.deck.it.pdf $BUILD_DIR/build/*.pdf
 rm $BUILD_DIR/build/*.pdf
-
 
 rm $BUILD_DIR/build/*.*
 
 # Build rules PDF
 # Due to pandoc not resizing images for some reason and I'm not motivated in debugging it, I'm going to resize images by myself
 echo "Image processing for markdown renderings..."
+
+cd $BUILD_DIR
 
 shopt -s nullglob
 for i in icon.*.jpg icon.*.JPG icon.*.png icon.*.PNG; do

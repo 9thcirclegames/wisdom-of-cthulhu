@@ -84,11 +84,12 @@ ritual.sub <- as.data.frame(do.call(cbind, lapply(affected.columns.idx, function
 colnames(ritual.sub) <- affected.columns.names
 
 standard.deck <- players.deck %>%
-  left_join(deck.families.meta, by = "family") %>%
+  left_join((deck.families.meta %>% select(family, background)), by = "family") %>%
   left_join(cards.meta, by = "card.id") %>%
   left_join(rituals.meta, by = "ritual.type") %>%
   left_join(darkbonds.meta, by = "darkbond.type") %>%
   mutate(family.icon = gsub("background.", "icon.", background)) %>%
+  mutate("*.back?" = "n") %>%
   mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
   mutate(ritual.icon = ifelse(is.na(ritual.icon), ifelse(is.na(darkbond.icon), ritual.placeholder, darkbond.icon), ritual.icon)) %>%
   #mutate(darkbond.icon = ifelse(is.na(darkbond.icon), darkbond.placeholder, darkbond.icon)) %>%
@@ -97,7 +98,8 @@ standard.deck <- players.deck %>%
   select("card>" = card, card.id, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>%
   cbind(ritual.sub) %>%
   mutate(BACK = "BACK") %>%
-  mutate(background.back = background)
+  mutate("*.front?" = "n") %>%
+  left_join((deck.families.meta %>% select(family, background.back, family.back)), by = "family")
 
 deck.file <- paste("./build/woc.deck", lang, "csv", sep=".")
 

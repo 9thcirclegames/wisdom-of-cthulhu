@@ -1477,11 +1477,11 @@
   </references>
 </card>
 
-<card id="KEZIAMASON" n="1">
+<card id="KEZIAHMASON" n="1">
   <family>Dark Master</family>
   <type>Continuous</type>
   <title>
-    <label translatable="no">Kezia Mason</label>
+    <label translatable="no">Keziah Mason</label>
   </title>
   <caption>
     <label>Dimensional Persecutor</label>
@@ -1492,6 +1492,9 @@
   </description>
   <darkbond type="dimension" />
   <kp>4</kp>
+  <references>
+    <primary>The Dreams in the Whitch House</primary>
+  </references>
 </card>
 
 <card id="HENRYARMITAGE" n="1">
@@ -1531,7 +1534,7 @@
   <kp>5</kp>
 </card>
 
-<card id="ALONZITYPER" n="1">
+<card id="ALONZOTYPER" n="1">
   <family>Dark Master</family>
   <type>Continuous</type>
   <title>
@@ -1547,6 +1550,9 @@
   </description>
   <darkbond type="nightmare" />
   <kp>4</kp>
+  <references>
+    <primary>The Diary of Alonzo Typer</primary>
+  </references>
 </card>
 
 <card id="HERBERTWEST" n="1">
