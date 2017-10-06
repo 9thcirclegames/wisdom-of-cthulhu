@@ -1220,16 +1220,19 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
+    <label>Combination: %s + %s + %s. You gain %s for %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">2</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
-    <arg>FW</arg>
+    <arg unit="FW">each</arg>
   </combination>
+  <references>
+    <primary>The Dream Cycle</primary>
+  </references>
 </card>
 
-<card id="GREATRACETECH" n="1">
+<card id="GREATRACEOFYITHTECH" n="1">
   <family>Alien Science</family>
   <type>Activation</type>
   <title>
@@ -1239,12 +1242,12 @@
     <label>Unbelievable Wonders</label>
   </caption>
   <combination>
-    <label>Combination: %s + %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
+    <label>Combination: %s + %s + %s. You gain %s for %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">2</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">3</arg>
-    <arg>AS</arg>
+    <arg unit="AS">each</arg>
   </combination>
   <kp>?</kp>
 </card>
@@ -1302,10 +1305,10 @@
   </caption>
   <kp>2</kp>
   <combination>
-    <label>Combination: %s + %s, in this strict sequence. Pick a %s from one opponent's Evocation Area or Learning Area and put into the owner's discard pile.</label>
+    <label>Combination: %s + %s, in this strict sequence. Pick %s from one opponent's Evocation Area or Learning Area and put into the owner's discard pile.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
-    <arg>EN</arg>
+    <arg unit="EN">1</arg>
   </combination>
 </card>
 
@@ -1325,6 +1328,9 @@
     <arg unit="Obs">1</arg>
     <arg unit="DM">1</arg>
   </combination>
+  <references>
+    <primary>The Electric Executioner</primary>
+  </references>
 </card>
 
 <card id="GLOBULARMETEORITE" n="1">
@@ -1343,9 +1349,12 @@
     <arg unit="Ris">1</arg>
     <arg unit="EN">1</arg>
   </combination>
+  <references>
+    <primary>The Color Out of Space</primary>
+  </references>
 </card>
 
-<card id="COLDAIR" n="1">
+<card id="COOLAIR" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
@@ -1358,9 +1367,12 @@
   <combination>
     <label>Combination: %s + %s, in this strict sequence. Pick %s: this card cannot be locked by an Elder Sign until the end of the turn.</label>
     <arg unit="DM">1</arg>
-    <arg unit="Ris">1</arg>
+    <arg unit="Res">1</arg>
     <arg unit="DM">1</arg>
   </combination>
+  <references>
+    <primary>Cool Air</primary>
+  </references>
 </card>
 
 <card id="LAGHMETAL" n="1">
@@ -1379,6 +1391,9 @@
     <arg unit="EN">1</arg>
     <arg unit="FW">1</arg>
   </combination>
+  <references>
+    <primary>Out of the Aeons</primary>
+  </references>
 </card>
 
 <card id="NKAISCIENCE" n="1">
@@ -1397,9 +1412,12 @@
     <arg unit="EN">1</arg>
     <arg unit="AS">1</arg>
   </combination>
+  <references>
+    <primary>The Whisperer in the Darkness</primary>
+  </references>
 </card>
 
-<card id="MARTINBEACHREMAINS" n="1">
+<card id="MARTINSBEACHREMAINS" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
@@ -1415,6 +1433,9 @@
     <arg unit="DM">1</arg>
   </combination>
   <kp>3</kp>
+  <references>
+    <primary>The Horror at Martin's Beach</primary>
+  </references>
 </card>
 
 <card id="ALIENVIRUS" n="1">
@@ -1451,6 +1472,9 @@
   </description>
   <darkbond type="madness" />
   <kp>4</kp>
+  <references>
+    <primary>The Case of Charles Dexter Ward</primary>
+  </references>
 </card>
 
 <card id="KEZIAMASON" n="1">
