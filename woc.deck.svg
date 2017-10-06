@@ -15,7 +15,7 @@
    viewBox="0 0 1052.3622 744.09448"
    id="svg3387"
    version="1.1"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="woc.deck.svg">
   <defs
      id="defs3389" />
@@ -27,16 +27,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.32"
-     inkscape:cx="-226.50121"
+     inkscape:cx="-207.9406"
      inkscape:cy="565.38091"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1918"
-     inkscape:window-height="1114"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
     <inkscape:grid
@@ -61,18 +61,18 @@
      id="layer1"
      transform="translate(0,-308.26772)">
     <g
-       id="g208">
+       id="g201">
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/picture.placeholder.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\picture.placeholder.png"
          xlink:href="picture.placeholder.png"
-         inkscape:label="#image9599"
-         width="180.82387"
-         height="131.33522"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeQuality"
-         id="picture"
+         y="377.39697"
          x="-234.76974"
-         y="377.39697" />
+         id="picture"
+         style="image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="131.33522"
+         width="180.82387"
+         inkscape:label="#image9599" />
       <rect
          inkscape:label="#card"
          y="336.22348"
@@ -82,16 +82,16 @@
          id="card"
          style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 0.5;stroke-dashoffset:0;stroke-opacity:1" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/background.forbidden-wisdom.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\background.forbidden-wisdom.png"
          xlink:href="background.forbidden-wisdom.png"
-         clip-path="none"
-         width="218.67488"
-         height="305.38068"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeQuality"
-         id="background"
+         y="336.22348"
          x="-253.90958"
-         y="336.22348" />
+         id="background"
+         style="image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="305.38068"
+         width="218.67488"
+         clip-path="none" />
       <flowRoot
          inkscape:label="#description"
          transform="translate(-1.875,316.88575)"
@@ -122,16 +122,16 @@
              id="rect5188" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.875px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#dedede;fill-opacity:1;stroke:#000000;stroke-width:0.0121875;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
            id="flowPara5190">Lorem ipsum dolor</flowPara></flowRoot>      <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         inkscape:label="#ritual.icon"
-         width="22.342854"
-         height="22.342854"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeQuality"
-         id="ritual.icon"
+         y="603.83826"
          x="-239.73456"
-         y="603.83826" />
+         id="ritual.icon"
+         style="image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="22.342854"
+         width="22.342854"
+         inkscape:label="#ritual.icon" />
       <flowRoot
          transform="translate(150.49171,219.04998)"
          style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -159,104 +159,104 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2;stroke-miterlimit:1;stroke-dasharray:none" /></flowRegion><flowPara
            id="flowPara5840"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';text-align:start;text-anchor:start;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1">Activation</flowPara></flowRoot>      <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-92.074913"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
          id="ritual.sacrifice.3"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
-         width="12.401575"
-         inkscape:label="#ritual.icon" />
+         x="-92.074913"
+         y="609.30609" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-189.89178"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
          id="ritual.study.3"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
-         width="12.401575"
-         inkscape:label="#ritual.icon" />
+         x="-189.89178"
+         y="609.30609" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-166.9245"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
          id="ritual.transmutation.1"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
-         width="12.401575"
-         inkscape:label="#ritual.icon" />
+         x="-166.9245"
+         y="609.30609" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-154.52292"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
          id="ritual.transmutation.2"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
-         width="12.401575"
-         inkscape:label="#ritual.icon" />
+         x="-154.52292"
+         y="609.30609" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-142.12134"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
          id="ritual.transmutation.3"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
-         width="12.401575"
-         inkscape:label="#ritual.icon" />
+         x="-142.12134"
+         y="609.30609" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-116.87807"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
          id="ritual.sacrifice.1"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
-         width="12.401575"
-         inkscape:label="#ritual.icon" />
+         x="-116.87807"
+         y="609.30609" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-104.47649"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
          id="ritual.sacrifice.2"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
-         width="12.401575"
-         inkscape:label="#ritual.icon" />
+         x="-104.47649"
+         y="609.30609" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-202.39171"
+         inkscape:label="#ritual.icon"
+         width="12.401575"
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
          id="ritual.study.2"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
-         width="12.401575"
-         inkscape:label="#ritual.icon" />
+         x="-202.39171"
+         y="609.30609" />
       <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
+         sodipodi:absref="C:\Users\Gabriele.baldassarre\Documents\github\cthulhu-deck\icon.horror.png"
          xlink:href="icon.horror.png"
-         y="609.30609"
-         x="-214.68994"
-         id="ritual.study.1"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="12.401575"
+         inkscape:label="#ritual.icon"
          width="12.401575"
-         inkscape:label="#ritual.icon" />
+         height="12.401575"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         id="ritual.study.1"
+         x="-214.68994"
+         y="609.30609" />
       <image
          width="13.368196"
          height="13.368196"
@@ -280,97 +280,6 @@
              width="170.96774"
              id="rect5168-7" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
-           id="flowPara5170-0">Lorem ipsum dolor</flowPara></flowRoot>      <image
-         sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
-         xlink:href="icon.horror.png"
-         y="603.83826"
-         x="-70.726723"
-         id="darkbond.icon"
-         style="image-rendering:optimizeQuality"
-         preserveAspectRatio="none"
-         height="22.342855"
-         width="22.342855"
-         inkscape:label="#darkbond.icon" />
-    </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="countersheet_layout"
-     transform="translate(0,-308.26772)"
-     sodipodi:insensitive="true"
-     style="display:none">
-    <g
-       id="g4869"
-       transform="translate(4.7525135,1.3098982)">
-      <rect
-         y="353.50507"
-         x="48.285713"
-         height="311.81104"
-         width="223.22835"
-         id="rect3415"
-         style="fill:#c7c7c7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <image
-         width="225"
-         height="313"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
-         id="image4774"
-         x="288.0332"
-         y="353.00507" />
-      <image
-         width="225"
-         height="313"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
-         id="image4785"
-         x="529.05231"
-         y="353.00507" />
-      <image
-         width="225"
-         height="313"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
-         id="image4796"
-         x="770.07141"
-         y="353.00507" />
-      <rect
-         y="692.50507"
-         x="48.285706"
-         height="311.81104"
-         width="223.22835"
-         id="rect3415-9"
-         style="fill:#c7c7c7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <image
-         width="225"
-         height="313"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
-         id="image4774-3"
-         x="288.0332"
-         y="692.00507" />
-      <image
-         width="225"
-         height="313"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
-         id="image4785-1"
-         x="529.05231"
-         y="692.00507" />
-      <image
-         width="225"
-         height="313"
-         preserveAspectRatio="none"
-         style="image-rendering:optimizeSpeed"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAAE5CAYAAABmqUeMAAAABHNCSVQICAgIfAhkiAAAA6tJREFU eJzt0zF1AgEABcF/eXhBDBrShwqZiEAI6UDGFjejYJs9tn0GJB6Px99l257PZ90Cp3O/37dtP3EH nJ4JIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZ EGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBi JoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaE mAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJ IWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFm QoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKI mRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQ YiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGIm hJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSY CSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkh ZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZC iJkQYiaEmAkhZkKImRBiJoSYCSFmQoiZEGImhJgJIWZCiJkQYiaEmAkhZkKImRBiJoTYZdter1fd Aafzfr+3bcf1ev3fdrQ5cEqf2+32+wVtFBHaBz6S0AAAAABJRU5ErkJggg== "
-         id="image4796-1"
-         x="770.07147"
-         y="692.00507" />
-    </g>
+           id="flowPara5170-0">Lorem ipsum dolor</flowPara></flowRoot>    </g>
   </g>
 </svg>

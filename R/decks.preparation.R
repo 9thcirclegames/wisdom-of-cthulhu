@@ -90,8 +90,8 @@ standard.deck <- players.deck %>%
   left_join(darkbonds.meta, by = "darkbond.type") %>%
   mutate(family.icon = gsub("background.", "icon.", background)) %>%
   mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
-  mutate(ritual.icon = ifelse(is.na(ritual.icon), ritual.placeholder, ritual.icon)) %>%
-  mutate(darkbond.icon = ifelse(is.na(darkbond.icon), darkbond.placeholder, darkbond.icon)) %>%
+  mutate(ritual.icon = ifelse(is.na(ritual.icon), ifelse(is.na(darkbond.icon), ritual.placeholder, darkbond.icon), ritual.icon)) %>%
+  #mutate(darkbond.icon = ifelse(is.na(darkbond.icon), darkbond.placeholder, darkbond.icon)) %>%
   mutate("ritual.study.trans.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
   mutate("ritual.trans.sacrifice.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
   select(card, card.id, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>%
@@ -100,7 +100,5 @@ standard.deck <- players.deck %>%
 deck.file <- paste("./build/woc.deck", lang, "csv", sep=".")
 
 write.csv(standard.deck, file = deck.file, row.names = FALSE, na = "")
-
-message(paste("First 5 cards in ", deck.file, ":\n", sep = ""))
 
 print(standard.deck[1:5,c(2,3,5,7)])
