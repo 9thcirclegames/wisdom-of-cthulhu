@@ -21,6 +21,7 @@ deck.parsing <- function(deck, domain = NULL){
                 }), domain = domain))
               }
               
+              message(paste("Adding card:", title))
               
               ### CAPTION
               caption <- ""
