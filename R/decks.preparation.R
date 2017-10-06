@@ -94,11 +94,11 @@ standard.deck <- players.deck %>%
   #mutate(darkbond.icon = ifelse(is.na(darkbond.icon), darkbond.placeholder, darkbond.icon)) %>%
   mutate("ritual.study.trans.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
   mutate("ritual.trans.sacrifice.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
-  select(card, card.id, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>%
-  cbind(ritual.sub)
+  select("card>" = card, card.id, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>%
+  cbind(ritual.sub) %>%
+  mutate(BACK = "BACK") %>%
+  mutate(background.back = background)
 
 deck.file <- paste("./build/woc.deck", lang, "csv", sep=".")
 
 write.csv(standard.deck, file = deck.file, row.names = FALSE, na = "")
-
-print(standard.deck[1:5,c(2,3,5,7)])
