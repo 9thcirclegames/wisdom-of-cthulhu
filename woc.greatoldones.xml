@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deck id="WOCGREATOLDONES">
+
+<card id="CTHULHU" n="1">
+  <title>
+    <label translatable="no">Cthulhu</label>
+  </title>
+<ritual type="madness">
+<darkbond type="madness" />
+  <phase id="first">
+    <type>Activation</type>
+    <caption>
+      <label>Revealing Dreams</label>
+    </caption>
+    <description>
+      <label>Choose any number of %s in your Learning Area or in the Research Area. Activate their Powers one at time and, if you want, replace the cards in the Research Area with new ones, randomply picked. Put the old ones in the discards pile.</label>
+      <arg unit="FW"></arg>
+    </description>
+  </phase>
+  <phase id="second">
+    <type>Activation</type>
+    <caption>
+      <label>Network of Clues</label>
+    </caption>
+    <description>
+      <label>For each Arcane Place (City or Ruins) with no Elder Sign currently on (from you or your opponents), you get %s of your choice from the Reaserch Area or from the discards pile. For each card you get this way you gain %s while your opponets gain %s. These cards are considered immediately in play.</label>
+      <arg unit="FW">1</arg>
+      <arg unit="KP">3</arg>
+      <arg unit="KP">1</arg>
+    </description>
+  </phase>
+  <phase id="evocation">
+    <type>Immediate</type>
+    <caption>
+      <label>The Madness Emerged from the Sea</label>
+    </caption>
+    <description>
+      <label>Ottieni %s for each %s owned possesso di tutti i giocatori, presente nell’Area di Ricerca e nel mazzo degli scarti. Volta le carte Maestro Oscuro avversarie, sono inutilizzabili fino a quando non viene spesa una Carta Ossessione. Scarta tutti i Segni degli Antichi (anche il tuo) da qualsiasi elemento di gioco e riposiziona tutti i segnalini Cercatore come preferisci.
+      </label>
+      <arg unit="KP">2 times</arg>
+      <arg unit="FW"></arg>
+    </description>
+  </phase>
+</ritual>
+<influence>
+  <type></type>
+  <caption>
+    <label></label>
+  </caption>
+  <description>
+    <label></label>
+  </description>
+</influence>
+<references />
+</card>
+
+</deck>
