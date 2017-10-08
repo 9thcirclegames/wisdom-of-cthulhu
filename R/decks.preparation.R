@@ -28,6 +28,8 @@ deck.families.meta <- read.csv(file="./data/deck.families.meta.csv", stringsAsFa
 rituals.meta <- read.csv(file="./data/rituals.meta.csv", stringsAsFactors = FALSE)
 darkbonds.meta <- read.csv(file="./data/darkbonds.meta.csv", stringsAsFactors = FALSE)
 cards.meta <- read.csv(file="./data/cards.meta.csv", stringsAsFactors = FALSE, colClasses = c("character", "character"))
+types.meta <- read.csv(file="./data/types.meta.csv", stringsAsFactors = FALSE)
+
 
 picture.placeholder <- "picture.placeholder.png"
 ritual.placeholder <- "icon.blank.png"
@@ -88,6 +90,7 @@ standard.deck <- players.deck %>%
   left_join(cards.meta, by = "card.id") %>%
   left_join(rituals.meta, by = "ritual.type") %>%
   left_join(darkbonds.meta, by = "darkbond.type") %>%
+  left_join(types.meta, by = "type") %>%
   mutate(family.icon = gsub("background.", "icon.", background)) %>%
   mutate("*.back?" = "n") %>%
   mutate(picture = ifelse(is.na(picture), picture.placeholder, picture)) %>%
@@ -95,7 +98,7 @@ standard.deck <- players.deck %>%
   #mutate(darkbond.icon = ifelse(is.na(darkbond.icon), darkbond.placeholder, darkbond.icon)) %>%
   mutate("ritual.study.trans.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
   mutate("ritual.trans.sacrifice.slash?" = ifelse(nchar(ritual.type)>0, "Y", "")) %>%
-  select("card>" = card, card.id, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>%
+  select("card>" = card, card.id, type.icon, family, background, caption, family.icon, title, description, type, caption, knowledge.points, ritual.icon, darkbond.icon, picture, ends_with("?")) %>%
   cbind(ritual.sub) %>%
   mutate(BACK = "BACK") %>%
   mutate("*.front?" = "n") %>%

@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.81"
-     inkscape:cx="-399.84576"
-     inkscape:cy="565.38091"
+     inkscape:zoom="1.62"
+     inkscape:cx="-184.22184"
+     inkscape:cy="519.54991"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -38,7 +38,8 @@
      inkscape:window-y="1"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid5206" />
@@ -61,7 +62,7 @@
      id="layer1"
      transform="translate(0,-308.26772)">
     <g
-       id="g1450">
+       id="g1785">
       <rect
          inkscape:label="#card"
          y="336.22348"
@@ -94,7 +95,6 @@
            y="465.94507" />
       </g>
       <g
-         inkscape:label="#card.front"
          id="card.front">
         <image
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/picture.placeholder.png"
@@ -122,7 +122,7 @@
            xml:space="preserve"
            id="description"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
-           transform="translate(-1.875,316.88575)"
+           transform="translate(-1.875,303.76075)"
            inkscape:label="#description"><flowRegion
              id="flowRegion5166"><rect
                id="rect5168"
@@ -156,7 +156,7 @@
            preserveAspectRatio="none"
            style="image-rendering:optimizeQuality"
            id="ritual.icon"
-           x="-239.73456"
+           x="-247.23456"
            y="603.83826" />
         <flowRoot
            xml:space="preserve"
@@ -171,24 +171,24 @@
                y="291.07724" /></flowRegion><flowPara
              id="flowPara5832"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">?</flowPara></flowRoot>        <flowRoot
-           inkscape:label="#type"
-           transform="translate(-3.8310547,281.90392)"
+           inkscape:label="#caption"
+           transform="translate(7.4189453,281.90392)"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
-           id="type"
+           id="caption"
            xml:space="preserve"><flowRegion
              id="flowRegion5836"><rect
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2;stroke-miterlimit:1;stroke-dasharray:none"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.13811935;stroke-miterlimit:1;stroke-dasharray:none"
                y="228.07669"
                x="-229.08788"
-               height="23.985014"
-               width="169.67465"
+               height="12.989644"
+               width="149.42003"
                id="rect5838" /></flowRegion><flowPara
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';text-align:start;text-anchor:start;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
-             id="flowPara5840">Activation</flowPara></flowRoot>        <image
+             id="flowPara5840">Lorem ipsum dolor</flowPara></flowRoot>        <image
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-92.074913"
+           x="-99.574913"
            id="ritual.sacrifice.3"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -199,7 +199,7 @@
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-189.89178"
+           x="-197.39178"
            id="ritual.study.3"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -210,7 +210,7 @@
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-166.9245"
+           x="-174.4245"
            id="ritual.transmutation.1"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -221,7 +221,7 @@
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-154.52292"
+           x="-162.02292"
            id="ritual.transmutation.2"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -232,7 +232,7 @@
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-142.12134"
+           x="-149.62134"
            id="ritual.transmutation.3"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -243,7 +243,7 @@
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-116.87807"
+           x="-124.37807"
            id="ritual.sacrifice.1"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -254,7 +254,7 @@
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-104.47649"
+           x="-111.97649"
            id="ritual.sacrifice.2"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -265,7 +265,7 @@
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-202.39171"
+           x="-209.89171"
            id="ritual.study.2"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -276,7 +276,7 @@
            sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.horror.png"
            xlink:href="icon.horror.png"
            y="609.30609"
-           x="-214.68994"
+           x="-222.18994"
            id="ritual.study.1"
            style="image-rendering:optimizeQuality"
            preserveAspectRatio="none"
@@ -292,21 +292,17 @@
            preserveAspectRatio="none"
            height="13.368196"
            width="13.368196" />
-        <flowRoot
-           xml:space="preserve"
-           id="caption"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
-           transform="translate(-1.875,303.54019)"
-           inkscape:label="#caption"><flowRegion
-             id="flowRegion5166-4"><rect
-               id="rect5168-7"
-               width="170.96774"
-               height="70.967743"
-               x="-228.2258"
-               y="226.35255"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.2;stroke-miterlimit:1;stroke-dasharray:none" /></flowRegion><flowPara
-             id="flowPara5170-0"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1">Lorem ipsum dolor</flowPara></flowRoot>      </g>
+        <image
+           sodipodi:absref="/Volumes/Dati/Github/wisdom-of-cthulhu/icon.continuous.png"
+           xlink:href="icon.continuous.png"
+           inkscape:label="#type.icon"
+           width="12.382666"
+           height="12.382666"
+           preserveAspectRatio="none"
+           id="type.icon"
+           x="-236.50586"
+           y="509.31088" />
+      </g>
     </g>
   </g>
 </svg>
