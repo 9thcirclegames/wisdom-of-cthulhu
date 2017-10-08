@@ -944,11 +944,11 @@
   </references>
 </card>
 
-<card id="MIGOBRAINCYLINDER" n="1">
+<card id="MIGOBRAINCASE" n="1">
   <family>Alien Science</family>
   <type>Immediate</type>
   <title>
-    <label>Mi-Go Brain Cylinder</label>
+    <label>Mi-Go Brain Case</label>
   </title>
   <caption>
     <label>Sidereal Transportation</label>
@@ -1667,10 +1667,9 @@
     <label>Servant of the Great Old Ones</label>
   </caption>
   <description>
-    <label>Discard %s and %s to activate the %s one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
+    <label>Discard %s and %s to activate the Invocation Power one step further in respect to your Ritual Marker in the Ritual Dashboard.</label>
     <arg unit="EN">1</arg>
     <arg unit="Obs">1</arg>
-    <arg>Evocation Power</arg>
   </description>
   <darkbond type="dimension" />
   <ritual type="dimension">
@@ -1687,7 +1686,7 @@
      <arg unit="EN">3</arg>
    </phase>
   </ritual>
-  <kp>5</kp>
+  <kp>4</kp>
 </card>
 
 <card id="RICHARDUPICKMAN" n="1">
@@ -1772,7 +1771,7 @@
      <arg unit="DM">1</arg>
    </phase>
   </ritual>
-  <kp>5</kp>
+  <kp>4</kp>
 </card>
 
 <card id="DEEPONE" n="3">
