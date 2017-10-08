@@ -844,7 +844,7 @@
     <label>Alchemic Transmutation</label>
   </caption>
   <description>
-    <label>You can choose to exchange %s (Continuous or Activation) or %s with one of the same seed available on the Research Area.</label>
+    <label>You can choose to exchange %s (Continuous or Activation) or %s with one of the same type available on the Research Area.</label>
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
   </description>
@@ -883,7 +883,7 @@
     <label>Call to External Spheres</label>
   </caption>
   <description>
-    <label>If no Great Old One was already evocated, you can use any of the available Evocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard.</label>
+    <label>If no Great Old One was already evocated, you can use any of the available Invocation Powers, even if your Ritual marker is not on the proper tile of the Ritual Dashboard.</label>
   </description>
   <kp>?</kp>
   <references>
@@ -924,6 +924,21 @@
     <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
   </combination>
+  <ritual type="madness">
+    <phase type="study" pos="1">
+     <label>Study: %s;</label>
+     <arg unit="AS">2</arg>
+    </phase>
+    <phase type="transmutation" pos="2">
+     <label>Trans: %s;</label>
+     <arg unit="Place">3</arg>
+    </phase>
+    <phase type="sacrifice" pos="3">
+     <label>Sacrifice: %s + %s</label>
+     <arg unit="FW">1</arg>
+     <arg unit="AS">2</arg>
+   </phase>
+  </ritual>
   <references>
     <primary>The Hounds of Tyndalos</primary>
   </references>
@@ -978,7 +993,7 @@
   <caption>
     <label>Viewfinder to the Elsewhere</label>
   </caption>
-  <kp>3</kp>
+  <kp>2</kp>
   <combination>
     <label>Combination: %s + %s.</label>
     <arg unit="FW">1</arg>
@@ -1065,7 +1080,7 @@
     </phase>
     <phase type="transmutation" pos="2">
      <label>Trans: %s;</label>
-     <arg unit="Res">2</arg>
+     <arg unit="Res">3</arg>
     </phase>
     <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s + %s</label>
@@ -1090,11 +1105,11 @@
   </caption>
   <kp>?</kp>
   <combination>
-    <label>Combination: %s + %s. You gain %s for  %s card in your Learning Area, including the ones in this Combination.</label>
+    <label>Combination: %s + %s. You gain %s for %s card in your Learning Area, including the ones in this Combination.</label>
     <arg unit="AS">2</arg>
     <arg unit="DM">1</arg>
     <arg unit="KP">2</arg>
-    <arg unit="DM">1</arg>
+    <arg unit="AS">1</arg>
   </combination>
 </card>
 
@@ -1155,6 +1170,26 @@
   </combination>
 </card>
 
+<card id="ALIENARTIFACT2" n="1">
+  <family>Alien Science</family>
+  <type>Immediate</type>
+  <title>
+    <label>XXXX/2</label>
+  </title>
+  <caption>
+    <label>XXXX/2</label>
+  </caption>
+  <kp>?</kp>
+  <combination>
+    <label>Combination: %s + %s + %s. You gain %s for each %s card in your Learning Area, including the ones in this Combination.</label>
+    <arg unit="FW">1</arg>
+    <arg unit="AS">1</arg>
+    <arg unit="DM">2</arg>
+    <arg unit="KP">4</arg>
+    <arg>DM</arg>
+  </combination>
+</card>
+
 <card id="YEKUBCUBE" n="1">
   <family>Alien Science</family>
   <type>Activation</type>
@@ -1167,9 +1202,9 @@
   <kp>4</kp>
   <combination>
     <label>Combination: %s + %s + %s.</label>
-    <arg unit="FW">1</arg>
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
+    <arg unit="EN">1</arg>
   </combination>
   <ritual type="nightmare">
     <phase type="study" pos="1">
@@ -1180,7 +1215,7 @@
     <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">1</arg>
-     <arg unit="Place">1</arg>
+     <arg unit="Place">2</arg>
     </phase>
     <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s + %s</label>
@@ -1207,6 +1242,21 @@
     <arg unit="AS">1</arg>
     <arg unit="DM">1</arg>
   </combination>
+  <ritual type="madness">
+    <phase type="study" pos="1">
+     <label>Study: %s + %s;</label>
+     <arg unit="AS">1</arg>
+     <arg unit="ES">1</arg>
+    </phase>
+    <phase type="transmutation" pos="2">
+     <label>Trans: %s;</label>
+     <arg unit="Place">3</arg>
+    </phase>
+    <phase type="sacrifice" pos="3">
+     <label>Sacrifice: %s</label>
+     <arg unit="FW">3</arg>
+   </phase>
+  </ritual>
 </card>
 
 <card id="ALIENSPHERE" n="1">
@@ -1387,7 +1437,7 @@
   <kp>3</kp>
   <combination>
     <label>Combination: %s + %s. You get %s card from the Research Area or from a discards pile of your choice.</label>
-    <arg unit="FW">1</arg>
+    <arg unit="FW">2</arg>
     <arg unit="EN">1</arg>
     <arg unit="FW">1</arg>
   </combination>
@@ -1445,7 +1495,7 @@
     <label>XXXX Virus</label>
   </title>
   <caption>
-    <label>An Infection not of This World</label>
+    <label>An Infection not of this World</label>
   </caption>
   <combination>
     <label>Combination: %s + %s + %s + %s. Flip an opponent's Activation or Continuous. It cannot be used until the end of the turn.</label>
@@ -1517,13 +1567,11 @@
   <ritual type="horror">
     <phase type="study" pos="1">
      <label>Study: %s + %s;</label>
-     <arg unit="Res">1</arg>
-     <arg unit="FW">2</arg>
+     <arg unit="Res">2</arg>
     </phase>
     <phase type="transmutation" pos="2">
-     <label>Trans: %s + %s;</label>
-     <arg unit="Res">2</arg>
-     <arg unit="EN">1</arg>
+     <label>Trans: %s;</label>
+     <arg unit="Res">3</arg>
     </phase>
     <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
@@ -1549,7 +1597,7 @@
     <arg>FW</arg>
   </description>
   <darkbond type="nightmare" />
-  <kp>4</kp>
+  <kp>5</kp>
   <references>
     <primary>The Diary of Alonzo Typer</primary>
   </references>
