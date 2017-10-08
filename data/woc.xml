@@ -187,7 +187,7 @@
     </phase>
     <phase type="transmutation" pos="2">
      <label>Trans: %s;</label>
-     <arg unit="FW">2</arg>
+     <arg unit="FW">3</arg>
     </phase>
     <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
@@ -257,8 +257,8 @@
     </phase>
     <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
-     <arg unit="Res">1</arg>
-     <arg unit="Obs">2</arg>
+     <arg unit="Res">2</arg>
+     <arg unit="Obs">1</arg>
     </phase>
     <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
@@ -405,12 +405,12 @@
     <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="FW">1</arg>
-     <arg unit="AS">1</arg>
+     <arg unit="AS">2</arg>
     </phase>
     <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s</label>
-     <arg unit="FW">1</arg>
-     <arg unit="EN">2</arg>
+     <arg unit="FW">2</arg>
+     <arg unit="AS">1</arg>
    </phase>
   </ritual>
   <references>
@@ -598,7 +598,7 @@
     <label>Incomplete Information</label>
   </caption>
   <description>
-    <label>Exchange %s (permanent) with %s, both randomly chosen.</label>
+    <label>Exchange %s (permanent) with %s, both randomly chosen from one of your opponents.</label>
     <arg unit="Obs">1</arg>
     <arg unit="Res">1</arg>
   </description>
@@ -637,7 +637,7 @@
     <label>Invocation to Unnamed</label>
   </caption>
   <description>
-    <label>You can use the Evocation Power of a Great Old One which is no more available in the game by spending the activation cost of this card instead.</label>
+    <label>You can use the Invocation Power of a Great Old One which is no more available in the game by spending the activation cost of this card instead.</label>
   </description>
   <kp>1</kp>
   <ritual type="horror">
@@ -649,7 +649,7 @@
     <phase type="transmutation" pos="2">
      <label>Trans: %s + %s;</label>
      <arg unit="DM">1</arg>
-     <arg unit="EN">1</arg>
+     <arg unit="EN">2</arg>
     </phase>
     <phase type="sacrifice" pos="3">
      <label>Sacrifice: %s + %s + %s</label>
@@ -1792,7 +1792,7 @@
     <arg>EN</arg>
     <arg>AS</arg>
   </description>
-  <darkbond type="horror" />
+  <darkbond type="madness" />
   <kp></kp>
 </card>
 
@@ -1976,7 +1976,7 @@
     <label>Place this card into the Evocation Area: nobody, including you, can buy %s until the end of the current turn.</label>
     <arg>EN</arg>
   </description>
-  <darkbond type="dimension" />
+  <darkbond type="horror" />
   <kp></kp>
   <references>
     <primary>The Challenge from Beyond</primary>
