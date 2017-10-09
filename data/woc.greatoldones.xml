@@ -5,8 +5,8 @@
   <title>
     <label translatable="no">Cthulhu</label>
   </title>
-<ritual type="madness">
 <darkbond type="madness" />
+<ritual type="madness">
   <phase id="first">
     <type>Activation</type>
     <caption>
