@@ -41,16 +41,17 @@
       <arg unit="FW"></arg>
     </description>
   </phase>
+  <phase id="influence">
+    <type></type>
+    <caption>
+      <label></label>
+    </caption>
+    <description>
+      <label>
+      </label>
+    </description>
+  </phase>
 </ritual>
-<influence>
-  <type></type>
-  <caption>
-    <label></label>
-  </caption>
-  <description>
-    <label></label>
-  </description>
-</influence>
 <references />
 </card>
 

@@ -1,6 +1,6 @@
 deck.parsing <- function(deck, domain = NULL){
   
-  do.call(plyr::rbind.fill, xml_find_all(woc.decks, "/deck/card") %>%
+  do.call(plyr::rbind.fill, xml_find_all(deck, "/deck/card") %>%
             lapply(function(x){
               
               ### CARD

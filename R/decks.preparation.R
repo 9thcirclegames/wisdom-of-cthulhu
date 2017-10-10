@@ -23,7 +23,7 @@ invisible(p_load("dplyr", "xml2", "tidyr"))
 os <- Sys.info()["sysname"]
 
 woc.decks <- read_xml("./data/woc.xml")
-#greatoldones.decks <- read_xml("./data/woc.greatoldones.xml")
+greatoldones.decks <- read_xml("./data/woc.greatoldones.xml")
 
 deck.families.meta <- read.csv(file="./data/deck.families.meta.csv", stringsAsFactors = FALSE)
 rituals.meta <- read.csv(file="./data/rituals.meta.csv", stringsAsFactors = FALSE)
@@ -65,7 +65,7 @@ message(paste("Setting locale to", if(os %in% c("Linux", "Darwin", "Solaris")) {
 Sys.setenv(LANG = charset)
 
 players.deck <- deck.parsing(woc.decks, domain = "woc")
-greatoldones.deck <- deck.parsing(greatoldones.deck, domain = "woc")
+greatoldones.deck <- greatoldones.parsing(greatoldones.decks, domain = "woc")
 
 ####################
 # Deck Flattening
