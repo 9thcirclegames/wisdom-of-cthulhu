@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Build Dir
 if [ -n "${TRAVIS+x}" ]; then
   echo "** Executing in Travis CI environment";
@@ -23,17 +25,32 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   export PYTHONPATH=/usr/local/lib/python:~/.local/lib/python2.7/site-packages:/usr/share/inkscape/extensions/:$PYTHONPATH
 fi
 
-mkdir $BUILD_DIR/build
-mkdir $BUILD_DIR/pdf
+#### Init dirs and needed files
+mkdir -p $BUILD_DIR/build
+mkdir -p $BUILD_DIR/pdf
 
-cp $BUILD_DIR/*.png $BUILD_DIR/build/
+cp $BUILD_DIR/*.{md,jpg,png} $BUILD_DIR/build/ || true
+
 
 ### English
 export WOC_DECK_LOCALE=en
 Rscript --no-save --no-restore $BUILD_DIR/R/decks.preparation.R
 
+# Remove _BACK from columns
+if [ "$(uname)" == "Darwin" ]; then
+  sed -i '' 's/_BACK//g' $BUILD_DIR/build/woc.goo.deck.en.csv
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  sed -i 's/_BACK//g' $BUILD_DIR/build/woc.goo.deck.en.csv
+fi
+
 python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.deck.en.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.en.svg
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.deck.en.pdf $BUILD_DIR/build/*.pdf
+cp $BUILD_DIR/build/woc.deck.en.svg $BUILD_DIR/pdf
+rm $BUILD_DIR/build/*.pdf
+
+python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.goo.deck.en.csv -p $BUILD_DIR/build $BUILD_DIR/woc.greatoldones.svg > $BUILD_DIR/build/woc.greatoldones.en.svg
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.greatoldones.en.pdf $BUILD_DIR/build/*.pdf
+cp $BUILD_DIR/build/woc.greatoldones.en.svg $BUILD_DIR/pdf
 rm $BUILD_DIR/build/*.pdf
 
 ### Italian
@@ -42,17 +59,29 @@ rm $BUILD_DIR/build/*.pdf
 
 export WOC_DECK_LOCALE=it
 Rscript --no-save --no-restore $BUILD_DIR/R/decks.preparation.R
+
+# Remove _BACK from columns
+if [ "$(uname)" == "Darwin" ]; then
+  sed -i '' 's/_BACK//g' $BUILD_DIR/build/woc.goo.deck.it.csv
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  sed -i 's/_BACK//g' $BUILD_DIR/build/woc.goo.deck.it.csv
+fi
+
 python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.it.svg
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.deck.it.pdf $BUILD_DIR/build/*.pdf
+cp $BUILD_DIR/build/woc.deck.it.svg $BUILD_DIR/pdf
 rm $BUILD_DIR/build/*.pdf
 
-rm $BUILD_DIR/build/*.*
+python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.goo.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.greatoldones.svg > $BUILD_DIR/build/woc.greatoldones.it.svg
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.greatoldones.it.pdf $BUILD_DIR/build/*.pdf
+cp $BUILD_DIR/build/woc.greatoldones.it.svg $BUILD_DIR/pdf
+rm $BUILD_DIR/build/*.pdf
 
 # Build rules PDF
 # Due to pandoc not resizing images for some reason and I'm not motivated in debugging it, I'm going to resize images by myself
 echo "Image processing for markdown renderings..."
 
-cd $BUILD_DIR
+cd $BUILD_DIR/build
 
 shopt -s nullglob
 for i in icon.*.jpg icon.*.JPG icon.*.png icon.*.PNG; do
@@ -76,11 +105,14 @@ for i in icon.*.jpg icon.*.JPG icon.*.png icon.*.PNG; do
         mpr:main -resize '12x12>'         ${filename}-12px.${extension}
 done
 
-cp $BUILD_DIR/woc.rules.en.md $BUILD_DIR/woc.rules.en.resized.md
+cp $BUILD_DIR/build/woc.rules.en.md $BUILD_DIR/build/woc.rules.en.resized.md
 
-sed -i 's/\.png){height="12" width="12"}/-12px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
-sed -i 's/\.png){height="16" width="16"}/-16px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
-sed -i 's/\.png){height="24" width="24"}/-24px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
-sed -i 's/\.png){height="32" width="32"}/-32px\.png)/g' $BUILD_DIR/woc.rules.en.resized.md
+sed -i 's/\.png){height="12" width="12"}/-12px\.png)/g' $BUILD_DIR/build/woc.rules.en.resized.md
+sed -i 's/\.png){height="16" width="16"}/-16px\.png)/g' $BUILD_DIR/build/woc.rules.en.resized.md
+sed -i 's/\.png){height="24" width="24"}/-24px\.png)/g' $BUILD_DIR/build/woc.rules.en.resized.md
+sed -i 's/\.png){height="32" width="32"}/-32px\.png)/g' $BUILD_DIR/build/woc.rules.en.resized.md
 
-pandoc $BUILD_DIR/woc.rules.en.resized.md -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
+pandoc $BUILD_DIR/build/woc.rules.en.resized.md -o $BUILD_DIR/pdf/woc.rules.en.pdf --latex-engine=xelatex
+
+# Clean up
+rm $BUILD_DIR/build/*.*

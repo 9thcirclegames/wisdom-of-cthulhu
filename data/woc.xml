@@ -1557,16 +1557,16 @@
     <label>The Librarian</label>
   </caption>
   <description>
-    <label>When you get %s from a %s, you also get the %s of the first %s on the discard pile. Then, put the latter at the bottom of that deck.</label>
-    <arg>KP</arg>
-    <arg>FW</arg>
-    <arg>KP</arg>
-    <arg>FW</arg>
+    <label>When you get %s from a %s, you also get %s of the first %s on the discard pile. Then, put the latter at the bottom of that deck.</label>
+    <arg unit="KP"></arg>
+    <arg unit="FW"></arg>
+    <arg unit="KP"></arg>
+    <arg unit="FW"></arg>
   </description>
   <darkbond type="horror" />
   <ritual type="horror">
     <phase type="study" pos="1">
-     <label>Study: %s + %s;</label>
+     <label>Study: %s;</label>
      <arg unit="Res">2</arg>
     </phase>
     <phase type="transmutation" pos="2">

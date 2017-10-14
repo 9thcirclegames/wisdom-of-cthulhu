@@ -29,6 +29,7 @@ deck.families.meta <- read.csv(file="./data/deck.families.meta.csv", stringsAsFa
 rituals.meta <- read.csv(file="./data/rituals.meta.csv", stringsAsFactors = FALSE)
 darkbonds.meta <- read.csv(file="./data/darkbonds.meta.csv", stringsAsFactors = FALSE)
 cards.meta <- read.csv(file="./data/cards.meta.csv", stringsAsFactors = FALSE, colClasses = c("character", "character"))
+greatoldones.meta <- read.csv(file="./data/greatoldones.meta.csv", stringsAsFactors = FALSE, colClasses = c("character", "character", "character"))
 types.meta <- read.csv(file="./data/types.meta.csv", stringsAsFactors = FALSE)
 
 
@@ -84,6 +85,7 @@ ritual.sub <- as.data.frame(do.call(cbind, lapply(affected.columns.idx, function
   d <- gsub("NULL", "icon.blank.png", d)
   d <- gsub("Res", "icon.research.png", d)
   d <- gsub("Obs", "icon.obsession.png", d)
+  d <- gsub("ES", "icon.elder-sign.png", d)
   return(d)
 }, deck = players.deck)), stringsAsFactors = FALSE)
 colnames(ritual.sub) <- affected.columns.names
@@ -108,5 +110,46 @@ standard.deck <- players.deck %>%
   left_join((deck.families.meta %>% select(family, background.back, family.back)), by = "family")
 
 deck.file <- paste("./build/woc.deck", lang, "csv", sep=".")
-
 write.csv(standard.deck, file = deck.file, row.names = FALSE, na = "")
+
+standard.goo.deck <- greatoldones.deck %>%
+  mutate("background.back?" = "n") %>%
+  left_join(greatoldones.meta, by = "card.id") %>%
+  left_join(darkbonds.meta, by = "darkbond.type") %>%
+  mutate("box.1.prefix" = "I") %>%
+  left_join(types.meta %>% select(type, "box.1.type" = "type.icon"), by = c("ritual.types.first" = "type")) %>%
+  mutate("box.1.description" = ritual.description.first) %>%
+  mutate("box.2.prefix" = "II") %>%
+  left_join(types.meta %>% select(type, "box.2.type" = "type.icon"), by = c("ritual.types.second" = "type")) %>%
+  mutate("box.2.description" = ritual.description.second) %>%
+  mutate("BACK" = "BACK") %>%
+  mutate("background.front?" = "n") %>%
+  mutate("box.1.prefix_BACK" = "E") %>%
+  left_join(types.meta %>% select(type, "box.1.type_BACK" = "type.icon"), by = c("ritual.types.evocation" = "type")) %>%
+  mutate("box.1.description_BACK" = ritual.description.evocation) %>%
+  mutate("box.2.prefix_BACK" = "IN") %>%
+  left_join(types.meta %>% select(type, "box.2.type_BACK" = "type.icon"), by = c("ritual.types.influence" = "type")) %>%
+  mutate("box.2.description_BACK" = ritual.description.influence) %>%
+  select("card>" = card,
+         "title>" = title,
+         "darkbond.icon>" = darkbond.icon,
+         "background.back?",
+         background.front,
+         box.1.prefix,
+         box.1.type,
+         box.1.description,
+         box.2.prefix,
+         box.2.type,
+         box.2.description,
+         "BACK",
+         "background.front?",
+         background.back,
+         box.1.prefix_BACK,
+         box.1.type_BACK,
+         box.1.description_BACK,
+         box.2.prefix_BACK,
+         box.2.type_BACK,
+         box.2.description_BACK)
+
+goo.deck.file <- paste("./build/woc.goo.deck", lang, "csv", sep=".")
+write.csv(standard.goo.deck, file = goo.deck.file, row.names = FALSE, na = "")
