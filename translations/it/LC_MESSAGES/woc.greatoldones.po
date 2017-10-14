@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-10-15 00:38+0200\n"
+"PO-Revision-Date: 2017-10-15 00:40+0200\n"
+"Last-Translator: Gabriele Baldassarre\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#CTHULHU_CAPTION
+#: data/woc.greatoldones.xml:13
+msgid "Revealing Dreams"
+msgstr "Schema Rivelatore"
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#CTHULHU_DESCRIPTION
+#: data/woc.greatoldones.xml:16
+msgid ""
+"Choose any number of %s in your Learning Area or in the Research Area. "
+"Activate their Powers one at time and, if you want, replace the cards in the "
+"Research Area with new ones, randomly picked. Put the old ones in the "
+"discards pile."
+msgstr ""
+"Scegli un numero qualsiasi di %s nell’Area di Ricerca e nella tua Area di "
+"Studio. Usane i poteri una alla volta e, se desideri, rimpiazza quelle "
+"nell’Area di Ricerca con delle nuove carte dello stesso tipo pescate a caso."
+
+#. (itstool) path: description/arg@unit
+#: data/woc.greatoldones.xml:17 data/woc.greatoldones.xml:27
+#: data/woc.greatoldones.xml:41 data/woc.greatoldones.xml:53
+msgid "FW"
+msgstr "SP"
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#CTHULHU_CAPTION
+#: data/woc.greatoldones.xml:23
+msgid "Network of Clues"
+msgstr "Rete di Indizi"
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#CTHULHU_DESCRIPTION
+#: data/woc.greatoldones.xml:26
+msgid ""
+"For each Arcane Place (City or Ruins) with no Elder Sign currently on (from "
+"you or your opponents), you get %s of your choice from the Reaserch Area or "
+"from the discards pile. For each card you get this way you gain %s while "
+"your opponents gain %s. These cards are considered immediately in play."
+msgstr ""
+"Per ogni Luogo Arcano (Città e Rovina) su cui non si trova un Segno degli "
+"Antichi (tuo o avversario) ricevi %s a tua scelta dall’Area di Ricerca o "
+"dagli scarti. Per ogni carta ricevuta ottieni %s, mentre i tuoi avversari "
+"ottengono %s. Le carte ricevute si considerano in gioco da subito."
+
+#. (itstool) path: description/arg@unit
+#: data/woc.greatoldones.xml:28 data/woc.greatoldones.xml:29
+#: data/woc.greatoldones.xml:40 data/woc.greatoldones.xml:54
+msgid "KP"
+msgstr "PC"
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#CTHULHU_CAPTION
+#: data/woc.greatoldones.xml:35
+msgid "The Madness Emerged from the Sea"
+msgstr "La Follia Emersa dal Mare"
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#CTHULHU_DESCRIPTION
+#: data/woc.greatoldones.xml:38
+msgid ""
+"You get %s times %s for each %s owned by all the players, the Research Area "
+"and the discards pile. Flip all your opponents' %s: they cannot be used "
+"without spending %s each. All the Elder Signs (including your one) return to "
+"their owners' hand. Scramble all the Seeker markers as you wish."
+msgstr ""
+"Ottieni %s volte i %s di ogni %s in possesso di tutti i giocatori, presente "
+"nell’Area di Ricerca e nel mazzo degli scarti. Volta le carte %s avversarie, "
+"sono inutilizzabili fino a quando non viene spesa una %s. Scarta tutti i "
+"Segni degli Antichi (anche il tuo) da qualsiasi elemento di gioco e "
+"riposiziona tutti i segnalini Cercatore come preferisci."
+
+#. (itstool) path: description/arg@unit
+#: data/woc.greatoldones.xml:42
+msgid "DM"
+msgstr "MO"
+
+#. (itstool) path: description/arg@unit
+#: data/woc.greatoldones.xml:43
+msgid "Obs"
+msgstr "Oss"
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#CTHULHU_CAPTION
+#: data/woc.greatoldones.xml:49
+msgid "Paradygm of Madness"
+msgstr "Folle Paradigma"
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#CTHULHU_DESCRIPTION
+#: data/woc.greatoldones.xml:52
+msgid ""
+"All Activation %s are considered as Continuous. Arcane Places cannot be "
+"blocked by Elder Signs (or cards that act as Elder Signs). Putting a Seeker "
+"marker on a Arcane Place with Madness darkbond will immediately give %s to "
+"the owner."
+msgstr ""
+"Le carte %s di tipo Attivazione si considerano Continue. Sui Luoghi Arcani "
+"non è possibile mettere alcun Segno degli Antichi o carte che contano come "
+"un Segno degli Antichi. Porre il segnalino Cercatore su un Luogo Arcano con "
+"il Legame Oscuro: Follia fa ottenere subito %s."

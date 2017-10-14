@@ -13,7 +13,7 @@
       <label>Revealing Dreams</label>
     </caption>
     <description>
-      <label>Choose any number of %s in your Learning Area or in the Research Area. Activate their Powers one at time and, if you want, replace the cards in the Research Area with new ones, randomply picked. Put the old ones in the discards pile.</label>
+      <label>Choose any number of %s in your Learning Area or in the Research Area. Activate their Powers one at time and, if you want, replace the cards in the Research Area with new ones, randomly picked. Put the old ones in the discards pile.</label>
       <arg unit="FW"></arg>
     </description>
   </phase>
@@ -35,9 +35,10 @@
       <label>The Madness Emerged from the Sea</label>
     </caption>
     <description>
-      <label>You get %s for each %s owned by all the players, the Research Area and the discards pile. Flip all your opponents' %s: they cannot be used without spending %s each. All the Elder Signs (including your one) return to their owners' hand. Scramble all the Seeker markers as you wish.</label>
-      <arg unit="KP">2</arg>
-      <arg unit="FW">each</arg>
+      <label>You get %s times %s for each %s owned by all the players, the Research Area and the discards pile. Flip all your opponents' %s: they cannot be used without spending %s each. All the Elder Signs (including your one) return to their owners' hand. Scramble all the Seeker markers as you wish.</label>
+      <arg unit="">2</arg>
+      <arg unit="KP"></arg>
+      <arg unit="FW"></arg>
       <arg unit="DM"></arg>
       <arg unit="Obs">1</arg>
     </description>

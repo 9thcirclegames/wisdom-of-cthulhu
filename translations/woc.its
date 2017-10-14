@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
   <its:idValueRule selector="//label" idValue="translate(concat(ancestor::card/@id, '_', name(parent::node())), 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')"/>
-  
+
   <its:translateRule selector="/deck" translate="no"/>
   <its:translateRule selector="//label" translate="yes"/>
 
