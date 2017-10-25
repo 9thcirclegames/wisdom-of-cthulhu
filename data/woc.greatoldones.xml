@@ -58,4 +58,167 @@
 <references />
 </card>
 
+<card id="YOGSOTHOTH" n="1">
+  <title>
+    <label translatable="no">Yog-Sothoth</label>
+  </title>
+<darkbond type="dimension" />
+<ritual type="dimension">
+  <phase id="first">
+    <type>Activation</type>
+    <caption>
+      <label>Absolute Knowledge</label>
+    </caption>
+    <description>
+      <label>All your %s Combinations are considered as completed: apply the effects and get the Knowledge Points. Discard only the cards used in the Coimbinations and not the %s.</label>
+      <arg unit="AS"></arg>
+      <arg unit="AS"></arg>
+    </description>
+  </phase>
+  <phase id="second">
+    <type>Activation</type>
+    <caption>
+      <label>One in Everything</label>
+    </caption>
+    <description>
+      <label>you can use an Arcane Place (City or Ruins, not blocked by an Elder Sign) as a Combination element for your %s. For each completed Combination you get %s instead of what is indicated on the card, while you opponents get %s. %s are not discarded and they can still be used to complete the Combinations.</label>
+      <arg unit="AS"></arg>
+      <arg unit="KP">3</arg>
+      <arg unit="KP">1</arg>
+      <arg unit="AS"></arg>
+    </description>
+  </phase>
+  <phase id="evocation">
+    <type>Immediate</type>
+    <caption>
+      <label>Everything in One</label>
+    </caption>
+    <description>
+      <label>You get all from the %s in the Research Area, in the discards pile and all the cards owned by all the players %s for each stacked Component card. Discard any opponents' %s Component card. All your opponents' Ritual tokens are reverted to the first position: to advance again, they must satidfy the Ritual timing, not the Ritual requirements.</label>
+      <arg unit="KP"></arg>
+      <arg unit="AS"></arg>
+      <arg unit="KP">+1</arg>
+      <arg unit="AS"></arg>
+    </description>
+  </phase>
+  <phase id="influence">
+    <type>Continuous</type>
+    <caption>
+      <label>The Key and the Door</label>
+    </caption>
+    <description>
+      <label>The use of any Power from the Arcane Places immediately reward the user with %s. Arcane Places with the dark bond "Dimension" reward %s instead.</label>
+      <arg unit="KP">1</arg>
+      <arg unit="KP">3</arg>
+    </description>
+  </phase>
+</ritual>
+<references />
+</card>
+
+<card id="NYARLATHOTEP" n="1">
+  <title>
+    <label translatable="no">Nyarlathotep</label>
+  </title>
+<darkbond type="nightmare" />
+<ritual type="nightmare">
+  <phase id="first">
+    <type>Activation</type>
+    <caption>
+      <label>Endless Avatars</label>
+    </caption>
+    <description>
+      <label>You get all the %s of your %s. Then, you can use the Powers of your opponents' %s, one by one, following the Research Order and until the end of the turn.</label>
+      <arg unit="KP"></arg>
+      <arg unit="DM"></arg>
+      <arg unit="DM"></arg>
+    </description>
+  </phase>
+  <phase id="second">
+    <type>Activation</type>
+    <caption>
+      <label>Everywhere</label>
+    </caption>
+    <description>
+      <label>You can use, for free, the Power of any Arcane Places with the same dark bond of your %s and where you have an Elder Sign or your Seeker marker. You get the %s for the dark bonds as usual, but the ones of the Places "City" are doubled. You opponents get %s instead. Arcane Places are then still be used as usual.</label>
+      <arg unit="DM"></arg>
+      <arg unit="KP"></arg>
+      <arg unit="KP">1</arg>
+    </description>
+  </phase>
+  <phase id="evocation">
+    <type>Immediate</type>
+    <caption>
+      <label>Creeping Chaos</label>
+    </caption>
+    <description>
+      <label>You get %s %s for any %s, yours and your opponents', in the Research Area and in the discards pile. Flip all your opponents' %s (Continuous and Activation): they cannot be used without spending %s each. Scramble the Research Order as you wish.</label>
+      <arg unit="KP"></arg>
+      <arg unit="">+1</arg>
+      <arg unit="DM"></arg>
+      <arg unit="FW"></arg>
+      <arg unit="Obs"></arg>
+    </description>
+  </phase>
+  <phase id="influence">
+    <type>Continuous</type>
+    <caption>
+      <label>The Messanger</label>
+    </caption>
+    <description>
+      <label>Instead of discarding %s you can choose to discard. Dark Masters with "Nightmare" dark bond cannot be discarded for any reason, without the need of being replaced by another card.</label>
+      <arg unit="DM">1</arg>
+      <arg unit="FW">1</arg>
+    </description>
+  </phase>
+</ritual>
+<references />
+</card>
+
+<card id="SHUBNIGGURATH" n="1">
+  <title>
+    <label translatable="no">Shub-Niggurath</label>
+  </title>
+<darkbond type="horror" />
+<ritual type="horror">
+  <phase id="first">
+    <type>Activation</type>
+    <caption>
+      <label></label>
+    </caption>
+    <description>
+      <label></label>
+    </description>
+  </phase>
+  <phase id="second">
+    <type>Activation</type>
+    <caption>
+      <label></label>
+    </caption>
+    <description>
+      <label></label>
+    </description>
+  </phase>
+  <phase id="evocation">
+    <type>Immediate</type>
+    <caption>
+      <label></label>
+    </caption>
+    <description>
+      <label></label>
+    </description>
+  </phase>
+  <phase id="influence">
+    <type>Continuous</type>
+    <caption>
+      <label></label>
+    </caption>
+    <description>
+      <label></label>
+    </description>
+  </phase>
+</ritual>
+<references />
+</card>
+
 </deck>
