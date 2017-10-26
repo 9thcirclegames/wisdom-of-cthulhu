@@ -13,4 +13,4 @@ description: Nighlty Builds - Print and Play
 	* [Great Old Ones](https://static.9thcircle.it/woc-builds/woc.greatoldones.en.pdf) ([SVG](https://static.9thcircle.it/woc-builds/woc-builds/woc.greatoldones.en.svg))
 * __Italian__
 	* [Cards Deck](https://static.9thcircle.it/woc-builds/woc.deck.it.pdf) ([SVG](https://static.9thcircle.it/woc-builds/woc.deck.it.svg))
-	* [Great Old Ones](https://static.9thcircle.it/woc-builds/woc.greatoldones.it.pdf) ([SVG](https://static.9thcircle.it/woc-builds/woc-builds/woc.greatoldones.it.svg))
+	* [Great Old Ones](https://static.9thcircle.it/woc-builds/woc.greatoldones.it.pdf) ([SVG](https://static.9thcircle.it/woc-builds/woc.greatoldones.it.svg))

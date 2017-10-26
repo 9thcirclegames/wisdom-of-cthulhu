@@ -184,37 +184,52 @@
   <phase id="first">
     <type>Activation</type>
     <caption>
-      <label></label>
+      <label>Thousand Young</label>
     </caption>
     <description>
-      <label></label>
+      <label>You get all the %s card in the Evocation Area and you can play them accordinglt to their types. The Evocation Area is replenished at the end of the turn, as usual.</label>
+      <arg unit="EN"></arg>
     </description>
   </phase>
   <phase id="second">
     <type>Activation</type>
     <caption>
-      <label></label>
+      <label>The Black Goat of the Woods</label>
     </caption>
     <description>
-      <label></label>
+      <label>Draw %s as many Arcane Places: Elsewhere in play and get %s for each one you've drawn while your opponents get %s. Place these cards on the Arcane Places: Elsewhere tiles which have no Elder Sign on. Only these cards can be purchased from this moment on, until all the Places have been cleared. Then, return to the normal way.</label>
+      <arg unit="EN"></arg>
+      <arg unit="KP">3</arg>
+      <arg unit="KP">1</arg>
     </description>
   </phase>
   <phase id="evocation">
     <type>Immediate</type>
     <caption>
-      <label></label>
+      <label>Iala! Shub-Niggurath</label>
     </caption>
     <description>
-      <label></label>
+      <label>You get for each %s you own. Force your opponents to discard their %s and shuffle them back into the deck. You get %s for each. Draw the first %s from the deck following the Research Order: activate it then discard to get %s. If you don't fullfill the card requirement, discard without gaining any %s. Replenish the Evocation Area as usual.</label>
+      <arg unit="KP">3</arg>
+      <arg unit="EN"></arg>
+      <arg unit="EN"></arg>
+      <arg unit="KP">2</arg>
+      <arg unit="EN">1</arg>
+      <arg unit="KP">1</arg>
+      <arg unit="KP"></arg>
     </description>
   </phase>
   <phase id="influence">
     <type>Continuous</type>
     <caption>
-      <label></label>
+      <label>Blessing of the Black Goat</label>
     </caption>
     <description>
-      <label></label>
+      <label>%s produces %s. Those with dark bond "Horror" will make the players gaining %s, while the others %s.</label>
+      <arg unit="EN"></arg>
+      <arg unit="KP"></arg>
+      <arg unit="KP">3</arg>
+      <arg unit="KP">2</arg>
     </description>
   </phase>
 </ritual>
