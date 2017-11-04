@@ -1637,6 +1637,9 @@
   </description>
   <darkbond type="nightmare" />
   <kp>5</kp>
+  <references>
+    <primary>From Beyond</primary>
+  </references>
 </card>
 
 <card id="ALFREDCLARENDON" n="1">
@@ -1655,13 +1658,16 @@
   </description>
   <darkbond type="madness" />
   <kp>5</kp>
+  <references>
+    <primary>The Last Test</primary>
+  </references>
 </card>
 
 <card id="WILBURWHATELEY" n="1">
   <family>Dark Master</family>
   <type>Continuous</type>
   <title>
-    <label translatable="no">Whilbur Whateley</label>
+    <label translatable="no">Wilbur Whateley</label>
   </title>
   <caption>
     <label>Servant of the Great Old Ones</label>
@@ -1687,13 +1693,16 @@
    </phase>
   </ritual>
   <kp>4</kp>
+  <references>
+    <primary>Dunwich Horror</primary>
+  </references>
 </card>
 
 <card id="RICHARDUPICKMAN" n="1">
   <family>Dark Master</family>
   <type>Activation</type>
   <title>
-    <label translatable="no">Richard U. Pickman</label>
+    <label translatable="no">Richard Upton Pickman</label>
   </title>
   <caption>
     <label>Abominious Painter</label>
@@ -1704,6 +1713,9 @@
   </description>
   <darkbond type="nightmare" />
   <kp>5</kp>
+  <references>
+    <primary>Pickman's Model</primary>
+  </references>
 </card>
 
 <card id="GEORGEROGERS" n="1">
@@ -1721,6 +1733,9 @@
   </description>
   <darkbond type="horror" />
   <kp>5</kp>
+  <references>
+    <primary>The Horror in the Museum</primary>
+  </references>
 </card>
 
 <card id="RANDOLPHCARTER" n="1">
@@ -1737,6 +1752,9 @@
   </description>
   <darkbond type="dimension" />
   <kp>4</kp>
+  <references>
+    <primary>The Statement of Randolph Carter</primary>
+  </references>
 </card>
 
 <card id="ASENATHWAITE" n="1">
@@ -1841,6 +1859,9 @@
   </description>
   <darkbond type="madness" />
   <kp></kp>
+  <references>
+    <primary>At the Mountains of Madness</primary>
+  </references>
 </card>
 
 <card id="NIGHTGAUNT" n="2">
@@ -1910,11 +1931,11 @@
   <kp></kp>
 </card>
 
-<card id="LENGSPYDER" n="1">
+<card id="LENGSPIDER" n="1">
   <family>Entity</family>
   <type>Immediate</type>
   <title>
-    <label>Leng Spyder</label>
+    <label>Leng Spider</label>
   </title>
   <caption>
     <label>Repugnant Hunter</label>
@@ -1946,7 +1967,7 @@
   <family>Entity</family>
   <type>Immediate</type>
   <title>
-    <label>Childrens of Cthulhu</label>
+    <label>Children of Cthulhu</label>
   </title>
   <caption>
     <label>Soldiers of the Great Old One</label>

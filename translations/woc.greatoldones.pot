@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-15 00:38+0200\n"
+"POT-Creation-Date: 2017-11-04 11:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,8 @@ msgstr ""
 #: ./data/woc.greatoldones.xml:27
 #: ./data/woc.greatoldones.xml:41
 #: ./data/woc.greatoldones.xml:53
+#: ./data/woc.greatoldones.xml:159
+#: ./data/woc.greatoldones.xml:171
 msgid "FW"
 msgstr ""
 
@@ -46,6 +48,25 @@ msgstr ""
 #: ./data/woc.greatoldones.xml:29
 #: ./data/woc.greatoldones.xml:40
 #: ./data/woc.greatoldones.xml:54
+#: ./data/woc.greatoldones.xml:86
+#: ./data/woc.greatoldones.xml:87
+#: ./data/woc.greatoldones.xml:98
+#: ./data/woc.greatoldones.xml:100
+#: ./data/woc.greatoldones.xml:111
+#: ./data/woc.greatoldones.xml:112
+#: ./data/woc.greatoldones.xml:132
+#: ./data/woc.greatoldones.xml:145
+#: ./data/woc.greatoldones.xml:146
+#: ./data/woc.greatoldones.xml:156
+#: ./data/woc.greatoldones.xml:202
+#: ./data/woc.greatoldones.xml:203
+#: ./data/woc.greatoldones.xml:213
+#: ./data/woc.greatoldones.xml:216
+#: ./data/woc.greatoldones.xml:218
+#: ./data/woc.greatoldones.xml:219
+#: ./data/woc.greatoldones.xml:230
+#: ./data/woc.greatoldones.xml:231
+#: ./data/woc.greatoldones.xml:232
 msgid "KP"
 msgstr ""
 
@@ -63,16 +84,23 @@ msgstr ""
 
 #. (itstool) path: description/arg@unit
 #: ./data/woc.greatoldones.xml:39
+#: ./data/woc.greatoldones.xml:157
 msgid ""
 msgstr ""
 
 #. (itstool) path: description/arg@unit
 #: ./data/woc.greatoldones.xml:42
+#: ./data/woc.greatoldones.xml:133
+#: ./data/woc.greatoldones.xml:134
+#: ./data/woc.greatoldones.xml:144
+#: ./data/woc.greatoldones.xml:158
+#: ./data/woc.greatoldones.xml:170
 msgid "DM"
 msgstr ""
 
 #. (itstool) path: description/arg@unit
 #: ./data/woc.greatoldones.xml:43
+#: ./data/woc.greatoldones.xml:160
 msgid "Obs"
 msgstr ""
 
@@ -86,5 +114,169 @@ msgstr ""
 #. (itstool) id: woc.greatoldones.xml#CTHULHU_DESCRIPTION
 #: ./data/woc.greatoldones.xml:52
 msgid "All Activation %s are considered as Continuous. Arcane Places cannot be blocked by Elder Signs (or cards that act as Elder Signs). Putting a Seeker marker on a Arcane Place with Madness darkbond will immediately give %s to the owner."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#YOGSOTHOTH_CAPTION
+#: ./data/woc.greatoldones.xml:70
+msgid "Absolute Knowledge"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#YOGSOTHOTH_DESCRIPTION
+#: ./data/woc.greatoldones.xml:73
+msgid "All your %s Combinations are considered as completed: apply the effects and get the Knowledge Points. Discard only the cards used in the Coimbinations and not the %s."
+msgstr ""
+
+#. (itstool) path: description/arg@unit
+#: ./data/woc.greatoldones.xml:74
+#: ./data/woc.greatoldones.xml:75
+#: ./data/woc.greatoldones.xml:85
+#: ./data/woc.greatoldones.xml:88
+#: ./data/woc.greatoldones.xml:99
+#: ./data/woc.greatoldones.xml:101
+msgid "AS"
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#YOGSOTHOTH_CAPTION
+#: ./data/woc.greatoldones.xml:81
+msgid "One in Everything"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#YOGSOTHOTH_DESCRIPTION
+#: ./data/woc.greatoldones.xml:84
+msgid "you can use an Arcane Place (City or Ruins, not blocked by an Elder Sign) as a Combination element for your %s. For each completed Combination you get %s instead of what is indicated on the card, while you opponents get %s. %s are not discarded and they can still be used to complete the Combinations."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#YOGSOTHOTH_CAPTION
+#: ./data/woc.greatoldones.xml:94
+msgid "Everything in One"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#YOGSOTHOTH_DESCRIPTION
+#: ./data/woc.greatoldones.xml:97
+msgid "You get all from the %s in the Research Area, in the discards pile and all the cards owned by all the players %s for each stacked Component card. Discard any opponents' %s Component card. All your opponents' Ritual tokens are reverted to the first position: to advance again, they must satidfy the Ritual timing, not the Ritual requirements."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#YOGSOTHOTH_CAPTION
+#: ./data/woc.greatoldones.xml:107
+msgid "The Key and the Door"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#YOGSOTHOTH_DESCRIPTION
+#: ./data/woc.greatoldones.xml:110
+msgid "The use of any Power from the Arcane Places immediately reward the user with %s. Arcane Places with the dark bond \"Dimension\" reward %s instead."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#NYARLATHOTEP_CAPTION
+#: ./data/woc.greatoldones.xml:128
+msgid "Endless Avatars"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#NYARLATHOTEP_DESCRIPTION
+#: ./data/woc.greatoldones.xml:131
+msgid "You get all the %s of your %s. Then, you can use the Powers of your opponents' %s, one by one, following the Research Order and until the end of the turn."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#NYARLATHOTEP_CAPTION
+#: ./data/woc.greatoldones.xml:140
+msgid "Everywhere"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#NYARLATHOTEP_DESCRIPTION
+#: ./data/woc.greatoldones.xml:143
+msgid "You can use, for free, the Power of any Arcane Places with the same dark bond of your %s and where you have an Elder Sign or your Seeker marker. You get the %s for the dark bonds as usual, but the ones of the Places \"City\" are doubled. You opponents get %s instead. Arcane Places are then still be used as usual."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#NYARLATHOTEP_CAPTION
+#: ./data/woc.greatoldones.xml:152
+msgid "Creeping Chaos"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#NYARLATHOTEP_DESCRIPTION
+#: ./data/woc.greatoldones.xml:155
+msgid "You get %s %s for any %s, yours and your opponents', in the Research Area and in the discards pile. Flip all your opponents' %s (Continuous and Activation): they cannot be used without spending %s each. Scramble the Research Order as you wish."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#NYARLATHOTEP_CAPTION
+#: ./data/woc.greatoldones.xml:166
+msgid "The Messanger"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#NYARLATHOTEP_DESCRIPTION
+#: ./data/woc.greatoldones.xml:169
+msgid "Instead of discarding %s you can choose to discard. Dark Masters with \"Nightmare\" dark bond cannot be discarded for any reason, without the need of being replaced by another card."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#SHUBNIGGURATH_CAPTION
+#: ./data/woc.greatoldones.xml:187
+msgid "Thousand Young"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#SHUBNIGGURATH_DESCRIPTION
+#: ./data/woc.greatoldones.xml:190
+msgid "You get all the %s card in the Evocation Area and you can play them accordinglt to their types. The Evocation Area is replenished at the end of the turn, as usual."
+msgstr ""
+
+#. (itstool) path: description/arg@unit
+#: ./data/woc.greatoldones.xml:191
+#: ./data/woc.greatoldones.xml:201
+#: ./data/woc.greatoldones.xml:214
+#: ./data/woc.greatoldones.xml:215
+#: ./data/woc.greatoldones.xml:217
+#: ./data/woc.greatoldones.xml:229
+msgid "EN"
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#SHUBNIGGURATH_CAPTION
+#: ./data/woc.greatoldones.xml:197
+msgid "The Black Goat of the Woods"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#SHUBNIGGURATH_DESCRIPTION
+#: ./data/woc.greatoldones.xml:200
+msgid "Draw %s as many Arcane Places: Elsewhere in play and get %s for each one you've drawn while your opponents get %s. Place these cards on the Arcane Places: Elsewhere tiles which have no Elder Sign on. Only these cards can be purchased from this moment on, until all the Places have been cleared. Then, return to the normal way."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#SHUBNIGGURATH_CAPTION
+#: ./data/woc.greatoldones.xml:209
+msgid "Iala! Shub-Niggurath"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#SHUBNIGGURATH_DESCRIPTION
+#: ./data/woc.greatoldones.xml:212
+msgid "You get for each %s you own. Force your opponents to discard their %s and shuffle them back into the deck. You get %s for each. Draw the first %s from the deck following the Research Order: activate it then discard to get %s. If you don't fullfill the card requirement, discard without gaining any %s. Replenish the Evocation Area as usual."
+msgstr ""
+
+#. (itstool) path: caption/label
+#. (itstool) id: woc.greatoldones.xml#SHUBNIGGURATH_CAPTION
+#: ./data/woc.greatoldones.xml:225
+msgid "Blessing of the Black Goat"
+msgstr ""
+
+#. (itstool) path: description/label
+#. (itstool) id: woc.greatoldones.xml#SHUBNIGGURATH_DESCRIPTION
+#: ./data/woc.greatoldones.xml:228
+msgid "%s produces %s. Those with dark bond \"Horror\" will make the players gaining %s, while the others %s."
 msgstr ""
 
