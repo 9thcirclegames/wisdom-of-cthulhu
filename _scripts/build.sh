@@ -39,8 +39,10 @@ Rscript --no-save --no-restore $BUILD_DIR/R/decks.preparation.R
 # Remove _BACK from columns
 if [ "$(uname)" == "Darwin" ]; then
   sed -i '' 's/_BACK//g' $BUILD_DIR/build/woc.goo.deck.en.csv
+  sed -i '' 's/_BACK//g' $BUILD_DIR/build/woc.research.deck.en.csv
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   sed -i 's/_BACK//g' $BUILD_DIR/build/woc.goo.deck.en.csv
+  sed -i 's/_BACK//g' $BUILD_DIR/build/woc.research.deck.en.csv
 fi
 
 python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.deck.en.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.en.svg
@@ -53,6 +55,11 @@ gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.greato
 cp $BUILD_DIR/build/woc.greatoldones.en.svg $BUILD_DIR/pdf
 rm $BUILD_DIR/build/*.pdf
 
+python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.research.deck.en.csv -p $BUILD_DIR/build $BUILD_DIR/woc.research.svg > $BUILD_DIR/build/woc.research.en.svg
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.research.en.pdf $BUILD_DIR/build/*.pdf
+cp $BUILD_DIR/build/woc.research.en.svg $BUILD_DIR/pdf
+rm $BUILD_DIR/build/*.pdf
+
 ### Italian
 # This is not going to work without sudo, which is not available on container-based Travis CI
 #sudo locale-gen "it_IT.UTF-8"
@@ -63,8 +70,10 @@ Rscript --no-save --no-restore $BUILD_DIR/R/decks.preparation.R
 # Remove _BACK from columns
 if [ "$(uname)" == "Darwin" ]; then
   sed -i '' 's/_BACK//g' $BUILD_DIR/build/woc.goo.deck.it.csv
+  sed -i '' 's/_BACK//g' $BUILD_DIR/build/woc.research.deck.it.csv
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   sed -i 's/_BACK//g' $BUILD_DIR/build/woc.goo.deck.it.csv
+  sed -i 's/_BACK//g' $BUILD_DIR/build/woc.research.deck.it.csv
 fi
 
 python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.deck.svg > $BUILD_DIR/build/woc.deck.it.svg
@@ -75,6 +84,11 @@ rm $BUILD_DIR/build/*.pdf
 python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.goo.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.greatoldones.svg > $BUILD_DIR/build/woc.greatoldones.it.svg
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.greatoldones.it.pdf $BUILD_DIR/build/*.pdf
 cp $BUILD_DIR/build/woc.greatoldones.it.svg $BUILD_DIR/pdf
+rm $BUILD_DIR/build/*.pdf
+
+python $BUILD_DIR/countersheet.py -r 30 -n deck -d $BUILD_DIR/build/woc.research.deck.it.csv -p $BUILD_DIR/build $BUILD_DIR/woc.research.svg > $BUILD_DIR/build/woc.research.it.svg
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=$BUILD_DIR/pdf/woc.research.it.pdf $BUILD_DIR/build/*.pdf
+cp $BUILD_DIR/build/woc.research.it.svg $BUILD_DIR/pdf
 rm $BUILD_DIR/build/*.pdf
 
 # Build rules PDF

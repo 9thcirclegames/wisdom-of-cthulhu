@@ -153,3 +153,48 @@ standard.goo.deck <- greatoldones.deck %>%
 
 goo.deck.file <- paste("./build/woc.goo.deck", lang, "csv", sep=".")
 write.csv(standard.goo.deck, file = goo.deck.file, row.names = FALSE, na = "")
+
+colors <- data.frame("frame.fill" = c("#ba0000", "#00ba00", "#0000ba", "#000000"), stringsAsFactors = FALSE)
+
+standard.research.deck <- data.frame("card"=rep(1,6),
+                                     rbind(
+                                       data.frame(two = "Forbidden Wisdom", one = "Empty", back = "Obsession", stringsAsFactors = FALSE),
+                                       data.frame(two = rep("Forbidden Wisdom", 2), one = c("Alien Science", "Dark Master"), back = "Obsession", stringsAsFactors = FALSE),
+                                       data.frame(two = "Alien Science", one = "Empty", back = "Obsession", stringsAsFactors = FALSE),
+                                       data.frame(two = "Alien Science", one = "Dark Master", back = "Obsession", stringsAsFactors = FALSE),
+                                       data.frame(two = "Dark Master", one = "Empty", back = "Obsession", stringsAsFactors = FALSE)
+                                     )) %>% 
+  left_join((deck.families.meta %>% select(family, "family.one" = "family.back")), by = c("one"="family")) %>%
+  left_join((deck.families.meta %>% select(family, "family.two>" = "family.back")), by = c("two"="family")) %>%
+  left_join((deck.families.meta %>% select(family, "family.two" = "family.back")), by = c("back"="family")) %>%
+  select("card", starts_with("family")) %>%
+  mutate("background>" = "background.research.png") %>%
+  mutate("BACK" = "BACK") %>%
+  #mutate("frame?" = "y") %>%  
+  mutate("background_BACK" = "background.obsession.png") %>%
+  mutate("family.one?" = "n") %>%
+  #mutate("frame?" = "y") %>%
+  rename("card>" = "card")
+  
+standard.research.deck <- colors %>% 
+  expand(standard.research.deck, colors= colors$frame.fill) %>%
+  mutate("frame[style:fill]" = colors) %>%
+  mutate("frame[style:fill]_BACK" = colors) %>%
+  mutate("shade[style:fill]_BACK" = colors) %>%
+  rename("shade[style:fill]" = colors)
+
+standard.research.deck <- standard.research.deck[,c("card>",
+                                                    "shade[style:fill]",
+                                                    "frame[style:fill]",
+                                                    "background>",
+                                                    "family.one",
+                                                    "family.two>",
+                                                    "BACK",
+                                                    "background_BACK",
+                                                    "family.one?",
+                                                    "family.two",
+                                                    "shade[style:fill]_BACK",
+                                                    "frame[style:fill]_BACK")] 
+research.deck.file <- paste("./build/woc.research.deck", lang, "csv", sep=".")
+write.csv(standard.research.deck, file = research.deck.file, row.names = FALSE, na = "")
+
